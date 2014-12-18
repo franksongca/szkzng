@@ -1,3 +1,5 @@
+https://github.com/franksongca/szkzng.git
+
 This project is based on angularjs library with responsive design.
 
 The scaffold is by yeoman. Installed with grunt and some plugins to manage the project, including grunt-contrib-concat, grunt-contrib-uglify, grunt-contrib-cssmin, grunt-contrib-jshint, grunt-contrib-less...  
