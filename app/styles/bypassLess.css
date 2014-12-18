@@ -1,0 +1,95 @@
+/* winLess/grunt-contrib-less cannot compile calc(...) correctly, define them together here. */
+
+.menu-container > div {
+    height: calc(100% - 10px);
+}
+
+@media only screen and (max-width: 567px) {
+    .menu-container {
+        width: 200%;
+    }
+    
+    .menu-left {
+        width: calc(50% - 10px);
+        background-image: url(./../images/common/left-arrow.png); 
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-position: 95% center;
+    }
+    
+    .menu-right {
+        width: calc(50% - 10px);
+        background-image: url(./../images/common/right-arrow.png); 
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-position: 5% center;
+    }
+}
+
+@media only screen and (min-width: 568px) and (max-width: 639px){
+    .menu-left {
+        width: calc(65% - 7.5px);
+    }
+    
+    .menu-right {
+        width: calc(35% - 7.5px);
+    }
+}
+
+@media only screen and (max-width: 639px){
+    .dropdown-menu-container {
+        max-height: calc(100% - 3.214em - 3.214em);
+    }
+}
+
+@media only screen and (min-width: 640px){
+    .menu-left {
+        width: calc(60% - 7.5px);
+    }
+    
+    .menu-right {
+        width: calc(40% - 7.5px);
+    }
+}
+
+@media only screen and (min-height: 641px) {
+    .menu {
+        height: calc(100% - 8.929em - 1.4em - 5em);
+    }
+    
+    #dialog-div-I .ngdialog {
+	   padding-top: 25% !important;
+    }
+    
+}
+
+@media only screen and (max-height: 640px) {
+    .menu {
+        height: calc(100% - 5em - 1.4em - 4.286em);
+    }
+    
+    #dialog-div-I .ngdialog {
+	   padding-top: 10% !important;
+    }
+}
+
+.right-menu-container {
+    height: calc(100% - 4.5em);
+}
+
+@media only screen and (max-height: 384px) {
+    .right-menu-container {
+        height: calc(100% - 3em);
+    }
+    
+    .menu {
+        height: calc(100% - 3.214em - 1.4em - 3.214em);
+    }
+    
+    #dialog-div-I .ngdialog {
+	   padding-top: 5% !important;
+    }
+}
+
+
+    

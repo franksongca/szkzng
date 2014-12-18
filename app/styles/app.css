@@ -1,0 +1,53 @@
+.training {
+    background-image: url(../images/home/home-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    height: 100vh;
+}
+
+.gradient-red-black {
+    background-image: -webkit-gradient(linear, right top, left top, from(rgba(150, 0, 0, 0)), to(rgba(150, 0, 0, 1)));
+    background-image: -moz-linear-gradient(right center, rgba(150, 0, 0, 0) 20%, rgba(150, 0, 0, 1) 95% );
+    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColor=0, endColorStr=#FFFFFF);
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColor=0, endColoStr=#FFFFFF);
+}
+
+.animate-enter, 
+.animate-leave
+{ 
+  -webkit-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+  -moz-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+  -ms-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+  -o-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+  transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+  position: relative;
+  display: block;
+} 
+ 
+.animate-enter.animate-enter-active, 
+.animate-leave {
+  opacity: 1;
+  top: 0;
+  height: 30px;
+}
+ 
+.animate-leave.animate-leave-active,
+.animate-enter {
+  opacity: 0;
+  top: -50px;
+  height: 0px;
+}
+
+.text-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.view-container {
+  position:relative;
+  height:100vh!important;
+  overflow:hidden;
+}

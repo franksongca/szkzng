@@ -1,0 +1,245 @@
+/*125px*/
+/*70px*/
+/*70px*/
+/*60px*/
+/*45px*/
+/*50px*/
+/*60px*/
+/*70px*/
+#dialog-div-I .ngdialog-content {
+  background-image: url(../images/common/signin-dialog-bg.png) !important;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-origin: border-box !important;
+  max-width: 80% !important;
+  min-width: 280px;
+  min-height: 10em;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+}
+#dialog-div-I .ngdialog-close:before {
+  font-family: FontAwesome !important;
+  font-size: 1.8em !important !important;
+  content: '\f057' !important;
+  cursor: pointer;
+  color: #006400 !important;
+  margin-top: 5px !important;
+  margin-right: 5px !important;
+}
+#dialog-div-I .sign-in,
+#dialog-div-I .option-right a,
+#dialog-div-I .info-label {
+  color: #006400;
+}
+#dialog-div-I .option-right a,
+#dialog-div-I .info-label {
+  cursor: pointer;
+}
+#dialog-div-I .signin-title {
+  width: 80%;
+  font-size: 1.2em;
+  margin-top: -5px;
+}
+#dialog-div-I .sign-in hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #006400;
+  margin: 0.3em 0;
+  padding: 0;
+}
+#dialog-div-I .auth-info {
+  margin-top: 20px;
+  font-size: 0.8em;
+}
+#dialog-div-I .auth-info .user,
+#dialog-div-I .auth-info .pass {
+  height: 2.2em;
+  line-height: 1.8em;
+  font-size: 0.8em;
+  width: 60%;
+  margin-left: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 1px solid #006400;
+}
+#dialog-div-I .auth-info .user[value=''],
+#dialog-div-I .auth-info .pass[value=''] {
+  border: 1px solid red;
+}
+#dialog-div-I .auth-info div.info,
+#dialog-div-I .auth-info .info-label {
+  display: inline-block;
+  text-align: right;
+  margin-bottom: 5px;
+}
+#dialog-div-I .auth-info div.info {
+  width: 25%;
+}
+#dialog-div-I .auth-info input[type=checkbox] {
+  margin-left: 5px;
+  cursor: pointer;
+  vertical-align: top;
+}
+#dialog-div-I .auth-info .message {
+  width: 90%;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  border: 1px dotted rgba(0, 100, 0, 0.5);
+  border-box: border-box;
+}
+#dialog-div-I .other-options {
+  width: 100%;
+  margin-top: 15px;
+}
+#dialog-div-I .other-options .option-left,
+#dialog-div-I .other-options .option-right {
+  display: inline-block;
+  /*padding: 10px;*/
+}
+#dialog-div-I .other-options .option-left {
+  text-align: right;
+  width: 40%;
+}
+#dialog-div-I .other-options .option-left .info-label:hover {
+  color: red;
+}
+#dialog-div-I .other-options .option-left .info-label:active {
+  color: #006400;
+}
+#dialog-div-I .other-options .option-right {
+  text-align: left;
+  float: right;
+  text-decoration: underline;
+  width: 55%;
+}
+#dialog-div-I .other-options .option-right a:hover {
+  color: red;
+}
+#dialog-div-I .signin-buttons {
+  text-align: center;
+}
+#dialog-div-I .signin-buttons input {
+  font-weight: bold;
+  padding: 1px 10px;
+  margin: 0 5px;
+  border: 1px solid rgba(0, 100, 0, 0.5);
+  border-radius: 5px;
+  background-color: rgba(0, 100, 0, 0.5);
+  color: #006400;
+  box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.3);
+}
+#dialog-div-I .signin-buttons input:hover {
+  color: white;
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3);
+}
+#dialog-div-I .ngdialog-close:hover:before {
+  color: red !important;
+}
+@-webkit-keyframes ngdialog-slideup {
+  0% {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes ngdialog-slideup {
+  0% {
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@-webkit-keyframes ngdialog-slidedown {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+}
+@keyframes ngdialog-slidedown {
+  0% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+}
+#dialog-div-II .ngdialog.ngdialog-theme-default.ngdialog-closing .ngdialog-content,
+#dialog-div-III .ngdialog.ngdialog-theme-default.ngdialog-closing .ngdialog-content,
+#dialog-div-IV .ngdialog.ngdialog-theme-default.ngdialog-closing .ngdialog-content {
+  -webkit-animation: ngdialog-slidedown 0.5s !important;
+  animation: ngdialog-slidedown 0.5s !important;
+}
+#dialog-div-II .ngdialog.ngdialog-theme-default .ngdialog-content,
+#dialog-div-III .ngdialog.ngdialog-theme-default .ngdialog-content,
+#dialog-div-IV .ngdialog.ngdialog-theme-default .ngdialog-content {
+  -webkit-animation: ngdialog-slideup 0.5s !important;
+  animation: ngdialog-slideup 0.5s !important;
+}
+#dialog-div-II .ngdialog-content,
+#dialog-div-III .ngdialog-content,
+#dialog-div-IV .ngdialog-content {
+  position: fixed;
+  bottom: 0;
+  color: #ffffff;
+  background-color: black;
+  background-size: cover !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-origin: border-box !important;
+  width: 100% !important;
+  min-height: 50vh;
+  border-radius: 0;
+  border: 1px solid black;
+}
+#dialog-div-II hr,
+#dialog-div-III hr,
+#dialog-div-IV hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ffffff;
+  margin: 0.3em 0;
+  padding: 0;
+}
+#dialog-div-II .ngdialog-close:before,
+#dialog-div-III .ngdialog-close:before,
+#dialog-div-IV .ngdialog-close:before {
+  font-family: FontAwesome !important;
+  font-size: 1.8em !important !important;
+  content: '\f057' !important;
+  cursor: pointer;
+  color: #ffffff !important;
+  margin-top: 5px !important;
+  margin-right: 5px !important;
+}
+#dialog-div-II .ngdialog-close:hover:before,
+#dialog-div-III .ngdialog-close:hover:before,
+#dialog-div-IV .ngdialog-close:hover:before {
+  color: red !important;
+}
+#dialog-div-II .ngdialog-content {
+  background-image: url(../images/common/settings-bg.png) !important;
+}
+#dialog-div-III .ngdialog-content {
+  background-image: url(../images/common/about-bg.png) !important;
+}
+#dialog-div-IV .ngdialog-content {
+  background-image: url(../images/common/help-bg.png) !important;
+}

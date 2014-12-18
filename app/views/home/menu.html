@@ -1,0 +1,16 @@
+        <div class="menu-container">
+            <div class="menu-left">
+                <div id="iScrollContentMenuWrapper" ng-include="'views/home/content-menu/content-menu.html'" class="left-menu-container" ng-iscroll="iScrollContentMenuWrapper" ng-iscroll-delay="100" ></div>
+            </div>
+            <div class="menu-right">
+				<div class="action-menu-title-container">
+					<div class="action-menu-titles">
+						<div class="action-menu-title">{{actineMenuInfo.titleHz}}</div>
+						<div class="action-menu-sub-title">{{actineMenuInfo.subTitle}}</div>
+					</div>
+				</div>
+                
+                <div id="iScrollActionMenuWrapper" ng-include="'views/home/action-menu/action-menu.html'" class="right-menu-container" ng-iscroll="iScrollActionMenuWrapper" ng-iscroll-delay="100"></div>                
+                </div>
+            </div>
+        </div>

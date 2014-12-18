@@ -1,0 +1,37 @@
+﻿{
+	"signIn": {
+		"zh": "登录",
+		"en": "SIGN IN",
+		"py": "deng1 lu4" 
+	},
+	
+	"name": {
+		"zh": "姓名",
+		"en": "name",
+		"py": "xing4 ming2" 
+	},
+	
+	"settings": {
+		"zh": "设置",
+		"en": "Settings",
+		"py": "she4 zhi2" 
+	},
+	
+	"about": {
+		"zh": "关于",
+		"en": "About",
+		"py": "guan1 yu2" 
+	},
+	
+	"help": {
+		"zh": "帮助",
+		"en": "Help",
+		"py": "bang1 zhu4" 
+	},
+	
+	"trainingMethod": {
+		"zh": "训练方式",
+		"en": "Training Method",
+		"py": "xun4 lian4 fang1 shi4"
+	}
+}

@@ -1,0 +1,23 @@
+/*125px*/
+/*70px*/
+/*70px*/
+/*60px*/
+/*45px*/
+/*50px*/
+/*60px*/
+/*70px*/
+.debug {
+  display: none;
+  margin-top: 50px;
+  background-color: rgba(255, 0, 0, 0);
+}
+.debug div {
+  height: 150px;
+  border: 1px solid white;
+  margin: 0 5px 5px 5px;
+  padding: 5px;
+  overflow: auto;
+}
+.action-content {
+  height: 100vh;
+}

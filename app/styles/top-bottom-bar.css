@@ -1,0 +1,382 @@
+/*125px*/
+/*70px*/
+/*70px*/
+/*60px*/
+/*45px*/
+/*50px*/
+/*60px*/
+/*70px*/
+.top-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 3.214em;
+  background-color: #000000;
+}
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-height: 3.214em;
+  width: 80px;
+  cursor: pointer;
+}
+.logo-small {
+  top: 0.17em;
+  height: 2.5em;
+  width: auto;
+}
+top-menu {
+  float: right;
+  width: 100%;
+  margin-top: 0;
+  /*0.1em;*/
+  margin-right: 0.2em;
+}
+.more-button,
+.bottom-more-button,
+.bottom-home-button {
+  text-align: center;
+  width: 1.5em;
+  height: 1.5em;
+  border: 1px solid rgba(0, 0, 0, 0);
+  font-size: 1.7em;
+  color: white;
+  display: none;
+  float: right;
+  margin-top: 0.3em;
+}
+.control-panel {
+  position: fixed;
+  display: block;
+  bottom: 2px;
+  right: 50px;
+  padding: 8px 3px 5px 3px;
+  color: #FAFAF7;
+  background-color: rgba(12, 46, 13, 0);
+  border-radius: 0;
+  margin-bottom: 1px;
+  border: 1px solid rgba(79, 95, 80, 0.6);
+}
+.control-panel ul {
+  list-style-type: none;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  /*
+        li div i:not([disable]):hover {
+            color: red;
+        }*/
+}
+.control-panel ul li {
+  width: 2.4em;
+  text-align: center;
+  float: left;
+  display: inline;
+  cursor: pointer;
+}
+.control-panel ul li i {
+  font-size: 1.5em;
+}
+.control-panel ul li:last-child {
+  margin-left: 15px;
+  display: none;
+}
+.control-panel ul li div i[disable] {
+  color: #666;
+  cursor: default;
+}
+.control-panel ul li div i.fa-play[status=playing] {
+  display: none;
+}
+.control-panel ul li div i.fa-play:not([status=playing]) {
+  display: inline;
+}
+.control-panel ul li div i.fa-pause[status=playing] {
+  display: inline;
+}
+.control-panel ul li div i.fa-pause:not([status=playing]) {
+  display: none;
+}
+/*
+.more-button:hover, .bottom-more-button:hover, .bottom-home-button:hover {
+    color: red;
+}*/
+.top-menu-button {
+  float: right;
+  color: #f8f2f2;
+  display: inline-block;
+  border: 1px white solid;
+  padding: 1px 3px;
+  margin-top: 3px;
+  margin-left: 3px;
+  background-color: #7cb15e;
+  height: 2.857em;
+  cursor: pointer;
+}
+.top-menu-button:not(.current):hover,
+.top-menu-button[sub=true]:hover {
+  background-color: #F3B9B9;
+  border: 1px solid rgba(200, 0, 0, 0.6);
+  color: darkred;
+  cursor: pointer;
+}
+.top-menu-button-title {
+  display: inline-block;
+}
+.with-arrow-button::after {
+  content: "\f0dd";
+  font-family: FontAwesome;
+  margin-left: 5px;
+}
+.top-menu-button-title-hz,
+.top-menu-action-title-hz,
+top-menu-sub-button-title-hz {
+  font-size: 1em;
+  font-family: "黑体";
+}
+.top-menu-button-title-sub,
+.top-menu-action-title-sub,
+top-menu-sub-button-title-sub {
+  font-size: 0.8em;
+}
+.top-menu-action-title {
+  color: #c80000;
+  margin-left: 7.412em;
+  padding: 1px 5px;
+  margin-top: 3px;
+  background-color: rgba(200, 0, 0, 0.4);
+  border: 1px solid rgba(200, 0, 0, 0.7);
+  display: none;
+}
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 3.214em;
+  background-color: #000000;
+}
+.bottom-bar .bottom-buttons {
+  position: absolute;
+  right: 0;
+  top: 4px;
+}
+.bottom-bar .article-info {
+  position: absolute;
+  min-width: 230px;
+  left: 0;
+}
+.bottom-bar .article-info .title-background {
+  /*width: 100%;*/
+  height: 100%;
+  background: url('../images/common/bg-MEI.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+}
+.bottom-bar .article-info .bottom-selected-article {
+  display: inline-block;
+  max-width: 160px;
+  padding-left: 5px;
+  padding-top: 4px;
+  color: #aaa;
+}
+.bottom-bar .article-info .bottom-selected-article .bottom-hz {
+  width: 100%;
+  font-size: 1em;
+  font-family: "黑体";
+}
+.bottom-bar .article-info .page-count {
+  display: inline-block;
+  position: relative;
+  top: -16px;
+  padding: 3px;
+  border-radius: 5px;
+  color: black;
+  background-color: #aaa;
+  min-width: 40px;
+  text-align: center;
+  cursor: default;
+}
+div.disabled {
+  background-color: rgba(200, 0, 0, 0.4);
+  border: 1px solid rgba(200, 0, 0, 0.6);
+  color: #c80000;
+  cursor: default;
+}
+.nav li div.selected {
+  background-color: #F3B9B9;
+  border: 1px solid rgba(200, 0, 0, 0.6);
+  color: darkred;
+  cursor: default;
+}
+.nav li div.current,
+.sub-menus-zone div.current {
+  background-color: #A81035;
+  color: white;
+  cursor: default;
+}
+#iScrollDropdownActionMenuWrapper {
+  position: fixed;
+  top: 3.214em;
+  right: 0;
+  display: none;
+}
+.dropdown-mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(200, 0, 0, 0.01);
+  display: none;
+}
+.sub-menus-zone ul {
+  color: darkred;
+  position: absolute;
+  top: topBarHeightSmall;
+  padding: 1px 3px 3px 3px;
+  background-color: rgba(200, 0, 0, 0.5);
+}
+.top-menu-sub-button {
+  min-width: 100px;
+  padding: 1px 5px;
+  margin-top: 3px;
+  background-color: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+}
+.top-menu-sub-button:not(.current):hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: darkred;
+}
+.top-menu-sub-button-wrapper {
+  padding-right: 15px;
+}
+.top-menu-sub-button-arrow {
+  float: right;
+  margin-right: -15px;
+  margin-top: -30px;
+  font-size: 1.3em;
+}
+.drop-down-menu-mask {
+  position: absolute;
+  /*top: topBarHeightSmall;*/
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 100, 0, 0.01);
+}
+.dropdown-menu-container {
+  width: 240px;
+  padding-top: 3px;
+  border: 1px solid rgba(166, 228, 236, 0.6);
+  background-color: rgba(225, 245, 238, 0.4);
+  overflow: hidden;
+}
+.dropdown-menu-container div.current {
+  background-color: rgba(48, 194, 35, 0.69);
+}
+.dropdown-menu-container .action-button {
+  margin-bottom: 3px;
+  margin-left: 3px;
+  background-color: rgba(81, 189, 163, 0.4);
+}
+.dropdown-menu-container .action-sub-button {
+  width: 70%;
+  margin-left: 14%;
+  background-color: rgba(22, 122, 46, 0.21);
+}
+.dropdown-menu-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 1px;
+  margin-right: -20px;
+}
+.dropdown-menu-container .button-title-hz {
+  font-size: 1.1em;
+  font-weight: normal;
+  color: #C95F2E;
+}
+.dropdown-menu-container .button-title-sub {
+  font-size: 0.9em;
+  color: #C95F2E;
+}
+.dropdown-menu-container .sub-button-title-hz {
+  font-size: 0.9em;
+  font-weight: normal;
+  color: #C95F2E;
+}
+.dropdown-menu-container .sub-button-title-sub {
+  font-size: 0.8em;
+  font-weight: normal;
+  color: #C95F2E;
+}
+.dropdown-menu-container .menu-item-title:hover,
+.dropdown-menu-container .action-button:not(.current):hover,
+.dropdown-menu-container .action-sub-button:not(.current):hover {
+  -webkit-box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.8);
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.8);
+}
+.dropdown-menu-container .action-button:not(.current),
+.dropdown-menu-container .action-button[sub=true],
+.dropdown-menu-container .action-sub-button:not(.current) {
+  cursor: pointer;
+}
+.bottom-home-button {
+  display: inline;
+  cursor: pointer;
+}
+@media only screen and (min-width: 385px) {
+  .bottom-bar .article-info {
+    min-width: 300px;
+  }
+  .bottom-bar .article-info .bottom-selected-article {
+    max-width: 220px;
+  }
+  .bottom-bar .article-info .bottom-selected-article {
+    max-width: 220px;
+  }
+}
+@media only screen and (min-width: 640px) {
+  #iScrollDropdownActionMenuWrapper {
+    display: none;
+  }
+  .more-button,
+  .bottom-more-button {
+    display: none;
+  }
+  .control-panel {
+    display: block;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .more-button,
+  .bottom-more-button {
+    display: inline;
+    cursor: pointer;
+  }
+  .top-menu-action-title {
+    display: inline-block;
+  }
+  top-menu,
+  bottom-menu {
+    display: none;
+  }
+  #iScrollDropdownActionMenuWrapper {
+    display: none;
+  }
+  .control-panel {
+    display: none;
+    bottom: 3.214em;
+    right: 1px;
+    padding: 8px 3px 5px 3px;
+    color: #FCFC07;
+    background-color: rgba(42, 180, 47, 0.6);
+    border-radius: 5px;
+    margin-bottom: 1px;
+    border: 1px solid rgba(42, 180, 47, 0.6);
+  }
+  .control-panel ul li:last-child {
+    display: inline;
+  }
+}
