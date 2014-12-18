@@ -14,6 +14,8 @@ Source code is in the folder: app.
 
 The android cordova package CordovaApp-debug.apk is in the folder: platforms\android\ant-build\
 
+Run command 'bower install' and 'npm install' in the project
+
 Run command 'grunt serve' to launch the web app.
 
 Run command 'grunt' to compile the app, the web content is in the folder: www, and the package CordovaApp-debug.apk is compiled at the same time.
