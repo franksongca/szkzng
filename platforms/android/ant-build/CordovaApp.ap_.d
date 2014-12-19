@@ -76,9 +76,9 @@ F:\My Projects\szkz-ng\platforms\android\assets\www\plugins\org.apache.cordova.d
 F:\My Projects\szkz-ng\platforms\android\assets\www\plugins\org.apache.cordova.device\www \
 F:\My Projects\szkz-ng\platforms\android\assets\www\plugins\org.apache.cordova.device\www\device.js \
 F:\My Projects\szkz-ng\platforms\android\assets\www\scripts\oldieshim.d48d8270.js \
-F:\My Projects\szkz-ng\platforms\android\assets\www\scripts\scripts.37dc5887.js \
+F:\My Projects\szkz-ng\platforms\android\assets\www\scripts\scripts.fae22912.js \
 F:\My Projects\szkz-ng\platforms\android\assets\www\scripts\vendor.616d740b.js \
-F:\My Projects\szkz-ng\platforms\android\assets\www\styles\app.84ac21a5.css \
+F:\My Projects\szkz-ng\platforms\android\assets\www\styles\app.f6254930.css \
 F:\My Projects\szkz-ng\platforms\android\assets\www\styles\vendor.beb91314.css \
 F:\My Projects\szkz-ng\platforms\android\assets\www\views\dialogs \
 F:\My Projects\szkz-ng\platforms\android\assets\www\views\home \
