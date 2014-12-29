@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('szkzApp.directives').directive('topMenuButtons', ['$rootScope', '$q', '$interval', 'BookmarkManager', 
-    '$timeout', function ($rootScope, $q, $interval, BookmarkManager, $timeout) 
+    '$timeout', 'SZKZ_CONSTANTS', function ($rootScope, $q, $interval, BookmarkManager, $timeout, SZKZ_CONSTANTS) 
 {
     return {
         restrict: 'E',

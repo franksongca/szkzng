@@ -75,9 +75,9 @@ F:\My Projects\szkz-ng\platforms\android\assets\www\images\home\up-arrow.png \
 F:\My Projects\szkz-ng\platforms\android\assets\www\plugins\org.apache.cordova.device \
 F:\My Projects\szkz-ng\platforms\android\assets\www\plugins\org.apache.cordova.device\www \
 F:\My Projects\szkz-ng\platforms\android\assets\www\plugins\org.apache.cordova.device\www\device.js \
-F:\My Projects\szkz-ng\platforms\android\assets\www\scripts\oldieshim.d48d8270.js \
-F:\My Projects\szkz-ng\platforms\android\assets\www\scripts\scripts.fae22912.js \
-F:\My Projects\szkz-ng\platforms\android\assets\www\scripts\vendor.616d740b.js \
+F:\My Projects\szkz-ng\platforms\android\assets\www\scripts\oldieshim.76f279db.js \
+F:\My Projects\szkz-ng\platforms\android\assets\www\scripts\scripts.80a8cf85.js \
+F:\My Projects\szkz-ng\platforms\android\assets\www\scripts\vendor.11f9744e.js \
 F:\My Projects\szkz-ng\platforms\android\assets\www\styles\app.f6254930.css \
 F:\My Projects\szkz-ng\platforms\android\assets\www\styles\vendor.beb91314.css \
 F:\My Projects\szkz-ng\platforms\android\assets\www\views\dialogs \
