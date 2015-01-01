@@ -9,6 +9,6 @@ angular.module('szkzApp').controller('ForgotDialogCtrl', ['$scope', '$rootScope'
         
         $scope.cancel = function () {
             $scope.closeThisDialog();
-        }   
+        }
     }
 ]);

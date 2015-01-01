@@ -17,6 +17,7 @@ angular.module('szkzApp').controller('HomeCtrl', ['$rootScope', '$scope', 'Tween
     lang = $scope.lang = 'en';
     AppConfiguration.setLanguage('en');
 
+    $rootScope.SZKZ_CONSTANTS = SZKZ_CONSTANTS;
 
     console.log('lang =' + lang + '-' + $scope.lang);
 

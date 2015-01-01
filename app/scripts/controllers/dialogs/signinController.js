@@ -11,14 +11,14 @@ angular.module('szkzApp').controller('SigninDialogCtrl', ['$scope', 'UIService',
             $scope.closeThisDialog();
         }
             
-        //$scope.$on('$destroy', function() {
-        //});
-
-        $scope.forgotPass = function () {
-            $scope.closeThisDialog();
-            $timeout(function () {
+        $scope.forgotPass = function (evt) {
+            $scope.$on('$destroy', function() {
+                $scope.$$listeners['$destroy'] = [];
                 UIService.launchForgotDialog();
-            }, SZKZ_CONSTANTS.TIME_CONSTANTS.DELAY_DURATION);
+            });
+
+            $scope.closeThisDialog();
         }
+
     }
 ]);

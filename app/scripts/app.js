@@ -29,7 +29,9 @@ angular.module('szkzApp', [
         'PAGE_IN_DURATION': 1.2,
         'BUTTON_ANI_DURATION': 0.3,
         'ARTICLE_ANI_DURATION': 1.3,
-        'MENU_ANI_DURATION': 500
+        'MENU_ANI_DURATION': 500,
+        'iSCROLL_DELAY_I': 500,
+        'iSCROLL_DELAY_II': 400
     },
 
     'PAGE_NAMES': {
