@@ -8,10 +8,10 @@ angular.module('szkzApp.services').factory('PageControlData', ['$rootScope', '_'
     function getArticleInfo () {
         var bookmark = BookmarkManager.getSelectedArticleTypeCode(),
             type = BookmarkManager.getSelectedArticleType(bookmark),
-            articleInfo = ArticleListFactory.getArticleInfo(
-                type,
-                BookmarkManager.getSelectedArticleCode(bookmark)
-            );
+            articleInfo = ArticleListFactory.getArticleInfo({
+                type: type,
+                code: BookmarkManager.getSelectedArticleCode(bookmark)
+            });
             
         articleInfo.typeLabel = ArticleListFactory.getArticleTypeLabel(type).hz;
                                                                

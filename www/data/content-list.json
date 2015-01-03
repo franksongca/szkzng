@@ -54,7 +54,8 @@
 						"en":"The ugly duckling"
 					},
 					"author": "安徒生",
-					"pages": "110"
+					"pages": "110",
+					"group": 1
 				}
 			]
 		},
@@ -75,7 +76,8 @@
 						"en":"Set the world on fire"
 					},
 					"author": "佚名",
-					"pages": "13"
+					"pages": "13",
+					"group": 1
 				},
 				{
 					"code": "cygs-CFPL",
@@ -85,7 +87,8 @@
 						"en":"Ride the wind and waves"
 					},
 					"author": "佚名",
-					"pages": "7"
+					"pages": "7",
+					"group": 1
 				},
 				{
 					"code": "cygs-JDZW",
@@ -95,7 +98,8 @@
 						"en":"The frog in well"
 					},
 					"author": "佚名",
-					"pages": "12"
+					"pages": "12",
+					"group": 1
 				},
 				{
 					"code": "cygs-WYBL",
@@ -105,7 +109,8 @@
 						"en":"Mend the fold after a sheep is lost"
 					},
 					"author": "佚名",
-					"pages": "12"
+					"pages": "12",
+					"group": 1
 				},
 				{
 					"code": "cygs-KZQJ",
@@ -115,7 +120,8 @@
 						"en":"Notching the boat to find the sword"
 					},
 					"author": "佚名",
-					"pages": "7"
+					"pages": "7",
+					"group": 1
 				},
 				{
 					"code": "cygs-MLSS",
@@ -125,7 +131,8 @@
 						"en":"Fall behind Sun Shan"
 					},
 					"author": "佚名",
-					"pages": "11"
+					"pages": "11",
+					"group": 1
 				},
 				{
 					"code": "cygs-LYCS",
@@ -135,7 +142,8 @@
 						"en":"Be dragged in to swell the total"
 					},
 					"author": "佚名",
-					"pages": "15"
+					"pages": "15",
+					"group": 1
 				},
 				{
 					"code": "cygs-HJHW",
@@ -145,7 +153,8 @@
 						"en":"The fox assuming the majesty of the tiger"
 					},
 					"author": "佚名",
-					"pages": "14"
+					"pages": "14",
+					"group": 1
 				},
 				{
 					"code": "cygs-TCCZ",
@@ -155,7 +164,8 @@
 						"en":"Little strokes fell great oaks"
 					},
 					"author": "佚名",
-					"pages": "12"
+					"pages": "12",
+					"group": 1
 				},
 				{
 					"code": "cygs-SWSM",
@@ -165,7 +175,8 @@
 						"en":"A loss may turn out to be a gain"
 					},
 					"author": "佚名",
-					"pages": "11"
+					"pages": "11",
+					"group": 1
 				}
 			]
 		},
@@ -186,7 +197,8 @@
 						"en":"The Geese"
 					},
 					"author": "骆宾王",
-					"pages": "2"
+					"pages": "2",
+					"group": 1
 				},
 				{
 					"code": "scjx-MN",
@@ -196,7 +208,8 @@
 						"en":"Commiserate with farmers"
 					},
 					"author": "李绅",
-					"pages": "2"
+					"pages": "2",
+					"group": 1
 				},
 				{
 					"code": "scjx-CX",
@@ -206,7 +219,8 @@
 						"en":"The spring dawn"
 					},
 					"author": "孟浩然",
-					"pages": "2"
+					"pages": "2",
+					"group": 1
 				},
 				{
 					"code": "scjx-JX",
@@ -216,7 +230,8 @@
 						"en":"Fishing in snow"
 					},
 					"author": "柳宗元",
-					"pages": "2"
+					"pages": "2",
+					"group": 1
 				},
 				{
 					"code": "scjx-QM",
@@ -226,7 +241,8 @@
 						"en":"Qing Ming festival"
 					},
 					"author": "杜牧",
-					"pages": "2"
+					"pages": "2",
+					"group": 1
 				},
 				{
 					"code": "scjx-JYS",
@@ -236,7 +252,8 @@
 						"en":"Quiet night thoughts"
 					},
 					"author": "李白",
-					"pages": "2"
+					"pages": "2",
+					"group": 1
 				},
 				{
 					"code": "scjx-WLSPB",
@@ -246,7 +263,8 @@
 						"en":"The Lu mountain falls"
 					},
 					"author": "李白",
-					"pages": "2"
+					"pages": "2",
+					"group": 1
 				},
 				{
 					"code": "scjx-SMHR",
@@ -256,7 +274,8 @@
 						"en":"Guangling Yellow Crane Tower sent Meng Haoran"
 					},
 					"author": "李白",
-					"pages": "2"
+					"pages": "2",
+					"group": 1
 				},
 				{
 					"code": "scjx-ZFBDC",
@@ -266,7 +285,8 @@
 						"en":"Early departure from Baidi town"
 					},
 					"author": "李白",
-					"pages": "2"
+					"pages": "2",
+					"group": 1
 				},
 				{
 					"code": "scjx-CLG",
@@ -276,7 +296,8 @@
 						"en":"Ancient folk song"
 					},
 					"author": "北朝民歌",
-					"pages": "2"
+					"pages": "2",
+					"group": 1
 				}
 			]
 		},
@@ -297,7 +318,8 @@
 						"en":"The geese"
 					},
 					"author": "骆宾王",
-					"pages": "5"
+					"pages": "5",
+					"group": 1
 				},
 				{
 					"code": "scgq-QM",
@@ -307,7 +329,8 @@
 						"en":"Qing Ming festival"
 					},
 					"author": "杜牧",
-					"pages": "6"
+					"pages": "6",
+					"group": 1
 				},
 				{
 					"code": "scgq-CX",
@@ -317,7 +340,8 @@
 						"en":"The spring dawn"
 					},
 					"author": "孟浩然",
-					"pages": "6"
+					"pages": "6",
+					"group": 1
 				},
 				{
 					"code": "scgq-JYS",
@@ -327,7 +351,8 @@
 						"en":"Quiet night thoughts"
 					},
 					"author": "李白",
-					"pages": "8"
+					"pages": "8",
+					"group": 1
 				},
 				{
 					"code": "scgq-CS",
@@ -337,7 +362,8 @@
 						"en":"Go out of the border"
 					},
 					"author": "王维",
-					"pages": "8"
+					"pages": "8",
+					"group": 1
 				}
 			]
 		}

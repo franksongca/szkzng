@@ -13,6 +13,7 @@ function($rootScope, ngDialog, TweenMax, SZKZ_CONSTANTS, $timeout) {
         }
         
         targetElement.addClass(linkOverClass);
+        
         $timeout(function () {
             switch (feature) {
                 case 'settings':
@@ -84,6 +85,26 @@ function($rootScope, ngDialog, TweenMax, SZKZ_CONSTANTS, $timeout) {
         refreshIScroll(SZKZ_CONSTANTS.HOME_CONTENT_MENU_SCROLL_WRAPPER);
     }
 
+    function showSpinner (withMask, message) {
+        var maskElement = angular.element('#spinner > div:first-child');
+        if (message === undefined) {
+            message = 'LOADING...';
+        }
+        angular.element('#spinner .message').text(message);
+
+        maskElement.css('background', 'rgba(0, 0, 0, 0.5)');
+        if (withMask) {
+            maskElement.show();
+        } else {
+            maskElement.hide();
+        }
+        angular.element('#spinner').fadeIn('fast');
+    }
+
+    function hideSpinner () {
+        angular.element('#spinner').stop(true, true).fadeOut('slow');
+    }
+
     $rootScope.$on('actionMenuRefreshEvent', refreshActionMenu);
 
     return {
@@ -105,6 +126,8 @@ function($rootScope, ngDialog, TweenMax, SZKZ_CONSTANTS, $timeout) {
         refreshContentMenu: refreshContentMenu,
         refreshIScroll: function (scrollWrapper) {
             refreshIScroll(scrollWrapper);
-        }
+        },
+        showSpinner: showSpinner,
+        hideSpinner: hideSpinner
     };
 }]);

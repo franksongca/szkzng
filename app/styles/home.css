@@ -17,7 +17,7 @@
 body {
   overflow: hidden;
   height: 100%;
-  background-color: rgba(0, 100, 255, 0.3);
+  background-color: rgba(0, 0, 255, 0.3);
   min-width: 320px;
   -webkit-animation: androidBugfix infinite 1s;
 }

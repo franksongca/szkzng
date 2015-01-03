@@ -16,6 +16,19 @@ angular.module('szkzApp.services').factory('ArticleListFactory', ['$rootScope', 
                 return false;
             });
     }
+
+    function convertArticleCode (option) {  // option could be kj-SZJ or {type: 'kj', code: 'SZJ'}
+        var temp = option;
+
+        if (typeof option === 'string') {
+            temp = option.split('-');
+            option = {};
+            option.code = temp[1];
+            option.type = temp[0];
+        }
+
+        return option;
+    }
     
     return {
         init: function () {
@@ -34,13 +47,16 @@ angular.module('szkzApp.services').factory('ArticleListFactory', ['$rootScope', 
             return articleList.articles.length;
         },
         
-        getArticleInfo: function (type, code) {
-            var articleGroup = _.find(articleList.articles, function (articleGroup) {
-                    return articleGroup.type === type;
-                }),
-                article = _.find(articleGroup.articles, function (article) {
-                    return article.code === (type + '-' + code.toUpperCase());
-                });
+        getArticleInfo: function (option) {
+            var articleGroup, article;
+
+            option = convertArticleCode(option);
+
+            articleGroup = this.getArticleGroup(option);
+
+            article = _.find(articleGroup.articles, function (article) {
+                return article.code === (option.type + '-' + option.code.toUpperCase());
+            });
             
             return article;
         },
@@ -53,6 +69,22 @@ angular.module('szkzApp.services').factory('ArticleListFactory', ['$rootScope', 
             return articleGroup.label;
         },
         
+        getArticleGroup: function (option) {
+            var articleGroup;
+
+            option = convertArticleCode(option);
+
+            articleGroup = _.find(articleList.articles, function (articleGroup) {
+                return articleGroup.type === option.type;
+            });
+
+            return articleGroup;
+        },
+
+        getArticleGroupIndex: function (option) {
+            return this.getArticleInfo(option).group;
+        },
+
         isContentLoaded: function () {
             return angular.isDefined(articleList);
         }

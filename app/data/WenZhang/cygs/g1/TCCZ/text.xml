@@ -1,0 +1,884 @@
+<pages has_audio="1" background="default.jpg" scale="1.2" valign="top" halign="center" line_spacing="5" characters_per_row="12" rows_per_page="10" position_x="3" position_y="30" style="1">
+
+  <page background="" audio_file="" style="9" align="left" line_spacing="25" scale="1.5" position_y="-16" position_x="3" characters_per_row="10" rows_per_page="10" halign="center" valign="middle" gameParagraph="9,8,9">
+
+    <cue_points>
+1798.12,2162.72,2589.46,2804.91,3086.64,3306.23,3645.96,3815.83,4060.28,4988.34,5299.08,5568.38,5854.26,6086.27,6355.58,6575.16,6807.18,7710.38,8041.84,8315.28,8663.31,9690.81,10009.83,10337.34,10615.14,10979.53</cue_points>
+
+    <paragraph align="left" style="0">
+
+      <zi han_zi="唐" pin_yin="tang" sheng_diao="2" id="2062" mistakes="0" times="0" xu_hao="0" qs="0"/>
+
+      <zi han_zi="朝" pin_yin="chao" sheng_diao="2" id="643" mistakes="0" times="0" xu_hao="1" qs="0"/>
+
+      <zi han_zi="著" pin_yin="zhu" sheng_diao="4" id="667" mistakes="0" times="0" xu_hao="2" qs="0"/>
+
+      <zi han_zi="名" pin_yin="ming" sheng_diao="2" id="396" mistakes="0" times="0" xu_hao="3" qs="0"/>
+
+      <zi han_zi="大" pin_yin="da" sheng_diao="4" id="430" mistakes="0" times="0" xu_hao="4" qs="0"/>
+
+      <zi han_zi="诗" pin_yin="shi" sheng_diao="1" id="1258" mistakes="0" times="0" xu_hao="5" qs="0"/>
+
+      <zi han_zi="人" pin_yin="ren" sheng_diao="2" id="649" mistakes="0" times="0" xu_hao="6" qs="0"/>
+
+      <zi han_zi="李" pin_yin="li" sheng_diao="3" id="1871" mistakes="0" times="0" xu_hao="7" qs="0"/>
+
+      <zi han_zi="白" pin_yin="bai" sheng_diao="2" id="31" mistakes="0" times="0" xu_hao="8" qs="0"/>
+
+      <zi han_zi="，" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="9" qs="0"/>
+
+      <zi han_zi="小" pin_yin="xiao" sheng_diao="3" id="30" mistakes="0" times="0" xu_hao="10" qs="0"/>
+
+      <zi han_zi="时" pin_yin="shi" sheng_diao="2" id="1523" mistakes="0" times="0" xu_hao="11" qs="0"/>
+
+      <zi han_zi="候" pin_yin="hou" sheng_diao="4" id="862" mistakes="0" times="0" xu_hao="12" qs="1"/>
+
+      <zi han_zi="不" pin_yin="bu" sheng_diao="4" id="86" mistakes="0" times="0" xu_hao="13" qs="0"/>
+
+      <zi han_zi="喜" pin_yin="xi" sheng_diao="3" id="191" mistakes="0" times="0" xu_hao="14" qs="0"/>
+
+      <zi han_zi="欢" pin_yin="huan" sheng_diao="1" id="1362" mistakes="0" times="0" xu_hao="15" qs="0"/>
+
+      <zi han_zi="念" pin_yin="nian" sheng_diao="4" id="244" mistakes="0" times="0" xu_hao="16" qs="0"/>
+
+      <zi han_zi="书" pin_yin="shu" sheng_diao="1" id="440" mistakes="0" times="0" xu_hao="17" qs="0"/>
+
+      <zi han_zi="，" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="18" qs="0"/>
+
+      <zi han_zi="常" pin_yin="chang" sheng_diao="2" id="261" mistakes="0" times="0" xu_hao="19" qs="0"/>
+
+      <zi han_zi="常" pin_yin="chang" sheng_diao="2" id="261" mistakes="0" times="0" xu_hao="20" qs="0"/>
+
+      <zi han_zi="逃" pin_yin="tao" sheng_diao="2" id="568" mistakes="0" times="0" xu_hao="21" qs="0"/>
+
+      <zi han_zi="学" pin_yin="xve" sheng_diao="2" id="632" mistakes="0" times="0" xu_hao="22" qs="0"/>
+
+      <zi han_zi="，" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="23" qs="0"/>
+
+      <zi han_zi="到" pin_yin="dao" sheng_diao="4" id="111" mistakes="0" times="0" xu_hao="24" qs="0"/>
+
+      <zi han_zi="街" pin_yin="jie" sheng_diao="1" id="1777" mistakes="0" times="0" xu_hao="25" qs="0"/>
+
+      <zi han_zi="上" pin_yin="shang" sheng_diao="4" id="1226" mistakes="0" times="0" xu_hao="26" qs="0"/>
+
+      <zi han_zi="闲" pin_yin="xian" sheng_diao="2" id="270" mistakes="0" times="0" xu_hao="27" qs="0"/>
+
+      <zi han_zi="逛" pin_yin="guang" sheng_diao="4" id="790" mistakes="0" times="0" xu_hao="28" qs="0"/>
+
+      <zi han_zi="。" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="29" qs="0"/>
+
+    </paragraph>
+
+  </page>
+
+  <page background="" audio_file="" style="9" align="left" line_spacing="30" scale="1.2" position_y="-16" position_x="3" characters_per_row="12" halign="center" valign="middle" rows_per_page="10" gameParagraph="11,10,8">
+
+    <cue_points>
+393.68,697.14,926.78,1812.77,2054.51,2415.38,2764.16,2915.68,3087.92,3223.24,3530.80,4597.02,4794.27,4998.90,5281.85,5831.36,6143.03,6335.76,7041.11,7328.16,7590.61,8468.19,8673.23,8865.97,9075.11,9715.04,9882.97,10112.41,10444.58</cue_points>
+
+    <paragraph align="left" style="0">
+
+      <zi han_zi="这" pin_yin="zhe" sheng_diao="4" id="2175" mistakes="0" times="0" xu_hao="0" qs="0"/>
+
+      <zi han_zi="一" pin_yin="yi" sheng_diao="4" id="2089" mistakes="0" times="0" xu_hao="1" qs="0"/>
+
+      <zi han_zi="天" pin_yin="tian" sheng_diao="1" id="325" mistakes="0" times="0" xu_hao="2" qs="0"/>
+
+      <zi han_zi="，" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="3" qs="0"/>
+
+      <zi han_zi="李" pin_yin="li" sheng_diao="3" id="1871" mistakes="0" times="0" xu_hao="4" qs="0"/>
+
+      <zi han_zi="白" pin_yin="bai" sheng_diao="2" id="31" mistakes="0" times="0" xu_hao="5" qs="0"/>
+
+      <zi han_zi="又" pin_yin="you" sheng_diao="4" id="1636" mistakes="0" times="0" xu_hao="6" qs="0"/>
+
+      <zi han_zi="没" pin_yin="mei" sheng_diao="2" id="93" mistakes="0" times="0" xu_hao="7" qs="0"/>
+
+      <zi han_zi="有" pin_yin="you" sheng_diao="3" id="282" mistakes="0" times="0" xu_hao="8" qs="0"/>
+
+      <zi han_zi="去" pin_yin="qv" sheng_diao="4" id="387" mistakes="0" times="0" xu_hao="9" qs="0"/>
+
+      <zi han_zi="上" pin_yin="shang" sheng_diao="4" id="1226" mistakes="0" times="0" xu_hao="10" qs="0"/>
+
+      <zi han_zi="学" pin_yin="xve" sheng_diao="2" id="632" mistakes="0" times="0" xu_hao="11" qs="0"/>
+
+      <zi han_zi="。" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="12" qs="0"/>
+
+      <zi han_zi="他" pin_yin="ta" sheng_diao="1" id="2179" mistakes="0" times="0" xu_hao="13" qs="0"/>
+
+      <zi han_zi="在" pin_yin="zai" sheng_diao="4" id="780" mistakes="0" times="0" xu_hao="14" qs="0"/>
+
+      <zi han_zi="街" pin_yin="jie" sheng_diao="1" id="1777" mistakes="0" times="0" xu_hao="15" qs="0"/>
+
+      <zi han_zi="上" pin_yin="shang" sheng_diao="4" id="1226" mistakes="0" times="0" xu_hao="16" qs="0"/>
+
+      <zi han_zi="东" pin_yin="dong" sheng_diao="1" id="993" mistakes="0" times="0" xu_hao="17" qs="0"/>
+
+      <zi han_zi="遛" pin_yin="liu" sheng_diao="4" id="1637" mistakes="0" times="0" xu_hao="18" qs="0"/>
+
+      <zi han_zi="遛" pin_yin="liu" sheng_diao="4" id="1637" mistakes="0" times="0" xu_hao="19" qs="1"/>
+
+      <zi han_zi="、" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="20" qs="0"/>
+
+      <zi han_zi="西" pin_yin="xi" sheng_diao="1" id="388" mistakes="0" times="0" xu_hao="21" qs="0"/>
+
+      <zi han_zi="看" pin_yin="kan" sheng_diao="4" id="43" mistakes="0" times="0" xu_hao="22" qs="0"/>
+
+      <zi han_zi="看" pin_yin="kan" sheng_diao="4" id="43" mistakes="0" times="0" xu_hao="23" qs="1"/>
+
+      <zi han_zi="，" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="24" qs="0"/>
+
+      <zi han_zi="不" pin_yin="bu" sheng_diao="4" id="86" mistakes="0" times="0" xu_hao="25" qs="0"/>
+
+      <zi han_zi="知" pin_yin="zhi" sheng_diao="1" id="929" mistakes="0" times="0" xu_hao="26" qs="0"/>
+
+      <zi han_zi="不" pin_yin="bu" sheng_diao="4" id="86" mistakes="0" times="0" xu_hao="27" qs="0"/>
+
+      <zi han_zi="觉" pin_yin="jve" sheng_diao="2" id="838" mistakes="0" times="0" xu_hao="28" qs="0"/>
+
+      <zi han_zi="到" pin_yin="dao" sheng_diao="4" id="111" mistakes="0" times="0" xu_hao="29" qs="0"/>
+
+      <zi han_zi="了" pin_yin="le" sheng_diao="0" id="50" mistakes="0" times="0" xu_hao="30" qs="0"/>
+
+      <zi han_zi="郊" pin_yin="jiao" sheng_diao="1" id="1203" mistakes="0" times="0" xu_hao="31" qs="0"/>
+
+      <zi han_zi="外" pin_yin="wai" sheng_diao="4" id="326" mistakes="0" times="0" xu_hao="32" qs="0"/>
+
+      <zi han_zi="。" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="33" qs="0"/>
+
+    </paragraph>
+
+  </page>
+
+  <page background="" audio_file="" style="9" align="left" line_spacing="25" scale="1.5" position_y="-16" position_x="3" characters_per_row="9" halign="center" valign="middle" rows_per_page="10" gameParagraph="5,5,7,7">
+
+    <cue_points>
+1036.60,1439.72,1645.39,1793.48,2151.35,2928.80,3257.88,3442.99,3673.34,3965.40,5166.54,5536.75,5898.74,6166.12,6330.66,6569.24,6828.39,7560.79,7827.97,8050.09,8444.78,8811.09,9049.67,9283.93</cue_points>
+
+    <paragraph align="left" style="0">
+
+      <zi han_zi="暖" pin_yin="nuan" sheng_diao="3" id="246" mistakes="0" times="0" xu_hao="0" qs="0"/>
+
+      <zi han_zi="和" pin_yin="huo" sheng_diao="2" id="2725" mistakes="0" times="0" xu_hao="1" qs="1"/>
+
+      <zi han_zi="的" pin_yin="de" sheng_diao="0" id="2626" mistakes="0" times="0" xu_hao="2" qs="0"/>
+
+      <zi han_zi="阳" pin_yin="yang" sheng_diao="2" id="1944" mistakes="0" times="0" xu_hao="3" qs="0"/>
+
+      <zi han_zi="光" pin_yin="guang" sheng_diao="1" id="41" mistakes="0" times="0" xu_hao="4" qs="0"/>
+
+      <zi han_zi="、" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="5" qs="0"/>
+
+      <zi han_zi="欢" pin_yin="huan" sheng_diao="1" id="1362" mistakes="0" times="0" xu_hao="6" qs="0"/>
+
+      <zi han_zi="快" pin_yin="kuai" sheng_diao="4" id="411" mistakes="0" times="0" xu_hao="7" qs="0"/>
+
+      <zi han_zi="的" pin_yin="de" sheng_diao="0" id="2626" mistakes="0" times="0" xu_hao="8" qs="0"/>
+
+      <zi han_zi="小" pin_yin="xiao" sheng_diao="3" id="30" mistakes="0" times="0" xu_hao="9" qs="0"/>
+
+      <zi han_zi="鸟" pin_yin="niao" sheng_diao="3" id="2201" mistakes="0" times="0" xu_hao="10" qs="0"/>
+
+      <zi han_zi="、" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="11" qs="0"/>
+
+      <zi han_zi="随" pin_yin="sui" sheng_diao="2" id="826" mistakes="0" times="0" xu_hao="12" qs="0"/>
+
+      <zi han_zi="风" pin_yin="feng" sheng_diao="1" id="230" mistakes="0" times="0" xu_hao="13" qs="0"/>
+
+      <zi han_zi="摇" pin_yin="yao" sheng_diao="2" id="445" mistakes="0" times="0" xu_hao="14" qs="0"/>
+
+      <zi han_zi="摆" pin_yin="bai" sheng_diao="3" id="1190" mistakes="0" times="0" xu_hao="15" qs="0"/>
+
+      <zi han_zi="的" pin_yin="de" sheng_diao="0" id="2626" mistakes="0" times="0" xu_hao="16" qs="0"/>
+
+      <zi han_zi="花" pin_yin="hua" sheng_diao="1" id="147" mistakes="0" times="0" xu_hao="17" qs="0"/>
+
+      <zi han_zi="草" pin_yin="cao" sheng_diao="3" id="48" mistakes="0" times="0" xu_hao="18" qs="0"/>
+
+      <zi han_zi="使" pin_yin="shi" sheng_diao="3" id="1810" mistakes="0" times="0" xu_hao="19" qs="0"/>
+
+      <zi han_zi="李" pin_yin="li" sheng_diao="3" id="1871" mistakes="0" times="0" xu_hao="20" qs="0"/>
+
+      <zi han_zi="白" pin_yin="bai" sheng_diao="2" id="31" mistakes="0" times="0" xu_hao="21" qs="0"/>
+
+      <zi han_zi="感" pin_yin="gan" sheng_diao="3" id="810" mistakes="0" times="0" xu_hao="22" qs="0"/>
+
+      <zi han_zi="叹" pin_yin="tan" sheng_diao="4" id="2661" mistakes="0" times="0" xu_hao="23" qs="0"/>
+
+      <zi han_zi="不" pin_yin="bu" sheng_diao="4" id="86" mistakes="0" times="0" xu_hao="24" qs="0"/>
+
+      <zi han_zi="已" pin_yin="yi" sheng_diao="3" id="1472" mistakes="0" times="0" xu_hao="25" qs="0"/>
+
+      <zi han_zi="：" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="26" qs="0"/>
+
+    </paragraph>
+
+  </page>
+
+  <page background="" audio_file="" style="9" align="left" line_spacing="25" scale="1.5" position_y="-16" position_x="3" characters_per_row="9" halign="center" valign="middle" rows_per_page="10" gameParagraph="6,14">
+
+    <cue_points>
+557.30,922.20,1159.88,1364.56,1557.15,1909.56,2847.95,3081.53,3249.54,3519.99,3835.52,4101.87,4396.91,4626.39,4818.98,5085.34,5626.45,5949.97,6191.74,6455.23</cue_points>
+
+    <paragraph align="left" style="0">
+
+      <zi han_zi="“" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="0" qs="0"/>
+
+      <zi han_zi="这" pin_yin="zhe" sheng_diao="4" id="2175" mistakes="0" times="0" xu_hao="1" qs="0"/>
+
+      <zi han_zi="么" pin_yin="me" sheng_diao="0" id="2622" mistakes="0" times="0" xu_hao="2" qs="0"/>
+
+      <zi han_zi="好" pin_yin="hao" sheng_diao="3" id="275" mistakes="0" times="0" xu_hao="3" qs="0"/>
+
+      <zi han_zi="的" pin_yin="de" sheng_diao="0" id="2626" mistakes="0" times="0" xu_hao="4" qs="0"/>
+
+      <zi han_zi="天" pin_yin="tian" sheng_diao="1" id="325" mistakes="0" times="0" xu_hao="5" qs="0"/>
+
+      <zi han_zi="气" pin_yin="qi" sheng_diao="4" id="1875" mistakes="0" times="0" xu_hao="6" qs="0"/>
+
+      <zi han_zi="，" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="7" qs="0"/>
+
+      <zi han_zi="如" pin_yin="ru" sheng_diao="2" id="1088" mistakes="0" times="0" xu_hao="8" qs="0"/>
+
+      <zi han_zi="果" pin_yin="guo" sheng_diao="3" id="180" mistakes="0" times="0" xu_hao="9" qs="0"/>
+
+      <zi han_zi="整" pin_yin="zheng" sheng_diao="3" id="554" mistakes="0" times="0" xu_hao="10" qs="0"/>
+
+      <zi han_zi="天" pin_yin="tian" sheng_diao="1" id="325" mistakes="0" times="0" xu_hao="11" qs="0"/>
+
+      <zi han_zi="闷" pin_yin="men" sheng_diao="4" id="1679" mistakes="0" times="0" xu_hao="12" qs="0"/>
+
+      <zi han_zi="在" pin_yin="zai" sheng_diao="4" id="780" mistakes="0" times="0" xu_hao="13" qs="0"/>
+
+      <zi han_zi="屋" pin_yin="wu" sheng_diao="1" id="1600" mistakes="0" times="0" xu_hao="14" qs="0"/>
+
+      <zi han_zi="里" pin_yin="li" sheng_diao="3" id="2219" mistakes="0" times="0" xu_hao="15" qs="0"/>
+
+      <zi han_zi="读" pin_yin="du" sheng_diao="2" id="626" mistakes="0" times="0" xu_hao="16" qs="0"/>
+
+      <zi han_zi="书" pin_yin="shu" sheng_diao="1" id="440" mistakes="0" times="0" xu_hao="17" qs="0"/>
+
+      <zi han_zi="，" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="18" qs="0"/>
+
+      <zi han_zi="多" pin_yin="duo" sheng_diao="1" id="1486" mistakes="0" times="0" xu_hao="19" qs="0"/>
+
+      <zi han_zi="没" pin_yin="mei" sheng_diao="2" id="93" mistakes="0" times="0" xu_hao="20" qs="0"/>
+
+      <zi han_zi="意" pin_yin="yi" sheng_diao="4" id="713" mistakes="0" times="0" xu_hao="21" qs="0"/>
+
+      <zi han_zi="思" pin_yin="si" sheng_diao="1" id="957" mistakes="0" times="0" xu_hao="22" qs="0"/>
+
+      <zi han_zi="？" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="23" qs="0"/>
+
+      <zi han_zi="”" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="24" qs="0"/>
+
+    </paragraph>
+
+  </page>
+
+  <page background="" audio_file="" style="2" align="left" line_spacing="10" scale="1.2" position_y="-16" position_x="3" characters_per_row="12" halign="center" valign="middle" rows_per_page="10" gameParagraph="7,9,12,12">
+
+    <cue_points>
+1139.70,1410.87,1652.84,1945.01,2784.14,2967.72,3172.31,4053.02,4278.40,4416.19,4549.78,4866.95,5171.72,5430.71,5610.29,5952.25,7349.25,7485.99,7654.03,7801.06,8250.56,8645.44,8859.69,9183.15,9346.99,9485.62,9788.08,10191.37,11565.06,11821.32,12056.57,12346.43,12569.07,13195.01,13421.86,13682.31,13976.37,14236.83,14535.09,14797.44</cue_points>
+
+    <paragraph align="left" style="0">
+
+      <zi han_zi="没" pin_yin="mei" sheng_diao="2" id="93" mistakes="0" times="0" xu_hao="0" qs="0"/>
+
+      <zi han_zi="走" pin_yin="zou" sheng_diao="3" id="301" mistakes="0" times="0" xu_hao="1" qs="0"/>
+
+      <zi han_zi="多" pin_yin="duo" sheng_diao="1" id="1486" mistakes="0" times="0" xu_hao="2" qs="0"/>
+
+      <zi han_zi="远" pin_yin="yvan" sheng_diao="3" id="63" mistakes="0" times="0" xu_hao="3" qs="0"/>
+
+      <zi han_zi="，" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="4" qs="0"/>
+
+      <zi han_zi="他" pin_yin="ta" sheng_diao="1" id="2179" mistakes="0" times="0" xu_hao="5" qs="0"/>
+
+      <zi han_zi="看" pin_yin="kan" sheng_diao="4" id="43" mistakes="0" times="0" xu_hao="6" qs="0"/>
+
+      <zi han_zi="见" pin_yin="jian" sheng_diao="4" id="1995" mistakes="0" times="0" xu_hao="7" qs="0"/>
+
+      <zi han_zi="在" pin_yin="zai" sheng_diao="4" id="780" mistakes="0" times="0" xu_hao="8" qs="0"/>
+
+      <zi han_zi="一" pin_yin="yi" sheng_diao="2" id="2197" mistakes="0" times="0" xu_hao="9" qs="0"/>
+
+      <zi han_zi="个" pin_yin="ge" sheng_diao="4" id="2182" mistakes="0" times="0" xu_hao="10" qs="1"/>
+
+      <zi han_zi="茅" pin_yin="mao" sheng_diao="2" id="2662" mistakes="0" times="0" xu_hao="11" qs="0"/>
+
+      <zi han_zi="草" pin_yin="cao" sheng_diao="3" id="48" mistakes="0" times="0" xu_hao="12" qs="0"/>
+
+      <zi han_zi="屋" pin_yin="wu" sheng_diao="1" id="1600" mistakes="0" times="0" xu_hao="13" qs="0"/>
+
+      <zi han_zi="的" pin_yin="de" sheng_diao="0" id="2626" mistakes="0" times="0" xu_hao="14" qs="0"/>
+
+      <zi han_zi="门" pin_yin="men" sheng_diao="2" id="2378" mistakes="0" times="0" xu_hao="15" qs="0"/>
+
+      <zi han_zi="口" pin_yin="kou" sheng_diao="3" id="1011" mistakes="0" times="0" xu_hao="16" qs="0"/>
+
+      <zi han_zi="，" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="17" qs="0"/>
+
+      <zi han_zi="坐" pin_yin="zuo" sheng_diao="4" id="353" mistakes="0" times="0" xu_hao="18" qs="0"/>
+
+      <zi han_zi="着" pin_yin="zhe" sheng_diao="0" id="45" mistakes="0" times="0" xu_hao="19" qs="0"/>
+
+      <zi han_zi="一" pin_yin="yi" sheng_diao="2" id="2197" mistakes="0" times="0" xu_hao="20" qs="0"/>
+
+      <zi han_zi="个" pin_yin="ge" sheng_diao="4" id="2182" mistakes="0" times="0" xu_hao="21" qs="1"/>
+
+      <zi han_zi="满" pin_yin="man" sheng_diao="3" id="206" mistakes="0" times="0" xu_hao="22" qs="0"/>
+
+      <zi han_zi="头" pin_yin="tou" sheng_diao="2" id="766" mistakes="0" times="0" xu_hao="23" qs="0"/>
+
+      <zi han_zi="白" pin_yin="bai" sheng_diao="2" id="31" mistakes="0" times="0" xu_hao="24" qs="0"/>
+
+      <zi han_zi="发" pin_yin="fa" sheng_diao="4" id="1712" mistakes="0" times="0" xu_hao="25" qs="0"/>
+
+      <zi han_zi="的" pin_yin="de" sheng_diao="0" id="2626" mistakes="0" times="0" xu_hao="26" qs="0"/>
+
+      <zi han_zi="老" pin_yin="lao" sheng_diao="3" id="239" mistakes="0" times="0" xu_hao="27" qs="0"/>
+
+      <zi han_zi="婆" pin_yin="po" sheng_diao="2" id="316" mistakes="0" times="0" xu_hao="28" qs="0"/>
+
+      <zi han_zi="婆" pin_yin="po" sheng_diao="2" id="316" mistakes="0" times="0" xu_hao="29" qs="1"/>
+
+      <zi han_zi="，" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="30" qs="0"/>
+
+      <zi han_zi="正" pin_yin="zheng" sheng_diao="4" id="94" mistakes="0" times="0" xu_hao="31" qs="0"/>
+
+      <zi han_zi="在" pin_yin="zai" sheng_diao="4" id="780" mistakes="0" times="0" xu_hao="32" qs="0"/>
+
+      <zi han_zi="磨" pin_yin="mo" sheng_diao="2" id="2293" mistakes="0" times="0" xu_hao="33" qs="0"/>
+
+      <zi han_zi="一" pin_yin="yi" sheng_diao="4" id="2089" mistakes="0" times="0" xu_hao="34" qs="0"/>
+
+      <zi han_zi="根" pin_yin="gen" sheng_diao="1" id="836" mistakes="0" times="0" xu_hao="35" qs="0"/>
+
+      <zi han_zi="棍" pin_yin="gun" sheng_diao="4" id="2663" mistakes="0" times="0" xu_hao="36" qs="0"/>
+
+      <zi han_zi="子" pin_yin="zi" sheng_diao="3" id="1978" mistakes="0" times="0" xu_hao="37" qs="1"/>
+
+      <zi han_zi="般" pin_yin="ban" sheng_diao="1" id="1264" mistakes="0" times="0" xu_hao="38" qs="0"/>
+
+      <zi han_zi="粗" pin_yin="cu" sheng_diao="1" id="2541" mistakes="0" times="0" xu_hao="39" qs="0"/>
+
+      <zi han_zi="的" pin_yin="de" sheng_diao="0" id="2626" mistakes="0" times="0" xu_hao="40" qs="0"/>
+
+      <zi han_zi="铁" pin_yin="tie" sheng_diao="3" id="2665" mistakes="0" times="0" xu_hao="41" qs="0"/>
+
+      <zi han_zi="杵" pin_yin="chu" sheng_diao="3" id="2666" mistakes="0" times="0" xu_hao="42" qs="0"/>
+
+      <zi han_zi="。" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="43" qs="0"/>
+
+    </paragraph>
+
+  </page>
+
+  <page background="" audio_file="" style="2" align="left" line_spacing="5" scale="1.7" position_y="-16" position_x="3" characters_per_row="8" halign="center" valign="middle" rows_per_page="10" gameParagraph="6,8">
+
+    <cue_points>
+739.69,1008.92,1365.95,1634.97,1904.19,2173.42,2942.04,3233.78,3494.53,4133.40,4372.87,4620.81,4814.20,5066.28</cue_points>
+
+    <paragraph align="left" style="0">
+
+      <zi han_zi="李" pin_yin="li" sheng_diao="3" id="1871" mistakes="0" times="0" xu_hao="0" qs="0"/>
+
+      <zi han_zi="白" pin_yin="bai" sheng_diao="2" id="31" mistakes="0" times="0" xu_hao="1" qs="0"/>
+
+      <zi han_zi="走" pin_yin="zou" sheng_diao="3" id="301" mistakes="0" times="0" xu_hao="2" qs="0"/>
+
+      <zi han_zi="过" pin_yin="guo" sheng_diao="4" id="1882" mistakes="0" times="0" xu_hao="3" qs="0"/>
+
+      <zi han_zi="去" pin_yin="qv" sheng_diao="4" id="387" mistakes="0" times="0" xu_hao="4" qs="0"/>
+
+      <zi han_zi="问" pin_yin="wen" sheng_diao="4" id="126" mistakes="0" times="0" xu_hao="5" qs="0"/>
+
+      <zi han_zi="：" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="6" qs="0"/>
+
+      <zi han_zi="“" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="7" qs="0"/>
+
+      <zi han_zi="老" pin_yin="lao" sheng_diao="3" id="239" mistakes="0" times="0" xu_hao="8" qs="0"/>
+
+      <zi han_zi="婆" pin_yin="po" sheng_diao="2" id="316" mistakes="0" times="0" xu_hao="9" qs="0"/>
+
+      <zi han_zi="婆" pin_yin="po" sheng_diao="2" id="316" mistakes="0" times="0" xu_hao="10" qs="1"/>
+
+      <zi han_zi="，" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="11" qs="0"/>
+
+      <zi han_zi="您" pin_yin="nin" sheng_diao="2" id="2167" mistakes="0" times="0" xu_hao="12" qs="0"/>
+
+      <zi han_zi="在" pin_yin="zai" sheng_diao="4" id="780" mistakes="0" times="0" xu_hao="13" qs="0"/>
+
+      <zi han_zi="做" pin_yin="zuo" sheng_diao="4" id="2583" mistakes="0" times="0" xu_hao="14" qs="0"/>
+
+      <zi han_zi="什" pin_yin="shen" sheng_diao="2" id="2750" mistakes="0" times="0" xu_hao="15" qs="0"/>
+
+      <zi han_zi="么" pin_yin="me" sheng_diao="0" id="2622" mistakes="0" times="0" xu_hao="16" qs="0"/>
+
+      <zi han_zi="？" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="17" qs="0"/>
+
+      <zi han_zi="”" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="18" qs="0"/>
+
+      <zi han_zi=" " pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="19" qs="0"/>
+
+    </paragraph>
+
+  </page>
+
+  <page background="" audio_file="" style="2" align="left" line_spacing="3" scale="1.3" position_y="-16" position_x="3" characters_per_row="11" halign="center" valign="middle" rows_per_page="10" gameParagraph="7,5,6,6,6,5">
+
+    <cue_points>
+973.18,1211.97,1406.48,1627.68,1778.12,2087.68,2445.98,2999.00,3379.33,3578.50,3857.13,4113.72,5474.58,5768.56,5941.92,6195.62,6600.65,6947.82,7855.79,8130.19,8404.59,8678.76,8953.16,9231.11,10450.65,10686.55,11171.92,11550.02,11790.37,12064.76,12469.79,12744.19,13018.59,13364.42,13671.53</cue_points>
+
+    <paragraph align="left" style="0">
+
+      <zi han_zi="“" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="0" qs="0"/>
+
+      <zi han_zi="我" pin_yin="wo" sheng_diao="3" id="329" mistakes="0" times="0" xu_hao="1" qs="0"/>
+
+      <zi han_zi="要" pin_yin="yao" sheng_diao="4" id="569" mistakes="0" times="0" xu_hao="2" qs="0"/>
+
+      <zi han_zi="把" pin_yin="ba" sheng_diao="3" id="240" mistakes="0" times="0" xu_hao="3" qs="0"/>
+
+      <zi han_zi="这" pin_yin="zhe" sheng_diao="4" id="2175" mistakes="0" times="0" xu_hao="4" qs="0"/>
+
+      <zi han_zi="根" pin_yin="gen" sheng_diao="1" id="836" mistakes="0" times="0" xu_hao="5" qs="0"/>
+
+      <zi han_zi="铁" pin_yin="tie" sheng_diao="3" id="2665" mistakes="0" times="0" xu_hao="6" qs="0"/>
+
+      <zi han_zi="杵" pin_yin="chu" sheng_diao="3" id="2666" mistakes="0" times="0" xu_hao="7" qs="0"/>
+
+      <zi han_zi="磨" pin_yin="mo" sheng_diao="2" id="2293" mistakes="0" times="0" xu_hao="8" qs="0"/>
+
+      <zi han_zi="成" pin_yin="cheng" sheng_diao="2" id="1442" mistakes="0" times="0" xu_hao="9" qs="0"/>
+
+      <zi han_zi="绣" pin_yin="xiu" sheng_diao="4" id="141" mistakes="0" times="0" xu_hao="10" qs="0"/>
+
+      <zi han_zi="花" pin_yin="hua" sheng_diao="1" id="147" mistakes="0" times="0" xu_hao="11" qs="0"/>
+
+      <zi han_zi="针" pin_yin="zhen" sheng_diao="1" id="817" mistakes="0" times="0" xu_hao="12" qs="0"/>
+
+      <zi han_zi="。" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="13" qs="0"/>
+
+      <zi han_zi="”" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="14" qs="0"/>
+
+      <zi han_zi="老" pin_yin="lao" sheng_diao="3" id="239" mistakes="0" times="0" xu_hao="15" qs="0"/>
+
+      <zi han_zi="婆" pin_yin="po" sheng_diao="2" id="316" mistakes="0" times="0" xu_hao="16" qs="0"/>
+
+      <zi han_zi="婆" pin_yin="po" sheng_diao="2" id="316" mistakes="0" times="0" xu_hao="17" qs="1"/>
+
+      <zi han_zi="抬" pin_yin="tai" sheng_diao="2" id="2606" mistakes="0" times="0" xu_hao="18" qs="0"/>
+
+      <zi han_zi="起" pin_yin="qi" sheng_diao="3" id="503" mistakes="0" times="0" xu_hao="19" qs="0"/>
+
+      <zi han_zi="头" pin_yin="tou" sheng_diao="2" id="766" mistakes="0" times="0" xu_hao="20" qs="0"/>
+
+      <zi han_zi="，" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="21" qs="0"/>
+
+      <zi han_zi="对" pin_yin="dui" sheng_diao="4" id="195" mistakes="0" times="0" xu_hao="22" qs="0"/>
+
+      <zi han_zi="李" pin_yin="li" sheng_diao="3" id="1871" mistakes="0" times="0" xu_hao="23" qs="0"/>
+
+      <zi han_zi="白" pin_yin="bai" sheng_diao="2" id="31" mistakes="0" times="0" xu_hao="24" qs="0"/>
+
+      <zi han_zi="笑" pin_yin="xiao" sheng_diao="4" id="101" mistakes="0" times="0" xu_hao="25" qs="0"/>
+
+      <zi han_zi="了" pin_yin="le" sheng_diao="0" id="50" mistakes="0" times="0" xu_hao="26" qs="0"/>
+
+      <zi han_zi="笑" pin_yin="xiao" sheng_diao="4" id="101" mistakes="0" times="0" xu_hao="27" qs="0"/>
+
+      <zi han_zi="，" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="28" qs="0"/>
+
+      <zi han_zi="接" pin_yin="jie" sheng_diao="1" id="122" mistakes="0" times="0" xu_hao="29" qs="0"/>
+
+      <zi han_zi="着" pin_yin="zhe" sheng_diao="0" id="45" mistakes="0" times="0" xu_hao="30" qs="0"/>
+
+      <zi han_zi="又" pin_yin="you" sheng_diao="4" id="1636" mistakes="0" times="0" xu_hao="31" qs="0"/>
+
+      <zi han_zi="低" pin_yin="di" sheng_diao="1" id="42" mistakes="0" times="0" xu_hao="32" qs="0"/>
+
+      <zi han_zi="下" pin_yin="xia" sheng_diao="4" id="868" mistakes="0" times="0" xu_hao="33" qs="0"/>
+
+      <zi han_zi="头" pin_yin="tou" sheng_diao="2" id="766" mistakes="0" times="0" xu_hao="34" qs="0"/>
+
+      <zi han_zi="继" pin_yin="ji" sheng_diao="4" id="1466" mistakes="0" times="0" xu_hao="35" qs="0"/>
+
+      <zi han_zi="续" pin_yin="xv" sheng_diao="4" id="1514" mistakes="0" times="0" xu_hao="36" qs="0"/>
+
+      <zi han_zi="地" pin_yin="de" sheng_diao="0" id="2637" mistakes="0" times="0" xu_hao="37" qs="0"/>
+
+      <zi han_zi="磨" pin_yin="mo" sheng_diao="2" id="2293" mistakes="0" times="0" xu_hao="38" qs="0"/>
+
+      <zi han_zi="着" pin_yin="zhe" sheng_diao="0" id="45" mistakes="0" times="0" xu_hao="39" qs="0"/>
+
+      <zi han_zi="。" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="40" qs="0"/>
+
+    </paragraph>
+
+  </page>
+
+  <page background="" audio_file="" style="2" align="left" line_spacing="5" scale="1.7" position_y="-16" position_x="3" characters_per_row="8" halign="center" valign="middle" rows_per_page="10" gameParagraph="5,8,7">
+
+    <cue_points>
+774.61,1132.81,1473.10,1701.46,1938.77,2735.76,3044.71,3210.38,3420.82,3640.22,3882.01,4119.32,4325.51,4638.71,5032.73,5270.04,5482.05,5714.88,5947.71,6252.18</cue_points>
+
+    <paragraph align="left" style="0">
+
+      <zi han_zi="“" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="0" qs="0"/>
+
+      <zi han_zi="铁" pin_yin="tie" sheng_diao="3" id="2665" mistakes="0" times="0" xu_hao="1" qs="0"/>
+
+      <zi han_zi="杵" pin_yin="chu" sheng_diao="3" id="2666" mistakes="0" times="0" xu_hao="2" qs="0"/>
+
+      <zi han_zi="这" pin_yin="zhe" sheng_diao="4" id="2175" mistakes="0" times="0" xu_hao="3" qs="0"/>
+
+      <zi han_zi="么" pin_yin="me" sheng_diao="0" id="2622" mistakes="0" times="0" xu_hao="4" qs="0"/>
+
+      <zi han_zi="粗" pin_yin="cu" sheng_diao="1" id="2541" mistakes="0" times="0" xu_hao="5" qs="0"/>
+
+      <zi han_zi="，" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="6" qs="0"/>
+
+      <zi han_zi="什" pin_yin="shen" sheng_diao="2" id="2750" mistakes="0" times="0" xu_hao="7" qs="0"/>
+
+      <zi han_zi="么" pin_yin="me" sheng_diao="0" id="2622" mistakes="0" times="0" xu_hao="8" qs="0"/>
+
+      <zi han_zi="时" pin_yin="shi" sheng_diao="2" id="1523" mistakes="0" times="0" xu_hao="9" qs="0"/>
+
+      <zi han_zi="候" pin_yin="hou" sheng_diao="4" id="862" mistakes="0" times="0" xu_hao="10" qs="1"/>
+
+      <zi han_zi="才" pin_yin="cai" sheng_diao="2" id="345" mistakes="0" times="0" xu_hao="11" qs="0"/>
+
+      <zi han_zi="能" pin_yin="neng" sheng_diao="2" id="1990" mistakes="0" times="0" xu_hao="12" qs="0"/>
+
+      <zi han_zi="磨" pin_yin="mo" sheng_diao="2" id="2293" mistakes="0" times="0" xu_hao="13" qs="0"/>
+
+      <zi han_zi="成" pin_yin="cheng" sheng_diao="2" id="1442" mistakes="0" times="0" xu_hao="14" qs="0"/>
+
+      <zi han_zi="细" pin_yin="xi" sheng_diao="4" id="814" mistakes="0" times="0" xu_hao="15" qs="0"/>
+
+      <zi han_zi="细" pin_yin="xi" sheng_diao="4" id="814" mistakes="0" times="0" xu_hao="16" qs="0"/>
+
+      <zi han_zi="的" pin_yin="de" sheng_diao="0" id="2626" mistakes="0" times="0" xu_hao="17" qs="0"/>
+
+      <zi han_zi="绣" pin_yin="xiu" sheng_diao="4" id="141" mistakes="0" times="0" xu_hao="18" qs="0"/>
+
+      <zi han_zi="花" pin_yin="hua" sheng_diao="1" id="147" mistakes="0" times="0" xu_hao="19" qs="0"/>
+
+      <zi han_zi="针" pin_yin="zhen" sheng_diao="1" id="817" mistakes="0" times="0" xu_hao="20" qs="0"/>
+
+      <zi han_zi="呢" pin_yin="ne" sheng_diao="0" id="2168" mistakes="0" times="0" xu_hao="21" qs="0"/>
+
+      <zi han_zi="？" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="22" qs="0"/>
+
+      <zi han_zi="”" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="23" qs="0"/>
+
+    </paragraph>
+
+  </page>
+
+  <page background="" audio_file="" style="2" align="left" line_spacing="10" scale="1.2" position_y="-16" position_x="3" characters_per_row="12" halign="center" valign="middle" rows_per_page="10" gameParagraph="10,6,9,6,7">
+
+    <cue_points>
+767.89,1022.64,1164.74,1369.31,2660.95,2968.06,3463.09,3754.28,4092.75,4373.56,5340.47,5625.63,6219.57,6374.21,6584.34,6967.44,7985.26,8231.33,8462.93,8713.82,8984.02,9119.12,9312.11,9630.56,9881.45,10682.63,10976.71,11830.73,12134.70,12405.13,12631.66,12877.74,13157.58,13422.95,13697.97,13958.52,14200.01,14436.19</cue_points>
+
+    <paragraph align="left" style="0">
+
+      <zi han_zi="老" pin_yin="lao" sheng_diao="3" id="239" mistakes="0" times="0" xu_hao="0" qs="0"/>
+
+      <zi han_zi="婆" pin_yin="po" sheng_diao="2" id="316" mistakes="0" times="0" xu_hao="1" qs="0"/>
+
+      <zi han_zi="婆" pin_yin="po" sheng_diao="2" id="316" mistakes="0" times="0" xu_hao="2" qs="0"/>
+
+      <zi han_zi="说" pin_yin="shuo" sheng_diao="1" id="2037" mistakes="0" times="0" xu_hao="3" qs="0"/>
+
+      <zi han_zi="：" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="4" qs="0"/>
+
+      <zi han_zi="“" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="5" qs="0"/>
+
+      <zi han_zi="滴" pin_yin="di" sheng_diao="1" id="1389" mistakes="0" times="0" xu_hao="6" qs="0"/>
+
+      <zi han_zi="水" pin_yin="shui" sheng_diao="3" id="1035" mistakes="0" times="0" xu_hao="7" qs="0"/>
+
+      <zi han_zi="可" pin_yin="ke" sheng_diao="3" id="2041" mistakes="0" times="0" xu_hao="8" qs="0"/>
+
+      <zi han_zi="以" pin_yin="yi" sheng_diao="3" id="854" mistakes="0" times="0" xu_hao="9" qs="0"/>
+
+      <zi han_zi="穿" pin_yin="chuan" sheng_diao="1" id="1501" mistakes="0" times="0" xu_hao="10" qs="0"/>
+
+      <zi han_zi="石" pin_yin="shi" sheng_diao="2" id="212" mistakes="0" times="0" xu_hao="11" qs="0"/>
+
+      <zi han_zi="，" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="12" qs="0"/>
+
+      <zi han_zi="愚" pin_yin="yv" sheng_diao="2" id="1601" mistakes="0" times="0" xu_hao="13" qs="0"/>
+
+      <zi han_zi="公" pin_yin="gong" sheng_diao="1" id="972" mistakes="0" times="0" xu_hao="14" qs="0"/>
+
+      <zi han_zi="可" pin_yin="ke" sheng_diao="3" id="2041" mistakes="0" times="0" xu_hao="15" qs="0"/>
+
+      <zi han_zi="以" pin_yin="yi" sheng_diao="3" id="854" mistakes="0" times="0" xu_hao="16" qs="0"/>
+
+      <zi han_zi="移" pin_yin="yi" sheng_diao="2" id="2303" mistakes="0" times="0" xu_hao="17" qs="0"/>
+
+      <zi han_zi="山" pin_yin="shan" sheng_diao="1" id="516" mistakes="0" times="0" xu_hao="18" qs="0"/>
+
+      <zi han_zi="，" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="19" qs="0"/>
+
+      <zi han_zi="只" pin_yin="zhi" sheng_diao="3" id="2707" mistakes="0" times="0" xu_hao="20" qs="0"/>
+
+      <zi han_zi="要" pin_yin="yao" sheng_diao="4" id="569" mistakes="0" times="0" xu_hao="21" qs="0"/>
+
+      <zi han_zi="我" pin_yin="wo" sheng_diao="3" id="329" mistakes="0" times="0" xu_hao="22" qs="0"/>
+
+      <zi han_zi="不" pin_yin="bu" sheng_diao="4" id="86" mistakes="0" times="0" xu_hao="23" qs="0"/>
+
+      <zi han_zi="停" pin_yin="ting" sheng_diao="2" id="88" mistakes="0" times="0" xu_hao="24" qs="0"/>
+
+      <zi han_zi="地" pin_yin="de" sheng_diao="0" id="2637" mistakes="0" times="0" xu_hao="25" qs="0"/>
+
+      <zi han_zi="磨" pin_yin="mo" sheng_diao="2" id="2293" mistakes="0" times="0" xu_hao="26" qs="0"/>
+
+      <zi han_zi="下" pin_yin="xia" sheng_diao="4" id="868" mistakes="0" times="0" xu_hao="27" qs="0"/>
+
+      <zi han_zi="去" pin_yin="qv" sheng_diao="4" id="387" mistakes="0" times="0" xu_hao="28" qs="0"/>
+
+      <zi han_zi="，" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="29" qs="0"/>
+
+      <zi han_zi="铁" pin_yin="tie" sheng_diao="3" id="2665" mistakes="0" times="0" xu_hao="30" qs="0"/>
+
+      <zi han_zi="杵" pin_yin="chu" sheng_diao="3" id="2666" mistakes="0" times="0" xu_hao="31" qs="0"/>
+
+      <zi han_zi="总" pin_yin="zong" sheng_diao="3" id="89" mistakes="0" times="0" xu_hao="32" qs="0"/>
+
+      <zi han_zi="有" pin_yin="you" sheng_diao="3" id="282" mistakes="0" times="0" xu_hao="33" qs="0"/>
+
+      <zi han_zi="一" pin_yin="yi" sheng_diao="4" id="2089" mistakes="0" times="0" xu_hao="34" qs="0"/>
+
+      <zi han_zi="天" pin_yin="tian" sheng_diao="1" id="325" mistakes="0" times="0" xu_hao="35" qs="0"/>
+
+      <zi han_zi="会" pin_yin="hui" sheng_diao="4" id="211" mistakes="0" times="0" xu_hao="36" qs="0"/>
+
+      <zi han_zi="磨" pin_yin="mo" sheng_diao="2" id="2293" mistakes="0" times="0" xu_hao="37" qs="0"/>
+
+      <zi han_zi="成" pin_yin="cheng" sheng_diao="2" id="1442" mistakes="0" times="0" xu_hao="38" qs="0"/>
+
+      <zi han_zi="绣" pin_yin="xiu" sheng_diao="4" id="141" mistakes="0" times="0" xu_hao="39" qs="0"/>
+
+      <zi han_zi="花" pin_yin="hua" sheng_diao="1" id="147" mistakes="0" times="0" xu_hao="40" qs="0"/>
+
+      <zi han_zi="针" pin_yin="zhen" sheng_diao="1" id="817" mistakes="0" times="0" xu_hao="41" qs="0"/>
+
+      <zi han_zi="的" pin_yin="de" sheng_diao="0" id="2626" mistakes="0" times="0" xu_hao="42" qs="0"/>
+
+      <zi han_zi="。" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="43" qs="0"/>
+
+      <zi han_zi="”" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="44" qs="0"/>
+
+      <zi han_zi="" pin_yin="" sheng_diao="" mistakes="0" times="0" xu_hao="45" qs="0"/>
+
+      <zi han_zi="" pin_yin="" sheng_diao="" mistakes="0" times="0" xu_hao="46" qs="0"/>
+
+      <zi han_zi="" pin_yin="" sheng_diao="" mistakes="0" times="0" xu_hao="47" qs="0"/>
+
+    </paragraph>
+
+  </page>
+
+  <page background="" audio_file="" style="3" align="left" line_spacing="15" scale="1.5" position_y="-16" position_x="3" characters_per_row="10" halign="center" valign="middle" rows_per_page="10" gameParagraph="7,6,12">
+
+    <cue_points>
+545.01,980.18,1216.77,1436.47,1651.94,1926.56,2112.66,2784.21,3219.38,3553.15,3848.89,4165.76,4461.50,5724.75,6045.84,6303.56,6561.28,7266.84,7554.13,7769.60,7985.07,8145.62,8377.56,8622.61,8808.50</cue_points>
+
+    <paragraph align="left" style="0">
+
+      <zi han_zi="老" pin_yin="lao" sheng_diao="3" id="239" mistakes="0" times="0" xu_hao="0" qs="0"/>
+
+      <zi han_zi="婆" pin_yin="po" sheng_diao="2" id="316" mistakes="0" times="0" xu_hao="1" qs="0"/>
+
+      <zi han_zi="婆" pin_yin="po" sheng_diao="2" id="316" mistakes="0" times="0" xu_hao="2" qs="1"/>
+
+      <zi han_zi="的" pin_yin="de" sheng_diao="0" id="2626" mistakes="0" times="0" xu_hao="3" qs="0"/>
+
+      <zi han_zi="一" pin_yin="yi" sheng_diao="4" id="2089" mistakes="0" times="0" xu_hao="4" qs="0"/>
+
+      <zi han_zi="番" pin_yin="fan" sheng_diao="1" id="2602" mistakes="0" times="0" xu_hao="5" qs="0"/>
+
+      <zi han_zi="话" pin_yin="hua" sheng_diao="4" id="2619" mistakes="0" times="0" xu_hao="6" qs="0"/>
+
+      <zi han_zi="，" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="7" qs="0"/>
+
+      <zi han_zi="令" pin_yin="ling" sheng_diao="4" id="557" mistakes="0" times="0" xu_hao="8" qs="0"/>
+
+      <zi han_zi="李" pin_yin="li" sheng_diao="3" id="1871" mistakes="0" times="0" xu_hao="9" qs="0"/>
+
+      <zi han_zi="白" pin_yin="bai" sheng_diao="2" id="31" mistakes="0" times="0" xu_hao="10" qs="0"/>
+
+      <zi han_zi="很" pin_yin="hen" sheng_diao="3" id="2166" mistakes="0" times="0" xu_hao="11" qs="0"/>
+
+      <zi han_zi="惭" pin_yin="can" sheng_diao="2" id="2611" mistakes="0" times="0" xu_hao="12" qs="0"/>
+
+      <zi han_zi="愧" pin_yin="kui" sheng_diao="4" id="2612" mistakes="0" times="0" xu_hao="13" qs="0"/>
+
+      <zi han_zi="，" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="14" qs="0"/>
+
+      <zi han_zi="从" pin_yin="cong" sheng_diao="2" id="752" mistakes="0" times="0" xu_hao="15" qs="0"/>
+
+      <zi han_zi="此" pin_yin="ci" sheng_diao="3" id="502" mistakes="0" times="0" xu_hao="16" qs="0"/>
+
+      <zi han_zi="以" pin_yin="yi" sheng_diao="3" id="854" mistakes="0" times="0" xu_hao="17" qs="0"/>
+
+      <zi han_zi="后" pin_yin="hou" sheng_diao="4" id="855" mistakes="0" times="0" xu_hao="18" qs="0"/>
+
+      <zi han_zi="，" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="19" qs="0"/>
+
+      <zi han_zi="他" pin_yin="ta" sheng_diao="1" id="2179" mistakes="0" times="0" xu_hao="20" qs="0"/>
+
+      <zi han_zi="再" pin_yin="zai" sheng_diao="4" id="1626" mistakes="0" times="0" xu_hao="21" qs="0"/>
+
+      <zi han_zi="也" pin_yin="ye" sheng_diao="3" id="2169" mistakes="0" times="0" xu_hao="22" qs="0"/>
+
+      <zi han_zi="没" pin_yin="mei" sheng_diao="2" id="93" mistakes="0" times="0" xu_hao="23" qs="0"/>
+
+      <zi han_zi="有" pin_yin="you" sheng_diao="3" id="282" mistakes="0" times="0" xu_hao="24" qs="0"/>
+
+      <zi han_zi="逃" pin_yin="tao" sheng_diao="2" id="568" mistakes="0" times="0" xu_hao="25" qs="0"/>
+
+      <zi han_zi="过" pin_yin="guo" sheng_diao="4" id="1882" mistakes="0" times="0" xu_hao="26" qs="0"/>
+
+      <zi han_zi="学" pin_yin="xve" sheng_diao="2" id="632" mistakes="0" times="0" xu_hao="27" qs="0"/>
+
+      <zi han_zi="。" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="28" qs="0"/>
+
+    </paragraph>
+
+  </page>
+
+  <page background="" audio_file="" style="3" align="left" line_spacing="5" scale="1.7" position_y="-16" position_x="3" characters_per_row="8" halign="center" valign="middle" rows_per_page="10" gameParagraph="9,11">
+
+    <cue_points>
+884.19,1235.39,1594.85,1933.65,2189.82,2561.67,2817.84,3045.29,3231.22,4433.35,4734.97,5482.81,5681.13,5900.11,6148.02,6445.50,6850.41,7057.00,7222.48,7527.40</cue_points>
+
+    <paragraph align="left" style="0">
+
+      <zi han_zi="李" pin_yin="li" sheng_diao="3" id="1871" mistakes="0" times="0" xu_hao="0" qs="0"/>
+
+      <zi han_zi="白" pin_yin="bai" sheng_diao="2" id="31" mistakes="0" times="0" xu_hao="1" qs="0"/>
+
+      <zi han_zi="每" pin_yin="mei" sheng_diao="3" id="1405" mistakes="0" times="0" xu_hao="2" qs="0"/>
+
+      <zi han_zi="天" pin_yin="tian" sheng_diao="1" id="325" mistakes="0" times="0" xu_hao="3" qs="0"/>
+
+      <zi han_zi="用" pin_yin="yong" sheng_diao="4" id="108" mistakes="0" times="0" xu_hao="4" qs="0"/>
+
+      <zi han_zi="功" pin_yin="gong" sheng_diao="1" id="2156" mistakes="0" times="0" xu_hao="5" qs="0"/>
+
+      <zi han_zi="地" pin_yin="de" sheng_diao="0" id="2637" mistakes="0" times="0" xu_hao="6" qs="0"/>
+
+      <zi han_zi="学" pin_yin="xve" sheng_diao="2" id="632" mistakes="0" times="0" xu_hao="7" qs="0"/>
+
+      <zi han_zi="习" pin_yin="xi" sheng_diao="2" id="1878" mistakes="0" times="0" xu_hao="8" qs="0"/>
+
+      <zi han_zi="，" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="9" qs="0"/>
+
+      <zi han_zi="终" pin_yin="zhong" sheng_diao="1" id="264" mistakes="0" times="0" xu_hao="10" qs="0"/>
+
+      <zi han_zi="于" pin_yin="yv" sheng_diao="2" id="1992" mistakes="0" times="0" xu_hao="11" qs="0"/>
+
+      <zi han_zi="成" pin_yin="cheng" sheng_diao="2" id="1442" mistakes="0" times="0" xu_hao="12" qs="0"/>
+
+      <zi han_zi="了" pin_yin="le" sheng_diao="0" id="50" mistakes="0" times="0" xu_hao="13" qs="0"/>
+
+      <zi han_zi="名" pin_yin="ming" sheng_diao="2" id="396" mistakes="0" times="0" xu_hao="14" qs="0"/>
+
+      <zi han_zi="垂" pin_yin="chui" sheng_diao="2" id="997" mistakes="0" times="0" xu_hao="15" qs="0"/>
+
+      <zi han_zi="千" pin_yin="qian" sheng_diao="1" id="1610" mistakes="0" times="0" xu_hao="16" qs="0"/>
+
+      <zi han_zi="古" pin_yin="gu" sheng_diao="3" id="642" mistakes="0" times="0" xu_hao="17" qs="0"/>
+
+      <zi han_zi="的" pin_yin="de" sheng_diao="0" id="2626" mistakes="0" times="0" xu_hao="18" qs="0"/>
+
+      <zi han_zi="诗" pin_yin="shi" sheng_diao="1" id="1258" mistakes="0" times="0" xu_hao="19" qs="0"/>
+
+      <zi han_zi="仙" pin_yin="xian" sheng_diao="1" id="866" mistakes="0" times="0" xu_hao="20" qs="0"/>
+
+      <zi han_zi="。" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="21" qs="0"/>
+
+    </paragraph>
+
+  </page>
+
+  <page background="" audio_file="" style="4" align="left" line_spacing="15" scale="1.5" position_y="-16" position_x="3" characters_per_row="10" halign="center" valign="middle" rows_per_page="10" gameParagraph="6,11,8">
+
+    <cue_points>
+161.53,596.41,1325.37,1826.52,2128.87,2389.80,3222.29,3471.21,3802.14,4058.93,4249.45,4489.67,4792.02,5413.50,5662.21,5910.71,6183.66,6912.61,7214.96,7422.05,7562.87,8064.02,8271.11,8503.05,8751.97</cue_points>
+
+    <paragraph align="left" style="0">
+
+      <zi han_zi="成" pin_yin="cheng" sheng_diao="2" id="1442" mistakes="0" times="0" xu_hao="0" qs="0"/>
+
+      <zi han_zi="语" pin_yin="yv" sheng_diao="3" id="2747" mistakes="0" times="0" xu_hao="1" qs="0"/>
+
+      <zi han_zi="铁" pin_yin="tie" sheng_diao="3" id="2665" mistakes="0" times="0" xu_hao="2" qs="0"/>
+
+      <zi han_zi="杵" pin_yin="chu" sheng_diao="3" id="2666" mistakes="0" times="0" xu_hao="3" qs="0"/>
+
+      <zi han_zi="成" pin_yin="cheng" sheng_diao="2" id="1442" mistakes="0" times="0" xu_hao="4" qs="0"/>
+
+      <zi han_zi="针" pin_yin="zhen" sheng_diao="1" id="817" mistakes="0" times="0" xu_hao="5" qs="0"/>
+
+      <zi han_zi="，" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="6" qs="0"/>
+
+      <zi han_zi="比" pin_yin="bi" sheng_diao="3" id="2289" mistakes="0" times="0" xu_hao="7" qs="0"/>
+
+      <zi han_zi="喻" pin_yin="yv" sheng_diao="4" id="2586" mistakes="0" times="0" xu_hao="8" qs="0"/>
+
+      <zi han_zi="只" pin_yin="zhi" sheng_diao="3" id="2707" mistakes="0" times="0" xu_hao="9" qs="0"/>
+
+      <zi han_zi="要" pin_yin="yao" sheng_diao="4" id="569" mistakes="0" times="0" xu_hao="10" qs="0"/>
+
+      <zi han_zi="有" pin_yin="you" sheng_diao="3" id="282" mistakes="0" times="0" xu_hao="11" qs="0"/>
+
+      <zi han_zi="毅" pin_yin="yi" sheng_diao="4" id="2679" mistakes="0" times="0" xu_hao="12" qs="0"/>
+
+      <zi han_zi="力" pin_yin="li" sheng_diao="4" id="1237" mistakes="0" times="0" xu_hao="13" qs="0"/>
+
+      <zi han_zi="，" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="14" qs="0"/>
+
+      <zi han_zi="肯" pin_yin="ken" sheng_diao="3" id="2680" mistakes="0" times="0" xu_hao="15" qs="0"/>
+
+      <zi han_zi="下" pin_yin="xia" sheng_diao="4" id="868" mistakes="0" times="0" xu_hao="16" qs="0"/>
+
+      <zi han_zi="功" pin_yin="gong" sheng_diao="1" id="2156" mistakes="0" times="0" xu_hao="17" qs="0"/>
+
+      <zi han_zi="夫" pin_yin="fu" sheng_diao="1" xu_hao="18" id="1835" mistakes="0" times="0" qs="1"/>
+
+      <zi han_zi="，" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="19" qs="0"/>
+
+      <zi han_zi="再" pin_yin="zai" sheng_diao="4" id="1626" mistakes="0" times="0" xu_hao="20" qs="0"/>
+
+      <zi han_zi="难" pin_yin="nan" sheng_diao="2" id="278" mistakes="0" times="0" xu_hao="21" qs="0"/>
+
+      <zi han_zi="的" pin_yin="de" sheng_diao="0" id="2626" mistakes="0" times="0" xu_hao="22" qs="0"/>
+
+      <zi han_zi="事" pin_yin="shi" sheng_diao="4" id="620" mistakes="0" times="0" xu_hao="23" qs="0"/>
+
+      <zi han_zi="也" pin_yin="ye" sheng_diao="3" id="2169" mistakes="0" times="0" xu_hao="24" qs="0"/>
+
+      <zi han_zi="能" pin_yin="neng" sheng_diao="2" id="1990" mistakes="0" times="0" xu_hao="25" qs="0"/>
+
+      <zi han_zi="办" pin_yin="ban" sheng_diao="4" id="619" mistakes="0" times="0" xu_hao="26" qs="0"/>
+
+      <zi han_zi="到" pin_yin="dao" sheng_diao="4" id="111" mistakes="0" times="0" xu_hao="27" qs="0"/>
+
+      <zi han_zi="。" pin_yin="" sheng_diao="" id="" mistakes="0" times="0" xu_hao="28" qs="0"/>
+
+      <zi han_zi="" pin_yin="" sheng_diao="" mistakes="0" times="0" xu_hao="29" qs="0"/>
+
+    </paragraph>
+
+  </page>
+
+</pages>
+

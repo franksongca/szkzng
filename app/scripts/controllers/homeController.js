@@ -1,10 +1,11 @@
 'use strict';
 
 // home controller
-angular.module('szkzApp').controller('HomeCtrl', ['$rootScope', '$scope', 'TweenMax', '_', '$location', 'ArticleListFactory', 'AppConfiguration', 
-    'ngDialog', '$document','BookmarkManager', 'LanguageFactory', 'SZKZ_CONSTANTS', '$timeout', 'ActionButtonsFactory', 'UIService',
-    function ($rootScope, $scope, TweenMax, _, $location, ArticleListFactory, AppConfiguration, ngDialog, $document, BookmarkManager, 
-        LanguageFactory, SZKZ_CONSTANTS, $timeout, ActionButtonsFactory, UIService)
+angular.module('szkzApp').controller('HomeCtrl', ['$rootScope', '$scope', 'TweenMax', '_', '$location', 
+    'ArticleListFactory', 'ArticleFactory', 'AppConfiguration', 'ngDialog', '$document','BookmarkManager', 
+    'LanguageFactory', 'SZKZ_CONSTANTS', '$timeout', 'ActionButtonsFactory', 'UIService',
+    function ($rootScope, $scope, TweenMax, _, $location, ArticleListFactory, ArticleFactory, AppConfiguration, 
+        ngDialog, $document, BookmarkManager, LanguageFactory, SZKZ_CONSTANTS, $timeout, ActionButtonsFactory, UIService)
 {
     var lang = $scope.lang = AppConfiguration.getLanguage();
 
@@ -25,7 +26,7 @@ angular.module('szkzApp').controller('HomeCtrl', ['$rootScope', '$scope', 'Tween
 
     if (!$rootScope.$$listeners.doActionEvent) {
         $rootScope.$on('articleChanged', function (evt, bookmark) {
-            updateCurrentArticleInfo(bookmark);
+            updateCurrentArticleInfo(bookmark.bookmark);
         });
 
         $rootScope.$on('$routeChangeStart', function(evt, next, current) { 
@@ -60,19 +61,20 @@ angular.module('szkzApp').controller('HomeCtrl', ['$rootScope', '$scope', 'Tween
                 LanguageFactory.getPhraseLang('trainingMethod', 'py') : 
                 LanguageFactory.getPhraseLang('trainingMethod', lang)
         };
-
     }  
 
     function updateCurrentArticleInfo (bookmark) {
-        $timeout(function () {
-            var type = BookmarkManager.getSelectedArticleType(bookmark);
+        var type = BookmarkManager.getSelectedArticleType(bookmark);
 
-            $scope.articleInfo = ArticleListFactory.getArticleInfo(
-                type,
-                BookmarkManager.getSelectedArticleCode(bookmark)
-            );
+        $timeout(function () {
+            $scope.articleInfo = ArticleListFactory.getArticleInfo({
+                type: type,
+                code: BookmarkManager.getSelectedArticleCode(bookmark)
+            });
             $scope.articleInfo.typeLabel = ArticleListFactory.getArticleTypeLabel(type).hz; 
-        }, 0);
+        });
+        
+        ArticleFactory.loadArticle(bookmark);
     }
         
     function updateActionButtons() {

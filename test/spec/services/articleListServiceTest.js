@@ -403,24 +403,35 @@ describe('Factory: ArticleListFactory', function () {
     // (after Angular 1.2.5: be sure to use `toEqual` and not `toBe`
     // as the object will be a copy and not the same instance.)
     expect(result).toEqual(true);
+    console.log('PASS 1');
     expect(articles[0].type).toEqual('kj');
+    console.log('PASS 2');
     expect(articles[0].articles.length).toEqual(2);
+    console.log('PASS 3');
     expect(articles[1].articles.length).toEqual(1);
+    console.log('PASS 4');
     expect(articles[2].articles.length).toEqual(10);
+    console.log('PASS 5');
 
     appName = articleListFactory.getAppName(); 
     expect(appName.hz).toEqual('启蒙中文');
+    console.log('PASS 6');
     expect(appName.py).toEqual('qi3 meng2 zhong1 wen2');
+    console.log('PASS 7');
     expect(appName.en).toEqual('Easy HanZi');
+    console.log('PASS 8');
 
 
     expect(articleListFactory.getArticleCount()).toEqual(5);
+    console.log('PASS 9');
 
-    expect(articleListFactory.getArticleInfo('kj', 'SZJ').title.hz).toEqual('三字经');
+    expect(articleListFactory.getArticleInfo({type: 'kj', code: 'SZJ'}).title.hz).toEqual('三字经');
+    console.log('PASS 10');
 
     expect(articleListFactory.getArticleTypeLabel('kj').hz).toEqual('识字口诀');
+    console.log('PASS 11');
     expect(articleListFactory.getArticleTypeLabel('kj').en).toEqual('Literacy teaching pithy formula');
-
+    console.log('PASS 12');
 
     console.log('TYPE: ' + JSON.stringify(articleListFactory.getArticleTypeLabel('kj')));
   });  

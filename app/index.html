@@ -14,12 +14,28 @@
     <meta name="viewport" content="width=device-width">
     <style type="text/css">
         /* for splash spinner */
-        .sk-spinner-circle {
-            display: none;    
+        #spinner {
+            display: none; 
+            text-align: center;   
+        }
+
+        #spinner .message {
+          position: relative;
+          color: white;
+          font-size: 15px;
+          margin-top: 110%;
         }
 
         [ng-cloak] {
-            display: block !important;    
+            display: block !important;
+        }
+
+        #spinner > div:first-child {
+          position: absolute;
+          background: rgba(0, 0, 0, 1);
+          width: 100%;
+          height: 100vh;    
+          z-index: 10000;
         }
 
         .sk-spinner-circle.sk-spinner {
@@ -28,7 +44,7 @@
           top: calc(50% - 60px);
           width: 120px;
           height: 120px;
-          z-index: 10000;
+          z-index: 10001;
         }
         .sk-spinner-circle .sk-circle {
           width: 100%;
@@ -167,21 +183,24 @@
     <!-- endbuild -->
   </head>
   <body ng-app="szkzApp">
-    <div class="sk-spinner sk-spinner-circle" ng-cloak>
-        <div class="sk-circle1 sk-circle"></div>
-        <div class="sk-circle2 sk-circle"></div>
-        <div class="sk-circle3 sk-circle"></div>
-        <div class="sk-circle4 sk-circle"></div>
-        <div class="sk-circle5 sk-circle"></div>
-        <div class="sk-circle6 sk-circle"></div>
-        <div class="sk-circle7 sk-circle"></div>
-        <div class="sk-circle8 sk-circle"></div>
-        <div class="sk-circle9 sk-circle"></div>
-        <div class="sk-circle10 sk-circle"></div>
-        <!--div class="sk-circle11 sk-circle"></div>
-        <div class="sk-circle12 sk-circle"></div-->
+    <div id="spinner" ng-cloak>
+      <div></div>
+      <div class="sk-spinner sk-spinner-circle">
+          <div class="sk-circle1 sk-circle"></div>
+          <div class="sk-circle2 sk-circle"></div>
+          <div class="sk-circle3 sk-circle"></div>
+          <div class="sk-circle4 sk-circle"></div>
+          <div class="sk-circle5 sk-circle"></div>
+          <div class="sk-circle6 sk-circle"></div>
+          <div class="sk-circle7 sk-circle"></div>
+          <div class="sk-circle8 sk-circle"></div>
+          <div class="sk-circle9 sk-circle"></div>
+          <div class="sk-circle10 sk-circle"></div>
+          <!--div class="sk-circle11 sk-circle"></div>
+          <div class="sk-circle12 sk-circle"></div-->
+      <div class="message"></div>
+      </div>
     </div>
-
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -237,6 +256,7 @@
 	<!--services-->    
 	<script src="scripts/services/languageService.js"></script>
 	<script src="scripts/services/articleListService.js"></script>
+  <script src="scripts/services/articleService.js"></script>
 	<script src="scripts/services/appConfigurationService.js"></script>
 	<script src="scripts/services/bookmarkService.js"></script>
 	<script src="scripts/services/actionButtonsService.js"></script>
