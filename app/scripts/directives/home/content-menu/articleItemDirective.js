@@ -27,11 +27,12 @@ angular.module('szkzApp.directives').directive('articleItem', ['$rootScope', 'Bo
                     }
                     
                     TweenMax.fromTo(target, SZKZ_CONSTANTS.TIME_CONSTANTS.BUTTON_ANI_DURATION, {scaleY: 1}, {scaleY: -1, onComplete: function () {
-                        TweenMax.fromTo(target, SZKZ_CONSTANTS.TIME_CONSTANTS.BUTTON_ANI_DURATION, {scaleY: -1}, {scaleY: 1});
+                        TweenMax.fromTo(target, SZKZ_CONSTANTS.TIME_CONSTANTS.BUTTON_ANI_DURATION, {scaleY: -1}, {scaleY: 1, onComplete: function (){
+                            BookmarkManager.setSelectedArticleTypeCode(articleCode);
+                             $rootScope.$broadcast("articleItemSelectedEvent", articleCode);
+
+                        }});
                     }});
-                    
-                    BookmarkManager.setSelectedArticleTypeCode(articleCode);
-                    $rootScope.$broadcast("articleItemSelectedEvent", articleCode);
                     
                     
                     TweenMax.fromTo(selectedArticleTitle, SZKZ_CONSTANTS.TIME_CONSTANTS.ARTICLE_ANI_DURATION, {x: 480, opacity: 0}, 
