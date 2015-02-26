@@ -1,0 +1,2710 @@
+﻿<pages has_audio="1" background="default.jpg" scale="2" valign="top" halign="center" line_spacing="15" characters_per_row="7" rows_per_page="10" position_x="0" position_y="0" style="1">
+  <page background="" audio_file="" style="1" align="left" line_spacing="15" scale="2" position_y="0" position_x="0" characters_per_row="7" rows_per_page="10" halign="center" valign="middle">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="开" pin_yin="kai" sheng_diao="1" id="12" mistakes="0" times="0" xu_hao="0"/>
+      <zi han_zi="数" pin_yin="shu" sheng_diao="3" id="13" mistakes="0" times="0" xu_hao="1"/>
+      <zi han_zi="一" pin_yin="yi" sheng_diao="1" id="14" mistakes="0" times="0" xu_hao="2"/>
+      <zi han_zi="三" pin_yin="san" sheng_diao="1" id="1998" mistakes="0" times="0" xu_hao="3"/>
+      <zi han_zi="五" pin_yin="wu" sheng_diao="3" id="16" mistakes="0" times="0" xu_hao="4"/>
+      <zi han_zi="七" pin_yin="qi" sheng_diao="1" id="2014" mistakes="0" times="0" xu_hao="5"/>
+      <zi han_zi="九" pin_yin="jiu" sheng_diao="3" id="18" mistakes="0" times="0" xu_hao="6"/>
+      <zi han_zi="二" pin_yin="er" sheng_diao="4" id="19" mistakes="0" times="0" xu_hao="7"/>
+      <zi han_zi="四" pin_yin="si" sheng_diao="4" id="20" mistakes="0" times="0" xu_hao="8"/>
+      <zi han_zi="六" pin_yin="liu" sheng_diao="4" id="21" mistakes="0" times="0" xu_hao="9"/>
+      <zi han_zi="八" pin_yin="ba" sheng_diao="1" id="22" mistakes="0" times="0" xu_hao="10"/>
+      <zi han_zi="十" pin_yin="shi" sheng_diao="2" id="23" mistakes="0" times="0" xu_hao="11"/>
+      <zi han_zi="拍" pin_yin="pai" sheng_diao="1" id="24" mistakes="0" times="0" xu_hao="12"/>
+      <zi han_zi="手" pin_yin="shou" sheng_diao="3" id="25" mistakes="0" times="0" xu_hao="13"/>
+    </paragraph>
+    <paragraph align="left" style="0">
+      <zi han_zi="开" pin_yin="kai" sheng_diao="1" id="12" mistakes="0" times="0" xu_hao="0"/>
+      <zi han_zi="数" pin_yin="shu" sheng_diao="3" id="13" mistakes="0" times="0" xu_hao="1"/>
+      <zi han_zi="一" pin_yin="yi" sheng_diao="1" id="14" mistakes="0" times="0" xu_hao="2"/>
+      <zi han_zi="三" pin_yin="san" sheng_diao="1" id="1998" mistakes="0" times="0" xu_hao="3"/>
+      <zi han_zi="五" pin_yin="wu" sheng_diao="3" id="16" mistakes="0" times="0" xu_hao="4"/>
+      <zi han_zi="七" pin_yin="qi" sheng_diao="1" id="2014" mistakes="0" times="0" xu_hao="5"/>
+      <zi han_zi="九" pin_yin="jiu" sheng_diao="3" id="18" mistakes="0" times="0" xu_hao="6"/>
+      <zi han_zi="二" pin_yin="er" sheng_diao="4" id="19" mistakes="0" times="0" xu_hao="7"/>
+      <zi han_zi="四" pin_yin="si" sheng_diao="4" id="20" mistakes="0" times="0" xu_hao="8"/>
+      <zi han_zi="六" pin_yin="liu" sheng_diao="4" id="21" mistakes="0" times="0" xu_hao="9"/>
+      <zi han_zi="八" pin_yin="ba" sheng_diao="1" id="22" mistakes="0" times="0" xu_hao="10"/>
+      <zi han_zi="十" pin_yin="shi" sheng_diao="2" id="23" mistakes="0" times="0" xu_hao="11"/>
+      <zi han_zi="拍" pin_yin="pai" sheng_diao="1" id="24" mistakes="0" times="0" xu_hao="12"/>
+      <zi han_zi="手" pin_yin="shou" sheng_diao="3" id="25" mistakes="0" times="0" xu_hao="13"/>
+    </paragraph>
+    <paragraph align="left" style="0">
+      <zi han_zi="开" pin_yin="kai" sheng_diao="1" id="12" mistakes="0" times="0" xu_hao="0"/>
+      <zi han_zi="数" pin_yin="shu" sheng_diao="3" id="13" mistakes="0" times="0" xu_hao="1"/>
+      <zi han_zi="一" pin_yin="yi" sheng_diao="1" id="14" mistakes="0" times="0" xu_hao="2"/>
+      <zi han_zi="三" pin_yin="san" sheng_diao="1" id="1998" mistakes="0" times="0" xu_hao="3"/>
+      <zi han_zi="五" pin_yin="wu" sheng_diao="3" id="16" mistakes="0" times="0" xu_hao="4"/>
+      <zi han_zi="七" pin_yin="qi" sheng_diao="1" id="2014" mistakes="0" times="0" xu_hao="5"/>
+      <zi han_zi="九" pin_yin="jiu" sheng_diao="3" id="18" mistakes="0" times="0" xu_hao="6"/>
+      <zi han_zi="二" pin_yin="er" sheng_diao="4" id="19" mistakes="0" times="0" xu_hao="7"/>
+      <zi han_zi="四" pin_yin="si" sheng_diao="4" id="20" mistakes="0" times="0" xu_hao="8"/>
+      <zi han_zi="六" pin_yin="liu" sheng_diao="4" id="21" mistakes="0" times="0" xu_hao="9"/>
+      <zi han_zi="八" pin_yin="ba" sheng_diao="1" id="22" mistakes="0" times="0" xu_hao="10"/>
+      <zi han_zi="十" pin_yin="shi" sheng_diao="2" id="23" mistakes="0" times="0" xu_hao="11"/>
+      <zi han_zi="拍" pin_yin="pai" sheng_diao="1" id="24" mistakes="0" times="0" xu_hao="12"/>
+      <zi han_zi="手" pin_yin="shou" sheng_diao="3" id="25" mistakes="0" times="0" xu_hao="13"/>
+    </paragraph>
+    <paragraph align="left" style="0">
+      <zi han_zi="开" pin_yin="kai" sheng_diao="1" id="12" mistakes="0" times="0" xu_hao="0"/>
+      <zi han_zi="数" pin_yin="shu" sheng_diao="3" id="13" mistakes="0" times="0" xu_hao="1"/>
+      <zi han_zi="一" pin_yin="yi" sheng_diao="1" id="14" mistakes="0" times="0" xu_hao="2"/>
+      <zi han_zi="三" pin_yin="san" sheng_diao="1" id="1998" mistakes="0" times="0" xu_hao="3"/>
+      <zi han_zi="五" pin_yin="wu" sheng_diao="3" id="16" mistakes="0" times="0" xu_hao="4"/>
+      <zi han_zi="七" pin_yin="qi" sheng_diao="1" id="2014" mistakes="0" times="0" xu_hao="5"/>
+      <zi han_zi="九" pin_yin="jiu" sheng_diao="3" id="18" mistakes="0" times="0" xu_hao="6"/>
+      <zi han_zi="二" pin_yin="er" sheng_diao="4" id="19" mistakes="0" times="0" xu_hao="7"/>
+      <zi han_zi="四" pin_yin="si" sheng_diao="4" id="20" mistakes="0" times="0" xu_hao="8"/>
+      <zi han_zi="六" pin_yin="liu" sheng_diao="4" id="21" mistakes="0" times="0" xu_hao="9"/>
+      <zi han_zi="八" pin_yin="ba" sheng_diao="1" id="22" mistakes="0" times="0" xu_hao="10"/>
+      <zi han_zi="十" pin_yin="shi" sheng_diao="2" id="23" mistakes="0" times="0" xu_hao="11"/>
+      <zi han_zi="拍" pin_yin="pai" sheng_diao="1" id="24" mistakes="0" times="0" xu_hao="12"/>
+      <zi han_zi="手" pin_yin="shou" sheng_diao="3" id="25" mistakes="0" times="0" xu_hao="13"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="首" pin_yin="shou" sheng_diao="3" id="26" mistakes="0" times="0" xu_hao="0"/>
+      <zi han_zi="先" pin_yin="xian" sheng_diao="1" id="27" mistakes="0" times="0" xu_hao="1"/>
+      <zi han_zi="猫" pin_yin="mao" sheng_diao="1" id="28" mistakes="0" times="0" xu_hao="2"/>
+      <zi han_zi="找" pin_yin="zhao" sheng_diao="3" id="29" mistakes="0" times="0" xu_hao="3"/>
+      <zi han_zi="小" pin_yin="xiao" sheng_diao="3" id="30" mistakes="0" times="0" xu_hao="4"/>
+      <zi han_zi="白" pin_yin="bai" sheng_diao="2" id="31" mistakes="0" times="0" xu_hao="5"/>
+      <zi han_zi="兔" pin_yin="tu" sheng_diao="4" id="32" mistakes="0" times="0" xu_hao="6"/>
+          <zi han_zi="哥" pin_yin="ge" sheng_diao="1" id="33" mistakes="0" times="0" xu_hao="7"/>
+      <zi han_zi="俩" pin_yin="lia" sheng_diao="3" id="34" mistakes="0" times="0" xu_hao="8"/>
+      <zi han_zi="哗" pin_yin="hua" sheng_diao="1" id="35" mistakes="0" times="0" xu_hao="9"/>
+      <zi han_zi="啦" pin_yin="la" sheng_diao="1" id="36" mistakes="0" times="0" xu_hao="10"/>
+      <zi han_zi="浇" pin_yin="jiao" sheng_diao="1" id="37" mistakes="0" times="0" xu_hao="11"/>
+      <zi han_zi="树" pin_yin="shu" sheng_diao="4" id="38" mistakes="0" times="0" xu_hao="12"/>
+      <zi han_zi="木" pin_yin="mu" sheng_diao="4" id="39" mistakes="0" times="0" xu_hao="13"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="目" pin_yin="mu" sheng_diao="4" id="40" mistakes="0" times="0" xu_hao="0"/>
+      <zi han_zi="光" pin_yin="guang" sheng_diao="1" id="41" mistakes="0" times="0" xu_hao="1"/>
+      <zi han_zi="低" pin_yin="di" sheng_diao="1" id="42" mistakes="0" times="0" xu_hao="2"/>
+      <zi han_zi="看" pin_yin="kan" sheng_diao="4" id="43" mistakes="0" times="0" xu_hao="3"/>
+      <zi han_zi="弯" pin_yin="wan" sheng_diao="1" id="44" mistakes="0" times="0" xu_hao="4"/>
+      <zi han_zi="着" pin_yin="zhe" sheng_diao="0" id="45" mistakes="0" times="0" xu_hao="5"/>
+      <zi han_zi="腰" pin_yin="yao" sheng_diao="1" id="46" mistakes="0" times="0" xu_hao="6"/>
+          <zi han_zi="吃" pin_yin="chi" sheng_diao="1" id="47" mistakes="0" times="0" xu_hao="7"/>
+      <zi han_zi="草" pin_yin="cao" sheng_diao="3" id="48" mistakes="0" times="0" xu_hao="8"/>
+      <zi han_zi="为" pin_yin="wei" sheng_diao="4" id="49" mistakes="0" times="0" xu_hao="9"/>
+      <zi han_zi="了" pin_yin="le" sheng_diao="0" id="50" mistakes="0" times="0" xu_hao="10"/>
+      <zi han_zi="长" pin_yin="zhang" sheng_diao="3" id="51" mistakes="0" times="0" xu_hao="11"/>
+      <zi han_zi="肥" pin_yin="fei" sheng_diao="2" id="52" mistakes="0" times="0" xu_hao="12"/>
+      <zi han_zi="膘" pin_yin="biao" sheng_diao="1" id="53" mistakes="0" times="0" xu_hao="13"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="标" pin_yin="biao" sheng_diao="1" id="54"/>
+      <zi han_zi="明" pin_yin="ming" sheng_diao="2" id="55"/>
+      <zi han_zi="方" pin_yin="fang" sheng_diao="1" id="56"/>
+      <zi han_zi="向" pin_yin="xiang" sheng_diao="4" id="57"/>
+      <zi han_zi="奔" pin_yin="ben" sheng_diao="4" id="58"/>
+      <zi han_zi="前" pin_yin="qian" sheng_diao="2" id="59"/>
+      <zi han_zi="途" pin_yin="tu" sheng_diao="2" id="60"/>
+          <zi han_zi="驱" pin_yin="qv" sheng_diao="1" id="61"/>
+      <zi han_zi="蹄" pin_yin="ti" sheng_diao="2" id="62"/>
+      <zi han_zi="远" pin_yin="yvan" sheng_diao="3" id="63"/>
+      <zi han_zi="征" pin_yin="zheng" sheng_diao="1" id="64"/>
+      <zi han_zi="垦" pin_yin="ken" sheng_diao="3" id="65"/>
+      <zi han_zi="荒" pin_yin="huang" sheng_diao="1" id="66"/>
+      <zi han_zi="芜" pin_yin="wu" sheng_diao="2" id="67"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="无" pin_yin="wu" sheng_diao="2" id="68"/>
+      <zi han_zi="腿" pin_yin="tui" sheng_diao="3" id="69"/>
+      <zi han_zi="蝌" pin_yin="ke" sheng_diao="1" id="70"/>
+      <zi han_zi="蚪" pin_yin="dou" sheng_diao="3" id="71"/>
+      <zi han_zi="蛙" pin_yin="wa" sheng_diao="1" id="72"/>
+      <zi han_zi="泳" pin_yin="yong" sheng_diao="3" id="73"/>
+      <zi han_zi="练" pin_yin="lian" sheng_diao="4" id="74"/>
+          <zi han_zi="蛤" pin_yin="ha" sheng_diao="2" id="75"/>
+      <zi han_zi="蟆" pin_yin="ma" sheng_diao="2" id="76"/>
+      <zi han_zi="伸" pin_yin="shen" sheng_diao="1" id="77"/>
+      <zi han_zi="舌" pin_yin="she" sheng_diao="2" id="78"/>
+      <zi han_zi="窜" pin_yin="cuan" sheng_diao="4" id="79"/>
+      <zi han_zi="条" pin_yin="tiao" sheng_diao="2" id="80"/>
+      <zi han_zi="线" pin_yin="xian" sheng_diao="4" id="81"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="限" pin_yin="xian" sheng_diao="4" id="82"/>
+      <zi han_zi="制" pin_yin="zhi" sheng_diao="4" id="83"/>
+      <zi han_zi="调" pin_yin="tiao" sheng_diao="2" id="84"/>
+      <zi han_zi="皮" pin_yin="pi" sheng_diao="2" id="85"/>
+      <zi han_zi="不" pin_yin="bu" sheng_diao="4" id="86"/>
+      <zi han_zi="消" pin_yin="xiao" sheng_diao="1" id="87"/>
+      <zi han_zi="停" pin_yin="ting" sheng_diao="2" id="88"/>
+          <zi han_zi="总" pin_yin="zong" sheng_diao="3" id="89"/>
+      <zi han_zi="想" pin_yin="xiang" sheng_diao="3" id="90"/>
+      <zi han_zi="蹦" pin_yin="beng" sheng_diao="4" id="91"/>
+      <zi han_zi="跳" pin_yin="tiao" sheng_diao="4" id="92"/>
+      <zi han_zi="没" pin_yin="mei" sheng_diao="2" id="93"/>
+      <zi han_zi="正" pin_yin="zheng" sheng_diao="4" id="94"/>
+      <zi han_zi="形" pin_yin="xing" sheng_diao="2" id="95"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="行" pin_yin="xing" sheng_diao="2" id="96"/>
+      <zi han_zi="为" pin_yin="wei" sheng_diao="2" id="97"/>
+      <zi han_zi="机" pin_yin="ji" sheng_diao="1" id="98"/>
+      <zi han_zi="警" pin_yin="jing" sheng_diao="3" id="99"/>
+      <zi han_zi="勿" pin_yin="wu" sheng_diao="4" id="100"/>
+      <zi han_zi="笑" pin_yin="xiao" sheng_diao="4" id="101"/>
+      <zi han_zi="笨" pin_yin="ben" sheng_diao="4" id="102"/>
+          <zi han_zi="课" pin_yin="ke" sheng_diao="4" id="103"/>
+      <zi han_zi="余" pin_yin="yv" sheng_diao="2" id="104"/>
+      <zi han_zi="劳" pin_yin="lao" sheng_diao="2" id="105"/>
+      <zi han_zi="动" pin_yin="dong" sheng_diao="4" id="106"/>
+      <zi han_zi="巧" pin_yin="qiao" sheng_diao="3" id="107"/>
+      <zi han_zi="用" pin_yin="yong" sheng_diao="4" id="108"/>
+      <zi han_zi="劲" pin_yin="jin" sheng_diao="4" id="109"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="尽" pin_yin="jin" sheng_diao="4" id="110"/>
+      <zi han_zi="到" pin_yin="dao" sheng_diao="4" id="111"/>
+      <zi han_zi="职" pin_yin="zhi" sheng_diao="2" id="112"/>
+      <zi han_zi="责" pin_yin="ze" sheng_diao="2" id="113"/>
+      <zi han_zi="爱" pin_yin="ai" sheng_diao="4" id="114"/>
+      <zi han_zi="服" pin_yin="fu" sheng_diao="2" id="115"/>
+      <zi han_zi="务" pin_yin="wu" sheng_diao="4" id="116"/>
+          <zi han_zi="各" pin_yin="ge" sheng_diao="4" id="117"/>
+      <zi han_zi="行" pin_yin="hang" sheng_diao="2" id="118"/>
+      <zi han_zi="工" pin_yin="gong" sheng_diao="1" id="119"/>
+      <zi han_zi="作" pin_yin="zuo" sheng_diao="4" id="120"/>
+      <zi han_zi="都" pin_yin="dou" sheng_diao="1" id="121"/>
+      <zi han_zi="接" pin_yin="jie" sheng_diao="1" id="122"/>
+      <zi han_zi="触" pin_yin="chu" sheng_diao="4" id="123"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="处" pin_yin="chu" sheng_diao="3" id="124"/>
+      <zi han_zi="置" pin_yin="zhi" sheng_diao="4" id="125"/>
+      <zi han_zi="问" pin_yin="wen" sheng_diao="4" id="126"/>
+      <zi han_zi="题" pin_yin="ti" sheng_diao="2" id="127"/>
+      <zi han_zi="别" pin_yin="bie" sheng_diao="2" id="128"/>
+      <zi han_zi="归" pin_yin="gui" sheng_diao="1" id="129"/>
+      <zi han_zi="堆" pin_yin="dui" sheng_diao="1" id="130"/>
+          <zi han_zi="懒" pin_yin="lan" sheng_diao="3" id="131"/>
+      <zi han_zi="惰" pin_yin="duo" sheng_diao="4" id="132"/>
+      <zi han_zi="桌" pin_yin="zhuo" sheng_diao="1" id="133"/>
+      <zi han_zi="椅" pin_yin="yi" sheng_diao="3" id="134"/>
+      <zi han_zi="积" pin_yin="ji" sheng_diao="1" id="135"/>
+      <zi han_zi="厚" pin_yin="hou" sheng_diao="4" id="136"/>
+      <zi han_zi="灰" pin_yin="hui" sheng_diao="1" id="137"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="辉" pin_yin="hui" sheng_diao="1" id="138"/>
+      <zi han_zi="映" pin_yin="ying" sheng_diao="4" id="139"/>
+      <zi han_zi="锦" pin_yin="jin" sheng_diao="3" id="140"/>
+      <zi han_zi="绣" pin_yin="xiu" sheng_diao="4" id="141"/>
+      <zi han_zi="万" pin_yin="wan" sheng_diao="4" id="142"/>
+      <zi han_zi="年" pin_yin="nian" sheng_diao="2" id="143"/>
+      <zi han_zi="长" pin_yin="chang" sheng_diao="2" id="144"/>
+          <zi han_zi="稻" pin_yin="dao" sheng_diao="4" id="145"/>
+      <zi han_zi="禾" pin_yin="he" sheng_diao="2" id="146"/>
+      <zi han_zi="花" pin_yin="hua" sheng_diao="1" id="147"/>
+      <zi han_zi="香" pin_yin="xiang" sheng_diao="1" id="148"/>
+      <zi han_zi="麦" pin_yin="mai" sheng_diao="4" id="149"/>
+      <zi han_zi="穗" pin_yin="sui" sheng_diao="4" id="150"/>
+      <zi han_zi="黄" pin_yin="huang" sheng_diao="2" id="151"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="煌" pin_yin="huang" sheng_diao="2" id="152"/>
+      <zi han_zi="灿" pin_yin="can" sheng_diao="4" id="153"/>
+      <zi han_zi="玉" pin_yin="yv" sheng_diao="4" id="154"/>
+      <zi han_zi="米" pin_yin="mi" sheng_diao="3" id="155"/>
+      <zi han_zi="排" pin_yin="pai" sheng_diao="2" id="156"/>
+      <zi han_zi="金" pin_yin="jin" sheng_diao="1" id="157"/>
+      <zi han_zi="垛" pin_yin="duo" sheng_diao="4" id="158"/>
+          <zi han_zi="秋" pin_yin="qiu" sheng_diao="1" id="159"/>
+      <zi han_zi="收" pin_yin="shou" sheng_diao="1" id="160"/>
+      <zi han_zi="割" pin_yin="ge" sheng_diao="1" id="161"/>
+      <zi han_zi="豆" pin_yin="dou" sheng_diao="4" id="162"/>
+      <zi han_zi="镰" pin_yin="lian" sheng_diao="2" id="163"/>
+      <zi han_zi="闪" pin_yin="shan" sheng_diao="3" id="164"/>
+      <zi han_zi="烁" pin_yin="shuo" sheng_diao="4" id="165"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="硕" pin_yin="shuo" sheng_diao="4" id="166"/>
+      <zi han_zi="士" pin_yin="shi" sheng_diao="4" id="167"/>
+      <zi han_zi="挥" pin_yin="hui" sheng_diao="1" id="168"/>
+      <zi han_zi="毫" pin_yin="hao" sheng_diao="2" id="169"/>
+      <zi han_zi="雁" pin_yin="yan" sheng_diao="4" id="170"/>
+      <zi han_zi="翎" pin_yin="ling" sheng_diao="2" id="171"/>
+      <zi han_zi="抹" pin_yin="mo" sheng_diao="3" id="172"/>
+          <zi han_zi="篇" pin_yin="pian" sheng_diao="1" id="173"/>
+      <zi han_zi="章" pin_yin="zhang" sheng_diao="1" id="174"/>
+      <zi han_zi="墨" pin_yin="mo" sheng_diao="4" id="175"/>
+      <zi han_zi="迹" pin_yin="ji" sheng_diao="4" id="176"/>
+      <zi han_zi="画" pin_yin="hua" sheng_diao="4" id="177"/>
+      <zi han_zi="卷" pin_yin="jvan" sheng_diao="4" id="178"/>
+      <zi han_zi="裹" pin_yin="guo" sheng_diao="3" id="179"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="果" pin_yin="guo" sheng_diao="3" id="180"/>
+      <zi han_zi="汁" pin_yin="zhi" sheng_diao="1" id="181"/>
+      <zi han_zi="乏" pin_yin="fa" sheng_diao="2" id="182"/>
+      <zi han_zi="味" pin_yin="wei" sheng_diao="4" id="183"/>
+      <zi han_zi="浅" pin_yin="qian" sheng_diao="3" id="184"/>
+      <zi han_zi="杯" pin_yin="bei" sheng_diao="1" id="185"/>
+      <zi han_zi="盛" pin_yin="cheng" sheng_diao="2" id="186"/>
+          <zi han_zi="畅" pin_yin="chang" sheng_diao="4" id="187"/>
+      <zi han_zi="游" pin_yin="you" sheng_diao="2" id="188"/>
+      <zi han_zi="智" pin_yin="zhi" sheng_diao="4" id="189"/>
+      <zi han_zi="海" pin_yin="hai" sheng_diao="3" id="190"/>
+      <zi han_zi="喜" pin_yin="xi" sheng_diao="3" id="191"/>
+      <zi han_zi="洋" pin_yin="yang" sheng_diao="2" id="192"/>
+      <zi han_zi="盈" pin_yin="ying" sheng_diao="2" id="193"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="迎" pin_yin="ying" sheng_diao="2" id="194"/>
+      <zi han_zi="对" pin_yin="dui" sheng_diao="4" id="195"/>
+      <zi han_zi="荣" pin_yin="rong" sheng_diao="2" id="196"/>
+      <zi han_zi="榜" pin_yin="bang" sheng_diao="3" id="197"/>
+      <zi han_zi="苦" pin_yin="ku" sheng_diao="3" id="198"/>
+      <zi han_zi="含" pin_yin="han" sheng_diao="2" id="199"/>
+      <zi han_zi="甜" pin_yin="tian" sheng_diao="2" id="200"/>
+          <zi han_zi="寒" pin_yin="han" sheng_diao="2" id="201"/>
+      <zi han_zi="窗" pin_yin="chuang" sheng_diao="1" id="202"/>
+      <zi han_zi="冰" pin_yin="bing" sheng_diao="1" id="203"/>
+      <zi han_zi="化" pin_yin="hua" sheng_diao="4" id="204"/>
+      <zi han_zi="春" pin_yin="chun" sheng_diao="1" id="205"/>
+      <zi han_zi="满" pin_yin="man" sheng_diao="3" id="206"/>
+      <zi han_zi="园" pin_yin="yvan" sheng_diao="2" id="207"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="原" pin_yin="yvan" sheng_diao="2" id="208"/>
+      <zi han_zi="始" pin_yin="shi" sheng_diao="3" id="209"/>
+      <zi han_zi="社" pin_yin="she" sheng_diao="4" id="210"/>
+      <zi han_zi="会" pin_yin="hui" sheng_diao="4" id="211"/>
+      <zi han_zi="石" pin_yin="shi" sheng_diao="2" id="212"/>
+      <zi han_zi="耕" pin_yin="geng" sheng_diao="1" id="213"/>
+      <zi han_zi="犁" pin_yin="li" sheng_diao="2" id="214"/>
+          <zi han_zi="母" pin_yin="mu" sheng_diao="3" id="215"/>
+      <zi han_zi="系" pin_yin="xi" sheng_diao="4" id="216"/>
+      <zi han_zi="氏" pin_yin="shi" sheng_diao="4" id="217"/>
+      <zi han_zi="族" pin_yin="zu" sheng_diao="2" id="218"/>
+      <zi han_zi="部" pin_yin="bu" sheng_diao="4" id="219"/>
+      <zi han_zi="落" pin_yin="luo" sheng_diao="4" id="220"/>
+      <zi han_zi="集" pin_yin="ji" sheng_diao="2" id="221"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="籍" pin_yin="ji" sheng_diao="2" id="222"/>
+      <zi han_zi="贯" pin_yin="guan" sheng_diao="4" id="223"/>
+      <zi han_zi="华" pin_yin="hua" sheng_diao="2" id="224"/>
+      <zi han_zi="夏" pin_yin="xia" sheng_diao="4" id="225"/>
+      <zi han_zi="身" pin_yin="shen" sheng_diao="1" id="226"/>
+      <zi han_zi="永" pin_yin="yong" sheng_diao="3" id="227"/>
+      <zi han_zi="驻" pin_yin="zhu" sheng_diao="4" id="228"/>
+          <zi han_zi="疾" pin_yin="ji" sheng_diao="2" id="229"/>
+      <zi han_zi="风" pin_yin="feng" sheng_diao="1" id="230"/>
+      <zi han_zi="骤" pin_yin="zhou" sheng_diao="4" id="231"/>
+      <zi han_zi="雨" pin_yin="yv" sheng_diao="3" id="232"/>
+      <zi han_zi="位" pin_yin="wei" sheng_diao="4" id="233"/>
+      <zi han_zi="牢" pin_yin="lao" sheng_diao="2" id="234"/>
+      <zi han_zi="固" pin_yin="gu" sheng_diao="4" id="235"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="故" pin_yin="gu" sheng_diao="4" id="236"/>
+      <zi han_zi="乡" pin_yin="xiang" sheng_diao="1" id="237"/>
+      <zi han_zi="父" pin_yin="fu" sheng_diao="4" id="238"/>
+      <zi han_zi="老" pin_yin="lao" sheng_diao="3" id="239"/>
+      <zi han_zi="把" pin_yin="ba" sheng_diao="3" id="240"/>
+      <zi han_zi="俺" pin_yin="an" sheng_diao="3" id="241"/>
+      <zi han_zi="疼" pin_yin="teng" sheng_diao="2" id="242"/>
+          <zi han_zi="挂" pin_yin="gua" sheng_diao="4" id="243"/>
+      <zi han_zi="念" pin_yin="nian" sheng_diao="4" id="244"/>
+      <zi han_zi="冷" pin_yin="leng" sheng_diao="3" id="245"/>
+      <zi han_zi="暖" pin_yin="nuan" sheng_diao="3" id="246"/>
+      <zi han_zi="惦" pin_yin="dian" sheng_diao="4" id="247"/>
+      <zi han_zi="阴" pin_yin="yin" sheng_diao="1" id="248"/>
+      <zi han_zi="晴" pin_yin="qing" sheng_diao="2" id="249"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="情" pin_yin="qing" sheng_diao="2" id="250"/>
+      <zi han_zi="操" pin_yin="cao" sheng_diao="1" id="251"/>
+      <zi han_zi="高" pin_yin="gao" sheng_diao="1" id="252"/>
+      <zi han_zi="尚" pin_yin="shang" sheng_diao="4" id="253"/>
+      <zi han_zi="像" pin_yin="xiang" sheng_diao="4" id="254"/>
+      <zi han_zi="雷" pin_yin="lei" sheng_diao="2" id="255"/>
+      <zi han_zi="锋" pin_yin="feng" sheng_diao="1" id="256"/>
+          <zi han_zi="修" pin_yin="xiu" sheng_diao="1" id="257"/>
+      <zi han_zi="养" pin_yin="yang" sheng_diao="3" id="258"/>
+      <zi han_zi="品" pin_yin="pin" sheng_diao="3" id="259"/>
+      <zi han_zi="德" pin_yin="de" sheng_diao="2" id="260"/>
+      <zi han_zi="常" pin_yin="chang" sheng_diao="2" id="261"/>
+      <zi han_zi="鸣" pin_yin="ming" sheng_diao="2" id="262"/>
+      <zi han_zi="钟" pin_yin="zhong" sheng_diao="1" id="263"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="终" pin_yin="zhong" sheng_diao="1" id="264"/>
+      <zi han_zi="南" pin_yin="nan" sheng_diao="2" id="265"/>
+      <zi han_zi="捷" pin_yin="jie" sheng_diao="2" id="266"/>
+      <zi han_zi="径" pin_yin="jing" sheng_diao="4" id="267"/>
+      <zi han_zi="稍" pin_yin="shao" sheng_diao="1" id="268"/>
+      <zi han_zi="偷" pin_yin="tou" sheng_diao="1" id="269"/>
+      <zi han_zi="闲" pin_yin="xian" sheng_diao="2" id="270"/>
+          <zi han_zi="苏" pin_yin="su" sheng_diao="1" id="271"/>
+      <zi han_zi="秦" pin_yin="qin" sheng_diao="2" id="272"/>
+      <zi han_zi="刺" pin_yin="ci" sheng_diao="4" id="273"/>
+      <zi han_zi="股" pin_yin="gu" sheng_diao="3" id="274"/>
+      <zi han_zi="好" pin_yin="hao" sheng_diao="3" id="275"/>
+      <zi han_zi="儿" pin_yin="er" sheng_diao="2" id="276"/>
+      <zi han_zi="男" pin_yin="nan" sheng_diao="2" id="277"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="难" pin_yin="nan" sheng_diao="2" id="278"/>
+      <zi han_zi="得" pin_yin="de" sheng_diao="2" id="279"/>
+      <zi han_zi="坚" pin_yin="jian" sheng_diao="1" id="280"/>
+      <zi han_zi="定" pin_yin="ding" sheng_diao="4" id="281"/>
+      <zi han_zi="有" pin_yin="you" sheng_diao="3" id="282"/>
+      <zi han_zi="胆" pin_yin="dan" sheng_diao="3" id="283"/>
+      <zi han_zi="量" pin_yin="liang" sheng_diao="4" id="284"/>
+          <zi han_zi="勇" pin_yin="yong" sheng_diao="3" id="285"/>
+      <zi han_zi="敢" pin_yin="gan" sheng_diao="3" id="286"/>
+      <zi han_zi="拼" pin_yin="pin" sheng_diao="1" id="287"/>
+      <zi han_zi="杀" pin_yin="sha" sheng_diao="1" id="288"/>
+      <zi han_zi="斗" pin_yin="dou" sheng_diao="4" id="289"/>
+      <zi han_zi="志" pin_yin="zhi" sheng_diao="4" id="290"/>
+      <zi han_zi="旺" pin_yin="wang" sheng_diao="4" id="291"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="忘" pin_yin="wang" sheng_diao="4" id="292"/>
+      <zi han_zi="恩" pin_yin="en" sheng_diao="1" id="293"/>
+      <zi han_zi="负" pin_yin="fu" sheng_diao="4" id="294"/>
+      <zi han_zi="义" pin_yin="yi" sheng_diao="4" id="295"/>
+      <zi han_zi="最" pin_yin="zui" sheng_diao="4" id="296"/>
+      <zi han_zi="耻" pin_yin="chi" sheng_diao="3" id="297"/>
+      <zi han_zi="辱" pin_yin="ru" sheng_diao="3" id="298"/>
+          <zi han_zi="叛" pin_yin="pan" sheng_diao="4" id="299"/>
+      <zi han_zi="徒" pin_yin="tu" sheng_diao="2" id="300"/>
+      <zi han_zi="走" pin_yin="zou" sheng_diao="3" id="301"/>
+      <zi han_zi="狗" pin_yin="gou" sheng_diao="3" id="302"/>
+      <zi han_zi="同" pin_yin="tong" sheng_diao="2" id="303"/>
+      <zi han_zi="类" pin_yin="lei" sheng_diao="4" id="304"/>
+      <zi han_zi="组" pin_yin="zu" sheng_diao="3" id="305"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="祖" pin_yin="zu" sheng_diao="3" id="306"/>
+      <zi han_zi="冲" pin_yin="chong" sheng_diao="1" id="307"/>
+      <zi han_zi="之" pin_yin="zhi" sheng_diao="1" id="308"/>
+      <zi han_zi="预" pin_yin="yv" sheng_diao="4" id="309"/>
+      <zi han_zi="圆" pin_yin="yvan" sheng_diao="2" id="310"/>
+      <zi han_zi="周" pin_yin="zhou" sheng_diao="1" id="311"/>
+      <zi han_zi="率" pin_yin="lv" sheng_diao="4" id="312"/>
+          <zi han_zi="穆" pin_yin="mu" sheng_diao="4" id="313"/>
+      <zi han_zi="桂" pin_yin="gui" sheng_diao="4" id="314"/>
+      <zi han_zi="英" pin_yin="ying" sheng_diao="1" id="315"/>
+      <zi han_zi="婆" pin_yin="po" sheng_diao="2" id="316"/>
+      <zi han_zi="谓" pin_yin="wei" sheng_diao="4" id="317"/>
+      <zi han_zi="巾" pin_yin="jin" sheng_diao="1" id="318"/>
+      <zi han_zi="帼" pin_yin="guo" sheng_diao="2" id="319"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="国" pin_yin="guo" sheng_diao="2" id="320"/>
+      <zi han_zi="旗" pin_yin="qi" sheng_diao="2" id="321"/>
+      <zi han_zi="飘" pin_yin="piao" sheng_diao="1" id="322"/>
+      <zi han_zi="扬" pin_yin="yang" sheng_diao="2" id="323"/>
+      <zi han_zi="云" pin_yin="yvn" sheng_diao="2" id="324"/>
+      <zi han_zi="天" pin_yin="tian" sheng_diao="1" id="325"/>
+      <zi han_zi="外" pin_yin="wai" sheng_diao="4" id="326"/>
+          <zi han_zi="激" pin_yin="ji" sheng_diao="1" id="327"/>
+      <zi han_zi="励" pin_yin="li" sheng_diao="4" id="328"/>
+      <zi han_zi="我" pin_yin="wo" sheng_diao="3" id="329"/>
+      <zi han_zi="们" pin_yin="men" sheng_diao="0" id="330"/>
+      <zi han_zi="更" pin_yin="geng" sheng_diao="4" id="331"/>
+      <zi han_zi="豪" pin_yin="hao" sheng_diao="2" id="332"/>
+      <zi han_zi="迈" pin_yin="mai" sheng_diao="4" id="333"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="脉" pin_yin="mai" sheng_diao="4" id="334"/>
+      <zi han_zi="络" pin_yin="luo" sheng_diao="4" id="335"/>
+      <zi han_zi="清" pin_yin="qing" sheng_diao="1" id="336"/>
+      <zi han_zi="晰" pin_yin="xi" sheng_diao="1" id="337"/>
+      <zi han_zi="靠" pin_yin="kao" sheng_diao="4" id="338"/>
+      <zi han_zi="斟" pin_yin="zhen" sheng_diao="1" id="339"/>
+      <zi han_zi="酌" pin_yin="zhuo" sheng_diao="2" id="340"/>
+          <zi han_zi="勤" pin_yin="qin" sheng_diao="2" id="341"/>
+      <zi han_zi="奋" pin_yin="fen" sheng_diao="4" id="342"/>
+      <zi han_zi="钻" pin_yin="zuan" sheng_diao="1" id="343"/>
+      <zi han_zi="研" pin_yin="yan" sheng_diao="2" id="344"/>
+      <zi han_zi="才" pin_yin="cai" sheng_diao="2" id="345"/>
+      <zi han_zi="渊" pin_yin="yvan" sheng_diao="1" id="346"/>
+      <zi han_zi="博" pin_yin="bo" sheng_diao="2" id="347"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="搏" pin_yin="bo" sheng_diao="2" id="348"/>
+      <zi han_zi="击" pin_yin="ji" sheng_diao="1" id="349"/>
+      <zi han_zi="汹" pin_yin="xiong" sheng_diao="1" id="350"/>
+      <zi han_zi="涛" pin_yin="tao" sheng_diao="1" id="351"/>
+      <zi han_zi="稳" pin_yin="wen" sheng_diao="3" id="352"/>
+      <zi han_zi="坐" pin_yin="zuo" sheng_diao="4" id="353"/>
+      <zi han_zi="船" pin_yin="chuan" sheng_diao="2" id="354"/>
+          <zi han_zi="杜" pin_yin="du" sheng_diao="4" id="355"/>
+      <zi han_zi="绝" pin_yin="jve" sheng_diao="2" id="356"/>
+      <zi han_zi="贿" pin_yin="hui" sheng_diao="4" id="357"/>
+      <zi han_zi="赂" pin_yin="lu" sheng_diao="4" id="358"/>
+      <zi han_zi="恒" pin_yin="heng" sheng_diao="2" id="359"/>
+      <zi han_zi="倡" pin_yin="chang" sheng_diao="4" id="360"/>
+      <zi han_zi="廉" pin_yin="lian" sheng_diao="2" id="361"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="连" pin_yin="lian" sheng_diao="2" id="362"/>
+      <zi han_zi="队" pin_yin="dui" sheng_diao="4" id="363"/>
+      <zi han_zi="招" pin_yin="zhao" sheng_diao="1" id="364"/>
+      <zi han_zi="兵" pin_yin="bing" sheng_diao="1" id="365"/>
+      <zi han_zi="踊" pin_yin="yong" sheng_diao="3" id="366"/>
+      <zi han_zi="参" pin_yin="can" sheng_diao="1" id="367"/>
+      <zi han_zi="军" pin_yin="jvn" sheng_diao="1" id="368"/>
+          <zi han_zi="迄" pin_yin="qi" sheng_diao="4" id="369"/>
+      <zi han_zi="今" pin_yin="jin" sheng_diao="1" id="370"/>
+      <zi han_zi="转" pin_yin="zhuan" sheng_diao="3" id="371"/>
+      <zi han_zi="战" pin_yin="zhan" sheng_diao="4" id="372"/>
+      <zi han_zi="历" pin_yin="li" sheng_diao="4" id="373"/>
+      <zi han_zi="艰" pin_yin="jian" sheng_diao="1" id="374"/>
+      <zi han_zi="辛" pin_yin="xin" sheng_diao="1" id="375"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="心" pin_yin="xin" sheng_diao="1" id="376"/>
+      <zi han_zi="驰" pin_yin="chi" sheng_diao="2" id="377"/>
+      <zi han_zi="神" pin_yin="shen" sheng_diao="2" id="378"/>
+      <zi han_zi="往" pin_yin="wang" sheng_diao="3" id="379"/>
+      <zi han_zi="抱" pin_yin="bao" sheng_diao="4" id="380"/>
+      <zi han_zi="希" pin_yin="xi" sheng_diao="1" id="381"/>
+      <zi han_zi="望" pin_yin="wang" sheng_diao="4" id="382"/>
+          <zi han_zi="捍" pin_yin="han" sheng_diao="4" id="383"/>
+      <zi han_zi="卫" pin_yin="wei" sheng_diao="4" id="384"/>
+      <zi han_zi="边" pin_yin="bian" sheng_diao="1" id="385"/>
+      <zi han_zi="陲" pin_yin="chui" sheng_diao="2" id="386"/>
+      <zi han_zi="去" pin_yin="qv" sheng_diao="4" id="387"/>
+      <zi han_zi="西" pin_yin="xi" sheng_diao="1" id="388"/>
+      <zi han_zi="藏" pin_yin="zang" sheng_diao="4" id="389"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="脏" pin_yin="zang" sheng_diao="4" id="390"/>
+      <zi han_zi="腑" pin_yin="fu" sheng_diao="3" id="391"/>
+      <zi han_zi="铭" pin_yin="ming" sheng_diao="2" id="392"/>
+      <zi han_zi="刻" pin_yin="ke" sheng_diao="4" id="393"/>
+      <zi han_zi="亲" pin_yin="qin" sheng_diao="1" id="394"/>
+      <zi han_zi="友" pin_yin="you" sheng_diao="3" id="395"/>
+      <zi han_zi="名" pin_yin="ming" sheng_diao="2" id="396"/>
+          <zi han_zi="共" pin_yin="gong" sheng_diao="4" id="397"/>
+      <zi han_zi="铸" pin_yin="zhu" sheng_diao="4" id="398"/>
+      <zi han_zi="铜" pin_yin="tong" sheng_diao="2" id="399"/>
+      <zi han_zi="墙" pin_yin="qiang" sheng_diao="2" id="400"/>
+      <zi han_zi="守" pin_yin="shou" sheng_diao="3" id="401"/>
+      <zi han_zi="藩" pin_yin="fan" sheng_diao="1" id="402"/>
+      <zi han_zi="屏" pin_yin="ping" sheng_diao="2" id="403"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="平" pin_yin="ping" sheng_diao="2" id="404"/>
+      <zi han_zi="等" pin_yin="deng" sheng_diao="3" id="405"/>
+      <zi han_zi="竞" pin_yin="jing" sheng_diao="4" id="406"/>
+      <zi han_zi="赛" pin_yin="sai" sheng_diao="4" id="407"/>
+      <zi han_zi="赶" pin_yin="gan" sheng_diao="3" id="408"/>
+      <zi han_zi="步" pin_yin="bu" sheng_diao="4" id="409"/>
+      <zi han_zi="撵" pin_yin="nian" sheng_diao="3" id="410"/>
+          <zi han_zi="快" pin_yin="kuai" sheng_diao="4" id="411"/>
+      <zi han_zi="马" pin_yin="ma" sheng_diao="3" id="412"/>
+      <zi han_zi="加" pin_yin="jia" sheng_diao="1" id="413"/>
+      <zi han_zi="鞭" pin_yin="bian" sheng_diao="1" id="414"/>
+      <zi han_zi="飞" pin_yin="fei" sheng_diao="1" id="415"/>
+      <zi han_zi="轮" pin_yin="lun" sheng_diao="2" id="416"/>
+      <zi han_zi="辗" pin_yin="zhan" sheng_diao="3" id="417"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="展" pin_yin="zhan" sheng_diao="3" id="418"/>
+      <zi han_zi="翅" pin_yin="chi" sheng_diao="4" id="419"/>
+      <zi han_zi="讯" pin_yin="xvn" sheng_diao="4" id="420"/>
+      <zi han_zi="鸽" pin_yin="ge" sheng_diao="1" id="421"/>
+      <zi han_zi="台" pin_yin="tai" sheng_diao="2" id="422"/>
+      <zi han_zi="湾" pin_yin="wan" sheng_diao="1" id="423"/>
+      <zi han_zi="赴" pin_yin="fu" sheng_diao="4" id="424"/>
+          <zi han_zi="尧" pin_yin="yao" sheng_diao="2" id="425"/>
+      <zi han_zi="舜" pin_yin="shun" sheng_diao="4" id="426"/>
+      <zi han_zi="裔" pin_yin="yi" sheng_diao="1" id="427"/>
+      <zi han_zi="胞" pin_yin="bao" sheng_diao="1" id="428"/>
+      <zi han_zi="回" pin_yin="hui" sheng_diao="2" id="429"/>
+      <zi han_zi="大" pin_yin="da" sheng_diao="4" id="430"/>
+      <zi han_zi="陆" pin_yin="lu" sheng_diao="4" id="431"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="路" pin_yin="lu" sheng_diao="4" id="432"/>
+      <zi han_zi="温" pin_yin="wen" sheng_diao="1" id="433"/>
+      <zi han_zi="舒" pin_yin="shu" sheng_diao="1" id="434"/>
+      <zi han_zi="披" pin_yin="pi" sheng_diao="1" id="435"/>
+      <zi han_zi="蒲" pin_yin="pu" sheng_diao="2" id="436"/>
+      <zi han_zi="席" pin_yin="xi" sheng_diao="2" id="437"/>
+      <zi han_zi="薄" pin_yin="bao" sheng_diao="2" id="438"/>
+          <zi han_zi="借" pin_yin="jie" sheng_diao="4" id="439"/>
+      <zi han_zi="书" pin_yin="shu" sheng_diao="1" id="440"/>
+      <zi han_zi="抄" pin_yin="chao" sheng_diao="1" id="441"/>
+      <zi han_zi="写" pin_yin="xie" sheng_diao="3" id="442"/>
+      <zi han_zi="竹" pin_yin="zhu" sheng_diao="2" id="443"/>
+      <zi han_zi="简" pin_yin="jian" sheng_diao="3" id="444"/>
+      <zi han_zi="摇" pin_yin="yao" sheng_diao="2" id="445"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="遥" pin_yin="yao" sheng_diao="2" id="446"/>
+      <zi han_zi="控" pin_yin="kong" sheng_diao="4" id="447"/>
+      <zi han_zi="苍" pin_yin="cang" sheng_diao="1" id="448"/>
+      <zi han_zi="穹" pin_yin="qiong" sheng_diao="2" id="449"/>
+      <zi han_zi="牵" pin_yin="qian" sheng_diao="1" id="450"/>
+      <zi han_zi="皇" pin_yin="huang" sheng_diao="2" id="451"/>
+      <zi han_zi="须" pin_yin="xv" sheng_diao="1" id="452"/>
+          <zi han_zi="银" pin_yin="yin" sheng_diao="2" id="453"/>
+      <zi han_zi="河" pin_yin="he" sheng_diao="2" id="454"/>
+      <zi han_zi="托" pin_yin="tuo" sheng_diao="1" id="455"/>
+      <zi han_zi="星" pin_yin="xing" sheng_diao="1" id="456"/>
+      <zi han_zi="攀" pin_yin="pan" sheng_diao="1" id="457"/>
+      <zi han_zi="崎" pin_yin="qi" sheng_diao="2" id="458"/>
+      <zi han_zi="岖" pin_yin="qv" sheng_diao="1" id="459"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="曲" pin_yin="qv" sheng_diao="1" id="460"/>
+      <zi han_zi="突" pin_yin="tu" sheng_diao="1" id="461"/>
+      <zi han_zi="徙" pin_yin="xi" sheng_diao="3" id="462"/>
+      <zi han_zi="薪" pin_yin="xin" sheng_diao="1" id="463"/>
+      <zi han_zi="枉" pin_yin="wang" sheng_diao="3" id="464"/>
+      <zi han_zi="劝" pin_yin="qvan" sheng_diao="4" id="465"/>
+      <zi han_zi="佛" pin_yin="fo" sheng_diao="2" id="466"/>
+          <zi han_zi="导" pin_yin="dao" sheng_diao="3" id="467"/>
+      <zi han_zi="致" pin_yin="zhi" sheng_diao="4" id="468"/>
+      <zi han_zi="劫" pin_yin="jie" sheng_diao="2" id="469"/>
+      <zi han_zi="难" pin_yin="nan" sheng_diao="4" id="470"/>
+      <zi han_zi="车" pin_yin="che" sheng_diao="1" id="471"/>
+      <zi han_zi="覆" pin_yin="fu" sheng_diao="4" id="472"/>
+      <zi han_zi="辙" pin_yin="zhe" sheng_diao="2" id="473"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="折" pin_yin="zhe" sheng_diao="2" id="474"/>
+      <zi han_zi="算" pin_yin="suan" sheng_diao="4" id="475"/>
+      <zi han_zi="仍" pin_yin="reng" sheng_diao="2" id="476"/>
+      <zi han_zi="缺" pin_yin="qve" sheng_diao="1" id="477"/>
+      <zi han_zi="投" pin_yin="tou" sheng_diao="2" id="478"/>
+      <zi han_zi="资" pin_yin="zi" sheng_diao="1" id="479"/>
+      <zi han_zi="钱" pin_yin="qian" sheng_diao="2" id="480"/>
+          <zi han_zi="差" pin_yin="cha" sheng_diao="1" id="481"/>
+      <zi han_zi="额" pin_yin="e" sheng_diao="2" id="482"/>
+      <zi han_zi="贷" pin_yin="dai" sheng_diao="4" id="483"/>
+      <zi han_zi="款" pin_yin="kuan" sheng_diao="3" id="484"/>
+      <zi han_zi="短" pin_yin="duan" sheng_diao="3" id="485"/>
+      <zi han_zi="期" pin_yin="qi" sheng_diao="1" id="486"/>
+      <zi han_zi="还" pin_yin="huan" sheng_diao="2" id="487"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="环" pin_yin="huan" sheng_diao="2" id="488"/>
+      <zi han_zi="弧" pin_yin="hu" sheng_diao="2" id="489"/>
+      <zi han_zi="赤" pin_yin="chi" sheng_diao="4" id="490"/>
+      <zi han_zi="橙" pin_yin="cheng" sheng_diao="2" id="491"/>
+      <zi han_zi="趋" pin_yin="qv" sheng_diao="1" id="492"/>
+      <zi han_zi="蓝" pin_yin="lan" sheng_diao="2" id="493"/>
+      <zi han_zi="紫" pin_yin="zi" sheng_diao="3" id="494"/>
+          <zi han_zi="横" pin_yin="heng" sheng_diao="2" id="495"/>
+      <zi han_zi="空" pin_yin="kong" sheng_diao="1" id="496"/>
+      <zi han_zi="架" pin_yin="jia" sheng_diao="4" id="497"/>
+      <zi han_zi="桥" pin_yin="qiao" sheng_diao="2" id="498"/>
+      <zi han_zi="双" pin_yin="shuang" sheng_diao="1" id="499"/>
+      <zi han_zi="脚" pin_yin="jiao" sheng_diao="3" id="500"/>
+      <zi han_zi="跐" pin_yin="ci" sheng_diao="3" id="501"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="此" pin_yin="ci" sheng_diao="3" id="502"/>
+      <zi han_zi="起" pin_yin="qi" sheng_diao="3" id="503"/>
+      <zi han_zi="彼" pin_yin="bi" sheng_diao="3" id="504"/>
+      <zi han_zi="伏" pin_yin="fu" sheng_diao="2" id="505"/>
+      <zi han_zi="舟" pin_yin="zhou" sheng_diao="1" id="506"/>
+      <zi han_zi="泛" pin_yin="fan" sheng_diao="4" id="507"/>
+      <zi han_zi="涓" pin_yin="jvan" sheng_diao="1" id="508"/>
+          <zi han_zi="波" pin_yin="bo" sheng_diao="1" id="509"/>
+      <zi han_zi="涌" pin_yin="yong" sheng_diao="3" id="510"/>
+      <zi han_zi="桨" pin_yin="jiang" sheng_diao="3" id="511"/>
+      <zi han_zi="板" pin_yin="ban" sheng_diao="3" id="512"/>
+      <zi han_zi="漂" pin_yin="piao" sheng_diao="1" id="2765"/>
+      <zi han_zi="洗" pin_yin="xi" sheng_diao="3" id="514"/>
+      <zi han_zi="舢" pin_yin="shan" sheng_diao="1" id="515"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="山" pin_yin="shan" sheng_diao="1" id="516"/>
+      <zi han_zi="岌" pin_yin="ji" sheng_diao="2" id="517"/>
+      <zi han_zi="坡" pin_yin="po" sheng_diao="1" id="518"/>
+      <zi han_zi="陡" pin_yin="dou" sheng_diao="3" id="519"/>
+      <zi han_zi="熊" pin_yin="xiong" sheng_diao="2" id="520"/>
+      <zi han_zi="爪" pin_yin="zhua" sheng_diao="3" id="521"/>
+      <zi han_zi="蹑" pin_yin="nie" sheng_diao="4" id="522"/>
+          <zi han_zi="悬" pin_yin="xvan" sheng_diao="2" id="523"/>
+      <zi han_zi="崖" pin_yin="ya" sheng_diao="2" id="524"/>
+      <zi han_zi="猴" pin_yin="hou" sheng_diao="2" id="525"/>
+      <zi han_zi="闹" pin_yin="nao" sheng_diao="4" id="526"/>
+      <zi han_zi="雄" pin_yin="xiong" sheng_diao="2" id="527"/>
+      <zi han_zi="鹰" pin_yin="ying" sheng_diao="1" id="528"/>
+      <zi han_zi="跃" pin_yin="yve" sheng_diao="4" id="529"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="越" pin_yin="yve" sheng_diao="4" id="530"/>
+      <zi han_zi="俎" pin_yin="zu" sheng_diao="3" id="531"/>
+      <zi han_zi="代" pin_yin="dai" sheng_diao="4" id="532"/>
+      <zi han_zi="庖" pin_yin="pao" sheng_diao="2" id="533"/>
+      <zi han_zi="显" pin_yin="xian" sheng_diao="3" id="534"/>
+      <zi han_zi="特" pin_yin="te" sheng_diao="4" id="535"/>
+      <zi han_zi="殊" pin_yin="shu" sheng_diao="1" id="536"/>
+          <zi han_zi="惹" pin_yin="re" sheng_diao="3" id="537"/>
+      <zi han_zi="脑" pin_yin="nao" sheng_diao="3" id="538"/>
+      <zi han_zi="阿" pin_yin="a" sheng_diao="1" id="539"/>
+      <zi han_zi="姨" pin_yin="yi" sheng_diao="2" id="540"/>
+      <zi han_zi="悔" pin_yin="hui" sheng_diao="3" id="541"/>
+      <zi han_zi="当" pin_yin="dang" sheng_diao="1" id="542"/>
+      <zi han_zi="初" pin_yin="chu" sheng_diao="1" id="543"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="出" pin_yin="chu" sheng_diao="1" id="544"/>
+      <zi han_zi="发" pin_yin="fa" sheng_diao="1" id="545"/>
+      <zi han_zi="打" pin_yin="da" sheng_diao="3" id="546"/>
+      <zi han_zi="仗" pin_yin="zhang" sheng_diao="4" id="547"/>
+      <zi han_zi="趟" pin_yin="tang" sheng_diao="1" id="548"/>
+      <zi han_zi="泥" pin_yin="ni" sheng_diao="2" id="549"/>
+      <zi han_zi="泞" pin_yin="ning" sheng_diao="4" id="550"/>
+          <zi han_zi="宋" pin_yin="song" sheng_diao="4" id="551"/>
+      <zi han_zi="屯" pin_yin="tun" sheng_diao="2" id="552"/>
+      <zi han_zi="休" pin_yin="xiu" sheng_diao="1" id="553"/>
+      <zi han_zi="整" pin_yin="zheng" sheng_diao="3" id="554"/>
+      <zi han_zi="待" pin_yin="dai" sheng_diao="4" id="555"/>
+      <zi han_zi="命" pin_yin="ming" sheng_diao="4" id="556"/>
+      <zi han_zi="令" pin_yin="ling" sheng_diao="4" id="557"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="另" pin_yin="ling" sheng_diao="4" id="558"/>
+      <zi han_zi="场" pin_yin="chang" sheng_diao="3" id="559"/>
+      <zi han_zi="围" pin_yin="wei" sheng_diao="2" id="560"/>
+      <zi han_zi="歼" pin_yin="jian" sheng_diao="1" id="561"/>
+      <zi han_zi="绷" pin_yin="beng" sheng_diao="1" id="562"/>
+      <zi han_zi="紧" pin_yin="jin" sheng_diao="3" id="563"/>
+      <zi han_zi="弓" pin_yin="gong" sheng_diao="1" id="564"/>
+          <zi han_zi="钳" pin_yin="qian" sheng_diao="2" id="565"/>
+      <zi han_zi="敌" pin_yin="di" sheng_diao="2" id="566"/>
+      <zi han_zi="潜" pin_yin="qian" sheng_diao="2" id="567"/>
+      <zi han_zi="逃" pin_yin="tao" sheng_diao="2" id="568"/>
+      <zi han_zi="要" pin_yin="yao" sheng_diao="4" id="569"/>
+      <zi han_zi="塞" pin_yin="sai" sheng_diao="4" id="570"/>
+      <zi han_zi="封" pin_yin="feng" sheng_diao="1" id="571"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="峰" pin_yin="feng" sheng_diao="1" id="572"/>
+      <zi han_zi="叠" pin_yin="die" sheng_diao="2" id="573"/>
+      <zi han_zi="雾" pin_yin="wu" sheng_diao="4" id="574"/>
+      <zi han_zi="嶂" pin_yin="zhang" sheng_diao="4" id="575"/>
+      <zi han_zi="罩" pin_yin="zhao" sheng_diao="4" id="576"/>
+      <zi han_zi="巅" pin_yin="dian" sheng_diao="1" id="577"/>
+      <zi han_zi="峦" pin_yin="luan" sheng_diao="2" id="578"/>
+          <zi han_zi="哪" pin_yin="ne" sheng_diao="2" id="579"/>
+      <zi han_zi="吒" pin_yin="zha" sheng_diao="1" id="580"/>
+      <zi han_zi="叱" pin_yin="chi" sheng_diao="4" id="581"/>
+      <zi han_zi="咤" pin_yin="zha" sheng_diao="4" id="582"/>
+      <zi han_zi="掀" pin_yin="xian" sheng_diao="1" id="583"/>
+      <zi han_zi="狂" pin_yin="kuang" sheng_diao="2" id="584"/>
+      <zi han_zi="澜" pin_yin="lan" sheng_diao="2" id="585"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="拦" pin_yin="lan" sheng_diao="2" id="586"/>
+      <zi han_zi="截" pin_yin="jie" sheng_diao="2" id="587"/>
+      <zi han_zi="狮" pin_yin="shi" sheng_diao="1" id="588"/>
+      <zi han_zi="豹" pin_yin="bao" sheng_diao="4" id="589"/>
+      <zi han_zi="恭" pin_yin="gong" sheng_diao="1" id="590"/>
+      <zi han_zi="耳" pin_yin="er" sheng_diao="3" id="591"/>
+      <zi han_zi="听" pin_yin="ting" sheng_diao="1" id="592"/>
+          <zi han_zi="瀑" pin_yin="pu" sheng_diao="4" id="593"/>
+      <zi han_zi="布" pin_yin="bu" sheng_diao="4" id="594"/>
+      <zi han_zi="梳" pin_yin="shu" sheng_diao="1" id="595"/>
+      <zi han_zi="辫" pin_yin="bian" sheng_diao="4" id="596"/>
+      <zi han_zi="奏" pin_yin="zou" sheng_diao="4" id="597"/>
+      <zi han_zi="箫" pin_yin="xiao" sheng_diao="1" id="598"/>
+      <zi han_zi="笙" pin_yin="sheng" sheng_diao="1" id="599"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="生" pin_yin="sheng" sheng_diao="1" id="600"/>
+      <zi han_zi="活" pin_yin="huo" sheng_diao="2" id="601"/>
+      <zi han_zi="富" pin_yin="fu" sheng_diao="4" id="602"/>
+      <zi han_zi="裕" pin_yin="yv" sheng_diao="4" id="603"/>
+      <zi han_zi="忆" pin_yin="yi" sheng_diao="4" id="604"/>
+      <zi han_zi="饿" pin_yin="e" sheng_diao="4" id="605"/>
+      <zi han_zi="饥" pin_yin="ji" sheng_diao="1" id="606"/>
+          <zi han_zi="幸" pin_yin="xing" sheng_diao="4" id="607"/>
+      <zi han_zi="福" pin_yin="fu" sheng_diao="2" id="608"/>
+      <zi han_zi="尤" pin_yin="you" sheng_diao="2" id="609"/>
+      <zi han_zi="其" pin_yin="qi" sheng_diao="2" id="610"/>
+      <zi han_zi="倍" pin_yin="bei" sheng_diao="4" id="611"/>
+      <zi han_zi="珍" pin_yin="zhen" sheng_diao="1" id="612"/>
+      <zi han_zi="惜" pin_yin="xi" sheng_diao="1" id="613"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="息" pin_yin="xi" sheng_diao="1" id="614"/>
+      <zi han_zi="怒" pin_yin="nu" sheng_diao="4" id="615"/>
+      <zi han_zi="忍" pin_yin="ren" sheng_diao="3" id="616"/>
+      <zi han_zi="让" pin_yin="rang" sheng_diao="4" id="617"/>
+      <zi han_zi="易" pin_yin="yi" sheng_diao="4" id="618"/>
+      <zi han_zi="办" pin_yin="ban" sheng_diao="4" id="619"/>
+      <zi han_zi="事" pin_yin="shi" sheng_diao="4" id="620"/>
+          <zi han_zi="谦" pin_yin="qian" sheng_diao="1" id="621"/>
+      <zi han_zi="虚" pin_yin="xv" sheng_diao="1" id="622"/>
+      <zi han_zi="谨" pin_yin="jin" sheng_diao="3" id="623"/>
+      <zi han_zi="慎" pin_yin="shen" sheng_diao="4" id="624"/>
+      <zi han_zi="认" pin_yin="ren" sheng_diao="4" id="625"/>
+      <zi han_zi="读" pin_yin="du" sheng_diao="2" id="626"/>
+      <zi han_zi="字" pin_yin="zi" sheng_diao="4" id="627"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="自" pin_yin="zi" sheng_diao="4" id="628"/>
+      <zi han_zi="己" pin_yin="ji" sheng_diao="3" id="629"/>
+      <zi han_zi="衫" pin_yin="shan" sheng_diao="1" id="630"/>
+      <zi han_zi="破" pin_yin="po" sheng_diao="4" id="631"/>
+      <zi han_zi="学" pin_yin="xve" sheng_diao="2" id="632"/>
+      <zi han_zi="缀" pin_yin="zhui" sheng_diao="4" id="633"/>
+      <zi han_zi="补" pin_yin="bu" sheng_diao="3" id="634"/>
+          <zi han_zi="迅" pin_yin="xvn" sheng_diao="4" id="635"/>
+      <zi han_zi="而" pin_yin="er" sheng_diao="2" id="636"/>
+      <zi han_zi="太" pin_yin="tai" sheng_diao="4" id="637"/>
+      <zi han_zi="狠" pin_yin="hen" sheng_diao="3" id="638"/>
+      <zi han_zi="捶" pin_yin="chui" sheng_diao="2" id="639"/>
+      <zi han_zi="坏" pin_yin="huai" sheng_diao="4" id="640"/>
+      <zi han_zi="鼓" pin_yin="gu" sheng_diao="3" id="641"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="古" pin_yin="gu" sheng_diao="3" id="642"/>
+      <zi han_zi="朝" pin_yin="chao" sheng_diao="2" id="643"/>
+      <zi han_zi="殿" pin_yin="dian" sheng_diao="4" id="644"/>
+      <zi han_zi="埋" pin_yin="mai" sheng_diao="2" id="645"/>
+      <zi han_zi="奴" pin_yin="nu" sheng_diao="2" id="646"/>
+      <zi han_zi="隶" pin_yin="li" sheng_diao="4" id="647"/>
+      <zi han_zi="魂" pin_yin="hun" sheng_diao="2" id="648"/>
+          <zi han_zi="人" pin_yin="ren" sheng_diao="2" id="649"/>
+      <zi han_zi="民" pin_yin="min" sheng_diao="2" id="650"/>
+      <zi han_zi="主" pin_yin="zhu" sheng_diao="3" id="651"/>
+      <zi han_zi="宰" pin_yin="zai" sheng_diao="3" id="652"/>
+      <zi han_zi="葬" pin_yin="zang" sheng_diao="4" id="653"/>
+      <zi han_zi="帝" pin_yin="di" sheng_diao="4" id="654"/>
+      <zi han_zi="臣" pin_yin="chen" sheng_diao="2" id="655"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="沉" pin_yin="chen" sheng_diao="2" id="656"/>
+      <zi han_zi="淀" pin_yin="dian" sheng_diao="4" id="657"/>
+      <zi han_zi="渣" pin_yin="zha" sheng_diao="1" id="658"/>
+      <zi han_zi="滓" pin_yin="zi" sheng_diao="3" id="659"/>
+      <zi han_zi="全" pin_yin="qvan" sheng_diao="2" id="660"/>
+      <zi han_zi="扫" pin_yin="sao" sheng_diao="3" id="661"/>
+      <zi han_zi="除" pin_yin="chu" sheng_diao="2" id="662"/>
+          <zi han_zi="宏" pin_yin="hong" sheng_diao="2" id="663"/>
+      <zi han_zi="伟" pin_yin="wei" sheng_diao="3" id="664"/>
+      <zi han_zi="史" pin_yin="shi" sheng_diao="3" id="665"/>
+      <zi han_zi="册" pin_yin="ce" sheng_diao="4" id="666"/>
+      <zi han_zi="著" pin_yin="zhu" sheng_diao="4" id="667"/>
+      <zi han_zi="新" pin_yin="xin" sheng_diao="1" id="668"/>
+      <zi han_zi="幅" pin_yin="fu" sheng_diao="2" id="669"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="浮" pin_yin="fu" sheng_diao="2" id="670"/>
+      <zi han_zi="尘" pin_yin="chen" sheng_diao="2" id="671"/>
+      <zi han_zi="颗" pin_yin="ke" sheng_diao="1" id="672"/>
+      <zi han_zi="粒" pin_yin="li" sheng_diao="4" id="673"/>
+      <zi han_zi="肌" pin_yin="ji" sheng_diao="1" id="674"/>
+      <zi han_zi="肤" pin_yin="fu" sheng_diao="1" id="675"/>
+      <zi han_zi="沾" pin_yin="zhan" sheng_diao="1" id="676"/>
+          <zi han_zi="鱼" pin_yin="yv" sheng_diao="2" id="677"/>
+      <zi han_zi="鳖" pin_yin="bie" sheng_diao="1" id="678"/>
+      <zi han_zi="虾" pin_yin="xia" sheng_diao="1" id="679"/>
+      <zi han_zi="蟹" pin_yin="xie" sheng_diao="4" id="680"/>
+      <zi han_zi="潮" pin_yin="chao" sheng_diao="2" id="681"/>
+      <zi han_zi="汐" pin_yin="xi" sheng_diao="1" id="682"/>
+      <zi han_zi="淹" pin_yin="yan" sheng_diao="1" id="683"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="烟" pin_yin="yan" sheng_diao="1" id="684"/>
+      <zi han_zi="卷" pin_yin="jvan" sheng_diao="3" id="685"/>
+      <zi han_zi="丧" pin_yin="sang" sheng_diao="1" id="686"/>
+      <zi han_zi="幡" pin_yin="fan" sheng_diao="1" id="687"/>
+      <zi han_zi="猢" pin_yin="hu" sheng_diao="2" id="688"/>
+      <zi han_zi="狲" pin_yin="sun" sheng_diao="1" id="689"/>
+      <zi han_zi="散" pin_yin="san" sheng_diao="4" id="690"/>
+          <zi han_zi="斩" pin_yin="zhan" sheng_diao="3" id="691"/>
+      <zi han_zi="蛇" pin_yin="she" sheng_diao="2" id="692"/>
+      <zi han_zi="还" pin_yin="hai" sheng_diao="2" id="693"/>
+      <zi han_zi="应" pin_yin="ying" sheng_diao="1" id="694"/>
+      <zi han_zi="摔" pin_yin="shuai" sheng_diao="1" id="695"/>
+      <zi han_zi="碎" pin_yin="sui" sheng_diao="4" id="696"/>
+      <zi han_zi="蛋" pin_yin="dan" sheng_diao="4" id="697"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="但" pin_yin="dan" sheng_diao="4" id="698"/>
+      <zi han_zi="求" pin_yin="qiu" sheng_diao="2" id="699"/>
+      <zi han_zi="团" pin_yin="tuan" sheng_diao="2" id="700"/>
+      <zi han_zi="结" pin_yin="jie" sheng_diao="2" id="701"/>
+      <zi han_zi="两" pin_yin="liang" sheng_diao="3" id="702"/>
+      <zi han_zi="伙" pin_yin="huo" sheng_diao="3" id="703"/>
+      <zi han_zi="伴" pin_yin="ban" sheng_diao="4" id="704"/>
+          <zi han_zi="计" pin_yin="ji" sheng_diao="4" id="705"/>
+      <zi han_zi="较" pin_yin="jiao" sheng_diao="4" id="706"/>
+      <zi han_zi="啥" pin_yin="sha" sheng_diao="2" id="707"/>
+      <zi han_zi="呀" pin_yin="ya" sheng_diao="1" id="708"/>
+      <zi han_zi="少" pin_yin="shao" sheng_diao="3" id="709"/>
+      <zi han_zi="报" pin_yin="bao" sheng_diao="4" id="710"/>
+      <zi han_zi="怨" pin_yin="yvan" sheng_diao="4" id="711"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="愿" pin_yin="yvan" sheng_diao="4" id="712"/>
+      <zi han_zi="意" pin_yin="yi" sheng_diao="4" id="713"/>
+      <zi han_zi="摸" pin_yin="mo" sheng_diao="1" id="714"/>
+      <zi han_zi="象" pin_yin="xiang" sheng_diao="4" id="715"/>
+      <zi han_zi="逗" pin_yin="dou" sheng_diao="4" id="716"/>
+      <zi han_zi="骆" pin_yin="luo" sheng_diao="4" id="717"/>
+      <zi han_zi="驼" pin_yin="tuo" sheng_diao="2" id="718"/>
+      <zi han_zi="燕" pin_yin="yan" sheng_diao="4" id="2730"/>
+      <zi han_zi="嬉" pin_yin="xi" sheng_diao="1" id="720"/>
+      <zi han_zi="麻" pin_yin="ma" sheng_diao="2" id="721"/>
+      <zi han_zi="雀" pin_yin="qve" sheng_diao="4" id="722"/>
+      <zi han_zi="追" pin_yin="zhui" sheng_diao="1" id="723"/>
+      <zi han_zi="尾" pin_yin="wei" sheng_diao="3" id="724"/>
+      <zi han_zi="啄" pin_yin="zhuo" sheng_diao="2" id="725"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="灼" pin_yin="zhuo" sheng_diao="2" id="726"/>
+      <zi han_zi="炽" pin_yin="chi" sheng_diao="4" id="727"/>
+      <zi han_zi="氢" pin_yin="qing" sheng_diao="1" id="728"/>
+      <zi han_zi="氧" pin_yin="yang" sheng_diao="3" id="729"/>
+      <zi han_zi="合" pin_yin="he" sheng_diao="2" id="730"/>
+      <zi han_zi="喷" pin_yin="pen" sheng_diao="1" id="731"/>
+      <zi han_zi="焰" pin_yin="yan" sheng_diao="4" id="732"/>
+          <zi han_zi="中" pin_yin="zhong" sheng_diao="1" id="733"/>
+      <zi han_zi="性" pin_yin="xing" sheng_diao="4" id="734"/>
+      <zi han_zi="元" pin_yin="yvan" sheng_diao="2" id="735"/>
+      <zi han_zi="素" pin_yin="su" sheng_diao="4" id="736"/>
+      <zi han_zi="铅" pin_yin="qian" sheng_diao="1" id="737"/>
+      <zi han_zi="硅" pin_yin="gui" sheng_diao="1" id="738"/>
+      <zi han_zi="碳" pin_yin="tan" sheng_diao="4" id="739"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="炭" pin_yin="tan" sheng_diao="4" id="740"/>
+      <zi han_zi="乌" pin_yin="wu" sheng_diao="1" id="741"/>
+      <zi han_zi="煤" pin_yin="mei" sheng_diao="2" id="742"/>
+      <zi han_zi="黑" pin_yin="hei" sheng_diao="1" id="743"/>
+      <zi han_zi="彻" pin_yin="che" sheng_diao="4" id="744"/>
+      <zi han_zi="忠" pin_yin="zhong" sheng_diao="1" id="745"/>
+      <zi han_zi="诚" pin_yin="cheng" sheng_diao="2" id="746"/>
+          <zi han_zi="蜡" pin_yin="la" sheng_diao="4" id="747"/>
+      <zi han_zi="烛" pin_yin="zhu" sheng_diao="2" id="748"/>
+      <zi han_zi="鞠" pin_yin="jv" sheng_diao="1" id="749"/>
+      <zi han_zi="躬" pin_yin="gong" sheng_diao="1" id="750"/>
+      <zi han_zi="瘁" pin_yin="cui" sheng_diao="1" id="751"/>
+      <zi han_zi="从" pin_yin="cong" sheng_diao="2" id="752"/>
+      <zi han_zi="容" pin_yin="rong" sheng_diao="2" id="753"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="熔" pin_yin="rong" sheng_diao="2" id="754"/>
+      <zi han_zi="炼" pin_yin="lian" sheng_diao="4" id="755"/>
+      <zi han_zi="栋" pin_yin="dong" sheng_diao="4" id="756"/>
+      <zi han_zi="梁" pin_yin="liang" sheng_diao="2" id="757"/>
+      <zi han_zi="贡" pin_yin="gong" sheng_diao="4" id="758"/>
+      <zi han_zi="献" pin_yin="xian" sheng_diao="4" id="759"/>
+      <zi han_zi="足" pin_yin="zu" sheng_diao="2" id="760"/>
+          <zi han_zi="甘" pin_yin="gan" sheng_diao="1" id="761"/>
+      <zi han_zi="洒" pin_yin="sa" sheng_diao="3" id="762"/>
+      <zi han_zi="热" pin_yin="re" sheng_diao="4" id="763"/>
+      <zi han_zi="血" pin_yin="xve" sheng_diao="4" id="764"/>
+      <zi han_zi="抛" pin_yin="pao" sheng_diao="1" id="765"/>
+      <zi han_zi="头" pin_yin="tou" sheng_diao="2" id="766"/>
+      <zi han_zi="颅" pin_yin="lu" sheng_diao="2" id="767"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="炉" pin_yin="lu" sheng_diao="2" id="768"/>
+      <zi han_zi="火" pin_yin="huo" sheng_diao="3" id="769"/>
+      <zi han_zi="纯" pin_yin="chun" sheng_diao="2" id="770"/>
+      <zi han_zi="青" pin_yin="qing" sheng_diao="1" id="771"/>
+      <zi han_zi="屹" pin_yin="yi" sheng_diao="4" id="772"/>
+      <zi han_zi="尖" pin_yin="jian" sheng_diao="1" id="773"/>
+      <zi han_zi="端" pin_yin="duan" sheng_diao="1" id="774"/>
+          <zi han_zi="科" pin_yin="ke" sheng_diao="1" id="775"/>
+      <zi han_zi="技" pin_yin="ji" sheng_diao="4" id="776"/>
+      <zi han_zi="重" pin_yin="zhong" sheng_diao="4" id="777"/>
+      <zi han_zi="任" pin_yin="ren" sheng_diao="4" id="778"/>
+      <zi han_zi="担" pin_yin="dan" sheng_diao="1" id="779"/>
+      <zi han_zi="在" pin_yin="zai" sheng_diao="4" id="780"/>
+      <zi han_zi="肩" pin_yin="jian" sheng_diao="1" id="781"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="间" pin_yin="jian" sheng_diao="4" id="782"/>
+      <zi han_zi="或" pin_yin="huo" sheng_diao="4" id="783"/>
+      <zi han_zi="乾" pin_yin="qian" sheng_diao="2" id="784"/>
+      <zi han_zi="坤" pin_yin="kun" sheng_diao="1" id="785"/>
+      <zi han_zi="爆" pin_yin="bao" sheng_diao="4" id="786"/>
+      <zi han_zi="蒸" pin_yin="zheng" sheng_diao="1" id="787"/>
+      <zi han_zi="腾" pin_yin="teng" sheng_diao="2" id="788"/>
+          <zi han_zi="遨" pin_yin="ao" sheng_diao="2" id="789"/>
+      <zi han_zi="逛" pin_yin="guang" sheng_diao="4" id="790"/>
+      <zi han_zi="宇" pin_yin="yv" sheng_diao="3" id="791"/>
+      <zi han_zi="宙" pin_yin="zhou" sheng_diao="4" id="792"/>
+      <zi han_zi="嫦" pin_yin="chang" sheng_diao="2" id="793"/>
+      <zi han_zi="娥" pin_yin="e" sheng_diao="2" id="794"/>
+      <zi han_zi="聆" pin_yin="ling" sheng_diao="2" id="795"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="灵" pin_yin="ling" sheng_diao="2" id="796"/>
+      <zi han_zi="丹" pin_yin="dan" sheng_diao="1" id="797"/>
+      <zi han_zi="妙" pin_yin="miao" sheng_diao="4" id="798"/>
+      <zi han_zi="药" pin_yin="yao" sheng_diao="4" id="799"/>
+      <zi han_zi="冒" pin_yin="mao" sheng_diao="4" id="800"/>
+      <zi han_zi="充" pin_yin="chong" sheng_diao="1" id="801"/>
+      <zi han_zi="喊" pin_yin="han" sheng_diao="3" id="802"/>
+          <zi han_zi="叫" pin_yin="jiao" sheng_diao="4" id="803"/>
+      <zi han_zi="摊" pin_yin="tan" sheng_diao="1" id="804"/>
+      <zi han_zi="贩" pin_yin="fan" sheng_diao="4" id="805"/>
+      <zi han_zi="假" pin_yin="jia" sheng_diao="3" id="806"/>
+      <zi han_zi="耍" pin_yin="shua" sheng_diao="3" id="807"/>
+      <zi han_zi="秤" pin_yin="cheng" sheng_diao="4" id="808"/>
+      <zi han_zi="杆" pin_yin="gan" sheng_diao="3" id="809"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="感" pin_yin="gan" sheng_diao="3" id="810"/>
+      <zi han_zi="谢" pin_yin="xie" sheng_diao="4" id="811"/>
+      <zi han_zi="医" pin_yin="yi" sheng_diao="1" id="812"/>
+      <zi han_zi="师" pin_yin="shi" sheng_diao="1" id="813"/>
+      <zi han_zi="细" pin_yin="xi" sheng_diao="4" id="814"/>
+      <zi han_zi="诊" pin_yin="zhen" sheng_diao="3" id="815"/>
+      <zi han_zi="断" pin_yin="duan" sheng_diao="4" id="816"/>
+          <zi han_zi="针" pin_yin="zhen" sheng_diao="1" id="817"/>
+      <zi han_zi="灸" pin_yin="jiu" sheng_diao="3" id="818"/>
+      <zi han_zi="按" pin_yin="an" sheng_diao="4" id="819"/>
+      <zi han_zi="摩" pin_yin="mo" sheng_diao="2" id="820"/>
+      <zi han_zi="治" pin_yin="zhi" sheng_diao="4" id="821"/>
+      <zi han_zi="瘫" pin_yin="tan" sheng_diao="1" id="822"/>
+      <zi han_zi="痪" pin_yin="huan" sheng_diao="4" id="823"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="幻" pin_yin="huan" sheng_diao="4" id="824"/>
+      <zi han_zi="盼" pin_yin="pan" sheng_diao="4" id="825"/>
+      <zi han_zi="随" pin_yin="sui" sheng_diao="2" id="826"/>
+      <zi han_zi="即" pin_yin="ji" sheng_diao="2" id="2724"/>
+      <zi han_zi="痊" pin_yin="qvan" sheng_diao="2" id="828"/>
+      <zi han_zi="愈" pin_yin="yv" sheng_diao="4" id="829"/>
+      <zi han_zi="瘸" pin_yin="qve" sheng_diao="2" id="830"/>
+          <zi han_zi="丢" pin_yin="diu" sheng_diao="1" id="831"/>
+      <zi han_zi="掉" pin_yin="diao" sheng_diao="4" id="832"/>
+      <zi han_zi="拐" pin_yin="guai" sheng_diao="3" id="833"/>
+      <zi han_zi="杖" pin_yin="zhang" sheng_diao="4" id="834"/>
+      <zi han_zi="病" pin_yin="bing" sheng_diao="4" id="835"/>
+      <zi han_zi="根" pin_yin="gen" sheng_diao="1" id="836"/>
+      <zi han_zi="掘" pin_yin="jve" sheng_diao="2" id="837"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="觉" pin_yin="jve" sheng_diao="2" id="838"/>
+      <zi han_zi="察" pin_yin="cha" sheng_diao="2" id="839"/>
+      <zi han_zi="危" pin_yin="wei" sheng_diao="1" id="840"/>
+      <zi han_zi="险" pin_yin="xian" sheng_diao="3" id="841"/>
+      <zi han_zi="输" pin_yin="shu" sheng_diao="1" id="842"/>
+      <zi han_zi="液" pin_yin="ye" sheng_diao="4" id="843"/>
+      <zi han_zi="注" pin_yin="zhu" sheng_diao="4" id="844"/>
+          <zi han_zi="卧" pin_yin="wo" sheng_diao="4" id="845"/>
+      <zi han_zi="床" pin_yin="chuang" sheng_diao="2" id="846"/>
+      <zi han_zi="吊" pin_yin="diao" sheng_diao="4" id="847"/>
+      <zi han_zi="瓶" pin_yin="ping" sheng_diao="2" id="848"/>
+      <zi han_zi="铺" pin_yin="pu" sheng_diao="1" id="849"/>
+      <zi han_zi="被" pin_yin="bei" sheng_diao="4" id="850"/>
+      <zi han_zi="褥" pin_yin="ru" sheng_diao="4" id="851"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="入" pin_yin="ru" sheng_diao="4" id="852"/>
+      <zi han_zi="睡" pin_yin="shui" sheng_diao="4" id="853"/>
+      <zi han_zi="以" pin_yin="yi" sheng_diao="3" id="854"/>
+      <zi han_zi="后" pin_yin="hou" sheng_diao="4" id="855"/>
+      <zi han_zi="嫂" pin_yin="sao" sheng_diao="3" id="856"/>
+      <zi han_zi="值" pin_yin="zhi" sheng_diao="2" id="857"/>
+      <zi han_zi="班" pin_yin="ban" sheng_diao="1" id="858"/>
+          <zi han_zi="昼" pin_yin="zhou" sheng_diao="4" id="859"/>
+      <zi han_zi="夜" pin_yin="ye" sheng_diao="4" id="860"/>
+      <zi han_zi="侍" pin_yin="shi" sheng_diao="4" id="861"/>
+      <zi han_zi="候" pin_yin="hou" sheng_diao="4" id="862"/>
+      <zi han_zi="喂" pin_yin="wei" sheng_diao="4" id="863"/>
+      <zi han_zi="食" pin_yin="shi" sheng_diao="2" id="864"/>
+      <zi han_zi="鲜" pin_yin="xian" sheng_diao="1" id="865"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="仙" pin_yin="xian" sheng_diao="1" id="866"/>
+      <zi han_zi="女" pin_yin="nv" sheng_diao="3" id="867"/>
+      <zi han_zi="下" pin_yin="xia" sheng_diao="4" id="868"/>
+      <zi han_zi="凡" pin_yin="fan" sheng_diao="2" id="869"/>
+      <zi han_zi="惊" pin_yin="jing" sheng_diao="1" id="870"/>
+      <zi han_zi="奇" pin_yin="qi" sheng_diao="2" id="871"/>
+      <zi han_zi="愣" pin_yin="leng" sheng_diao="4" id="872"/>
+          <zi han_zi="救" pin_yin="jiu" sheng_diao="4" id="873"/>
+      <zi han_zi="死" pin_yin="si" sheng_diao="3" id="874"/>
+      <zi han_zi="扶" pin_yin="fu" sheng_diao="2" id="875"/>
+      <zi han_zi="伤" pin_yin="shang" sheng_diao="1" id="876"/>
+      <zi han_zi="受" pin_yin="shou" sheng_diao="4" id="877"/>
+      <zi han_zi="崇" pin_yin="chong" sheng_diao="2" id="878"/>
+      <zi han_zi="敬" pin_yin="jing" sheng_diao="4" id="879"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="境" pin_yin="jing" sheng_diao="4" id="880"/>
+      <zi han_zi="况" pin_yin="kuang" sheng_diao="4" id="881"/>
+      <zi han_zi="欠" pin_yin="qian" sheng_diao="4" id="882"/>
+      <zi han_zi="佳" pin_yin="jia" sheng_diao="1" id="883"/>
+      <zi han_zi="请" pin_yin="qing" sheng_diao="3" id="884"/>
+      <zi han_zi="帮" pin_yin="bang" sheng_diao="1" id="885"/>
+      <zi han_zi="助" pin_yin="zhu" sheng_diao="4" id="886"/>
+          <zi han_zi="买" pin_yin="mai" sheng_diao="3" id="887"/>
+      <zi han_zi="卖" pin_yin="mai" sheng_diao="4" id="888"/>
+      <zi han_zi="兴" pin_yin="xing" sheng_diao="1" id="889"/>
+      <zi han_zi="隆" pin_yin="long" sheng_diao="2" id="890"/>
+      <zi han_zi="诱" pin_yin="you" sheng_diao="4" id="891"/>
+      <zi han_zi="羡" pin_yin="xian" sheng_diao="4" id="892"/>
+      <zi han_zi="慕" pin_yin="mu" sheng_diao="4" id="893"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="牧" pin_yin="mu" sheng_diao="4" id="894"/>
+      <zi han_zi="歌" pin_yin="ge" sheng_diao="1" id="895"/>
+      <zi han_zi="赞" pin_yin="zan" sheng_diao="4" id="896"/>
+      <zi han_zi="颂" pin_yin="song" sheng_diao="4" id="897"/>
+      <zi han_zi="北" pin_yin="bei" sheng_diao="3" id="898"/>
+      <zi han_zi="京" pin_yin="jing" sheng_diao="1" id="899"/>
+      <zi han_zi="城" pin_yin="cheng" sheng_diao="2" id="900"/>
+          <zi han_zi="帐" pin_yin="zhang" sheng_diao="4" id="901"/>
+      <zi han_zi="篷" pin_yin="peng" sheng_diao="2" id="902"/>
+      <zi han_zi="敞" pin_yin="chang" sheng_diao="3" id="903"/>
+      <zi han_zi="帘" pin_yin="lian" sheng_diao="2" id="904"/>
+      <zi han_zi="旭" pin_yin="xv" sheng_diao="4" id="905"/>
+      <zi han_zi="升" pin_yin="sheng" sheng_diao="1" id="906"/>
+      <zi han_zi="彤" pin_yin="tong" sheng_diao="2" id="907"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="童" pin_yin="tong" sheng_diao="2" id="908"/>
+      <zi han_zi="谣" pin_yin="yao" sheng_diao="2" id="909"/>
+      <zi han_zi="憨" pin_yin="han" sheng_diao="1" id="910"/>
+      <zi han_zi="唱" pin_yin="chang" sheng_diao="4" id="911"/>
+      <zi han_zi="嗓" pin_yin="sang" sheng_diao="3" id="912"/>
+      <zi han_zi="嘹" pin_yin="liao" sheng_diao="2" id="913"/>
+      <zi han_zi="亮" pin_yin="liang" sheng_diao="4" id="914"/>
+          <zi han_zi="缭" pin_yin="liao" sheng_diao="2" id="915"/>
+      <zi han_zi="绕" pin_yin="rao" sheng_diao="4" id="916"/>
+      <zi han_zi="绿" pin_yin="lv" sheng_diao="4" id="917"/>
+      <zi han_zi="洲" pin_yin="zhou" sheng_diao="1" id="918"/>
+      <zi han_zi="畜" pin_yin="chu" sheng_diao="4" id="919"/>
+      <zi han_zi="罢" pin_yin="ba" sheng_diao="4" id="920"/>
+      <zi han_zi="忧" pin_yin="you" sheng_diao="1" id="921"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="悠" pin_yin="you" sheng_diao="1" id="922"/>
+      <zi han_zi="久" pin_yin="jiu" sheng_diao="3" id="923"/>
+      <zi han_zi="岁" pin_yin="sui" sheng_diao="4" id="924"/>
+      <zi han_zi="月" pin_yin="yve" sheng_diao="4" id="925"/>
+      <zi han_zi="世" pin_yin="shi" sheng_diao="4" id="926"/>
+      <zi han_zi="纪" pin_yin="ji" sheng_diao="4" id="927"/>
+      <zi han_zi="谜" pin_yin="mi" sheng_diao="2" id="928"/>
+          <zi han_zi="知" pin_yin="zhi" sheng_diao="1" id="929"/>
+      <zi han_zi="识" pin_yin="shi" sheng_diao="2" id="930"/>
+      <zi han_zi="宝" pin_yin="bao" sheng_diao="3" id="931"/>
+      <zi han_zi="库" pin_yin="ku" sheng_diao="4" id="932"/>
+      <zi han_zi="获" pin_yin="huo" sheng_diao="4" id="933"/>
+      <zi han_zi="启" pin_yin="qi" sheng_diao="3" id="934"/>
+      <zi han_zi="迪" pin_yin="di" sheng_diao="2" id="935"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="笛" pin_yin="di" sheng_diao="2" id="936"/>
+      <zi han_zi="泉" pin_yin="qvan" sheng_diao="2" id="937"/>
+      <zi han_zi="和" pin_yin="he" sheng_diao="2" id="2722"/>
+      <zi han_zi="弦" pin_yin="xian" sheng_diao="2" id="939"/>
+      <zi han_zi="催" pin_yin="cui" sheng_diao="1" id="940"/>
+      <zi han_zi="晨" pin_yin="chen" sheng_diao="2" id="941"/>
+      <zi han_zi="微" pin_yin="wei" sheng_diao="1" id="942"/>
+          <zi han_zi="鸡" pin_yin="ji" sheng_diao="1" id="943"/>
+      <zi han_zi="喧" pin_yin="xvan" sheng_diao="1" id="944"/>
+      <zi han_zi="鹅" pin_yin="e" sheng_diao="2" id="945"/>
+      <zi han_zi="嚷" pin_yin="rang" sheng_diao="3" id="946"/>
+      <zi han_zi="抢" pin_yin="qiang" sheng_diao="3" id="947"/>
+      <zi han_zi="叨" pin_yin="dao" sheng_diao="1" id="948"/>
+      <zi han_zi="炊" pin_yin="chui" sheng_diao="1" id="949"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="吹" pin_yin="chui" sheng_diao="1" id="950"/>
+      <zi han_zi="唤" pin_yin="huan" sheng_diao="4" id="951"/>
+      <zi han_zi="拂" pin_yin="fu" sheng_diao="2" id="952"/>
+      <zi han_zi="晓" pin_yin="xiao" sheng_diao="3" id="953"/>
+      <zi han_zi="醉" pin_yin="zui" sheng_diao="4" id="954"/>
+      <zi han_zi="酩" pin_yin="ming" sheng_diao="3" id="955"/>
+      <zi han_zi="酊" pin_yin="ding" sheng_diao="3" id="956"/>
+          <zi han_zi="思" pin_yin="si" sheng_diao="1" id="957"/>
+      <zi han_zi="虑" pin_yin="lv" sheng_diao="4" id="958"/>
+      <zi han_zi="悟" pin_yin="wu" sheng_diao="4" id="959"/>
+      <zi han_zi="酗" pin_yin="xv" sheng_diao="4" id="960"/>
+      <zi han_zi="猛" pin_yin="meng" sheng_diao="3" id="961"/>
+      <zi han_zi="反" pin_yin="fan" sheng_diao="3" id="962"/>
+      <zi han_zi="省" pin_yin="xing" sheng_diao="3" id="963"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="醒" pin_yin="xing" sheng_diao="3" id="964"/>
+      <zi han_zi="酒" pin_yin="jiu" sheng_diao="3" id="965"/>
+      <zi han_zi="砸" pin_yin="za" sheng_diao="2" id="966"/>
+      <zi han_zi="壶" pin_yin="hu" sheng_diao="2" id="967"/>
+      <zi han_zi="嘉" pin_yin="jia" sheng_diao="1" id="968"/>
+      <zi han_zi="许" pin_yin="xv" sheng_diao="3" id="969"/>
+      <zi han_zi="圣" pin_yin="sheng" sheng_diao="4" id="970"/>
+          <zi han_zi="某" pin_yin="mou" sheng_diao="3" id="971"/>
+      <zi han_zi="公" pin_yin="gong" sheng_diao="1" id="972"/>
+      <zi han_zi="辞" pin_yin="ci" sheng_diao="2" id="973"/>
+      <zi han_zi="盅" pin_yin="zhong" sheng_diao="1" id="974"/>
+      <zi han_zi="效" pin_yin="xiao" sheng_diao="4" id="975"/>
+      <zi han_zi="孔" pin_yin="kong" sheng_diao="3" id="976"/>
+      <zi han_zi="孟" pin_yin="meng" sheng_diao="4" id="977"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="梦" pin_yin="meng" sheng_diao="4" id="978"/>
+      <zi han_zi="轿" pin_yin="jiao" sheng_diao="4" id="979"/>
+      <zi han_zi="娶" pin_yin="qv" sheng_diao="3" id="980"/>
+      <zi han_zi="媳" pin_yin="xi" sheng_diao="2" id="981"/>
+      <zi han_zi="乐" pin_yin="le" sheng_diao="4" id="982"/>
+      <zi han_zi="脑" pin_yin="nao" sheng_diao="3" id="538"/>
+      <zi han_zi="勺" pin_yin="shao" sheng_diao="2" id="984"/>
+          <zi han_zi="油" pin_yin="you" sheng_diao="2" id="985"/>
+      <zi han_zi="腔" pin_yin="qiang" sheng_diao="1" id="986"/>
+      <zi han_zi="滑" pin_yin="hua" sheng_diao="2" id="987"/>
+      <zi han_zi="调" pin_yin="diao" sheng_diao="4" id="988"/>
+      <zi han_zi="真" pin_yin="zhen" sheng_diao="1" id="989"/>
+      <zi han_zi="官" pin_yin="guan" sheng_diao="1" id="990"/>
+      <zi han_zi="僚" pin_yin="liao" sheng_diao="2" id="991"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="辽" pin_yin="liao" sheng_diao="2" id="992"/>
+      <zi han_zi="东" pin_yin="dong" sheng_diao="1" id="993"/>
+      <zi han_zi="半" pin_yin="ban" sheng_diao="4" id="994"/>
+      <zi han_zi="岛" pin_yin="dao" sheng_diao="3" id="995"/>
+      <zi han_zi="寻" pin_yin="xvn" sheng_diao="2" id="996"/>
+      <zi han_zi="垂" pin_yin="chui" sheng_diao="2" id="997"/>
+      <zi han_zi="钓" pin_yin="diao" sheng_diao="4" id="998"/>
+          <zi han_zi="鸭" pin_yin="ya" sheng_diao="1" id="999"/>
+      <zi han_zi="绿" pin_yin="lu" sheng_diao="4" id="1000"/>
+      <zi han_zi="江" pin_yin="jiang" sheng_diao="1" id="1001"/>
+      <zi han_zi="滨" pin_yin="bin" sheng_diao="1" id="1002"/>
+      <zi han_zi="来" pin_yin="lai" sheng_diao="2" id="1003"/>
+      <zi han_zi="介" pin_yin="jie" sheng_diao="4" id="1004"/>
+      <zi han_zi="绍" pin_yin="shao" sheng_diao="4" id="1005"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="哨" pin_yin="shao" sheng_diao="4" id="1006"/>
+      <zi han_zi="卡" pin_yin="qia" sheng_diao="3" id="1007"/>
+      <zi han_zi="站" pin_yin="zhan" sheng_diao="4" id="1008"/>
+      <zi han_zi="岗" pin_yin="gang" sheng_diao="3" id="1009"/>
+      <zi han_zi="管" pin_yin="guan" sheng_diao="3" id="1010"/>
+      <zi han_zi="口" pin_yin="kou" sheng_diao="3" id="1011"/>
+      <zi han_zi="岸" pin_yin="an" sheng_diao="4" id="1012"/>
+          <zi han_zi="岔" pin_yin="cha" sheng_diao="4" id="1013"/>
+      <zi han_zi="道" pin_yin="dao" sheng_diao="4" id="1014"/>
+      <zi han_zi="禁" pin_yin="jin" sheng_diao="4" id="1015"/>
+      <zi han_zi="毒" pin_yin="du" sheng_diao="2" id="1016"/>
+      <zi han_zi="堵" pin_yin="du" sheng_diao="3" id="1017"/>
+      <zi han_zi="关" pin_yin="guan" sheng_diao="1" id="1018"/>
+      <zi han_zi="键" pin_yin="jian" sheng_diao="4" id="1019"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="渐" pin_yin="jian" sheng_diao="4" id="1020"/>
+      <zi han_zi="扒" pin_yin="ba" sheng_diao="1" id="1021"/>
+      <zi han_zi="伪" pin_yin="wei" sheng_diao="3" id="1022"/>
+      <zi han_zi="装" pin_yin="zhuang" sheng_diao="1" id="1023"/>
+      <zi han_zi="达" pin_yin="da" sheng_diao="2" id="1024"/>
+      <zi han_zi="数" pin_yin="shu" sheng_diao="4" id="1025"/>
+      <zi han_zi="次" pin_yin="ci" sheng_diao="4" id="1026"/>
+          <zi han_zi="揍" pin_yin="zou" sheng_diao="4" id="1027"/>
+      <zi han_zi="拷" pin_yin="kao" sheng_diao="3" id="1028"/>
+      <zi han_zi="挑" pin_yin="tiao" sheng_diao="3" id="1029"/>
+      <zi han_zi="衅" pin_yin="xin" sheng_diao="4" id="1030"/>
+      <zi han_zi="严" pin_yin="yan" sheng_diao="2" id="1031"/>
+      <zi han_zi="监" pin_yin="jian" sheng_diao="1" id="1032"/>
+      <zi han_zi="视" pin_yin="shi" sheng_diao="4" id="1033"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="逝" pin_yin="shi" sheng_diao="4" id="1034"/>
+      <zi han_zi="水" pin_yin="shui" sheng_diao="3" id="1035"/>
+      <zi han_zi="逼" pin_yin="bi" sheng_diao="1" id="1036"/>
+      <zi han_zi="舸" pin_yin="ge" sheng_diao="3" id="1037"/>
+      <zi han_zi="顺" pin_yin="shun" sheng_diao="4" id="1038"/>
+      <zi han_zi="势" pin_yin="shi" sheng_diao="4" id="1039"/>
+      <zi han_zi="昌" pin_yin="chang" sheng_diao="1" id="1040"/>
+          <zi han_zi="逆" pin_yin="ni" sheng_diao="4" id="1041"/>
+      <zi han_zi="轨" pin_yin="gui" sheng_diao="3" id="1042"/>
+      <zi han_zi="者" pin_yin="zhe" sheng_diao="3" id="1043"/>
+      <zi han_zi="殇" pin_yin="shang" sheng_diao="1" id="1044"/>
+      <zi han_zi="冻" pin_yin="dong" sheng_diao="4" id="1045"/>
+      <zi han_zi="尸" pin_yin="shi" sheng_diao="1" id="1046"/>
+      <zi han_zi="僵" pin_yin="jiang" sheng_diao="1" id="1047"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="疆" pin_yin="jiang" sheng_diao="1" id="1048"/>
+      <zi han_zi="界" pin_yin="jie" sheng_diao="4" id="1049"/>
+      <zi han_zi="包" pin_yin="bao" sheng_diao="1" id="1050"/>
+      <zi han_zi="括" pin_yin="kuo" sheng_diao="4" id="1051"/>
+      <zi han_zi="晋" pin_yin="jin" sheng_diao="4" id="1052"/>
+      <zi han_zi="陕" pin_yin="shan" sheng_diao="3" id="1053"/>
+      <zi han_zi="冀" pin_yin="ji" sheng_diao="4" id="1054"/>
+          <zi han_zi="琼" pin_yin="qiong" sheng_diao="2" id="1055"/>
+      <zi han_zi="粤" pin_yin="yve" sheng_diao="4" id="1056"/>
+      <zi han_zi="黔" pin_yin="qian" sheng_diao="2" id="1057"/>
+      <zi han_zi="浙" pin_yin="zhe" sheng_diao="4" id="1058"/>
+      <zi han_zi="闽" pin_yin="min" sheng_diao="3" id="1059"/>
+      <zi han_zi="鲁" pin_yin="lu" sheng_diao="3" id="1060"/>
+      <zi han_zi="豫" pin_yin="yv" sheng_diao="4" id="1061"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="域" pin_yin="yv" sheng_diao="4" id="1062"/>
+      <zi han_zi="内" pin_yin="nei" sheng_diao="4" id="1063"/>
+      <zi han_zi="迷" pin_yin="mi" sheng_diao="2" id="1064"/>
+      <zi han_zi="惑" pin_yin="huo" sheng_diao="4" id="1065"/>
+      <zi han_zi="暗" pin_yin="an" sheng_diao="4" id="1066"/>
+      <zi han_zi="阱" pin_yin="jing" sheng_diao="3" id="1067"/>
+      <zi han_zi="陷" pin_yin="xian" sheng_diao="4" id="1068"/>
+          <zi han_zi="戡" pin_yin="kan" sheng_diao="1" id="1069"/>
+      <zi han_zi="剿" pin_yin="jiao" sheng_diao="3" id="1070"/>
+      <zi han_zi="匪" pin_yin="fei" sheng_diao="3" id="1071"/>
+      <zi han_zi="寇" pin_yin="kou" sheng_diao="4" id="1072"/>
+      <zi han_zi="箍" pin_yin="gu" sheng_diao="1" id="1073"/>
+      <zi han_zi="幌" pin_yin="huang" sheng_diao="3" id="1074"/>
+      <zi han_zi="幔" pin_yin="man" sheng_diao="4" id="1075"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="曼" pin_yin="man" sheng_diao="4" id="1076"/>
+      <zi han_zi="扯" pin_yin="che" sheng_diao="3" id="1077"/>
+      <zi han_zi="罗" pin_yin="luo" sheng_diao="2" id="1078"/>
+      <zi han_zi="网" pin_yin="wang" sheng_diao="3" id="1079"/>
+      <zi han_zi="愤" pin_yin="fen" sheng_diao="4" id="1080"/>
+      <zi han_zi="填" pin_yin="tian" sheng_diao="2" id="1081"/>
+      <zi han_zi="膺" pin_yin="ying" sheng_diao="1" id="1082"/>
+          <zi han_zi="霹" pin_yin="pi" sheng_diao="1" id="1083"/>
+      <zi han_zi="雳" pin_yin="li" sheng_diao="4" id="1084"/>
+      <zi han_zi="电" pin_yin="dian" sheng_diao="4" id="1085"/>
+      <zi han_zi="掣" pin_yin="che" sheng_diao="4" id="1086"/>
+      <zi han_zi="睽" pin_yin="kui" sheng_diao="2" id="1087"/>
+      <zi han_zi="如" pin_yin="ru" sheng_diao="2" id="1088"/>
+      <zi han_zi="灯" pin_yin="deng" sheng_diao="1" id="1089"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="蹬" pin_yin="deng" sheng_diao="1" id="1090"/>
+      <zi han_zi="踏" pin_yin="ta" sheng_diao="4" id="1091"/>
+      <zi han_zi="狼" pin_yin="lang" sheng_diao="2" id="1092"/>
+      <zi han_zi="狈" pin_yin="bei" sheng_diao="4" id="1093"/>
+      <zi han_zi="剜" pin_yin="wan" sheng_diao="1" id="1094"/>
+      <zi han_zi="脾" pin_yin="pi" sheng_diao="3" id="1095"/>
+      <zi han_zi="肝" pin_yin="gan" sheng_diao="1" id="1096"/>
+          <zi han_zi="抚" pin_yin="fu" sheng_diao="3" id="1097"/>
+      <zi han_zi="慰" pin_yin="wei" sheng_diao="4" id="1098"/>
+      <zi han_zi="僧" pin_yin="seng" sheng_diao="1" id="1099"/>
+      <zi han_zi="侣" pin_yin="lv" sheng_diao="3" id="1100"/>
+      <zi han_zi="菩" pin_yin="pu" sheng_diao="2" id="1101"/>
+      <zi han_zi="萨" pin_yin="sa" sheng_diao="4" id="1102"/>
+      <zi han_zi="安" pin_yin="an" sheng_diao="1" id="1103"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="鞍" pin_yin="an" sheng_diao="1" id="1104"/>
+      <zi han_zi="鼻" pin_yin="bi" sheng_diao="2" id="1105"/>
+      <zi han_zi="癌" pin_yin="ai" sheng_diao="2" id="1106"/>
+      <zi han_zi="瘤" pin_yin="liu" sheng_diao="2" id="1107"/>
+      <zi han_zi="肺" pin_yin="fei" sheng_diao="4" id="1108"/>
+      <zi han_zi="症" pin_yin="zheng" sheng_diao="4" id="1109"/>
+      <zi han_zi="痨" pin_yin="lao" sheng_diao="2" id="1110"/>
+          <zi han_zi="徘" pin_yin="pai" sheng_diao="2" id="1111"/>
+      <zi han_zi="徊" pin_yin="huai" sheng_diao="2" id="1112"/>
+      <zi han_zi="迟" pin_yin="chi" sheng_diao="2" id="1113"/>
+      <zi han_zi="疗" pin_yin="liao" sheng_diao="2" id="1114"/>
+      <zi han_zi="佑" pin_yin="you" sheng_diao="4" id="1115"/>
+      <zi han_zi="祸" pin_yin="huo" sheng_diao="4" id="1116"/>
+      <zi han_zi="苗" pin_yin="miao" sheng_diao="2" id="1117"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="瞄" pin_yin="miao" sheng_diao="2" id="1118"/>
+      <zi han_zi="盯" pin_yin="ding" sheng_diao="1" id="1119"/>
+      <zi han_zi="窝" pin_yin="wo" sheng_diao="1" id="1120"/>
+      <zi han_zi="穴" pin_yin="xve" sheng_diao="2" id="1121"/>
+      <zi han_zi="隐" pin_yin="yin" sheng_diao="3" id="1122"/>
+      <zi han_zi="患" pin_yin="huan" sheng_diao="4" id="1123"/>
+      <zi han_zi="匿" pin_yin="ni" sheng_diao="4" id="1124"/>
+          <zi han_zi="藏" pin_yin="cang" sheng_diao="2" id="1125"/>
+      <zi han_zi="污" pin_yin="wu" sheng_diao="1" id="1126"/>
+      <zi han_zi="纳" pin_yin="na" sheng_diao="4" id="1127"/>
+      <zi han_zi="垢" pin_yin="gou" sheng_diao="4" id="1128"/>
+      <zi han_zi="该" pin_yin="gai" sheng_diao="1" id="1129"/>
+      <zi han_zi="取" pin_yin="qv" sheng_diao="3" id="1130"/>
+      <zi han_zi="缔" pin_yin="di" sheng_diao="4" id="1131"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="的" pin_yin="di" sheng_diao="4" id="1132"/>
+      <zi han_zi="毙" pin_yin="bi" sheng_diao="4" id="1133"/>
+      <zi han_zi="魔" pin_yin="mo" sheng_diao="2" id="1134"/>
+      <zi han_zi="鬼" pin_yin="gui" sheng_diao="3" id="1135"/>
+      <zi han_zi="擂" pin_yin="lei" sheng_diao="1" id="1136"/>
+      <zi han_zi="贼" pin_yin="zei" sheng_diao="2" id="1137"/>
+      <zi han_zi="邦" pin_yin="bang" sheng_diao="1" id="1138"/>
+          <zi han_zi="矢" pin_yin="shi" sheng_diao="3" id="1139"/>
+      <zi han_zi="镖" pin_yin="biao" sheng_diao="1" id="1140"/>
+      <zi han_zi="袭" pin_yin="xi" sheng_diao="2" id="1141"/>
+      <zi han_zi="靶" pin_yin="ba" sheng_diao="3" id="1142"/>
+      <zi han_zi="锐" pin_yin="rui" sheng_diao="4" id="1143"/>
+      <zi han_zi="镝" pin_yin="di" sheng_diao="2" id="1144"/>
+      <zi han_zi="戕" pin_yin="qiang" sheng_diao="1" id="1145"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="枪" pin_yin="qiang" sheng_diao="1" id="1146"/>
+      <zi han_zi="猎" pin_yin="lie" sheng_diao="4" id="1147"/>
+      <zi han_zi="狰" pin_yin="zheng" sheng_diao="1" id="1148"/>
+      <zi han_zi="狞" pin_yin="ning" sheng_diao="2" id="1149"/>
+      <zi han_zi="射" pin_yin="she" sheng_diao="4" id="1150"/>
+      <zi han_zi="兽" pin_yin="shou" sheng_diao="4" id="1151"/>
+      <zi han_zi="砰" pin_yin="peng" sheng_diao="1" id="1152"/>
+          <zi han_zi="专" pin_yin="zhuan" sheng_diao="1" id="1153"/>
+      <zi han_zi="诛" pin_yin="zhu" sheng_diao="1" id="1154"/>
+      <zi han_zi="凶" pin_yin="xiong" sheng_diao="1" id="1155"/>
+      <zi han_zi="孽" pin_yin="nie" sheng_diao="4" id="1156"/>
+      <zi han_zi="避" pin_yin="bi" sheng_diao="4" id="1157"/>
+      <zi han_zi="牺" pin_yin="xi" sheng_diao="1" id="1158"/>
+      <zi han_zi="牲" pin_yin="sheng" sheng_diao="1" id="1159"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="声" pin_yin="sheng" sheng_diao="1" id="1160"/>
+      <zi han_zi="讨" pin_yin="tao" sheng_diao="3" id="1161"/>
+      <zi han_zi="奸" pin_yin="jian" sheng_diao="1" id="1162"/>
+      <zi han_zi="诈" pin_yin="zha" sheng_diao="4" id="1163"/>
+      <zi han_zi="驳" pin_yin="bo" sheng_diao="2" id="1164"/>
+      <zi han_zi="诡" pin_yin="gui" sheng_diao="3" id="1165"/>
+      <zi han_zi="辩" pin_yin="bian" sheng_diao="4" id="1166"/>
+          <zi han_zi="痛" pin_yin="tong" sheng_diao="4" id="1167"/>
+      <zi han_zi="斥" pin_yin="chi" sheng_diao="4" id="1168"/>
+      <zi han_zi="谬" pin_yin="miu" sheng_diao="4" id="1169"/>
+      <zi han_zi="论" pin_yin="lun" sheng_diao="4" id="1170"/>
+      <zi han_zi="戳" pin_yin="chuo" sheng_diao="1" id="1171"/>
+      <zi han_zi="怪" pin_yin="guai" sheng_diao="4" id="1172"/>
+      <zi han_zi="诞" pin_yin="dan" sheng_diao="4" id="1173"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="淡" pin_yin="dan" sheng_diao="4" id="1174"/>
+      <zi han_zi="季" pin_yin="ji" sheng_diao="4" id="1175"/>
+      <zi han_zi="经" pin_yin="jing" sheng_diao="1" id="1176"/>
+      <zi han_zi="营" pin_yin="ying" sheng_diao="2" id="1177"/>
+      <zi han_zi="稀" pin_yin="xi" sheng_diao="1" id="1178"/>
+      <zi han_zi="宾" pin_yin="bin" sheng_diao="1" id="1179"/>
+      <zi han_zi="客" pin_yin="ke" sheng_diao="4" id="1180"/>
+          <zi han_zi="饭" pin_yin="fan" sheng_diao="4" id="1181"/>
+      <zi han_zi="店" pin_yin="dian" sheng_diao="4" id="1182"/>
+      <zi han_zi="扭" pin_yin="niu" sheng_diao="3" id="1183"/>
+      <zi han_zi="亏" pin_yin="kui" sheng_diao="1" id="1184"/>
+      <zi han_zi="财" pin_yin="cai" sheng_diao="2" id="1185"/>
+      <zi han_zi="源" pin_yin="yvan" sheng_diao="2" id="1186"/>
+      <zi han_zi="扩" pin_yin="kuo" sheng_diao="4" id="1187"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="阔" pin_yin="kuo" sheng_diao="4" id="1188"/>
+      <zi han_zi="绅" pin_yin="shen" sheng_diao="1" id="1189"/>
+      <zi han_zi="摆" pin_yin="bai" sheng_diao="3" id="1190"/>
+      <zi han_zi="谱" pin_yin="pu" sheng_diao="3" id="1191"/>
+      <zi han_zi="麸" pin_yin="fu" sheng_diao="1" id="1192"/>
+      <zi han_zi="糠" pin_yin="kang" sheng_diao="1" id="1193"/>
+      <zi han_zi="瘪" pin_yin="bie" sheng_diao="3" id="1194"/>
+          <zi han_zi="砖" pin_yin="zhuan" sheng_diao="1" id="1195"/>
+      <zi han_zi="坯" pin_yin="pi" sheng_diao="1" id="1196"/>
+      <zi han_zi="瓷" pin_yin="ci" sheng_diao="2" id="1197"/>
+      <zi han_zi="器" pin_yin="qi" sheng_diao="4" id="1198"/>
+      <zi han_zi="需" pin_yin="xv" sheng_diao="1" id="1199"/>
+      <zi han_zi="陶" pin_yin="tao" sheng_diao="2" id="1200"/>
+      <zi han_zi="冶" pin_yin="ye" sheng_diao="3" id="1201"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="野" pin_yin="ye" sheng_diao="3" id="1202"/>
+      <zi han_zi="郊" pin_yin="jiao" sheng_diao="1" id="1203"/>
+      <zi han_zi="芬" pin_yin="fen" sheng_diao="1" id="1204"/>
+      <zi han_zi="芳" pin_yin="fang" sheng_diao="1" id="1205"/>
+      <zi han_zi="翠" pin_yin="cui" sheng_diao="4" id="1206"/>
+      <zi han_zi="涂" pin_yin="tu" sheng_diao="2" id="1207"/>
+      <zi han_zi="岑" pin_yin="cen" sheng_diao="2" id="1208"/>
+          <zi han_zi="邻" pin_yin="lin" sheng_diao="2" id="1209"/>
+      <zi han_zi="叟" pin_yin="sou" sheng_diao="3" id="1210"/>
+      <zi han_zi="种" pin_yin="zhong" sheng_diao="4" id="1211"/>
+      <zi han_zi="植" pin_yin="zhi" sheng_diao="2" id="1212"/>
+      <zi han_zi="近" pin_yin="jin" sheng_diao="4" id="1213"/>
+      <zi han_zi="陆" pin_yin="lu" sheng_diao="4" id="431"/>
+      <zi han_zi="旬" pin_yin="xvn" sheng_diao="2" id="1215"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="巡" pin_yin="xvn" sheng_diao="2" id="1216"/>
+      <zi han_zi="探" pin_yin="tan" sheng_diao="4" id="1217"/>
+      <zi han_zi="锌" pin_yin="xin" sheng_diao="1" id="1218"/>
+      <zi han_zi="铝" pin_yin="lv" sheng_diao="3" id="1219"/>
+      <zi han_zi="锰" pin_yin="meng" sheng_diao="3" id="1220"/>
+      <zi han_zi="钙" pin_yin="gai" sheng_diao="4" id="1221"/>
+      <zi han_zi="镉" pin_yin="ge" sheng_diao="2" id="1222"/>
+          <zi han_zi="戈" pin_yin="ge" sheng_diao="1" id="1223"/>
+      <zi han_zi="壁" pin_yin="bi" sheng_diao="4" id="1224"/>
+      <zi han_zi="滩" pin_yin="tan" sheng_diao="1" id="1225"/>
+      <zi han_zi="上" pin_yin="shang" sheng_diao="4" id="1226"/>
+      <zi han_zi="敲" pin_yin="qiao" sheng_diao="1" id="1227"/>
+      <zi han_zi="凯" pin_yin="kai" sheng_diao="3" id="1228"/>
+      <zi han_zi="锣" pin_yin="luo" sheng_diao="2" id="1229"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="逻" pin_yin="luo" sheng_diao="2" id="1230"/>
+      <zi han_zi="辑" pin_yin="ji" sheng_diao="2" id="1231"/>
+      <zi han_zi="混" pin_yin="hun" sheng_diao="4" id="1232"/>
+      <zi han_zi="乱" pin_yin="luan" sheng_diao="4" id="1233"/>
+      <zi han_zi="差" pin_yin="cha" sheng_diao="4" id="1234"/>
+      <zi han_zi="尺" pin_yin="chi" sheng_diao="3" id="1235"/>
+      <zi han_zi="度" pin_yin="du" sheng_diao="4" id="1236"/>
+          <zi han_zi="力" pin_yin="li" sheng_diao="4" id="1237"/>
+      <zi han_zi="辨" pin_yin="bian" sheng_diao="4" id="1238"/>
+      <zi han_zi="分" pin_yin="fen" sheng_diao="1" id="1239"/>
+      <zi han_zi="寸" pin_yin="cun" sheng_diao="4" id="1240"/>
+      <zi han_zi="吻" pin_yin="wen" sheng_diao="3" id="1241"/>
+      <zi han_zi="相" pin_yin="xiang" sheng_diao="1" id="1242"/>
+      <zi han_zi="副" pin_yin="fu" sheng_diao="4" id="1243"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="赋" pin_yin="fu" sheng_diao="4" id="1244"/>
+      <zi han_zi="予" pin_yin="yv" sheng_diao="3" id="1245"/>
+      <zi han_zi="闯" pin_yin="chuang" sheng_diao="3" id="1246"/>
+      <zi han_zi="将" pin_yin="jiang" sheng_diao="4" id="1247"/>
+      <zi han_zi="刘" pin_yin="liu" sheng_diao="2" id="1248"/>
+      <zi han_zi="惠" pin_yin="hui" sheng_diao="4" id="1249"/>
+      <zi han_zi="芝" pin_yin="zhi" sheng_diao="1" id="1250"/>
+          <zi han_zi="扑" pin_yin="pu" sheng_diao="1" id="1251"/>
+      <zi han_zi="灭" pin_yin="mie" sheng_diao="4" id="1252"/>
+      <zi han_zi="烈" pin_yin="lie" sheng_diao="4" id="1253"/>
+      <zi han_zi="焚" pin_yin="fen" sheng_diao="2" id="1254"/>
+      <zi han_zi="免" pin_yin="mian" sheng_diao="3" id="1255"/>
+      <zi han_zi="损" pin_yin="sun" sheng_diao="3" id="1256"/>
+      <zi han_zi="失" pin_yin="shi" sheng_diao="1" id="1257"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="诗" pin_yin="shi" sheng_diao="1" id="1258"/>
+      <zi han_zi="文" pin_yin="wen" sheng_diao="2" id="1259"/>
+      <zi han_zi="败" pin_yin="bai" sheng_diao="4" id="1260"/>
+      <zi han_zi="笔" pin_yin="bi" sheng_diao="3" id="1261"/>
+      <zi han_zi="锅" pin_yin="guo" sheng_diao="1" id="1262"/>
+      <zi han_zi="糊" pin_yin="hu" sheng_diao="2" id="1263"/>
+      <zi han_zi="般" pin_yin="ban" sheng_diao="1" id="1264"/>
+          <zi han_zi="淘" pin_yin="tao" sheng_diao="2" id="1265"/>
+      <zi han_zi="汰" pin_yin="tai" sheng_diao="4" id="1266"/>
+      <zi han_zi="糟" pin_yin="zao" sheng_diao="1" id="1267"/>
+      <zi han_zi="粕" pin_yin="po" sheng_diao="4" id="1268"/>
+      <zi han_zi="诲" pin_yin="hui" sheng_diao="4" id="1269"/>
+      <zi han_zi="颟" pin_yin="man" sheng_diao="1" id="1270"/>
+      <zi han_zi="顸" pin_yin="han" sheng_diao="1" id="1271"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="酣" pin_yin="han" sheng_diao="1" id="1272"/>
+      <zi han_zi="饮" pin_yin="yin" sheng_diao="3" id="1273"/>
+      <zi han_zi="汪" pin_yin="wang" sheng_diao="1" id="1274"/>
+      <zi han_zi="醇" pin_yin="chun" sheng_diao="2" id="1275"/>
+      <zi han_zi="似" pin_yin="si" sheng_diao="4" id="1276"/>
+      <zi han_zi="抒" pin_yin="shu" sheng_diao="1" id="1277"/>
+      <zi han_zi="悲" pin_yin="bei" sheng_diao="1" id="1278"/>
+          <zi han_zi="盐" pin_yin="yian" sheng_diao="2" id="1279"/>
+      <zi han_zi="碱" pin_yin="jian" sheng_diao="3" id="1280"/>
+      <zi han_zi="灌" pin_yin="guan" sheng_diao="4" id="1281"/>
+      <zi han_zi="溉" pin_yin="gai" sheng_diao="4" id="1282"/>
+      <zi han_zi="毁" pin_yin="hui" sheng_diao="3" id="1283"/>
+      <zi han_zi="蔷" pin_yin="qiang" sheng_diao="2" id="1284"/>
+      <zi han_zi="薇" pin_yin="wei" sheng_diao="1" id="1285"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="巍" pin_yin="wei" sheng_diao="1" id="1286"/>
+      <zi han_zi="呈" pin_yin="cheng" sheng_diao="2" id="1287"/>
+      <zi han_zi="欧" pin_yin="ou" sheng_diao="1" id="1288"/>
+      <zi han_zi="亚" pin_yin="ya" sheng_diao="4" id="1289"/>
+      <zi han_zi="版" pin_yin="ban" sheng_diao="3" id="1290"/>
+      <zi han_zi="图" pin_yin="tu" sheng_diao="2" id="1291"/>
+      <zi han_zi="格" pin_yin="ge" sheng_diao="2" id="1292"/>
+          <zi han_zi="泰" pin_yin="tai" sheng_diao="4" id="1293"/>
+      <zi han_zi="巴" pin_yin="ba" sheng_diao="1" id="1294"/>
+      <zi han_zi="缅" pin_yin="mian" sheng_diao="3" id="1295"/>
+      <zi han_zi="锡" pin_yin="xi" sheng_diao="1" id="1296"/>
+      <zi han_zi="吉" pin_yin="ji" sheng_diao="2" id="1297"/>
+      <zi han_zi="哈" pin_yin="ha" sheng_diao="1" id="1298"/>
+      <zi han_zi="俄" pin_yin="e" sheng_diao="2" id="1299"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="峨" pin_yin="e" sheng_diao="2" id="1300"/>
+      <zi han_zi="绰" pin_yin="chuo" sheng_diao="4" id="1301"/>
+      <zi han_zi="冠" pin_yin="guan" sheng_diao="4" id="1302"/>
+      <zi han_zi="戴" pin_yin="dai" sheng_diao="4" id="1303"/>
+      <zi han_zi="昔" pin_yin="xi" sheng_diao="1" id="1304"/>
+      <zi han_zi="吏" pin_yin="li" sheng_diao="4" id="1305"/>
+      <zi han_zi="晕" pin_yin="yvn" sheng_diao="1" id="1306"/>
+          <zi han_zi="吸" pin_yin="xi" sheng_diao="1" id="1307"/>
+      <zi han_zi="髓" pin_yin="sui" sheng_diao="3" id="1308"/>
+      <zi han_zi="剥" pin_yin="bo" sheng_diao="1" id="1309"/>
+      <zi han_zi="削" pin_yin="xve" sheng_diao="1" id="1310"/>
+      <zi han_zi="侵" pin_yin="qin" sheng_diao="1" id="1311"/>
+      <zi han_zi="褫" pin_yin="chi" sheng_diao="3" id="1312"/>
+      <zi han_zi="琨" pin_yin="kun" sheng_diao="1" id="1313"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="昆" pin_yin="kun" sheng_diao="1" id="1314"/>
+      <zi han_zi="曲" pin_yin="qv" sheng_diao="3" id="1315"/>
+      <zi han_zi="配" pin_yin="pei" sheng_diao="4" id="1316"/>
+      <zi han_zi="戏" pin_yin="xi" sheng_diao="4" id="1317"/>
+      <zi han_zi="庆" pin_yin="qing" sheng_diao="4" id="1318"/>
+      <zi han_zi="推" pin_yin="tui" sheng_diao="1" id="1319"/>
+      <zi han_zi="陈" pin_yin="chen" sheng_diao="2" id="1320"/>
+          <zi han_zi="钥" pin_yin="yao" sheng_diao="4" id="1321"/>
+      <zi han_zi="匙" pin_yin="shi" sheng_diao="0" id="1322"/>
+      <zi han_zi="拨" pin_yin="bo" sheng_diao="1" id="1323"/>
+      <zi han_zi="锁" pin_yin="suo" sheng_diao="3" id="1324"/>
+      <zi han_zi="剖" pin_yin="pou" sheng_diao="1" id="1325"/>
+      <zi han_zi="囫" pin_yin="hu" sheng_diao="2" id="1326"/>
+      <zi han_zi="囵" pin_yin="lun" sheng_diao="2" id="1327"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="仑" pin_yin="lun" sheng_diao="2" id="1328"/>
+      <zi han_zi="岚" pin_yin="lan" sheng_diao="2" id="1329"/>
+      <zi han_zi="姿" pin_yin="zi" sheng_diao="1" id="1330"/>
+      <zi han_zi="俏" pin_yin="qiao" sheng_diao="4" id="1331"/>
+      <zi han_zi="垄" pin_yin="long" sheng_diao="3" id="1332"/>
+      <zi han_zi="序" pin_yin="xv" sheng_diao="4" id="1333"/>
+      <zi han_zi="列" pin_yin="lie" sheng_diao="4" id="1334"/>
+          <zi han_zi="嘭" pin_yin="peng" sheng_diao="1" id="1335"/>
+      <zi han_zi="嚓" pin_yin="ca" sheng_diao="1" id="1336"/>
+      <zi han_zi="铿" pin_yin="keng" sheng_diao="1" id="1337"/>
+      <zi han_zi="锵" pin_yin="qiang" sheng_diao="1" id="1338"/>
+      <zi han_zi="咏" pin_yin="yong" sheng_diao="3" id="1339"/>
+      <zi han_zi="音" pin_yin="yin" sheng_diao="1" id="1340"/>
+      <zi han_zi="乐" pin_yin="yve" sheng_diao="4" id="1341"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="岳" pin_yin="yve" sheng_diao="4" id="1342"/>
+      <zi han_zi="嵩" pin_yin="song" sheng_diao="1" id="1343"/>
+      <zi han_zi="衡" pin_yin="heng" sheng_diao="2" id="1344"/>
+      <zi han_zi="岿" pin_yin="kui" sheng_diao="1" id="1345"/>
+      <zi han_zi="耸" pin_yin="song" sheng_diao="3" id="1346"/>
+      <zi han_zi="躯" pin_yin="qv" sheng_diao="1" id="1347"/>
+      <zi han_zi="杉" pin_yin="shan" sheng_diao="1" id="1348"/>
+          <zi han_zi="崴" pin_yin="wei" sheng_diao="1" id="1349"/>
+      <zi han_zi="嵬" pin_yin="wei" sheng_diao="2" id="1350"/>
+      <zi han_zi="示" pin_yin="shi" sheng_diao="4" id="1351"/>
+      <zi han_zi="范" pin_yin="fan" sheng_diao="4" id="1352"/>
+      <zi han_zi="侧" pin_yin="ce" sheng_diao="4" id="1353"/>
+      <zi han_zi="纠" pin_yin="jiu" sheng_diao="1" id="1354"/>
+      <zi han_zi="偏" pin_yin="pian" sheng_diao="1" id="1355"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="翩" pin_yin="pian" sheng_diao="1" id="1356"/>
+      <zi han_zi="蜂" pin_yin="feng" sheng_diao="1" id="1357"/>
+      <zi han_zi="蝴" pin_yin="hu" sheng_diao="2" id="1358"/>
+      <zi han_zi="蝶" pin_yin="die" sheng_diao="2" id="1359"/>
+      <zi han_zi="蜻" pin_yin="qing" sheng_diao="1" id="1360"/>
+      <zi han_zi="蜓" pin_yin="ting" sheng_diao="2" id="1361"/>
+      <zi han_zi="欢" pin_yin="huan" sheng_diao="1" id="1362"/>
+          <zi han_zi="蜘" pin_yin="zhi" sheng_diao="1" id="1363"/>
+      <zi han_zi="蛛" pin_yin="zhu" sheng_diao="1" id="1364"/>
+      <zi han_zi="爬" pin_yin="pa" sheng_diao="2" id="1365"/>
+      <zi han_zi="丝" pin_yin="si" sheng_diao="1" id="1366"/>
+      <zi han_zi="蚂" pin_yin="ma" sheng_diao="3" id="1367"/>
+      <zi han_zi="蚁" pin_yin="yi" sheng_diao="3" id="1368"/>
+      <zi han_zi="忺" pin_yin="xian" sheng_diao="1" id="1369"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="跹" pin_yin="xian" sheng_diao="1" id="1370"/>
+      <zi han_zi="帆" pin_yin="fan" sheng_diao="1" id="1371"/>
+      <zi han_zi="逐" pin_yin="zhu" sheng_diao="2" id="1372"/>
+      <zi han_zi="浪" pin_yin="lang" sheng_diao="4" id="1373"/>
+      <zi han_zi="掌" pin_yin="zhang" sheng_diao="3" id="1374"/>
+      <zi han_zi="航" pin_yin="hang" sheng_diao="2" id="1375"/>
+      <zi han_zi="舵" pin_yin="duo" sheng_diao="4" id="1376"/>
+          <zi han_zi="谋" pin_yin="mou" sheng_diao="2" id="1377"/>
+      <zi han_zi="划" pin_yin="hua" sheng_diao="4" id="1378"/>
+      <zi han_zi="运" pin_yin="yvn" sheng_diao="4" id="1379"/>
+      <zi han_zi="筹" pin_yin="chou" sheng_diao="2" id="1380"/>
+      <zi han_zi="魄" pin_yin="po" sheng_diao="4" id="1381"/>
+      <zi han_zi="帷" pin_yin="wei" sheng_diao="2" id="1382"/>
+      <zi han_zi="幄" pin_yin="wo" sheng_diao="4" id="1383"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="沃" pin_yin="wo" sheng_diao="4" id="1384"/>
+      <zi han_zi="雪" pin_yin="xve" sheng_diao="3" id="1385"/>
+      <zi han_zi="渗" pin_yin="shen" sheng_diao="4" id="1386"/>
+      <zi han_zi="溶" pin_yin="rong" sheng_diao="2" id="1387"/>
+      <zi han_zi="溪" pin_yin="xi" sheng_diao="1" id="1388"/>
+      <zi han_zi="滴" pin_yin="di" sheng_diao="1" id="1389"/>
+      <zi han_zi="潺" pin_yin="zhan" sheng_diao="4" id="1390"/>
+          <zi han_zi="湛" pin_yin="dian" sheng_diao="1" id="1391"/>
+      <zi han_zi="池" pin_yin="chi" sheng_diao="2" id="1392"/>
+      <zi han_zi="荡" pin_yin="dang" sheng_diao="4" id="1393"/>
+      <zi han_zi="漾" pin_yin="yang" sheng_diao="4" id="1394"/>
+      <zi han_zi="涟" pin_yin="lian" sheng_diao="2" id="1395"/>
+      <zi han_zi="漪" pin_yin="yi" sheng_diao="1" id="1396"/>
+      <zi han_zi="恬" pin_yin="tian" sheng_diao="2" id="1397"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="田" pin_yin="tian" sheng_diao="2" id="1398"/>
+      <zi han_zi="埂" pin_yin="geng" sheng_diao="3" id="1399"/>
+      <zi han_zi="堤" pin_yin="di" sheng_diao="1" id="1400"/>
+      <zi han_zi="坝" pin_yin="ba" sheng_diao="4" id="1401"/>
+      <zi han_zi="塌" pin_yin="ta" sheng_diao="1" id="1402"/>
+      <zi han_zi="倒" pin_yin="dao" sheng_diao="3" id="1403"/>
+      <zi han_zi="霉" pin_yin="mei" sheng_diao="2" id="1404"/>
+          <zi han_zi="每" pin_yin="mei" sheng_diao="3" id="1405"/>
+      <zi han_zi="厘" pin_yin="li" sheng_diao="2" id="1406"/>
+      <zi han_zi="空" pin_yin="kong" sheng_diao="1" id="496"/>
+      <zi han_zi="隙" pin_yin="xi" sheng_diao="4" id="1408"/>
+      <zi han_zi="巨" pin_yin="jv" sheng_diao="4" id="1409"/>
+      <zi han_zi="价" pin_yin="jia" sheng_diao="4" id="1410"/>
+      <zi han_zi="赔" pin_yin="pei" sheng_diao="2" id="1411"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="培" pin_yin="pei" sheng_diao="2" id="1412"/>
+      <zi han_zi="训" pin_yin="xvn" sheng_diao="4" id="1413"/>
+      <zi han_zi="演" pin_yin="yan" sheng_diao="3" id="1414"/>
+      <zi han_zi="员" pin_yin="yvan" sheng_diao="2" id="1415"/>
+      <zi han_zi="兼" pin_yin="jian" sheng_diao="1" id="1416"/>
+      <zi han_zi="编" pin_yin="bian" sheng_diao="1" id="1417"/>
+      <zi han_zi="剧" pin_yin="jv" sheng_diao="4" id="1418"/>
+          <zi han_zi="妆" pin_yin="zhuang" sheng_diao="1" id="1419"/>
+      <zi han_zi="扮" pin_yin="ban" sheng_diao="4" id="1420"/>
+      <zi han_zi="角" pin_yin="jve" sheng_diao="2" id="1421"/>
+      <zi han_zi="色" pin_yin="se" sheng_diao="4" id="1422"/>
+      <zi han_zi="享" pin_yin="xiang" sheng_diao="3" id="1423"/>
+      <zi han_zi="美" pin_yin="mei" sheng_diao="3" id="1424"/>
+      <zi han_zi="誉" pin_yin="yv" sheng_diao="4" id="1425"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="育" pin_yin="yv" sheng_diao="4" id="1426"/>
+      <zi han_zi="雏" pin_yin="chu" sheng_diao="2" id="1427"/>
+      <zi han_zi="孵" pin_yin="fu" sheng_diao="1" id="1428"/>
+      <zi han_zi="卵" pin_yin="luan" sheng_diao="3" id="1429"/>
+      <zi han_zi="哺" pin_yin="bu" sheng_diao="3" id="1430"/>
+      <zi han_zi="乳" pin_yin="ru" sheng_diao="3" id="1431"/>
+      <zi han_zi="鸥" pin_yin="ou" sheng_diao="1" id="1432"/>
+          <zi han_zi="丰" pin_yin="feng" sheng_diao="1" id="1433"/>
+      <zi han_zi="羽" pin_yin="yv" sheng_diao="3" id="1434"/>
+      <zi han_zi="饱" pin_yin="bao" sheng_diao="3" id="1435"/>
+      <zi han_zi="览" pin_yin="lan" sheng_diao="3" id="1436"/>
+      <zi han_zi="蔚" pin_yin="wei" sheng_diao="4" id="1437"/>
+      <zi han_zi="观" pin_yin="guan" sheng_diao="1" id="1438"/>
+      <zi han_zi="幽" pin_yin="you" sheng_diao="1" id="1439"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="优" pin_yin="you" sheng_diao="1" id="1440"/>
+      <zi han_zi="异" pin_yin="yi" sheng_diao="4" id="1441"/>
+      <zi han_zi="成" pin_yin="cheng" sheng_diao="2" id="1442"/>
+      <zi han_zi="绩" pin_yin="ji" sheng_diao="4" id="1443"/>
+      <zi han_zi="释" pin_yin="shi" sheng_diao="4" id="1444"/>
+      <zi han_zi="答" pin_yin="da" sheng_diao="2" id="1445"/>
+      <zi han_zi="详" pin_yin="xiang" sheng_diao="2" id="1446"/>
+          <zi han_zi="考" pin_yin="kao" sheng_diao="3" id="1447"/>
+      <zi han_zi="试" pin_yin="shi" sheng_diao="4" id="1448"/>
+      <zi han_zi="拾" pin_yin="shi" sheng_diao="2" id="1449"/>
+      <zi han_zi="斗" pin_yin="dou" sheng_diao="3" id="1450"/>
+      <zi han_zi="壹" pin_yin="yi" sheng_diao="1" id="1451"/>
+      <zi han_zi="石" pin_yin="dan" sheng_diao="4" id="1452"/>
+      <zi han_zi="量" pin_yin="liang" sheng_diao="2" id="1453"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="良" pin_yin="liang" sheng_diao="2" id="1454"/>
+      <zi han_zi="辰" pin_yin="chen" sheng_diao="2" id="1455"/>
+      <zi han_zi="爸" pin_yin="ba" sheng_diao="4" id="1456"/>
+      <zi han_zi="妈" pin_yin="ma" sheng_diao="1" id="1457"/>
+      <zi han_zi="甚" pin_yin="shen" sheng_diao="4" id="1458"/>
+      <zi han_zi="溺" pin_yin="ni" sheng_diao="4" id="1459"/>
+      <zi han_zi="宠" pin_yin="chong" sheng_diao="3" id="1460"/>
+          <zi han_zi="材" pin_yin="cai" sheng_diao="2" id="1461"/>
+      <zi han_zi="腐" pin_yin="fu" sheng_diao="3" id="1462"/>
+      <zi han_zi="棺" pin_yin="guan" sheng_diao="1" id="1463"/>
+      <zi han_zi="朽" pin_yin="xiu" sheng_diao="3" id="1464"/>
+      <zi han_zi="坟" pin_yin="fen" sheng_diao="2" id="1465"/>
+      <zi han_zi="继" pin_yin="ji" sheng_diao="4" id="1466"/>
+      <zi han_zi="踵" pin_yin="zhong" sheng_diao="3" id="1467"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="种" pin_yin="zhong" sheng_diao="4" id="1211"/>
+      <zi han_zi="仁" pin_yin="ren" sheng_diao="2" id="1469"/>
+      <zi han_zi="核" pin_yin="he" sheng_diao="2" id="1470"/>
+      <zi han_zi="桃" pin_yin="tao" sheng_diao="2" id="1471"/>
+      <zi han_zi="已" pin_yin="yi" sheng_diao="3" id="1472"/>
+      <zi han_zi="供" pin_yin="gong" sheng_diao="4" id="1473"/>
+      <zi han_zi="给" pin_yin="ji" sheng_diao="3" id="1474"/>
+          <zi han_zi="仓" pin_yin="cang" sheng_diao="1" id="1475"/>
+      <zi han_zi="存" pin_yin="cun" sheng_diao="2" id="1476"/>
+      <zi han_zi="百" pin_yin="bai" sheng_diao="3" id="1477"/>
+      <zi han_zi="货" pin_yin="huo" sheng_diao="4" id="1478"/>
+      <zi han_zi="码" pin_yin="ma" sheng_diao="3" id="1479"/>
+      <zi han_zi="箱" pin_yin="xiang" sheng_diao="1" id="1480"/>
+      <zi han_zi="底" pin_yin="di" sheng_diao="3" id="1481"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="抵" pin_yin="di" sheng_diao="3" id="1482"/>
+      <zi han_zi="偿" pin_yin="chang" sheng_diao="2" id="1483"/>
+      <zi han_zi="债" pin_yin="zhai" sheng_diao="4" id="1484"/>
+      <zi han_zi="券" pin_yin="qvan" sheng_diao="4" id="1485"/>
+      <zi han_zi="多" pin_yin="duo" sheng_diao="1" id="1486"/>
+      <zi han_zi="储" pin_yin="chu" sheng_diao="3" id="1487"/>
+      <zi han_zi="蓄" pin_yin="xv" sheng_diao="4" id="1488"/>
+          <zi han_zi="兑" pin_yin="dui" sheng_diao="4" id="1489"/>
+      <zi han_zi="付" pin_yin="fu" sheng_diao="4" id="1490"/>
+      <zi han_zi="楼" pin_yin="lou" sheng_diao="2" id="1491"/>
+      <zi han_zi="厦" pin_yin="sha" sheng_diao="4" id="1492"/>
+      <zi han_zi="换" pin_yin="huan" sheng_diao="4" id="1493"/>
+      <zi han_zi="私" pin_yin="si" sheng_diao="1" id="1494"/>
+      <zi han_zi="寓" pin_yin="yv" sheng_diao="4" id="1495"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="御" pin_yin="yv" sheng_diao="4" id="1496"/>
+      <zi han_zi="搪" pin_yin="tang" sheng_diao="2" id="1497"/>
+      <zi han_zi="凛" pin_yin="lin" sheng_diao="3" id="1498"/>
+      <zi han_zi="冽" pin_yin="lie" sheng_diao="4" id="1499"/>
+      <zi han_zi="适" pin_yin="shi" sheng_diao="4" id="1500"/>
+      <zi han_zi="穿" pin_yin="chuan" sheng_diao="1" id="1501"/>
+      <zi han_zi="棉" pin_yin="mian" sheng_diao="2" id="1502"/>
+          <zi han_zi="纤" pin_yin="xian" sheng_diao="1" id="1503"/>
+      <zi han_zi="维" pin_yin="wei" sheng_diao="2" id="1504"/>
+      <zi han_zi="絮" pin_yin="xv" sheng_diao="4" id="1505"/>
+      <zi han_zi="袄" pin_yin="ao" sheng_diao="3" id="1506"/>
+      <zi han_zi="耐" pin_yin="nai" sheng_diao="4" id="1507"/>
+      <zi han_zi="冬" pin_yin="dong" sheng_diao="1" id="1508"/>
+      <zi han_zi="残" pin_yin="can" sheng_diao="2" id="1509"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="蚕" pin_yin="can" sheng_diao="2" id="1510"/>
+      <zi han_zi="蛾" pin_yin="e" sheng_diao="2" id="1511"/>
+      <zi han_zi="缚" pin_yin="fu" sheng_diao="4" id="1512"/>
+      <zi han_zi="茧" pin_yin="jian" sheng_diao="3" id="1513"/>
+      <zi han_zi="续" pin_yin="xv" sheng_diao="4" id="1514"/>
+      <zi han_zi="繁" pin_yin="fan" sheng_diao="2" id="1515"/>
+      <zi han_zi="殖" pin_yin="zhi" sheng_diao="2" id="1516"/>
+          <zi han_zi="暮" pin_yin="mu" sheng_diao="4" id="1517"/>
+      <zi han_zi="霭" pin_yin="ai" sheng_diao="3" id="1518"/>
+      <zi han_zi="没" pin_yin="mo" sheng_diao="4" id="1519"/>
+      <zi han_zi="日" pin_yin="ri" sheng_diao="4" id="1520"/>
+      <zi han_zi="几" pin_yin="ji" sheng_diao="3" id="1521"/>
+      <zi han_zi="何" pin_yin="he" sheng_diao="2" id="1522"/>
+      <zi han_zi="时" pin_yin="shi" sheng_diao="2" id="1523"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="蚀" pin_yin="shi" sheng_diao="2" id="1524"/>
+      <zi han_zi="咬" pin_yin="yao" sheng_diao="3" id="1525"/>
+      <zi han_zi="庄" pin_yin="zhuang" sheng_diao="1" id="1526"/>
+      <zi han_zi="稼" pin_yin="jia" sheng_diao="4" id="1527"/>
+      <zi han_zi="吮" pin_yin="shun" sheng_diao="3" id="1528"/>
+      <zi han_zi="稠" pin_yin="chou" sheng_diao="2" id="1529"/>
+      <zi han_zi="浆" pin_yin="jiang" sheng_diao="1" id="1530"/>
+          <zi han_zi="茄" pin_yin="qie" sheng_diao="2" id="1531"/>
+      <zi han_zi="椒" pin_yin="jiao" sheng_diao="1" id="1532"/>
+      <zi han_zi="芹" pin_yin="qin" sheng_diao="2" id="1533"/>
+      <zi han_zi="薯" pin_yin="shu" sheng_diao="3" id="1534"/>
+      <zi han_zi="均" pin_yin="jvn" sheng_diao="1" id="1535"/>
+      <zi han_zi="遭" pin_yin="zao" sheng_diao="1" id="1536"/>
+      <zi han_zi="殃" pin_yin="yang" sheng_diao="1" id="1537"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="秧" pin_yin="yang" sheng_diao="1" id="1538"/>
+      <zi han_zi="黍" pin_yin="shu" sheng_diao="3" id="1539"/>
+      <zi han_zi="饲" pin_yin="si" sheng_diao="4" id="1540"/>
+      <zi han_zi="料" pin_yin="liao" sheng_diao="4" id="1541"/>
+      <zi han_zi="猪" pin_yin="zhu" sheng_diao="1" id="1542"/>
+      <zi han_zi="咧" pin_yin="lie" sheng_diao="3" id="1543"/>
+      <zi han_zi="呵" pin_yin="he" sheng_diao="1" id="1544"/>
+          <zi han_zi="龌" pin_yin="wo" sheng_diao="4" id="1545"/>
+      <zi han_zi="龊" pin_yin="chou" sheng_diao="4" id="1546"/>
+      <zi han_zi="肋" pin_yin="le" sheng_diao="1" id="1547"/>
+      <zi han_zi="脦" pin_yin="de" sheng_diao="0" id="1548"/>
+      <zi han_zi="疹" pin_yin="zhen" sheng_diao="3" id="1549"/>
+      <zi han_zi="疮" pin_yin="chuang" sheng_diao="1" id="1550"/>
+      <zi han_zi="疴" pin_yin="ke" sheng_diao="1" id="1551"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="棵" pin_yin="ke" sheng_diao="1" id="1552"/>
+      <zi han_zi="茎" pin_yin="jing" sheng_diao="1" id="1553"/>
+      <zi han_zi="曙" pin_yin="shu" sheng_diao="3" id="1554"/>
+      <zi han_zi="貌" pin_yin="mao" sheng_diao="4" id="1555"/>
+      <zi han_zi="妩" pin_yin="wu" sheng_diao="3" id="1556"/>
+      <zi han_zi="媚" pin_yin="mei" sheng_diao="4" id="1557"/>
+      <zi han_zi="影" pin_yin="ying" sheng_diao="3" id="1558"/>
+          <zi han_zi="飒" pin_yin="sa" sheng_diao="4" id="1559"/>
+      <zi han_zi="爽" pin_yin="shuang" sheng_diao="3" id="1560"/>
+      <zi han_zi="彪" pin_yin="biao" sheng_diao="1" id="1561"/>
+      <zi han_zi="炳" pin_yin="bing" sheng_diao="3" id="1562"/>
+      <zi han_zi="驶" pin_yin="shi" sheng_diao="3" id="1563"/>
+      <zi han_zi="舰" pin_yin="jian" sheng_diao="4" id="1564"/>
+      <zi han_zi="艇" pin_yin="ting" sheng_diao="3" id="1565"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="挺" pin_yin="ting" sheng_diao="3" id="1566"/>
+      <zi han_zi="昂" pin_yin="ang" sheng_diao="2" id="1567"/>
+      <zi han_zi="鹤" pin_yin="he" sheng_diao="4" id="1568"/>
+      <zi han_zi="颈" pin_yin="jing" sheng_diao="3" id="1569"/>
+      <zi han_zi="衬" pin_yin="chen" sheng_diao="4" id="1570"/>
+      <zi han_zi="吼" pin_yin="hou" sheng_diao="3" id="1571"/>
+      <zi han_zi="虎" pin_yin="hu" sheng_diao="3" id="1572"/>
+          <zi han_zi="浩" pin_yin="hao" sheng_diao="4" id="1573"/>
+      <zi han_zi="渺" pin_yin="miao" sheng_diao="3" id="1574"/>
+      <zi han_zi="狭" pin_yin="xia" sheng_diao="2" id="1575"/>
+      <zi han_zi="川" pin_yin="chuan" sheng_diao="1" id="1576"/>
+      <zi han_zi="壑" pin_yin="he" sheng_diao="4" id="1577"/>
+      <zi han_zi="涧" pin_yin="jian" sheng_diao="4" id="1578"/>
+      <zi han_zi="吐" pin_yin="tu" sheng_diao="3" id="1579"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="土" pin_yin="tu" sheng_diao="3" id="1580"/>
+      <zi han_zi="产" pin_yin="chan" sheng_diao="3" id="1581"/>
+      <zi han_zi="什" pin_yin="shi" sheng_diao="2" id="1582"/>
+      <zi han_zi="杂" pin_yin="za" sheng_diao="2" id="1583"/>
+      <zi han_zi="瓜" pin_yin="gua" sheng_diao="1" id="1584"/>
+      <zi han_zi="枣" pin_yin="zao" sheng_diao="3" id="1585"/>
+      <zi han_zi="蓖" pin_yin="bi" sheng_diao="4" id="1586"/>
+          <zi han_zi="辣" pin_yin="la" sheng_diao="4" id="1587"/>
+      <zi han_zi="姜" pin_yin="jiang" sheng_diao="1" id="1588"/>
+      <zi han_zi="芥" pin_yin="jie" sheng_diao="4" id="1589"/>
+      <zi han_zi="蒜" pin_yin="suan" sheng_diao="4" id="1590"/>
+      <zi han_zi="拜" pin_yin="bai" sheng_diao="4" id="1591"/>
+      <zi han_zi="兄" pin_yin="xiong" sheng_diao="1" id="1592"/>
+      <zi han_zi="弟" pin_yin="di" sheng_diao="4" id="1593"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="地" pin_yin="di" sheng_diao="4" id="1594"/>
+      <zi han_zi="寝" pin_yin="qin" sheng_diao="3" id="1595"/>
+      <zi han_zi="慈" pin_yin="ci" sheng_diao="2" id="1596"/>
+      <zi han_zi="祥" pin_yin="xiang" sheng_diao="2" id="1597"/>
+      <zi han_zi="碧" pin_yin="bi" sheng_diao="4" id="1598"/>
+      <zi han_zi="柏" pin_yin="bai" sheng_diao="3" id="1599"/>
+      <zi han_zi="屋" pin_yin="wu" sheng_diao="1" id="1600"/>
+          <zi han_zi="愚" pin_yin="yv" sheng_diao="2" id="1601"/>
+      <zi han_zi="婿" pin_yin="xv" sheng_diao="4" id="1602"/>
+      <zi han_zi="哀" pin_yin="ai" sheng_diao="1" id="1603"/>
+      <zi han_zi="悼" pin_yin="dao" sheng_diao="4" id="1604"/>
+      <zi han_zi="跪" pin_yin="gui" sheng_diao="4" id="1605"/>
+      <zi han_zi="柩" pin_yin="jiu" sheng_diao="4" id="1606"/>
+      <zi han_zi="哭" pin_yin="ku" sheng_diao="1" id="1607"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="枯" pin_yin="ku" sheng_diao="1" id="1608"/>
+      <zi han_zi="萎" pin_yin="wei" sheng_diao="3" id="1609"/>
+      <zi han_zi="千" pin_yin="qian" sheng_diao="1" id="1610"/>
+      <zi han_zi="顷" pin_yin="qing" sheng_diao="3" id="1611"/>
+      <zi han_zi="湿" pin_yin="shi" sheng_diao="1" id="1612"/>
+      <zi han_zi="滋" pin_yin="zi" sheng_diao="1" id="1613"/>
+      <zi han_zi="润" pin_yin="run" sheng_diao="4" id="1614"/>
+          <zi han_zi="干" pin_yin="gan" sheng_diao="1" id="1615"/>
+      <zi han_zi="旱" pin_yin="han" sheng_diao="4" id="1616"/>
+      <zi han_zi="恢" pin_yin="hui" sheng_diao="1" id="1617"/>
+      <zi han_zi="复" pin_yin="fu" sheng_diao="4" id="1618"/>
+      <zi han_zi="缓" pin_yin="huan" sheng_diao="3" id="1619"/>
+      <zi han_zi="慢" pin_yin="man" sheng_diao="4" id="1620"/>
+      <zi han_zi="浸" pin_yin="jin" sheng_diao="4" id="1621"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="烬" pin_yin="jin" sheng_diao="4" id="1622"/>
+      <zi han_zi="柴" pin_yin="chai" sheng_diao="2" id="1623"/>
+      <zi han_zi="燎" pin_yin="liao" sheng_diao="2" id="1624"/>
+      <zi han_zi="枝" pin_yin="zhi" sheng_diao="1" id="1625"/>
+      <zi han_zi="再" pin_yin="zai" sheng_diao="4" id="1626"/>
+      <zi han_zi="采" pin_yin="cai" sheng_diao="3" id="1627"/>
+      <zi han_zi="购" pin_yin="gou" sheng_diao="4" id="1628"/>
+          <zi han_zi="扁" pin_yin="bian" sheng_diao="3" id="1629"/>
+      <zi han_zi="担" pin_yin="dan" sheng_diao="1" id="779"/>
+      <zi han_zi="箩" pin_yin="luo" sheng_diao="2" id="1631"/>
+      <zi han_zi="筐" pin_yin="kuang" sheng_diao="1" id="1632"/>
+      <zi han_zi="晃" pin_yin="huang" sheng_diao="4" id="1633"/>
+      <zi han_zi="左" pin_yin="zuo" sheng_diao="3" id="1634"/>
+      <zi han_zi="右" pin_yin="you" sheng_diao="4" id="1635"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="又" pin_yin="you" sheng_diao="4" id="1636"/>
+      <zi han_zi="遛" pin_yin="liu" sheng_diao="4" id="1637"/>
+      <zi han_zi="村" pin_yin="cun" sheng_diao="1" id="1638"/>
+      <zi han_zi="寨" pin_yin="zhai" sheng_diao="4" id="1639"/>
+      <zi han_zi="帖" pin_yin="tie" sheng_diao="1" id="1640"/>
+      <zi han_zi="广" pin_yin="guang" sheng_diao="3" id="1641"/>
+      <zi han_zi="告" pin_yin="gao" sheng_diao="4" id="1642"/>
+          <zi han_zi="销" pin_yin="xiao" sheng_diao="1" id="1643"/>
+      <zi han_zi="售" pin_yin="shou" sheng_diao="4" id="1644"/>
+      <zi han_zi="裤" pin_yin="ku" sheng_diao="4" id="1645"/>
+      <zi han_zi="袜" pin_yin="wa" sheng_diao="4" id="1646"/>
+      <zi han_zi="捎" pin_yin="shao" sheng_diao="1" id="1647"/>
+      <zi han_zi="毡" pin_yin="zhan" sheng_diao="1" id="1648"/>
+      <zi han_zi="帽" pin_yin="mao" sheng_diao="4" id="1649"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="茂" pin_yin="mao" sheng_diao="4" id="1650"/>
+      <zi han_zi="蔽" pin_yin="bi" sheng_diao="4" id="1651"/>
+      <zi han_zi="厂" pin_yin="chang" sheng_diao="3" id="1652"/>
+      <zi han_zi="房" pin_yin="fang" sheng_diao="2" id="1653"/>
+      <zi han_zi="院" pin_yin="yvan" sheng_diao="4" id="1654"/>
+      <zi han_zi="洁" pin_yin="jie" sheng_diao="2" id="1655"/>
+      <zi han_zi="净" pin_yin="jing" sheng_diao="4" id="1656"/>
+          <zi han_zi="农" pin_yin="nong" sheng_diao="2" id="1657"/>
+      <zi han_zi="业" pin_yin="ye" sheng_diao="4" id="1658"/>
+      <zi han_zi="基" pin_yin="ji" sheng_diao="1" id="1659"/>
+      <zi han_zi="础" pin_yin="chu" sheng_diao="3" id="1660"/>
+      <zi han_zi="囤" pin_yin="tun" sheng_diao="2" id="1661"/>
+      <zi han_zi="粮" pin_yin="liang" sheng_diao="2" id="1662"/>
+      <zi han_zi="剩" pin_yin="sheng" sheng_diao="4" id="1663"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="盛" pin_yin="sheng" sheng_diao="4" id="1664"/>
+      <zi han_zi="宴" pin_yin="yan" sheng_diao="4" id="1665"/>
+      <zi han_zi="雅" pin_yin="ya" sheng_diao="3" id="1666"/>
+      <zi han_zi="座" pin_yin="zuo" sheng_diao="4" id="1667"/>
+      <zi han_zi="圈" pin_yin="qvan" sheng_diao="1" id="1668"/>
+      <zi han_zi="套" pin_yin="tao" sheng_diao="4" id="1669"/>
+      <zi han_zi="叙" pin_yin="xv" sheng_diao="4" id="1670"/>
+          <zi han_zi="拒" pin_yin="jv" sheng_diao="4" id="1671"/>
+      <zi han_zi="中" pin_yin="zhong" sheng_diao="4" id="1672"/>
+      <zi han_zi="糖" pin_yin="tang" sheng_diao="2" id="1673"/>
+      <zi han_zi="弹" pin_yin="dan" sheng_diao="4" id="1674"/>
+      <zi han_zi="莫" pin_yin="mo" sheng_diao="4" id="1675"/>
+      <zi han_zi="贪" pin_yin="tan" sheng_diao="1" id="1676"/>
+      <zi han_zi="欲" pin_yin="yv" sheng_diao="4" id="1677"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="郁" pin_yin="yv" sheng_diao="4" id="1678"/>
+      <zi han_zi="闷" pin_yin="men" sheng_diao="4" id="1679"/>
+      <zi han_zi="懊" pin_yin="ao" sheng_diao="4" id="1680"/>
+      <zi han_zi="丧" pin_yin="sang" sheng_diao="4" id="1681"/>
+      <zi han_zi="脏" pin_yin="zang" sheng_diao="1" id="1682"/>
+      <zi han_zi="留" pin_yin="liu" sheng_diao="2" id="1683"/>
+      <zi han_zi="踪" pin_yin="zong" sheng_diao="1" id="1684"/>
+          <zi han_zi="唯" pin_yin="wei" sheng_diao="2" id="1685"/>
+      <zi han_zi="择" pin_yin="ze" sheng_diao="2" id="1686"/>
+      <zi han_zi="赎" pin_yin="shu" sheng_diao="2" id="1687"/>
+      <zi han_zi="罪" pin_yin="zui" sheng_diao="4" id="1688"/>
+      <zi han_zi="恍" pin_yin="huang" sheng_diao="3" id="1689"/>
+      <zi han_zi="然" pin_yin="ran" sheng_diao="2" id="1690"/>
+      <zi han_zi="聪" pin_yin="cong" sheng_diao="1" id="1691"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="葱" pin_yin="cong" sheng_diao="1" id="1692"/>
+      <zi han_zi="茏" pin_yin="long" sheng_diao="2" id="1693"/>
+      <zi han_zi="葡" pin_yin="pu" sheng_diao="2" id="1694"/>
+      <zi han_zi="萄" pin_yin="tao" sheng_diao="2" id="1695"/>
+      <zi han_zi="串" pin_yin="chuan" sheng_diao="4" id="1696"/>
+      <zi han_zi="甩" pin_yin="shuai" sheng_diao="3" id="1697"/>
+      <zi han_zi="藤" pin_yin="teng" sheng_diao="2" id="1698"/>
+          <zi han_zi="亿" pin_yin="yi" sheng_diao="4" id="1699"/>
+      <zi han_zi="株" pin_yin="zhu" sheng_diao="1" id="1700"/>
+      <zi han_zi="蔬" pin_yin="shu" sheng_diao="1" id="1701"/>
+      <zi han_zi="菜" pin_yin="cai" sheng_diao="4" id="1702"/>
+      <zi han_zi="栽" pin_yin="zai" sheng_diao="1" id="1703"/>
+      <zi han_zi="丘" pin_yin="qiu" sheng_diao="1" id="1704"/>
+      <zi han_zi="陵" pin_yin="ling" sheng_diao="2" id="1705"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="凌" pin_yin="ling" sheng_diao="2" id="1706"/>
+      <zi han_zi="姬" pin_yin="ji" sheng_diao="1" id="1707"/>
+      <zi han_zi="摘" pin_yin="zhai" sheng_diao="1" id="1708"/>
+      <zi han_zi="茶" pin_yin="cha" sheng_diao="2" id="1709"/>
+      <zi han_zi="拢" pin_yin="long" sheng_diao="3" id="1710"/>
+      <zi han_zi="毛" pin_yin="mao" sheng_diao="2" id="1711"/>
+      <zi han_zi="发" pin_yin="fa" sheng_diao="4" id="1712"/>
+          <zi han_zi="剪" pin_yin="jian" sheng_diao="3" id="1713"/>
+      <zi han_zi="裁" pin_yin="cai" sheng_diao="2" id="1714"/>
+      <zi han_zi="筒" pin_yin="tong" sheng_diao="3" id="1715"/>
+      <zi han_zi="裙" pin_yin="qvn" sheng_diao="2" id="1716"/>
+      <zi han_zi="备" pin_yin="bei" sheng_diao="4" id="1717"/>
+      <zi han_zi="婚" pin_yin="hun" sheng_diao="1" id="1718"/>
+      <zi han_zi="嫁" pin_yin="jia" sheng_diao="4" id="1719"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="驾" pin_yin="jia" sheng_diao="4" id="1720"/>
+      <zi han_zi="驭" pin_yin="yv" sheng_diao="4" id="1721"/>
+      <zi han_zi="钦" pin_yin="qin" sheng_diao="1" id="1722"/>
+      <zi han_zi="贵" pin_yin="gui" sheng_diao="4" id="1723"/>
+      <zi han_zi="君" pin_yin="jvn" sheng_diao="1" id="1724"/>
+      <zi han_zi="王" pin_yin="wang" sheng_diao="2" id="1725"/>
+      <zi han_zi="府" pin_yin="fu" sheng_diao="3" id="1726"/>
+          <zi han_zi="称" pin_yin="cheng" sheng_diao="1" id="1727"/>
+      <zi han_zi="霸" pin_yin="ba" sheng_diao="4" id="1728"/>
+      <zi han_zi="施" pin_yin="shi" sheng_diao="1" id="1729"/>
+      <zi han_zi="虐" pin_yin="nve" sheng_diao="4" id="1730"/>
+      <zi han_zi="逞" pin_yin="cheng" sheng_diao="3" id="1731"/>
+      <zi han_zi="耀" pin_yin="yao" sheng_diao="4" id="1732"/>
+      <zi han_zi="武" pin_yin="wu" sheng_diao="3" id="1733"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="舞" pin_yin="wu" sheng_diao="3" id="1734"/>
+      <zi han_zi="蚊" pin_yin="wen" sheng_diao="2" id="1735"/>
+      <zi han_zi="腌" pin_yin="a" sheng_diao="1" id="1736"/>
+      <zi han_zi="臜" pin_yin="za" sheng_diao="1" id="1737"/>
+      <zi han_zi="仿" pin_yin="fang" sheng_diao="3" id="1738"/>
+      <zi han_zi="蛆" pin_yin="qv" sheng_diao="1" id="1739"/>
+      <zi han_zi="蝇" pin_yin="ying" sheng_diao="2" id="1740"/>
+          <zi han_zi="嗡" pin_yin="weng" sheng_diao="1" id="1741"/>
+      <zi han_zi="吵" pin_yin="chao" sheng_diao="3" id="1742"/>
+      <zi han_zi="吓" pin_yin="xia" sheng_diao="4" id="1743"/>
+      <zi han_zi="唬" pin_yin="hu" sheng_diao="0" id="1744"/>
+      <zi han_zi="怯" pin_yin="qie" sheng_diao="4" id="1745"/>
+      <zi han_zi="懦" pin_yin="nuo" sheng_diao="4" id="1746"/>
+      <zi han_zi="聋" pin_yin="long" sheng_diao="2" id="1747"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="龙" pin_yin="long" sheng_diao="2" id="1748"/>
+      <zi han_zi="宫" pin_yin="gong" sheng_diao="1" id="1749"/>
+      <zi han_zi="栖" pin_yin="qi" sheng_diao="1" id="1750"/>
+      <zi han_zi="妖" pin_yin="yao" sheng_diao="1" id="1751"/>
+      <zi han_zi="搅" pin_yin="jiao" sheng_diao="3" id="1752"/>
+      <zi han_zi="浑" pin_yin="hun" sheng_diao="2" id="1753"/>
+      <zi han_zi="洞" pin_yin="dong" sheng_diao="4" id="1754"/>
+          <zi han_zi="龟" pin_yin="gui" sheng_diao="1" id="1755"/>
+      <zi han_zi="将" pin_yin="jiang" sheng_diao="1" id="1756"/>
+      <zi han_zi="贝" pin_yin="bei" sheng_diao="4" id="1757"/>
+      <zi han_zi="壳" pin_yin="ke" sheng_diao="2" id="1758"/>
+      <zi han_zi="挤" pin_yin="ji" sheng_diao="3" id="1759"/>
+      <zi han_zi="裂" pin_yin="lie" sheng_diao="4" id="1760"/>
+      <zi han_zi="缝" pin_yin="feng" sheng_diao="4" id="1761"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="凤" pin_yin="feng" sheng_diao="4" id="1762"/>
+      <zi han_zi="凰" pin_yin="huang" sheng_diao="2" id="1763"/>
+      <zi han_zi="孤" pin_yin="gu" sheng_diao="1" id="1764"/>
+      <zi han_zi="独" pin_yin="du" sheng_diao="2" id="1765"/>
+      <zi han_zi="伶" pin_yin="ling" sheng_diao="2" id="1766"/>
+      <zi han_zi="仃" pin_yin="ding" sheng_diao="1" id="1767"/>
+      <zi han_zi="型" pin_yin="xing" sheng_diao="2" id="1768"/>
+          <zi han_zi="群" pin_yin="qvn" sheng_diao="2" id="1769"/>
+      <zi han_zi="策" pin_yin="ce" sheng_diao="4" id="1770"/>
+      <zi han_zi="韬" pin_yin="tao" sheng_diao="1" id="1771"/>
+      <zi han_zi="略" pin_yin="lve" sheng_diao="4" id="1772"/>
+      <zi han_zi="汇" pin_yin="hui" sheng_diao="4" id="1773"/>
+      <zi han_zi="聚" pin_yin="jv" sheng_diao="4" id="1774"/>
+      <zi han_zi="凝" pin_yin="ning" sheng_diao="2" id="1775"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="宁" pin_yin="ning" sheng_diao="2" id="1776"/>
+      <zi han_zi="街" pin_yin="jie" sheng_diao="1" id="1777"/>
+      <zi han_zi="巷" pin_yin="xiang" sheng_diao="4" id="1778"/>
+      <zi han_zi="弄" pin_yin="nong" sheng_diao="4" id="2744"/>
+      <zi han_zi="窄" pin_yin="zhai" sheng_diao="3" id="1780"/>
+      <zi han_zi="胡" pin_yin="hu" sheng_diao="2" id="1781"/>
+      <zi han_zi="同" pin_yin="tong" sheng_diao="4" id="2229"/>
+          <zi han_zi="强" pin_yin="qiang" sheng_diao="2" id="1783"/>
+      <zi han_zi="盗" pin_yin="dao" sheng_diao="4" id="1784"/>
+      <zi han_zi="掠" pin_yin="lve" sheng_diao="4" id="1785"/>
+      <zi han_zi="夺" pin_yin="duo" sheng_diao="2" id="1786"/>
+      <zi han_zi="搞" pin_yin="gao" sheng_diao="3" id="1787"/>
+      <zi han_zi="绥" pin_yin="sui" sheng_diao="2" id="1788"/>
+      <zi han_zi="靖" pin_yin="jing" sheng_diao="4" id="1789"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="静" pin_yin="jing" sheng_diao="4" id="1790"/>
+      <zi han_zi="悄" pin_yin="qiao" sheng_diao="1" id="1791"/>
+      <zi han_zi="兢" pin_yin="jing" sheng_diao="1" id="1792"/>
+      <zi han_zi="栗" pin_yin="li" sheng_diao="4" id="1793"/>
+      <zi han_zi="徐" pin_yin="xv" sheng_diao="2" id="1794"/>
+      <zi han_zi="蹭" pin_yin="ceng" sheng_diao="4" id="1795"/>
+      <zi han_zi="进" pin_yin="jin" sheng_diao="4" id="1796"/>
+          <zi han_zi="畏" pin_yin="wei" sheng_diao="4" id="1797"/>
+      <zi han_zi="惧" pin_yin="jv" sheng_diao="4" id="1798"/>
+      <zi han_zi="顽" pin_yin="wan" sheng_diao="2" id="1799"/>
+      <zi han_zi="抗" pin_yin="kang" sheng_diao="4" id="1800"/>
+      <zi han_zi="众" pin_yin="zhong" sheng_diao="4" id="1801"/>
+      <zi han_zi="臂" pin_yin="bi" sheng_diao="4" id="1802"/>
+      <zi han_zi="振" pin_yin="zhen" sheng_diao="4" id="1803"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="镇" pin_yin="zhen" sheng_diao="4" id="1804"/>
+      <zi han_zi="压" pin_yin="ya" sheng_diao="1" id="1805"/>
+      <zi han_zi="改" pin_yin="gai" sheng_diao="3" id="1806"/>
+      <zi han_zi="造" pin_yin="zao" sheng_diao="4" id="1807"/>
+      <zi han_zi="协" pin_yin="xie" sheng_diao="2" id="1808"/>
+      <zi han_zi="并" pin_yin="bing" sheng_diao="4" id="1809"/>
+      <zi han_zi="使" pin_yin="shi" sheng_diao="3" id="1810"/>
+          <zi han_zi="执" pin_yin="zhi" sheng_diao="2" id="1811"/>
+      <zi han_zi="法" pin_yin="fa" sheng_diao="3" id="1812"/>
+      <zi han_zi="煞" pin_yin="sha" sheng_diao="1" id="1813"/>
+      <zi han_zi="邪" pin_yin="xie" sheng_diao="2" id="1814"/>
+      <zi han_zi="乃" pin_yin="nai" sheng_diao="3" id="1815"/>
+      <zi han_zi="宗" pin_yin="zong" sheng_diao="1" id="1816"/>
+      <zi han_zi="旨" pin_yin="zhi" sheng_diao="3" id="1817"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="址" pin_yin="zhi" sheng_diao="3" id="1818"/>
+      <zi han_zi="临" pin_yin="lin" sheng_diao="2" id="1819"/>
+      <zi han_zi="肆" pin_yin="si" sheng_diao="4" id="1820"/>
+      <zi han_zi="号" pin_yin="hao" sheng_diao="4" id="1821"/>
+      <zi han_zi="宿" pin_yin="su" sheng_diao="4" id="1822"/>
+      <zi han_zi="舍" pin_yin="she" sheng_diao="4" id="1823"/>
+      <zi han_zi="区" pin_yin="qv" sheng_diao="1" id="1824"/>
+          <zi han_zi="检" pin_yin="jian" sheng_diao="3" id="1825"/>
+      <zi han_zi="查" pin_yin="cha" sheng_diao="2" id="1826"/>
+      <zi han_zi="惯" pin_yin="guan" sheng_diao="4" id="1827"/>
+      <zi han_zi="赌" pin_yin="du" sheng_diao="3" id="1828"/>
+      <zi han_zi="隔" pin_yin="ge" sheng_diao="2" id="1829"/>
+      <zi han_zi="离" pin_yin="li" sheng_diao="2" id="1830"/>
+      <zi han_zi="拘" pin_yin="jv" sheng_diao="1" id="1831"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="居" pin_yin="jv" sheng_diao="1" id="1832"/>
+      <zi han_zi="宅" pin_yin="zhai" sheng_diao="2" id="1833"/>
+      <zi han_zi="刁" pin_yin="diao" sheng_diao="1" id="1834"/>
+      <zi han_zi="夫" pin_yin="fu" sheng_diao="1" id="1835"/>
+      <zi han_zi="妄" pin_yin="wang" sheng_diao="4" id="1836"/>
+      <zi han_zi="谎" pin_yin="huang" sheng_diao="3" id="1837"/>
+      <zi han_zi="瞒" pin_yin="man" sheng_diao="2" id="1838"/>
+          <zi han_zi="昏" pin_yin="hun" sheng_diao="1" id="1839"/>
+      <zi han_zi="庸" pin_yin="yong" sheng_diao="1" id="1840"/>
+      <zi han_zi="奢" pin_yin="she" sheng_diao="1" id="1841"/>
+      <zi han_zi="侈" pin_yin="chi" sheng_diao="3" id="1842"/>
+      <zi han_zi="刑" pin_yin="xing" sheng_diao="2" id="1843"/>
+      <zi han_zi="罚" pin_yin="fa" sheng_diao="2" id="1844"/>
+      <zi han_zi="衔" pin_yin="xian" sheng_diao="2" id="1845"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="贤" pin_yin="xian" sheng_diao="2" id="1846"/>
+      <zi han_zi="妻" pin_yin="qi" sheng_diao="1" id="1847"/>
+      <zi han_zi="携" pin_yin="xie" sheng_diao="2" id="1848"/>
+      <zi han_zi="囡" pin_yin="nan" sheng_diao="1" id="1849"/>
+      <zi han_zi="煎" pin_yin="jian" sheng_diao="1" id="1850"/>
+      <zi han_zi="熬" pin_yin="ao" sheng_diao="2" id="1851"/>
+      <zi han_zi="穷" pin_yin="qiong" sheng_diao="2" id="1852"/>
+          <zi han_zi="爹" pin_yin="die" sheng_diao="1" id="1853"/>
+      <zi han_zi="坑" pin_yin="keng" sheng_diao="1" id="1854"/>
+      <zi han_zi="妇" pin_yin="fu" sheng_diao="4" id="1855"/>
+      <zi han_zi="幼" pin_yin="you" sheng_diao="4" id="1856"/>
+      <zi han_zi="害" pin_yin="hai" sheng_diao="4" id="1857"/>
+      <zi han_zi="家" pin_yin="jia" sheng_diao="1" id="1858"/>
+      <zi han_zi="庭" pin_yin="ting" sheng_diao="2" id="1859"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="亭" pin_yin="ting" sheng_diao="2" id="1860"/>
+      <zi han_zi="立" pin_yin="li" sheng_diao="4" id="1861"/>
+      <zi han_zi="魁" pin_yin="kui" sheng_diao="2" id="1862"/>
+      <zi han_zi="姐" pin_yin="jie" sheng_diao="3" id="1863"/>
+      <zi han_zi="邓" pin_yin="deng" sheng_diao="4" id="1864"/>
+      <zi han_zi="颖" pin_yin="ying" sheng_diao="3" id="1865"/>
+      <zi han_zi="超" pin_yin="chao" sheng_diao="1" id="1866"/>
+          <zi han_zi="艺" pin_yin="yi" sheng_diao="4" id="1867"/>
+      <zi han_zi="苑" pin_yin="yvan" sheng_diao="4" id="1868"/>
+      <zi han_zi="慧" pin_yin="hui" sheng_diao="4" id="1869"/>
+      <zi han_zi="妹" pin_yin="mei" sheng_diao="4" id="1870"/>
+      <zi han_zi="李" pin_yin="li" sheng_diao="3" id="1871"/>
+      <zi han_zi="伯" pin_yin="bo" sheng_diao="2" id="1872"/>
+      <zi han_zi="钊" pin_yin="zhao" sheng_diao="1" id="1873"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="朝" pin_yin="zhao" sheng_diao="1" id="1874"/>
+      <zi han_zi="气" pin_yin="qi" sheng_diao="4" id="1875"/>
+      <zi han_zi="蓬" pin_yin="peng" sheng_diao="2" id="1876"/>
+      <zi han_zi="勃" pin_yin="bo" sheng_diao="2" id="1877"/>
+      <zi han_zi="习" pin_yin="xi" sheng_diao="2" id="1878"/>
+      <zi han_zi="擒" pin_yin="qin" sheng_diao="2" id="1879"/>
+      <zi han_zi="拿" pin_yin="na" sheng_diao="2" id="1880"/>
+          <zi han_zi="翻" pin_yin="fan" sheng_diao="1" id="1881"/>
+      <zi han_zi="过" pin_yin="guo" sheng_diao="4" id="1882"/>
+      <zi han_zi="障" pin_yin="zhang" sheng_diao="4" id="1883"/>
+      <zi han_zi="碍" pin_yin="ai" sheng_diao="4" id="1884"/>
+      <zi han_zi="跨" pin_yin="kua" sheng_diao="4" id="1885"/>
+      <zi han_zi="巫" pin_yin="wu" sheng_diao="1" id="1886"/>
+      <zi han_zi="峡" pin_yin="xia" sheng_diao="2" id="1887"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="霞" pin_yin="xia" sheng_diao="2" id="1888"/>
+      <zi han_zi="帔" pin_yin="pei" sheng_diao="4" id="1889"/>
+      <zi han_zi="冠" pin_yin="guan" sheng_diao="1" id="1890"/>
+      <zi han_zi="冕" pin_yin="mian" sheng_diao="3" id="1891"/>
+      <zi han_zi="颜" pin_yin="yan" sheng_diao="2" id="1892"/>
+      <zi han_zi="面" pin_yin="mian" sheng_diao="4" id="1893"/>
+      <zi han_zi="娇" pin_yin="jiao" sheng_diao="1" id="1894"/>
+          <zi han_zi="阀" pin_yin="fa" sheng_diao="2" id="1895"/>
+      <zi han_zi="阅" pin_yin="yve" sheng_diao="4" id="1896"/>
+      <zi han_zi="骄" pin_yin="jiao" sheng_diao="1" id="1897"/>
+      <zi han_zi="傲" pin_yin="ao" sheng_diao="4" id="1898"/>
+      <zi han_zi="翘" pin_yin="qiao" sheng_diao="4" id="1899"/>
+      <zi han_zi="眉" pin_yin="mei" sheng_diao="2" id="1900"/>
+      <zi han_zi="梢" pin_yin="shao" sheng_diao="1" id="1901"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="烧" pin_yin="shao" sheng_diao="1" id="1902"/>
+      <zi han_zi="饼" pin_yin="bing" sheng_diao="3" id="1903"/>
+      <zi han_zi="焦" pin_yin="jiao" sheng_diao="1" id="1904"/>
+      <zi han_zi="烤" pin_yin="kao" sheng_diao="3" id="1905"/>
+      <zi han_zi="夹" pin_yin="jia" sheng_diao="2" id="1906"/>
+      <zi han_zi="肉" pin_yin="rou" sheng_diao="4" id="1907"/>
+      <zi han_zi="馅" pin_yin="xian" sheng_diao="4" id="1908"/>
+          <zi han_zi="馋" pin_yin="chan" sheng_diao="2" id="1909"/>
+      <zi han_zi="嘴" pin_yin="zui" sheng_diao="3" id="1910"/>
+      <zi han_zi="暴" pin_yin="bao" sheng_diao="4" id="1911"/>
+      <zi han_zi="嚼" pin_yin="jiao" sheng_diao="2" id="1912"/>
+      <zi han_zi="急" pin_yin="ji" sheng_diao="2" id="1913"/>
+      <zi han_zi="吞" pin_yin="tun" sheng_diao="1" id="1914"/>
+      <zi han_zi="咽" pin_yin="yan" sheng_diao="4" id="1915"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="艳" pin_yin="yan" sheng_diao="4" id="1916"/>
+      <zi han_zi="丽" pin_yin="li" sheng_diao="4" id="1917"/>
+      <zi han_zi="纺" pin_yin="fang" sheng_diao="3" id="1918"/>
+      <zi han_zi="织" pin_yin="zhi" sheng_diao="1" id="1919"/>
+      <zi han_zi="绸" pin_yin="chou" sheng_diao="2" id="1920"/>
+      <zi han_zi="缎" pin_yin="duan" sheng_diao="4" id="1921"/>
+      <zi han_zi="衣" pin_yin="yi" sheng_diao="1" id="1922"/>
+          <zi han_zi="缝" pin_yin="feng" sheng_diao="2" id="1923"/>
+      <zi han_zi="纫" pin_yin="ren" sheng_diao="4" id="1924"/>
+      <zi han_zi="钉" pin_yin="ding" sheng_diao="1" id="1925"/>
+      <zi han_zi="褂" pin_yin="gua" sheng_diao="4" id="1926"/>
+      <zi han_zi="乔" pin_yin="qiao" sheng_diao="2" id="1927"/>
+      <zi han_zi="饰" pin_yin="shi" sheng_diao="4" id="1928"/>
+      <zi han_zi="翕" pin_yin="xi" sheng_diao="1" id="1929"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="夕" pin_yin="xi" sheng_diao="1" id="1930"/>
+      <zi han_zi="末" pin_yin="mo" sheng_diao="4" id="1931"/>
+      <zi han_zi="完" pin_yin="wan" sheng_diao="2" id="1932"/>
+      <zi han_zi="寿" pin_yin="shou" sheng_diao="4" id="1933"/>
+      <zi han_zi="堕" pin_yin="duo" sheng_diao="4" id="1934"/>
+      <zi han_zi="衰" pin_yin="shuai" sheng_diao="1" id="1935"/>
+      <zi han_zi="亡" pin_yin="wang" sheng_diao="2" id="1936"/>
+          <zi han_zi="盲" pin_yin="mang" sheng_diao="2" id="1937"/>
+      <zi han_zi="肠" pin_yin="chang" sheng_diao="2" id="1938"/>
+      <zi han_zi="梗" pin_yin="gen" sheng_diao="3" id="1939"/>
+      <zi han_zi="塞" pin_yin="se" sheng_diao="4" id="1940"/>
+      <zi han_zi="胃" pin_yin="wei" sheng_diao="4" id="1941"/>
+      <zi han_zi="溃" pin_yin="kui" sheng_diao="4" id="1942"/>
+      <zi han_zi="疡" pin_yin="yang" sheng_diao="2" id="1943"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="阳" pin_yin="yang" sheng_diao="2" id="1944"/>
+      <zi han_zi="晒" pin_yin="shai" sheng_diao="4" id="1945"/>
+      <zi han_zi="晌" pin_yin="shang" sheng_diao="3" id="1946"/>
+      <zi han_zi="午" pin_yin="wu" sheng_diao="3" id="1947"/>
+      <zi han_zi="撑" pin_yin="cheng" sheng_diao="1" id="1948"/>
+      <zi han_zi="凉" pin_yin="liang" sheng_diao="2" id="1949"/>
+      <zi han_zi="棚" pin_yin="peng" sheng_diao="2" id="1950"/>
+          <zi han_zi="暂" pin_yin="zan" sheng_diao="4" id="1951"/>
+      <zi han_zi="且" pin_yin="qie" sheng_diao="3" id="1952"/>
+      <zi han_zi="酷" pin_yin="ku" sheng_diao="4" id="1953"/>
+      <zi han_zi="暑" pin_yin="shu" sheng_diao="3" id="1954"/>
+      <zi han_zi="降" pin_yin="jiang" sheng_diao="4" id="1955"/>
+      <zi han_zi="彩" pin_yin="cai" sheng_diao="3" id="1956"/>
+      <zi han_zi="虹" pin_yin="hong" sheng_diao="2" id="1957"/>
+    </paragraph>
+  </page>
+  <page background="" audio_file="" style="1" align="left">
+    <cue_points></cue_points>
+    <paragraph align="left" style="0">
+      <zi han_zi="红" pin_yin="hong" sheng_diao="2" id="1958"/>
+      <zi han_zi="兜" pin_yin="dou" sheng_diao="1" id="1959"/>
+      <zi han_zi="肚" pin_yin="du" sheng_diao="4" id="1960"/>
+      <zi han_zi="脐" pin_yin="qi" sheng_diao="2" id="1961"/>
+      <zi han_zi="乖" pin_yin="guai" sheng_diao="1" id="1962"/>
+      <zi han_zi="孩" pin_yin="hai" sheng_diao="2" id="1963"/>
+      <zi han_zi="娃" pin_yin="wa" sheng_diao="2" id="1964"/>
+      <zi han_zi="互" pin_yin="hu" sheng_diao="4" id="1965"/>
+      <zi han_zi="拽" pin_yin="zhuai" sheng_diao="4" id="1966"/>
+      <zi han_zi="脊" pin_yin="ji" sheng_diao="3" id="1967"/>
+      <zi han_zi="背" pin_yin="bei" sheng_diao="4" id="1968"/>
+      <zi han_zi="萝" pin_yin="luo" sheng_diao="2" id="1969"/>
+      <zi han_zi="卜" pin_yin="bo" sheng_diao="0" id="1970"/>
+      <zi han_zi="拔" pin_yin="ba" sheng_diao="2" id="1971"/>
+    </paragraph>
+  </page>
+</pages>

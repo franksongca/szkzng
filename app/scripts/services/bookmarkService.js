@@ -7,13 +7,28 @@ angular.module('szkzApp.services').factory('BookmarkManager', ['$rootScope', 'lo
     
     return {
         getSelectedArticleTypeCode: function () {
-            var bookmark = localStorageService.get('bookmark');
-            return  bookmark === null ? defaultBookmark : bookmark;
+            var bookmark = localStorageService.get('bookmark') || defaultBookmark;
+            return  bookmark;
+        },
+
+        getSelectedArticlePage: function () {
+            var bookmark = localStorageService.get('bookmark') || defaultBookmark,
+                page = localStorageService.get('page-' + bookmark) || 1;
+
+            //alert('getSelectedArticlePage ['+'page-' + bookmark+'] = ' + page);    
+            return  page;
         },
         
         setSelectedArticleTypeCode: function (bookmark) {
-            localStorageService.set('bookmark', bookmark);
+            localStorageService.set('bookmark', bookmark);      // current article
             $rootScope.$broadcast('articleChanged', {bookmark: bookmark});
+        },
+
+        setSelectedArticlePage: function (page) {
+            var bookmark = this.getSelectedArticleTypeCode();
+            localStorageService.set('page-' + bookmark, page);
+
+            //alert('[' +'page-' + bookmark+']setSelectedArticlePage('+page+')');
         },
 
         getSelectedArticleType: function () {

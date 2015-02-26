@@ -22,6 +22,8 @@ angular.module('szkzApp').controller('HomeCtrl', ['$rootScope', '$scope', 'Tween
 
     console.log('lang =' + lang + '-' + $scope.lang);
 
+    $rootScope.fullScreen = false;
+
     $scope.actionMenuData = [];
 
     if (!$rootScope.$$listeners.doActionEvent) {
@@ -75,6 +77,7 @@ angular.module('szkzApp').controller('HomeCtrl', ['$rootScope', '$scope', 'Tween
         });
         
         ArticleFactory.loadArticle(bookmark);
+        $rootScope.currentPage = BookmarkManager.getSelectedArticlePage();
     }
         
     function updateActionButtons() {
@@ -155,7 +158,7 @@ angular.module('szkzApp').controller('HomeCtrl', ['$rootScope', '$scope', 'Tween
         });
     }
     
-    $scope.$on('$viewContentLoaded', UIService.animatePageIn);
+    $scope.$on('$viewContentLoaded', function () { UIService.animatePageIn(); });
     $scope.$on('articleListItemSelectedEvent', UIService.refreshContentMenu);
 
     $scope.signin = function () {

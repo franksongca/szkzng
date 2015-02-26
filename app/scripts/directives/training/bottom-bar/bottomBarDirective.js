@@ -1,28 +1,31 @@
 'use strict';
 
 angular.module('szkzApp.directives').directive('bottomBar', ['$rootScope', '$location', 'BookmarkManager', '$timeout', 'SZKZ_CONSTANTS', 
-    '$document', function ($rootScope, $location, BookmarkManager, $timeout, SZKZ_CONSTANTS, $document) 
+    '$document', 'ArticleFactory', function ($rootScope, $location, BookmarkManager, $timeout, SZKZ_CONSTANTS, $document, ArticleFactory) 
 {
     return {
         restrict: 'E',
         templateUrl: 'views/training/bottom-bar/bottom-bar.html',
+        priority: 1000,
+
         link: function (scope, element, attr) {
             var STATUS = ['pausing', 'playing'],
                 status = 1;
 
             // TODO: use current article's bookmark
-            scope.currentPage = 2;
-            scope.totalPage = 10;
+            $rootScope.totalPage = ArticleFactory.getTotalPages();
+            //$rootScope.currentPage = BookmarkManager.getSelectedArticlePage();
+
             scope.status = STATUS[status];
             
             function manageControlButtons () {
-                if (scope.currentPage < scope.totalPage) {
+                if ($rootScope.currentPage < $rootScope.totalPage) {
                     element.find('ul li:nth-of-type(4) i').removeAttr('disable');
                 } else {
                     element.find('ul li:nth-of-type(4) i').attr('disable', '');
                 }
                 
-                if (scope.currentPage > 1) {
+                if ($rootScope.currentPage > 1) {
                     element.find('ul li:first-child i').removeAttr('disable');
                     element.find('ul li:nth-of-type(2) i').removeAttr('disable');
                 } else {
@@ -71,7 +74,7 @@ angular.module('szkzApp.directives').directive('bottomBar', ['$rootScope', '$loc
             });
             
             scope.goFirst = function (evt) {
-                if (scope.currentPage == 1) {
+                if ($rootScope.currentPage == 1) {
                     return;    
                 }
                 
@@ -81,19 +84,21 @@ angular.module('szkzApp.directives').directive('bottomBar', ['$rootScope', '$loc
                 $timeout(function () {
                     evt.target.style.color = originalColor;
 
-                    scope.currentPage = 1;
+                    $rootScope.currentPage = 1;
+                    updatePageIndex();
                     manageControlButtons();
                     
                 }, SZKZ_CONSTANTS.TIME_CONSTANTS.DELAY_DURATION);
             };
             
             scope.goBack = function (evt) {
-                if (scope.currentPage == 1) {
+                if ($rootScope.currentPage == 1) {
                     return;    
                 }
                 
-                scope.currentPage--;
-                
+                $rootScope.currentPage--;
+                updatePageIndex();
+
                 var originalColor = evt.target.style.color;
                 evt.target.style.color = SZKZ_CONSTANTS.BUTTON_TAPPED_COLOR;
 
@@ -104,17 +109,17 @@ angular.module('szkzApp.directives').directive('bottomBar', ['$rootScope', '$loc
             };
             
             scope.goNext = function (evt) {
-                if (scope.currentPage === scope.totalPage) {
+                if ($rootScope.currentPage === $rootScope.totalPage) {
                     return;
                 }
-                
                 var originalColor = evt.target.style.color;
                 evt.target.style.color = SZKZ_CONSTANTS.BUTTON_TAPPED_COLOR;
                 
                 $timeout(function () {
                     evt.target.style.color = originalColor;
-                    if (scope.currentPage < scope.totalPage) {
-                        scope.currentPage++;
+                    if ($rootScope.currentPage < $rootScope.totalPage) {
+                        $rootScope.currentPage++;
+                        updatePageIndex();                
                     }
 
                     manageControlButtons();
@@ -144,6 +149,10 @@ angular.module('szkzApp.directives').directive('bottomBar', ['$rootScope', '$loc
                         $rootScope.$broadcast('doActionEvent', {action: SZKZ_CONSTANTS.PAGE_NAMES.HOME_PAGE});
                     });             
                 }, SZKZ_CONSTANTS.TIME_CONSTANTS.DELAY_DURATION);
+            };
+
+            function updatePageIndex() {
+                BookmarkManager.setSelectedArticlePage($rootScope.currentPage);
             };
         }
     };

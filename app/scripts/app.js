@@ -13,11 +13,13 @@ angular.module('szkzApp', [
     'ngCordova'
 ])
 .constant('_', window._)
+.constant('Spinner', window.Spinner)
 .constant('TweenMax', window.TweenMax)
 .constant('SZKZ_CONSTANTS', {
     'HOME_CONTENT_MENU_SCROLL_WRAPPER': 'iScrollContentMenuWrapper',
     'HOME_ACTION_MENU_SCROLL_WRAPPER': 'iScrollActionMenuWrapper',
     'DROPDOWN_ACTION_MENU_SCROLL_WRAPPER': 'iScrollDropdownActionMenuWrapper',
+    'ACTION_PAGE_SCROLL': 'iScrollPageContent',
     
     'SIGNIN_DIALOG_CLASS': 'signin-dialog-class',
 

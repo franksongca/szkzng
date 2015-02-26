@@ -36,6 +36,7 @@ angular.module('ng-iscroll', []).directive('ngIscroll', ['$timeout', function ($
                     snap: true,
                     momentum: true,
                     hScrollbar: false,
+                    //vScrollbar: true,
                     mouseWheel: true,
                     on: []
                 },

@@ -303,36 +303,6 @@ body {
     font-size: 2.1em;
   }
 }
-@media only screen and (max-height: 384px) {
-  .menu {
-    top: 4.614em;
-  }
-  .footer,
-  .footer-left-bg {
-    height: 3.214em;
-    /*45px*/
-  }
-  .footer ul {
-    top: 0.2em;
-    right: 0.5em;
-  }
-  .header .banner .admin-sign-in {
-    top: 0.5em;
-    right: 0.5em;
-  }
-  .header .banner .admin-sign-in > div {
-    font-size: 1em;
-  }
-  .header .banner .user-name {
-    top: 2.5em;
-  }
-  .footer ul li {
-    margin-left: 0.3em;
-  }
-  .footer ul li div {
-    font-size: 1.8em;
-  }
-}
 .menu ul {
   list-style: none;
   padding: 0;
@@ -530,6 +500,34 @@ button-title-hz {
   display: none;
 }
 @media only screen and (max-height: 384px) {
+  .menu {
+    top: 4.614em;
+  }
+  .footer,
+  .footer-left-bg {
+    height: 3.214em;
+    /*45px*/
+  }
+  .footer ul {
+    top: 0.2em;
+    right: 0.5em;
+  }
+  .header .banner .admin-sign-in {
+    top: 0.5em;
+    right: 0.5em;
+  }
+  .header .banner .admin-sign-in > div {
+    font-size: 1em;
+  }
+  .header .banner .user-name {
+    top: 2.5em;
+  }
+  .footer ul li {
+    margin-left: 0.3em;
+  }
+  .footer ul li div {
+    font-size: 1.8em;
+  }
   .header .banner,
   .header .banner .banner-left-bg,
   .header .banner .banner-right-bg {

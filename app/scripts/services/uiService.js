@@ -60,12 +60,16 @@ function($rootScope, ngDialog, TweenMax, SZKZ_CONSTANTS, $timeout) {
         });
     }
 
-    function animatePageIn () {
-        TweenMax.to(mainViewContainer, SZKZ_CONSTANTS.TIME_CONSTANTS.PAGE_IN_DURATION, {scaleY: 1, scaleX: 1, opacity: 1});
+    function animatePageIn (callback) {
+        TweenMax.to(mainViewContainer, SZKZ_CONSTANTS.TIME_CONSTANTS.PAGE_IN_DURATION, {scaleY: 1, scaleX: 1, opacity: 1, onComplete: callback});
     }
 
     function animatePageOut (callback) {
         TweenMax.to(mainViewContainer, SZKZ_CONSTANTS.TIME_CONSTANTS.PAGE_OUT_DURATION, {scaleY: 0, scaleX: 0, onComplete: callback});
+    }
+
+    function animateVerticalScrollTo (targetElement, top, duration, callback) {
+        TweenMax.to(targetElement, duration, {top: top, ease: Elastic.easeOut, onComplete: callback});
     }
 
     function refreshIScroll (scrollWrapper) {
@@ -83,6 +87,10 @@ function($rootScope, ngDialog, TweenMax, SZKZ_CONSTANTS, $timeout) {
 
     function refreshContentMenu () {
         refreshIScroll(SZKZ_CONSTANTS.HOME_CONTENT_MENU_SCROLL_WRAPPER);
+    }
+
+    function refreshActionPage () {
+         refreshIScroll(SZKZ_CONSTANTS.ACTION_PAGE_SCROLL);
     }
 
     function showSpinner (withMask, message) {
@@ -128,6 +136,8 @@ function($rootScope, ngDialog, TweenMax, SZKZ_CONSTANTS, $timeout) {
             refreshIScroll(scrollWrapper);
         },
         showSpinner: showSpinner,
-        hideSpinner: hideSpinner
+        hideSpinner: hideSpinner,
+        refreshActionPage: refreshActionPage,
+        animateVerticalScrollTo: animateVerticalScrollTo
     };
 }]);

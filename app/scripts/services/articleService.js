@@ -15,7 +15,7 @@ angular.module('szkzApp.services').factory('ArticleFactory', ['$rootScope', '$ht
             var group = ArticleListFactory.getArticleGroupIndex(code),
                 article = code.split('-'),
                 url,// = "data\\WenZhang\\" + article[0] + "\\" + (group == undefined ? "" : "g" + group + "\\") + article[1] + "\\text.xml",
-                blankCharacter = {hanZi: '&nbsp;', pinYin: '', shengDiao: '', 'ori_id': '', mistake: 0, index: 0, characterIndex: ''};
+                blankCharacter = {hanZi: '', pinYin: '', shengDiao: '', 'ori_id': '', mistake: 0, index: 0, characterIndex: ''};
         
             if (articleType + '-' + articleCode === code) {
                 return;
@@ -53,7 +53,8 @@ angular.module('szkzApp.services').factory('ArticleFactory', ['$rootScope', '$ht
                     attrShengDiao = 'sheng_diao',
                     attrPinYin = 'pin_yin',
                     attrOriginalId = 'ori_id',
-                    attrXuHao = 'xu_hao';
+                    attrXuHao = 'xu_hao',
+                    tempChar;
 
                 currentArticle = {};
                 currentArticle.pageAttributes = {}; 
@@ -100,7 +101,10 @@ angular.module('szkzApp.services').factory('ArticleFactory', ['$rootScope', '$ht
                                 if(charCount % currentArticle.pageAttributes.charactersPerRow > 0){
                                     appendChars = currentArticle.pageAttributes.charactersPerRow - (charCount % currentArticle.pageAttributes.charactersPerRow);
                                     for (i=0; i< appendChars; i++) {
-                                        pageObj.characters.push(blankCharacter);
+                                        tempChar = angular.copy(blankCharacter);
+                                        tempChar.index = charCount;
+                                        pageObj.characters.push(tempChar);
+
                                         charCount++;
                                     }
                                 }
@@ -132,6 +136,8 @@ angular.module('szkzApp.services').factory('ArticleFactory', ['$rootScope', '$ht
                                 ziObj.times = attributes.times.value;
                                 ziObj.index = attributes[attrXuHao].value;
                                 pageObj.characters.push(ziObj);
+
+                                //console.log("ziObj.index=" + ziObj.index + ":" + charCount);
                                 charCount++;
                             }
                         });
@@ -139,7 +145,9 @@ angular.module('szkzApp.services').factory('ArticleFactory', ['$rootScope', '$ht
                         if(charCount % currentArticle.pageAttributes.charactersPerRow > 0){
                             appendChars = currentArticle.pageAttributes.charactersPerRow - (charCount % currentArticle.pageAttributes.charactersPerRow);
                             for (i = 0; i < appendChars; i++) {
-                                pageObj.characters.push(blankCharacter);
+                                tempChar = angular.copy(blankCharacter);
+                                tempChar.index = charCount;
+                                pageObj.characters.push(tempChar);
                                 charCount++;
                             }
                         }
@@ -179,6 +187,38 @@ angular.module('szkzApp.services').factory('ArticleFactory', ['$rootScope', '$ht
 
         getLoadingStatus: function () {
             return inLoading;
+        },
+
+        getPageCharacters: function (index) {
+            return currentArticle.pages[index].characters;
+        },
+
+        getCharactersPerLine: function () {
+            return parseInt(currentArticle.pageAttributes.charactersPerRow);
+        },
+
+        getPageTotalLines: function (index) {
+            return currentArticle.pages[index].characters.length / this.getCharactersPerLine();
+        },
+
+        getPageLines: function (index) {
+            var lines = [],
+                counter = 0,
+                lineCount = 0,
+                characters = currentArticle.pages[index].characters;
+
+            lines[0] = [];    
+            for (var i = 0; i < characters.length; i++) {
+                counter++;
+                if (counter > this.getCharactersPerLine(index)) {
+                    lineCount++;
+                    counter = 0;
+                    lines[lineCount] = [];
+                }
+                lines[lineCount].push(characters[i]);
+            }
+
+            return lines;
         }
     };
 }]);

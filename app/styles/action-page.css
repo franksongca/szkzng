@@ -19,5 +19,71 @@
   overflow: auto;
 }
 .action-content {
-  height: 100vh;
+  padding: 5px;
+  position: absolute;
+  top: 3.214em;
+  bottom: 3.214em;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: -1;
+  /*overflow: hidden;*/
+  outline: 1px solid rgba(255, 255, 255, 0.4);
+}
+.action-content .action-content-container {
+  height: 100%;
+  overflow: hidden;
+}
+.action-content .action-content-container > ul {
+  position: relative;
+  list-style: none;
+  margin-left: -40px;
+}
+.action-content .action-content-container > ul li {
+  position: relative;
+  display: inline-block;
+}
+.action-content .action-content-container > ul li .pinyin-container {
+  text-align: center;
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 3px 4px 0 4px;
+}
+.action-content .action-content-container > ul li .pinyin-container ul {
+  -webkit-padding-start: 0px !important;
+}
+.action-content .action-content-container > ul li .character-container {
+  display: block;
+  position: relative;
+  padding-top: 100%;
+}
+.action-content .action-content-container > ul li .character-container .hz-container {
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  top: 0px;
+  left: 0;
+  right: 0;
+}
+.action-content .action-content-container > ul li .character-container .hz-container .hz-inner-container {
+  display: block;
+  position: relative;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.action-content .action-content-container > ul li .character-container .hz-container .hz-inner-container > p {
+  position: absolute;
+  top: -8%;
+  background-color: rgba(255, 153, 50, 0.3);
+}
+.full-height {
+  top: 0;
+  bottom: 0;
+}
+pin-yin {
+  position: relative;
+}
+pin-yin ul {
+  margin-left: 0 !important;
 }

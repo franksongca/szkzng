@@ -9,14 +9,14 @@ angular.module('szkzApp').controller('ListenCtrl', ['$scope', 'UIService', '$loc
         return;
     }
 
-    var pageControlData = PageControlData.getPageControlData(SZKZ_CONSTANTS.PAGE_NAMES.LISTEN_PAGE);
+    var pageControllerData = PageControlData.getPageControlData(SZKZ_CONSTANTS.PAGE_NAMES.LISTEN_PAGE);
 
     $timeout(function () {
-        angular.extend($scope, pageControlData);
+        angular.extend($scope, pageControllerData);
     });
         
     
-    $scope.$on('$viewContentLoaded', function(){
+    $scope.$on('$viewContentLoaded', function () {
         UIService.animatePageIn();
     });
 }]);

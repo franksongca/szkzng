@@ -67,7 +67,7 @@ angular.module('szkzApp.directives').directive('topMenu', ['$rootScope', '$docum
                 var touches = evt.originalEvent.touches || evt.originalEvent.changedTouches,
                     action;
                 
-                if (touches.length < 2  || touchStartPos.length == 0) {
+                if (touches.length < 2  || touchStartPos.length === 0) {
                     return;
                 }
                 
@@ -76,10 +76,12 @@ angular.module('szkzApp.directives').directive('topMenu', ['$rootScope', '$docum
                 
                 action = whichAction();
                 
-                if (action == 0) {
+                if (action === 0) {
                     debugSection1.innerHTML += 'toggle!'; 
                     resetPos ();
-                    angular.element('.top-bar').slideToggle();
+                    angular.element('.top-bar').slideToggle(function () {
+                        $rootScope.fullScreen = angular.element('.top-bar').css('display') === 'none';
+                    });
                     angular.element('.bottom-bar').slideToggle();
                     
                     $rootScope.$broadcast('toggleMenusEvent');
