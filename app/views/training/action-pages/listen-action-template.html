@@ -3,10 +3,12 @@
     <div class="section-2"></div>
     <div class="section-3"></div>
 </div>
-<div class="action-content-container" ng-click="test()">
+<div class="action-content-container" id="iScrollContentMenuWrapper"
+     ng-iscroll="iScrollPageContentWrapper"
+     ng-iscroll-delay="{{SZKZ_CONSTANTS.TIME_CONSTANTS.iSCROLL_DELAY_I}}">
 	<ul>
 		<li ng-repeat="character in characters" style="width: {{charWidth}}%;">
-			<div class="pinyin-container clearfix" ng-show="showPinYin" style="height: 50px;">
+			<div class="pinyin-container clearfix" ng-show="showPinYin" style="height: {{pinYinHeight}}px;">
 				 <svg style="position: absolute; top: 0; left: 0;" width="100%">
 				  <line x1="0" y1="10" x2="98%" y2="10" style="stroke:rgba(255,0,0, 0.6); stroke-width:1" />
 				  <line x1="0" y1="20" x2="98%" y2="20" style="stroke:rgba(255,0,0, 0.6); stroke-width:1" />
@@ -14,10 +16,10 @@
 				  <line x1="0" y1="40" x2="98%" y2="40" style="stroke:rgba(255,0,0, 0.6); stroke-width:1" />
 				</svg>
 				<div style="position: absolute; top: 0;">
-					<pin-yin pin-yin={{character.pinYin}} sheng-diao={{character.shengDiao}} style="left:{{pyLeft}};"></pin-yin>	
+					<pin-yin pin-yin={{character.pinYin}} sheng-diao={{character.shengDiao}} style="left:{{pyLeft}};"></pin-yin>
 				</div>
 			</div>
-			<div class="character-container">
+			<div class="character-container"  ng-click="clickedOnChar(character.index)">
 				 <svg style="position: absolute; top: 0; left: 0;" width="100%" height="100%">
 				 	<line x1="4" y1="0" x2="100%" y2="0" style="stroke:rgba(255,0,0, 0.4); stroke-width:3" />
 				 	<line x1="4" y1="100%" x2="100%" y2="100%" style="stroke:rgba(255,0,0, 0.4); stroke-width:3" />
@@ -36,6 +38,6 @@
 				</div>
 
 			</div>
-		</li>    			
+		</li>
 	</ul>
 </div>

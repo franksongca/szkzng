@@ -1,19 +1,21 @@
 'use strict';
 
-angular.module('szkzApp.directives').directive('listenActionPage', ['$rootScope', 'BookmarkManager', '$timeout', '$window', '$document', 'UIService',
-    'SZKZ_CONSTANTS', 'ArticleFactory', function ($rootScope, BookmarkManager, $timeout, $window, $document, UIService, SZKZ_CONSTANTS, ArticleFactory) {
+angular.module('szkzApp.directives').directive('listenActionPage', ['$rootScope', 'BookmarkManager',
+    '$timeout', '$window', '$document', 'UIService', 'SZKZ_CONSTANTS', 'ArticleFactory',
+    function ($rootScope, BookmarkManager, $timeout, $window, $document, UIService, SZKZ_CONSTANTS, ArticleFactory)
+{
     return {
         restrict: 'E',
         templateUrl: 'views/training/action-pages/listen-action-template.html',
 
 		controller: function($scope, $element){
-            $scope.test = function () {
-            	alert('?');
+            $scope.clickedOnChar = function (index) {
+            	alert('?'+index);
             }
     	},
 
         link: function ($scope, element, attr) {
-			var pressed = false, 
+			var pressed = false,
                 distanceMoved = 0,
                 distanceMovedPre = 0,
                 direction,
@@ -39,34 +41,35 @@ angular.module('szkzApp.directives').directive('listenActionPage', ['$rootScope'
         	$scope.characters = ArticleFactory.getPageCharacters($rootScope.currentPage - 1);
         	$scope.charWidth = 100 / $scope.charactersPerRow;
 
+        	$scope.pinYinHeight = 50;
+        	$scope.showPinYin = true;
+
         	function updateFontSize() {
 	        	$timeout(function () {
 	        		var hzContainerWidth = angular.element('.hz-inner-container').width();
 
 	        		$scope.hanZiFontSize = hzContainerWidth * 0.9 + 'px';
 	        		$scope.hzContainerHeight = (hzContainerWidth + 10) + 'px';
-	        		
-	        		//calculateSize();
-	        		//UIService.refreshActionPage();
 	        	}, 200);
         	}
 
-        	$scope.$watch(function () { 
+        	$scope.$watch(function () {
         		return $rootScope.currentPage
         	}, function () {
         		$timeout(function () {
-	        		$scope.characters = ArticleFactory.getPageCharacters($rootScope.currentPage - 1);
+                    $scope.characters = ArticleFactory.getPageCharacters($rootScope.currentPage - 1);
         		});
         	});
 
         	$scope.$watch(function () {
-        		contentElement = contentElement || element.find('.action-content-container ul'); 
+        		contentElement = contentElement || element.find('.action-content-container > ul');
         		return contentElement.height();
         	}, function () {
         		$timeout(function () {
-        			contentElement.css('top', contentElement.height() + 'px');
-        			restoreToTop();
-					calculateSize();
+                    console.log('element height changed!!!!!!!!!!!!!!'); updateFontSize();
+                    calculateSize();
+                    restoreToTop(0);
+                    UIService.refreshPageContent();
         		});
         	});
 
@@ -75,12 +78,66 @@ angular.module('szkzApp.directives').directive('listenActionPage', ['$rootScope'
                 contentHeight = contentElement.height(),
 				charHeight = element.find('.action-content-container ul li').height() + 5;
 				charWidth = element.find('.action-content-container ul li').width();
-				pinyinHeight = charHeight - charWidth - 5;
+				//pinyinHeight = charHeight - charWidth - 5;
 				mostTop = viewHeight - contentHeight;
 				contentLeft = (angular.element('.view-container').width() - contentElement.width())/2;
         	}
 
+            $timeout(function () {
+                contentElement = contentElement || element.find('.action-content-container ul');
+                //bindEvents();
+                updateFontSize();
+            });
 
+            angular.element($window).on('resize', function () {
+                updateFontSize();
+                calculateSize();
+                restoreToTop(0);
+            });
+
+            function adjustPosition() {
+                if (contentElement.position().top > 0) {
+                    restoreToTop(0);
+                } else if (contentElement.position().top < mostTop) {
+                    restoreToTop(mostTop);
+                    //UIService.animateVerticalScrollTo(contentElement, mostTop, 0.5);
+                }
+            }
+
+            function adjustPositionTo(n) {
+                var line = Math.floor((n - 1) / $scope.charactersPerRow) + 1,
+                    lineTop = (1 - line) * charHeight;
+
+                if (lineTop > mostTop) {
+                    restoreToTop(lineTop);
+                    //UIService.animateVerticalScrollTo(contentElement, lineTop, 0.5);
+                } else {
+                    restoreToTop(mostTop);
+                    //UIService.animateVerticalScrollTo(contentElement, mostTop, 0.5);
+                }
+            }
+
+            function restoreToTop(n) {
+                if ($rootScope.myScroll[SZKZ_CONSTANTS.PAGE_CONTENT_SCROLL_WRAPPER] &&
+                    $rootScope.myScroll[SZKZ_CONSTANTS.PAGE_CONTENT_SCROLL_WRAPPER].scrollTo) {
+                    $rootScope.myScroll[SZKZ_CONSTANTS.PAGE_CONTENT_SCROLL_WRAPPER].scrollTo(0, n, 1000, IScroll.utils.ease.elastic);
+                }
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            /*
             function bindEvents() {
             	var docElem = angular.element($document);
 
@@ -104,7 +161,7 @@ angular.module('szkzApp.directives').directive('listenActionPage', ['$rootScope'
                 docElem.on('mouseup', function (evt) {
                     release(evt);
                 });
-                
+
                 docElem.on('mouseleave', function (evt) {
                     release(evt);
                 });
@@ -119,12 +176,6 @@ angular.module('szkzApp.directives').directive('listenActionPage', ['$rootScope'
 	        		calculateSize();
 	        	});
             }
-
-            $timeout(function () { 
-        		contentElement = contentElement || element.find('.action-content-container ul'); 
-				bindEvents();
-        		updateFontSize();
-            });
 
             $scope.$on('$destroy', function() {
             	var docElem = angular.element($document);
@@ -155,7 +206,7 @@ angular.module('szkzApp.directives').directive('listenActionPage', ['$rootScope'
 	                enterMoving = false;
 	            }
             }
-            
+
             function release(evt) {
             	var timeUsed,
             		speed,
@@ -175,7 +226,7 @@ angular.module('szkzApp.directives').directive('listenActionPage', ['$rootScope'
                 if (!pressed) {
 	           		clickedPosition = null;
                     return;
-                } 
+                }
 
                 totalMoved = Math.abs(currentTop - originalPos);
 
@@ -192,19 +243,19 @@ angular.module('szkzApp.directives').directive('listenActionPage', ['$rootScope'
             		adjustPosition();
             	});
             }
-            
+
             function move(position) {
             	var realMoved;
 
             	if (clickedPosition) {
-	            	enterMoving = true;	
+	            	enterMoving = true;
 	            }
 
                 if (pressed) {
                 	distanceMovedPre = distanceMoved;
                     distanceMoved = position.y - startPos.y;
                     direction = distanceMoved - distanceMovedPre;
-                    
+
                     realMoved = originalPos + distanceMoved;
 
     	            contentElement.css('top', realMoved + 'px');
@@ -224,34 +275,12 @@ angular.module('szkzApp.directives').directive('listenActionPage', ['$rootScope'
 				return charIndex + 1;
             }
 
-            function adjustPosition() {
-        		if (contentElement.position().top > 0) {
-        			restoreToTop();
-        		} else if (contentElement.position().top < mostTop) {
-        			UIService.animateVerticalScrollTo(contentElement, mostTop, 0.5);
-        		}
-            }
-
-            function adjustPositionTo(n) {
-            	var line = Math.floor((n - 1) / $scope.charactersPerRow) + 1,
-            		lineTop = (1 - line) * charHeight;
-
-        		if (lineTop > mostTop) {
-        			UIService.animateVerticalScrollTo(contentElement, lineTop, 0.5);
-        		} else {
-					UIService.animateVerticalScrollTo(contentElement, mostTop, 0.5);
-        		}
-            }
-
-            function restoreToTop() {
-            	UIService.animateVerticalScrollTo(contentElement, 0, 0.5);
-            }
 
             function clickedOnChar(index) {
 
 
             }
-
+            */
         }
     };
 }]);

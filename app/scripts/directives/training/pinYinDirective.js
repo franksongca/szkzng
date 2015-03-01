@@ -9,8 +9,8 @@ angular.module('szkzApp.directives').directive('pinYin', ['$timeout', 'PyiYinFac
         			pinyin: attr.pinYin,
         			tone: attr.shengDiao,
 
-        			size: 20,
-        			marginTop: 9,
+        			//size: 16, //20,
+        			//marginTop: 13, //9,
         			shengMuColor: "blue",
         			yunMuColor: "#990000"
 				};

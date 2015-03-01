@@ -19,8 +19,8 @@ angular.module('szkzApp', [
     'HOME_CONTENT_MENU_SCROLL_WRAPPER': 'iScrollContentMenuWrapper',
     'HOME_ACTION_MENU_SCROLL_WRAPPER': 'iScrollActionMenuWrapper',
     'DROPDOWN_ACTION_MENU_SCROLL_WRAPPER': 'iScrollDropdownActionMenuWrapper',
-    'ACTION_PAGE_SCROLL': 'iScrollPageContent',
-    
+    'PAGE_CONTENT_SCROLL_WRAPPER': 'iScrollPageContentWrapper',
+
     'SIGNIN_DIALOG_CLASS': 'signin-dialog-class',
 
     'BUTTON_TAPPED_COLOR': 'red',

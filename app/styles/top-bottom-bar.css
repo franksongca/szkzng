@@ -12,6 +12,7 @@
   width: 100%;
   height: 3.214em;
   background-color: #000000;
+  z-index: 1;
 }
 .logo {
   position: absolute;

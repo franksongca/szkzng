@@ -1,19 +1,19 @@
 'use strict';
 
-angular.module('szkzApp.services').factory('UIService', ['$rootScope', 'ngDialog', 'TweenMax', 'SZKZ_CONSTANTS', '$timeout', 
+angular.module('szkzApp.services').factory('UIService', ['$rootScope', 'ngDialog', 'TweenMax', 'SZKZ_CONSTANTS', '$timeout',
 function($rootScope, ngDialog, TweenMax, SZKZ_CONSTANTS, $timeout) {
     var mainViewContainer = document.getElementsByClassName('view-container')[0];
 
     function launchAdminDialog(target, tagName, feature) {
         var targetElement = angular.element(target),
             linkOverClass = 'link-rollover';
-        
+
         if (tagName !== 'DIV') {
             targetElement = angular.element(target).closest('div');
         }
-        
+
         targetElement.addClass(linkOverClass);
-        
+
         $timeout(function () {
             switch (feature) {
                 case 'settings':
@@ -23,22 +23,22 @@ function($rootScope, ngDialog, TweenMax, SZKZ_CONSTANTS, $timeout) {
                         appendTo: '#dialog-div-II'
                     });
                     break;
-                
+
                 case 'about':
                     ngDialog.open({
                         template: 'views/dialogs/about-panel.html',
                         controller: 'AboutPanelDialogCtrl',
                         appendTo: '#dialog-div-III'
                     });
-                    break;    
-                    
-                case 'help': 
+                    break;
+
+                case 'help':
                     ngDialog.open({
                         template: 'views/dialogs/help-panel.html',
                         controller: 'HelpPanelDialogCtrl',
                         appendTo: '#dialog-div-IV'
                     });
-                    break;    
+                    break;
             }
             targetElement.removeClass(linkOverClass);
         }, SZKZ_CONSTANTS.TIME_CONSTANTS.DELAY_DURATION);
@@ -81,12 +81,17 @@ function($rootScope, ngDialog, TweenMax, SZKZ_CONSTANTS, $timeout) {
     }
 
     function refreshActionMenu () {
-        refreshIScroll(SZKZ_CONSTANTS.HOME_ACTION_MENU_SCROLL_WRAPPER);   
-        refreshIScroll(SZKZ_CONSTANTS.DROPDOWN_ACTION_MENU_SCROLL_WRAPPER);   
+        refreshIScroll(SZKZ_CONSTANTS.HOME_ACTION_MENU_SCROLL_WRAPPER);
+        refreshIScroll(SZKZ_CONSTANTS.DROPDOWN_ACTION_MENU_SCROLL_WRAPPER);
     }
 
     function refreshContentMenu () {
         refreshIScroll(SZKZ_CONSTANTS.HOME_CONTENT_MENU_SCROLL_WRAPPER);
+    }
+
+    function refreshPageContent () {
+        console.log('refreshPageContent!!!!!!!!!!!!!');
+        refreshIScroll(SZKZ_CONSTANTS.PAGE_CONTENT_SCROLL_WRAPPER);
     }
 
     function refreshActionPage () {
@@ -132,6 +137,7 @@ function($rootScope, ngDialog, TweenMax, SZKZ_CONSTANTS, $timeout) {
         },
         refreshActionMenu: refreshActionMenu,
         refreshContentMenu: refreshContentMenu,
+        refreshPageContent: refreshPageContent,
         refreshIScroll: function (scrollWrapper) {
             refreshIScroll(scrollWrapper);
         },
