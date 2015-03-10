@@ -69,6 +69,7 @@
                         position: absolute;
                         display: block;
                         overflow: hidden;
+                        cursor: pointer;
                         top: 0px;
                         left: 0;
                         left: 0;
@@ -79,7 +80,7 @@
                             display: block;
                             position: relative;
                             margin-left: 4px;
-                            margin-right: 4px;
+                            //margin-right: 4px;
                             > p {
                                 position: absolute;
                                 top: -8%;
@@ -106,3 +107,9 @@ pin-yin ul {
     margin-left: 0 !important;
 }
 
+.active-char {
+    background-color: rgba(255, 0, 0, 0.5);
+    & > p {
+         color: white;
+    }
+}

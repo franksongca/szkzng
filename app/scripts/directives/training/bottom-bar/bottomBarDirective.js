@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('szkzApp.directives').directive('bottomBar', ['$rootScope', '$location', 'BookmarkManager', '$timeout', 'SZKZ_CONSTANTS', 
-    '$document', 'ArticleFactory', function ($rootScope, $location, BookmarkManager, $timeout, SZKZ_CONSTANTS, $document, ArticleFactory) 
+angular.module('szkzApp.directives').directive('bottomBar', ['$rootScope', '$location', 'BookmarkManager', '$timeout', 'SZKZ_CONSTANTS',
+    '$document', 'ArticleFactory', function ($rootScope, $location, BookmarkManager, $timeout, SZKZ_CONSTANTS, $document, ArticleFactory)
 {
     return {
         restrict: 'E',
@@ -17,14 +17,14 @@ angular.module('szkzApp.directives').directive('bottomBar', ['$rootScope', '$loc
             //$rootScope.currentPage = BookmarkManager.getSelectedArticlePage();
 
             scope.status = STATUS[status];
-            
+
             function manageControlButtons () {
                 if ($rootScope.currentPage < $rootScope.totalPage) {
                     element.find('ul li:nth-of-type(4) i').removeAttr('disable');
                 } else {
                     element.find('ul li:nth-of-type(4) i').attr('disable', '');
                 }
-                
+
                 if ($rootScope.currentPage > 1) {
                     element.find('ul li:first-child i').removeAttr('disable');
                     element.find('ul li:nth-of-type(2) i').removeAttr('disable');
@@ -33,19 +33,19 @@ angular.module('szkzApp.directives').directive('bottomBar', ['$rootScope', '$loc
                     element.find('ul li:nth-of-type(2) i').attr('disable', '');
                 }
             };
-            
+
             scope.toggleControlPanel = function (evt) {
                 var originalColor = evt.target.style.color;
                 evt.target.style.color = SZKZ_CONSTANTS.BUTTON_TAPPED_COLOR;
-                
+
                 $timeout(function(){
                     evt.target.style.color = originalColor;
 
                     element.find('.bottom-more-button').slideToggle();
-                    element.find('.control-panel').slideToggle();  
+                    element.find('.control-panel').slideToggle();
                 }, SZKZ_CONSTANTS.TIME_CONSTANTS.DELAY_DURATION);
             };
-                
+
             scope.close = function (evt) {
                 var originalColor;
                 if (evt) {
@@ -57,45 +57,59 @@ angular.module('szkzApp.directives').directive('bottomBar', ['$rootScope', '$loc
                     if (evt) {
                         evt.target.style.color = originalColor;
                     }
-                    
+
                     element.find('.bottom-more-button').slideToggle(function () {
                         element.find('.bottom-more-button').removeAttr('style');
                     });
                     element.find('.control-panel').slideToggle(function () {
                         element.find('.control-panel').removeAttr('style');
-                    });  
+                    });
                 }, SZKZ_CONSTANTS.TIME_CONSTANTS.DELAY_DURATION);
             };
-            
+
             scope.$on('toggleMenusEvent', function () {
                 if (angular.element('.control-panel').is(':visible')) {
                     scope.close();
                 }
             });
-            
+
+            scope.$on('audio:ended', function () {
+                status = 0;
+                $timeout(function () {
+                    scope.status = STATUS[status];
+                });
+            });
+
+            scope.$on('audio:started', function () {
+                status = 1;
+                $timeout(function () {
+                    scope.status = STATUS[status];
+                });
+            });
+
             scope.goFirst = function (evt) {
                 if ($rootScope.currentPage == 1) {
-                    return;    
+                    return;
                 }
-                
+
                 var originalColor = evt.target.style.color;
                 evt.target.style.color = SZKZ_CONSTANTS.BUTTON_TAPPED_COLOR;
-                
+
                 $timeout(function () {
                     evt.target.style.color = originalColor;
 
                     $rootScope.currentPage = 1;
                     updatePageIndex();
                     manageControlButtons();
-                    
+
                 }, SZKZ_CONSTANTS.TIME_CONSTANTS.DELAY_DURATION);
             };
-            
+
             scope.goBack = function (evt) {
                 if ($rootScope.currentPage == 1) {
-                    return;    
+                    return;
                 }
-                
+
                 $rootScope.currentPage--;
                 updatePageIndex();
 
@@ -107,19 +121,19 @@ angular.module('szkzApp.directives').directive('bottomBar', ['$rootScope', '$loc
                     manageControlButtons();
                 }, SZKZ_CONSTANTS.TIME_CONSTANTS.DELAY_DURATION);
             };
-            
+
             scope.goNext = function (evt) {
                 if ($rootScope.currentPage === $rootScope.totalPage) {
                     return;
                 }
                 var originalColor = evt.target.style.color;
                 evt.target.style.color = SZKZ_CONSTANTS.BUTTON_TAPPED_COLOR;
-                
+
                 $timeout(function () {
                     evt.target.style.color = originalColor;
                     if ($rootScope.currentPage < $rootScope.totalPage) {
                         $rootScope.currentPage++;
-                        updatePageIndex();                
+                        updatePageIndex();
                     }
 
                     manageControlButtons();
@@ -127,27 +141,29 @@ angular.module('szkzApp.directives').directive('bottomBar', ['$rootScope', '$loc
             };
 
             scope.playPause = function (evt) {
-                var originalColor = evt.target.style.color;
-                evt.target.style.color = SZKZ_CONSTANTS.BUTTON_TAPPED_COLOR;
-                
+                var element = evt.target,
+                    originalColor = element.style.color;
+                element.style.color = SZKZ_CONSTANTS.BUTTON_TAPPED_COLOR;
+
                 $timeout(function () {
-                    evt.target.style.color = originalColor;
+                    element.style.color = originalColor;
                     status = 1 - status;
                     scope.status = STATUS[status];
+                    $rootScope.$broadcast('play.pause.event', {status: status});    // status = 1, playing
                 }, SZKZ_CONSTANTS.TIME_CONSTANTS.DELAY_DURATION);
             };
-            
+
             scope.home = function (evt) {
                 evt.preventDefault();
                 evt.stopPropagation();
                 evt.stopImmediatePropagation();
                 evt.target.style.color = SZKZ_CONSTANTS.BUTTON_TAPPED_COLOR;
-                
+
                 $timeout(function () {
                     $rootScope.$apply(function () {
                         evt.target.style.color = SZKZ_CONSTANTS.BUTTON_TAPPED_COLOR;
                         $rootScope.$broadcast('doActionEvent', {action: SZKZ_CONSTANTS.PAGE_NAMES.HOME_PAGE});
-                    });             
+                    });
                 }, SZKZ_CONSTANTS.TIME_CONSTANTS.DELAY_DURATION);
             };
 

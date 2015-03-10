@@ -67,6 +67,7 @@
   position: absolute;
   display: block;
   overflow: hidden;
+  cursor: pointer;
   top: 0px;
   left: 0;
   right: 0;
@@ -75,7 +76,6 @@
   display: block;
   position: relative;
   margin-left: 4px;
-  margin-right: 4px;
 }
 .action-content .action-content-container > ul > li .character-container .hz-container .hz-inner-container > p {
   position: absolute;
@@ -91,4 +91,10 @@ pin-yin {
 }
 pin-yin ul {
   margin-left: 0 !important;
+}
+.active-char {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+.active-char > p {
+  color: white;
 }

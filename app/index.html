@@ -7,7 +7,7 @@
   <head>
 	<title>SZKZ - ngVersion</title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />	
+	<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
 	<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="">
@@ -15,8 +15,8 @@
     <style type="text/css">
         /* for splash spinner */
         #spinner {
-            display: none; 
-            text-align: center;   
+            display: none;
+            text-align: center;
         }
 
         #spinner .message {
@@ -34,7 +34,7 @@
           position: absolute;
           background: rgba(0, 0, 0, 1);
           width: 100%;
-          height: 100vh;    
+          height: 100vh;
           z-index: 10000;
         }
 
@@ -159,7 +159,7 @@
 
           40% {
             -webkit-transform: scale(1);
-                    transform: scale(1); } 
+                    transform: scale(1); }
         }
     </style>
 
@@ -206,7 +206,7 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="view-container">  
+    <div class="view-container">
         <div ng-view id="pageContainer"></div>
     </div>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
@@ -245,16 +245,16 @@
     <!-- endbuild -->
 
 	  <script src="cordova.js"></script>
-	
+
     <!-- build:js({.tmp,app}) scripts/scripts.js -->
     <script src="scripts/venders/iscroll.js"></script>
     <script src="scripts/venders/ng-iscroll.js"></script>
     <script src="scripts/venders/GSAP/TweenMax.min.js"></script>
     <script src="scripts/venders/GSAP/easing/EasePack.min.js"></script>
     <script src="scripts/venders/spin.min.js"></script>
-      
+
     <script src="scripts/app.js"></script>
-	<!--services-->    
+	<!--services-->
 	<script src="scripts/services/languageService.js"></script>
 	<script src="scripts/services/articleListService.js"></script>
     <script src="scripts/services/articleService.js"></script>
@@ -264,8 +264,9 @@
 	<script src="scripts/services/pageControlDataService.js"></script>
     <script src="scripts/services/uiService.js"></script>
     <script src="scripts/services/pinYinService.js"></script>
-    
-	<!--controllers-->    
+    <script src="scripts/services/audioPlayer.js"></script>
+
+	<!--controllers-->
 	<script src="scripts/controllers/dialogs/signinController.js"></script>
 	<script src="scripts/controllers/dialogs/forgotController.js"></script>
 	<script src="scripts/controllers/dialogs/aboutPanelController.js"></script>
@@ -285,8 +286,8 @@
 	<script src="scripts/directives/home/homeMenuDirective.js"></script>
 	<!--directives - content menu-->
 	<script src="scripts/directives/home/content-menu/articleListItemDirective.js"></script>
-	<script src="scripts/directives/home/content-menu/articleItemDirective.js"></script>    
-	<script src="scripts/directives/home/content-menu/articleListDirective.js"></script>   
+	<script src="scripts/directives/home/content-menu/articleItemDirective.js"></script>
+	<script src="scripts/directives/home/content-menu/articleListDirective.js"></script>
 	<!--directives - action menu-->
 	<script src="scripts/directives/home/action-menu/actionButtonsDirective.js"></script>
 	<script src="scripts/directives/home/action-menu/actionButtonDirective.js"></script>
@@ -303,11 +304,17 @@
 	<script src="scripts/directives/training/action-pages/listenActionPageDirective.js"></script>
 	<script src="scripts/directives/training/pinYinDirective.js"></script>
 
-      
-	<!--filters-->    
-	<script src="scripts/filters/subTitleFilter.js"></script>        
+
+	<!--filters-->
+	<script src="scripts/filters/subTitleFilter.js"></script>
 	<!-- endbuild -->
-      
+
+    <audio id="audio-player">
+        <source src="" type="audio/ogg">
+        <source id="audio-src-mp3" src="" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
     <div id="dialog-div-IV"></div>
     <div id="dialog-div-III"></div>
     <div id="dialog-div-II"></div>

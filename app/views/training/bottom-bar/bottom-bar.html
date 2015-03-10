@@ -6,17 +6,17 @@
 <div class="article-info">
     <div class="gradient-red-black">
         <div class="bottom-selected-article title-background text-ellipsis">
-            <span class="bottom-hz">《{{articleInfo.typeLabel}}》</span><i class="fa fa-star"></i> 
-            <span class="bottom-hz">{{articleInfo.title.hz}}</span> <br/> 
+            <span class="bottom-hz">《{{articleInfo.typeLabel}}》</span><i class="fa fa-star"></i>
+            <span class="bottom-hz">{{articleInfo.title.hz}}</span> <br/>
             <span class="bottom-sub">{{articleInfo.title | subTitleFilter}}</span>
         </div>
-        
+
         <div class="page-count">
             <span>{{currentPage}}</span>/<span>{{totalPage}}</span>
         </div>
-    </div>    
+    </div>
 </div>
-<div class="control-panel">
+<div class="control-panel">{{statusIndex}}
     <ul>
         <li><div ng-click="goFirst($event)"><i class="fa fa-fast-backward"></i></div></li>
         <li><div ng-click="goBack($event)"><i class="fa fa-step-backward"></i></div></li>

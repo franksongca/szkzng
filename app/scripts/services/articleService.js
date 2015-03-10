@@ -1,31 +1,33 @@
 'use strict';
 
-angular.module('szkzApp.services').factory('ArticleFactory', ['$rootScope', '$http', '_', 'ArticleListFactory', 
-    'UIService', '$timeout', 
-    function($rootScope, $http, _, ArticleListFactory, UIService, $timeout)
+angular.module('szkzApp.services').factory('ArticleFactory', ['$rootScope', '$http', '$timeout', '_',
+    'ArticleListFactory', 'UIService', 'AudioPlayer',
+    function($rootScope, $http, $timeout, _, ArticleListFactory, UIService, AudioPlayer)
 {
     var currentArticle,
         articleType,
         articleCode,
         totalPage,
-        inLoading = true;
-    
+        inLoading = true,
+        player = document.getElementById("audio-player"),
+        sourceMP3 = document.getElementById("audio-src-mp3");
+
     return {
         loadArticle: function(code){
             var group = ArticleListFactory.getArticleGroupIndex(code),
                 article = code.split('-'),
                 url,// = "data\\WenZhang\\" + article[0] + "\\" + (group == undefined ? "" : "g" + group + "\\") + article[1] + "\\text.xml",
                 blankCharacter = {hanZi: '', pinYin: '', shengDiao: '', 'ori_id': '', mistake: 0, index: 0, characterIndex: ''};
-        
+
             if (articleType + '-' + articleCode === code) {
                 return;
-            }    
+            }
 
             inLoading = true;
 
             articleType = article[0];
             articleCode = article[1];
-            
+
             UIService.showSpinner(true);
 
             url = 'data\\WenZhang\\' + articleType + '\\' + (group === undefined ? '' : 'g' + group + '\\') + articleCode + '\\text.xml';
@@ -43,7 +45,7 @@ angular.module('szkzApp.services').factory('ArticleFactory', ['$rootScope', '$ht
                     characterIndex,
                     appendChars,
                     i,
-                    curPoint,
+                    cuePoint,
                     attrLineSpacing = 'line_spacing',
                     attrRowsPerPage = 'rows_per_page',
                     attrCharactersPerRow = 'characters_per_row',
@@ -57,8 +59,8 @@ angular.module('szkzApp.services').factory('ArticleFactory', ['$rootScope', '$ht
                     tempChar;
 
                 currentArticle = {};
-                currentArticle.pageAttributes = {}; 
-                
+                currentArticle.pageAttributes = {};
+
                 currentArticle.pageAttributes.scale = pagesAttributes.scale.value;
                 currentArticle.pageAttributes.valign = pagesAttributes.valign.value;
                 currentArticle.pageAttributes.halign = pagesAttributes.halign.value;
@@ -72,7 +74,7 @@ angular.module('szkzApp.services').factory('ArticleFactory', ['$rootScope', '$ht
                 currentArticle.pages = [];
                 _.each(oDOM.firstChild.children, function(page){
                     pageObj = {};
-                    
+
                     pageObj.pageAttributes = {};
                     pageObj.pageAttributes.align = page.attributes.align.value;
                     pageObj.pageAttributes.lineSpacing = page.attributes[attrLineSpacing].value;
@@ -83,20 +85,20 @@ angular.module('szkzApp.services').factory('ArticleFactory', ['$rootScope', '$ht
                     pageObj.pageAttributes.rowsPerPage = page.attributes[attrRowsPerPage].value;
                     pageObj.pageAttributes.halign = page.attributes.halign.value;
                     pageObj.pageAttributes.valign = page.attributes.valign.value;
-                    
+
                     cuePointsText = page.getElementsByTagName('cue_points')[0].firstChild.nodeValue.replace('\n','');
 
                     pageObj.cuePoints = cuePointsText.split(',');
-                    
+
                     pageObj.characters = [];
                     charCount = 0;
                     characterIndex = 0;
-                    
+
                     _.each(page.getElementsByTagName('paragraph'), function (p) {
                         _.each(p.getElementsByTagName('zi'), function (zi) {
                             attributes = zi.attributes;
                             ziObj = {};
-                        
+
                             if(attributes[attrHanZi].value === ''){
                                 if(charCount % currentArticle.pageAttributes.charactersPerRow > 0){
                                     appendChars = currentArticle.pageAttributes.charactersPerRow - (charCount % currentArticle.pageAttributes.charactersPerRow);
@@ -114,18 +116,18 @@ angular.module('szkzApp.services').factory('ArticleFactory', ['$rootScope', '$ht
                                     //var p = ziObj.hanZi;
                                     //ziObj.hanZi = "&nbsp;";
                                 }
-                        
+
                                 ziObj.shengDiao = attributes[attrShengDiao].value;
                                 ziObj.pinYin = attributes[attrPinYin].value;
                                 if(ziObj.pinYin === ''){
                                     ziObj.characterIndex = '';
                                 } else {
-                                    curPoint = pageObj.cuePoints[characterIndex];
-                                    pageObj.cuePoints[characterIndex] = {curPoint: +curPoint, realIndex: +attributes[attrXuHao].value, pinyin: ziObj.pinYin + '_' + ziObj.shengDiao };
-                                    
+                                    cuePoint = pageObj.cuePoints[characterIndex];
+                                    pageObj.cuePoints[characterIndex] = {cuePoint: +cuePoint, realIndex: +attributes[attrXuHao].value, pinyin: ziObj.pinYin + '_' + ziObj.shengDiao };
+
                                     ziObj.characterIndex = 'character-' + (++characterIndex);
                                 }
-                                
+
                                 if (attributes.id) {
                                     ziObj[attrOriginalId] = attributes.id.value;
                                 } else {
@@ -141,7 +143,7 @@ angular.module('szkzApp.services').factory('ArticleFactory', ['$rootScope', '$ht
                                 charCount++;
                             }
                         });
-                        
+
                         if(charCount % currentArticle.pageAttributes.charactersPerRow > 0){
                             appendChars = currentArticle.pageAttributes.charactersPerRow - (charCount % currentArticle.pageAttributes.charactersPerRow);
                             for (i = 0; i < appendChars; i++) {
@@ -152,12 +154,12 @@ angular.module('szkzApp.services').factory('ArticleFactory', ['$rootScope', '$ht
                             }
                         }
                     });
-                    
+
                     currentArticle.pages.push(pageObj);
                 });
 
                 totalPage = currentArticle.pages.length;
-                inLoading = false; 
+                inLoading = false;
 
                 $timeout(function () {
                     UIService.hideSpinner();
@@ -166,7 +168,7 @@ angular.module('szkzApp.services').factory('ArticleFactory', ['$rootScope', '$ht
         },
 
         getTotalPages: function () {
-            return totalPage;        
+            return totalPage;
         },
 
         getArticleInfo: function () {
@@ -174,11 +176,11 @@ angular.module('szkzApp.services').factory('ArticleFactory', ['$rootScope', '$ht
         },
 
         getArticleType: function () {
-            return articleType;    
+            return articleType;
         },
 
         getArticleCode: function () {
-            return articleCode;    
+            return articleCode;
         },
 
         getArticle: function () {
@@ -207,7 +209,7 @@ angular.module('szkzApp.services').factory('ArticleFactory', ['$rootScope', '$ht
                 lineCount = 0,
                 characters = currentArticle.pages[index].characters;
 
-            lines[0] = [];    
+            lines[0] = [];
             for (var i = 0; i < characters.length; i++) {
                 counter++;
                 if (counter > this.getCharactersPerLine(index)) {
@@ -219,6 +221,44 @@ angular.module('szkzApp.services').factory('ArticleFactory', ['$rootScope', '$ht
             }
 
             return lines;
+        },
+
+        getCuePoints: function (index) {
+            return currentArticle.pages[index].cuePoints;
+        },
+
+        getAudioBaseURL: function(audioFormat){
+            var code = this.getArticleType() + '-' + this.getArticleCode(),
+                group = ArticleListFactory.getArticleGroupIndex(code),
+                article = code.split('-');
+
+            audioFormat = audioFormat || 'mp3';
+
+            return 'audio/WenZhang/' +article[0] + '/' +
+                (group == undefined ? '' : 'g'+group + '/') +
+                article[1] + '/' + (audioFormat === undefined ? '' : (audioFormat + '/'));
+        },
+
+        playAudio : function(index) {
+            var url = this.getAudioBaseURL() + "sd_" + (index + 1);
+
+            AudioPlayer.remove();
+            AudioPlayer.init(this.getCuePoints(index), url, true);
+        },
+
+        setupPlayer: function () {
+            player = document.getElementById("audio-player"),
+            sourceMP3 = document.getElementById("audio-src-mp3");
+
+            player.oncanplaythrough = function () {
+                player.play();
+            };
+        },
+
+        playHanZiAudio: function (pinyin, shengdiao) {
+            sourceMP3.src = 'audio/Zi/mp3/' + pinyin + '_' + shengdiao + '.mp3';
+            player.load();
         }
+
     };
 }]);

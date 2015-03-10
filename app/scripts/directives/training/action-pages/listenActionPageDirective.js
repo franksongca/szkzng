@@ -1,38 +1,42 @@
 'use strict';
 
-angular.module('szkzApp.directives').directive('listenActionPage', ['$rootScope', 'BookmarkManager',
-    '$timeout', '$window', '$document', 'UIService', 'SZKZ_CONSTANTS', 'ArticleFactory',
-    function ($rootScope, BookmarkManager, $timeout, $window, $document, UIService, SZKZ_CONSTANTS, ArticleFactory)
+angular.module('szkzApp.directives').directive('listenActionPage', ['$rootScope', 'BookmarkManager', '$routeParams',
+    '$timeout', '$window', '$document', 'UIService', 'SZKZ_CONSTANTS', 'ArticleFactory', 'AudioPlayer',
+    function ($rootScope, BookmarkManager, $routeParams, $timeout, $window, $document, UIService, SZKZ_CONSTANTS, ArticleFactory, AudioPlayer)
 {
     return {
         restrict: 'E',
         templateUrl: 'views/training/action-pages/listen-action-template.html',
 
 		controller: function($scope, $element){
+
+
+
+
+
+
+
+
+
+
+
             $scope.clickedOnChar = function (index) {
             	alert('?'+index);
             }
+
+
     	},
 
         link: function ($scope, element, attr) {
-			var pressed = false,
-                distanceMoved = 0,
-                distanceMovedPre = 0,
-                direction,
-                originalPos,
-                startPos,
-                viewHeight,
+			var viewHeight,
                 contentHeight,
 				contentElement,
 				charHeight,
 				charWidth,
-				pinyinHeight,
 				mostTop,
-				timeStart,
-				totalMoved,
-				enterMoving = false,
 				contentLeft,
-				clickedPosition;
+                currentIndex,
+                subAction;
 
         	//$rootScope.totalPages = ArticleFactory.getTotalPages();
 
@@ -44,20 +48,71 @@ angular.module('szkzApp.directives').directive('listenActionPage', ['$rootScope'
         	$scope.pinYinHeight = 50;
         	$scope.showPinYin = true;
 
+            //$scope.characters[0].active = true;
+
         	function updateFontSize() {
 	        	$timeout(function () {
 	        		var hzContainerWidth = angular.element('.hz-inner-container').width();
 
 	        		$scope.hanZiFontSize = hzContainerWidth * 0.9 + 'px';
-	        		$scope.hzContainerHeight = (hzContainerWidth + 10) + 'px';
+	        		$scope.hzContainerHeight = (hzContainerWidth + 4) + 'px';
 	        	}, 200);
         	}
+
+            $scope.$on('$destroy', function () {
+                if (currentIndex !== -1) {
+                    deactivateChar(currentIndex);
+
+                    if ($scope.pageName === SZKZ_CONSTANTS.PAGE_NAMES.LISTEN_PAGE) {
+                        AudioPlayer.remove();
+                    }
+                }
+            });
+
+            if ($scope.pageName === SZKZ_CONSTANTS.PAGE_NAMES.LISTEN_PAGE) {
+                $scope.$on('audio:cuepoint:reached', function (evt, option) {
+                    var realIndex = option.realIndex,
+                        cuePoint = option.cuePoint,
+                        soundLen = option.soundLen;
+                    //currentCuePoint = cuePoints[cuePoint].cuePoint;
+
+                    activateChar(realIndex);
+                    adjustPositionTo(realIndex + 1);
+                    $timeout(function () {
+                        deactivateChar(realIndex);
+                    }, soundLen);
+                    console.log("option.realIndex=" + cuePoint + "<" + realIndex + "," + soundLen + ">");
+                });
+            } else {
+                ArticleFactory.setupPlayer();
+
+                if ($routeParams && $routeParams.sub) {
+                    subAction = $routeParams.sub;
+                }
+
+                switch ($scope.pageName) {
+                    case SZKZ_CONSTANTS.PAGE_NAMES.LISTEN_LOOK_READ_PAGE:
+                    case SZKZ_CONSTANTS.PAGE_NAMES.TRY_IT_PAGE:
+                    case SZKZ_CONSTANTS.PAGE_NAMES.TEST_PAGE:
+                    case SZKZ_CONSTANTS.PAGE_NAMES.PINYIN_PAGE:
+                    case SZKZ_CONSTANTS.PAGE_NAMES.GAMES_PAGE:
+                }
+
+                var sub = $routeParams.sub;
+                alert(sub);
+            }
 
         	$scope.$watch(function () {
         		return $rootScope.currentPage
         	}, function () {
         		$timeout(function () {
                     $scope.characters = ArticleFactory.getPageCharacters($rootScope.currentPage - 1);
+
+                    updateFontSize();
+
+                    if ($scope.pageName === SZKZ_CONSTANTS.PAGE_NAMES.LISTEN_PAGE) {
+                        ArticleFactory.playAudio($rootScope.currentPage - 1);
+                    }
         		});
         	});
 
@@ -83,12 +138,6 @@ angular.module('szkzApp.directives').directive('listenActionPage', ['$rootScope'
 				contentLeft = (angular.element('.view-container').width() - contentElement.width())/2;
         	}
 
-            $timeout(function () {
-                contentElement = contentElement || element.find('.action-content-container ul');
-                //bindEvents();
-                updateFontSize();
-            });
-
             angular.element($window).on('resize', function () {
                 updateFontSize();
                 calculateSize();
@@ -100,20 +149,18 @@ angular.module('szkzApp.directives').directive('listenActionPage', ['$rootScope'
                     restoreToTop(0);
                 } else if (contentElement.position().top < mostTop) {
                     restoreToTop(mostTop);
-                    //UIService.animateVerticalScrollTo(contentElement, mostTop, 0.5);
                 }
             }
 
             function adjustPositionTo(n) {
                 var line = Math.floor((n - 1) / $scope.charactersPerRow) + 1,
                     lineTop = (1 - line) * charHeight;
-
                 if (lineTop > mostTop) {
                     restoreToTop(lineTop);
-                    //UIService.animateVerticalScrollTo(contentElement, lineTop, 0.5);
                 } else {
-                    restoreToTop(mostTop);
-                    //UIService.animateVerticalScrollTo(contentElement, mostTop, 0.5);
+                    if (contentElement.position().top > mostTop) {
+                        restoreToTop(mostTop);
+                    }
                 }
             }
 
@@ -124,163 +171,19 @@ angular.module('szkzApp.directives').directive('listenActionPage', ['$rootScope'
                 }
             }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-            /*
-            function bindEvents() {
-            	var docElem = angular.element($document);
-
-                docElem.bind('touchstart', function (evt) {
-                    press({x: evt.originalEvent.touches[0].pageX, y: evt.originalEvent.touches[0].pageY});
-                });
-
-                docElem.bind('touchend', function (evt) {
-                    release(evt);
-                });
-
-                docElem.bind('touchmove', function (evt) {
-                    evt.preventDefault();
-                    move({x: evt.originalEvent.touches[0].pageX, y: evt.originalEvent.touches[0].pageY});
-                });
-
-                docElem.on('mousedown', function (evt) {
-                    press({x: evt.pageX, y: evt.pageY});
-                });
-
-                docElem.on('mouseup', function (evt) {
-                    release(evt);
-                });
-
-                docElem.on('mouseleave', function (evt) {
-                    release(evt);
-                });
-
-                docElem.on('mousemove', function (evt) {
-                    evt.preventDefault();
-                    move({x: evt.pageX, y: evt.pageY});
-                });
-
-	        	angular.element($window).on('resize', function () {
-	        		updateFontSize();
-	        		calculateSize();
-	        	});
+            function activateChar(index) {
+                currentIndex = index;
+                getCharByIndex(index).active = true;
             }
 
-            $scope.$on('$destroy', function() {
-            	var docElem = angular.element($document);
-
-                angular.element($window).unbind('resize');
-                docElem.unbind('touchstart');
-                docElem.unbind('touchend');
-                docElem.unbind('touchmove');
-                docElem.off('mousedown');
-                docElem.off('mousedup');
-                docElem.off('mousemove');
-            });
-
-            function press(position) {
-	            //clicked = true;
-
-	            clickedPosition = position;
-
-				if(mostTop < 0) {
-	                pressed = true;
-	                distanceMoved = 0;
-	                originalPos = contentElement.position().top;
-	                startPos = position;
-
-	                totalMoved = 0;
-	                timeStart = Date.now();
-
-	                enterMoving = false;
-	            }
+            function deactivateChar(index) {
+                currentIndex = -1;
+                getCharByIndex(index).active = false;
             }
 
-            function release(evt) {
-            	var timeUsed,
-            		speed,
-            		moreDistance,
-            		futherMove,
-            		currentTop = contentElement.position().top,
-            		charIndex;
-
-            	if (clickedPosition && !enterMoving) {
-	           		charIndex = getClickedChar(clickedPosition);
-	           		clickedPosition = null;
-	           		pressed = false;
-	           		clickedOnChar(charIndex);
-	           		return;
-                }
-
-                if (!pressed) {
-	           		clickedPosition = null;
-                    return;
-                }
-
-                totalMoved = Math.abs(currentTop - originalPos);
-
-                pressed = false;
-                timeUsed = Date.now() - timeStart;
-                speed = totalMoved / timeUsed;
-
-            	moreDistance = totalMoved * (1 - timeUsed/1000);
-
-            	futherMove = direction < 0 ? currentTop - moreDistance : currentTop + moreDistance;
-
-            	//console.info('futherMove='+futherMove + ":" + (1 - timeUsed/1000) + ":" + timeUsed/1000);
-            	UIService.animateVerticalScrollTo(contentElement, futherMove, 0, function () {
-            		adjustPosition();
-            	});
+            function getCharByIndex(index) {
+                return $scope.characters[index];
             }
-
-            function move(position) {
-            	var realMoved;
-
-            	if (clickedPosition) {
-	            	enterMoving = true;
-	            }
-
-                if (pressed) {
-                	distanceMovedPre = distanceMoved;
-                    distanceMoved = position.y - startPos.y;
-                    direction = distanceMoved - distanceMovedPre;
-
-                    realMoved = originalPos + distanceMoved;
-
-    	            contentElement.css('top', realMoved + 'px');
-                }
-            }
-
-            function getClickedChar(position) {
-            	var top = $rootScope.fullScreen ? 0 : angular.element('.top-bar').height(),
-            		line = Math.floor((position.y - contentElement.position().top - top) / charHeight),
-            		col = Math.floor((position.x - contentLeft)/charWidth),
-            		charIndex = -1;
-
-        		if (col >= 0 && col < $scope.charactersPerRow) {
-        			charIndex = line * $scope.charactersPerRow + col;
-        		}
-
-				return charIndex + 1;
-            }
-
-
-            function clickedOnChar(index) {
-
-
-            }
-            */
         }
     };
 }]);
