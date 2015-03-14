@@ -1,4 +1,4 @@
-﻿<pages has_audio="1" background="default.jpg" scale="1.5" valign="top" halign="center" line_spacing="15" characters_per_row="10" rows_per_page="10" position_x="0" position_y="20" style="1">
+﻿<pages has_audio="1" background="default.jpg" scale="1.5" valign="top" halign="center" line_spacing="15" characters_per_row="5" rows_per_page="10" position_x="0" position_y="20" style="1">
 
   <page background="" audio_file="" style="3" align="left" line_spacing="5" scale="1.7" position_y="-16" position_x="3" characters_per_row="8" rows_per_page="10" halign="center" valign="middle" gameParagraph="7,10">
 

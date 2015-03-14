@@ -63,27 +63,27 @@ angular.module('szkzApp', [
             controller: 'HomeCtrl'
         })
         .when('/listenCarefully', {
-            templateUrl: 'views/training/listen.html',
+            templateUrl: '../views/training/listen-page.html',
             controller: 'ListenCtrl'
         })
         .when('/listenLookRead/:sub', {
-            templateUrl: 'views/training/listen.html',
+            templateUrl: '../views/training/listen-look-read-page.html',
             controller: 'ListenLookReadCtrl'
         })
         .when('/tryIt/:sub', {
-            templateUrl: 'views/training/listen.html',
+            templateUrl: '../views/training/listen-page.html',
             controller: 'TryItCtrl'
         })
         .when('/test', {
-            templateUrl: 'views/training/listen.html',
+            templateUrl: '../views/training/listen-page.html',
             controller: 'TestCtrl'
         })
         .when('/pinyin', {
-            templateUrl: 'views/training/listen.html',
+            templateUrl: '../views/training/listen-page.html',
             controller: 'PinyinCtrl'
         })
         .when('/games/:sub', {
-            templateUrl: 'views/training/listen.html',
+            templateUrl: '../views/training/listen-page.html',
             controller: 'GamesCtrl'
         })
         .otherwise({redirectTo: '/home'});

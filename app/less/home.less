@@ -13,7 +13,7 @@ body {
 	overflow: hidden;
 	width:100%;
 	height:100vh;
-    background-image: url(./../images/home/home-bg.png); 
+    background-image: url(./../images/home/home-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -25,20 +25,20 @@ body {
 	position: fixed;
 	width: 100%;
 	box-shadow: 0 3px rgba(99, 99, 255, 0.4);
-    
+
     .banner {
         width: 100%;
-        background-image: url(./../images/home/banner-bg.png); 
+        background-image: url(./../images/home/banner-bg.png);
         background-repeat: repeat-x;
         background-size: cover;
-        
+
         .banner-left-bg {
             display: inline-block;
             background-image: url(./../images/home/banner-left-bg.png);
             background-repeat: no-repeat;
             background-size: contain;/*cover;*/
         }
-        
+
         .user-name {
             position: absolute;
             top: 4em;
@@ -49,7 +49,7 @@ body {
             -moz-text-decoration-color: white; /* Code for Firefox */
             text-decoration-color: white;
         }
-        
+
         .admin-sign-in {
             background-color: red;
             border-radius: 1.5em;
@@ -59,13 +59,13 @@ body {
             padding:3px 13px 3px 3px;
             cursor: pointer;
             color: red;
-            
+
             span {
                 display:inline;
                 color: white;
                 font-weight: bold;
-            } 
-            
+            }
+
             > div {
                 display: inline-block;
                 border-radius: 0.75em;
@@ -74,9 +74,9 @@ body {
                 width: 1.5em;
                 height: 1.5em;
                 font-size: 1.5em;
-            }            
+            }
         }
-        
+
         .admin-sign-in:hover {
             background-color: green;
             color: green;
@@ -91,7 +91,7 @@ body {
         padding-top: 2px;
         overflow: hidden;
         text-overflow: ellipsis;
-        
+
         .selected-article {
             position: relative;
             width: 100%;
@@ -105,35 +105,35 @@ body {
             white-space: nowrap;
 
             font-family: @titleHz;
-            
+
             i{
                 font-size: smaller;
             }
-            
+
             span {
                 font-family: system;
-            }   
+            }
         }
     }
 }
-	
+
 /* footer */
 .footer {
 	width:100%;
 	position: fixed;
 	bottom:0;
-	background-image: url(./../images/home/footer-bg.png); 
+	background-image: url(./../images/home/footer-bg.png);
 	background-repeat: repeat-x;
 	background-size: cover;
 }
-	
+
 .footer-left-bg {
 	display: inline-block;
 	background-image: url(./../images/home/footer-left.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-	
+
 .footer ul {
 	color: white;
 	height:90%;
@@ -147,18 +147,18 @@ body {
 	margin-left: 0.714em;
 	cursor: pointer;
 }
-	
+
 .footer ul li div {
 	text-align: center;
 	text-align: -webkit-center;
 	text-align: center;
-	
+
 	background-color: @colorFuncButtonBackground;
 	border:3px solid white;
 	border-radius: 0.4em;
 	width: 1.5em;
 	height:1.5em;
-	
+
 	font-size: @fontSizeNormal;
 }
 
@@ -201,7 +201,7 @@ body {
 }
 
 .menu-right {
-    right: 0;    
+    right: 0;
     background-color: @menuRightBackground;
 }
 
@@ -213,7 +213,7 @@ body {
 	.header .banner .banner-left-bg {
 		width: 33.57em;	/*470px*/
 	}
-	
+
 	.header .banner .banner-right-bg {
 		position: absolute;
 		right:0;
@@ -223,27 +223,27 @@ body {
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
-	
+
 	.footer, .footer-left-bg {
 		height: @footerHeight;	/*70px*/
 	}
-	
+
 	.footer-left-bg {
 		width: 38.5em;	/*539px*/
 	}
-	
+
 	.footer ul {
 		top:0.655em;
 	}
-	
+
 	.footer ul li {
 		margin-left: 0.4em;
 	}
-	
+
 	.footer ul li div {
 		font-size:@footerMobilePortraitFontSize;
 	}
-    
+
     .menu {
         top: @bannerHeight + @selectedArticleLabel;
     }
@@ -255,22 +255,22 @@ body {
 	}
 
 	.header .banner .admin-sign-in {
-		top: 0.5em;	
+		top: 0.5em;
 		right: 0.5em;
 	}
-    
+
 	.header .banner .user-name {
 		top: 2.5em;
 	}
-    
+
 	.header .banner .banner-left-bg {
 		width: 18.8em;	/*470x.56px*/
 	}
-	
+
 	.header .banner .admin-sign-in > div {
 		font-size: 1em;
 	}
-    
+
 	.header .banner .banner-right-bg {
 		position: absolute;
 		right:0;
@@ -281,51 +281,51 @@ body {
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
-	
+
 	.footer, .footer-left-bg {
 		height: @footerHeightMobilePortrait;	/*60px*/
 	}
-	
+
 	.footer ul {
 		top:0.3em;
 	}
-	
+
 	.footer ul li div {
 		font-size:@footerMobilePortraitFontSize;
 	}
-	
+
 	.footer-left-bg {
 		width: 38.5em;	/*539px*/
 	}
-    
+
     .menu {
         top: @bannerHeightMobile + @selectedArticleLabel;
     }
 }
 
 @media only screen and (min-width: 480px) {
-    .pinyin-letter {
-        font-size: 20px;
-        margin-top: 9px;
-    }
+    //.pinyin-letter {
+    //    font-size: 20px;
+    //    margin-top: 9px;
+    //}
 }
 
 @media only screen and (max-width: 480px) {
-    .pinyin-letter {
-        font-size: 16px;
-        margin-top: 13px;
-    }
+    //.pinyin-letter {
+    //    font-size: 14px;
+    //    margin-top: 14px;
+    //}
 
 	.footer ul {
 		top: 0.655em;
 		right: 0.5em;
 	}
-	
+
 	.header .banner .admin-sign-in {
-		top: 0.5em;	
+		top: 0.5em;
 		right: 0.5em;
 	}
-	
+
 	.header .banner .admin-sign-in > div {
 		font-size: 1em;
 	}
@@ -333,7 +333,7 @@ body {
 	.header .banner .user-name {
 		top: 2.5em;
 	}
-	
+
 	.footer ul li {
 		margin-left: 0.3em;
 	}
@@ -567,25 +567,25 @@ body {
     .menu {
         top: @footerHeightMobileLandscape + @selectedArticleLabel;
     }
-    
+
     .footer, .footer-left-bg {
         height: @footerHeightMobileLandscape;   /*45px*/
     }
-    
+
     .footer ul {
         top: 0.2em;
         right: 0.5em;
     }
-    
-    .header .banner .admin-sign-in {    
-        top: 0.5em; 
+
+    .header .banner .admin-sign-in {
+        top: 0.5em;
         right: 0.5em;
     }
-    
+
     .header .banner .admin-sign-in > div {
         font-size: 1em;
     }
-    
+
     .header .banner .user-name {
         top: 2.5em;
     }
@@ -593,62 +593,62 @@ body {
     .footer ul li {
         margin-left: 0.3em;
     }
-    
+
     .footer ul li div {
         font-size:@footerMobileLandscapeFontSize;
     }
-    
+
 	.header .banner, .header .banner .banner-left-bg, .header .banner .banner-right-bg {
 		height: @footerHeightMobileLandscape;	/*45px*/
 	}
-    
+
     .action-menu-title-container {
         height: 3em;
         background-color: rgba(50, 50, 50, 0.6);
         border-radius: 5px 5px 0 0;
 	    padding: @largerPadding;
     }
-    
+
     .menu-item-title-hz {
         margin-bottom: 0;
     }
-    
+
     .button-title-hz, .sub-button-title-hz, .menu-item-title-hz, .action-menu-title {
         font-size: 1em;
     }
-    
+
     .button-title-sub, .sub-button-title-sub, .action-menu-sub-title, .menu-item-title-sub {
         font-size: 0.8em;
     }
-    
+
     .action-button, .action-sub-button {
         padding: 2px 5px;
         margin-bottom: 3px;
     }
-    
+
     .action-button .arrow-button {
         margin-top: -1.7em;
     }
-    
+
     .menu-title, .menu-item-title {
         padding: 2px 5px;
         margin-bottom: 3px;
     }
-    
+
     .menu-title::before, .menu-item-title::before, .menu-item-check {
         font-size: 1.2em;
     }
-    
+
     .menu-item-check {
         margin-top: -1.4em;
     }
-    
+
     .menu-item-title:hover, .menu-title:hover, .action-button:hover, .action-sub-button:hover {
         -webkit-box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.6);
         -moz-box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.6);
-        box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.6);    
+        box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.6);
     }
-    
+
     .right-menu-container {
         margin-top: 3px;
     }

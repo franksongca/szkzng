@@ -5,7 +5,7 @@ angular.module('szkzApp').controller('ListenLookReadCtrl', ['$scope', 'UIService
     'PageControlData', 'SZKZ_CONSTANTS', function($scope, UIService, $routeParams, $location, $timeout, ArticleListFactory, PageControlData, SZKZ_CONSTANTS)
 {
     if (!ArticleListFactory.isContentLoaded()) {
-        $location.path('/' + SZKZ_CONSTANTS.PAGE_NAMES.HOME_PAFE);
+        $location.path('/' + SZKZ_CONSTANTS.PAGE_NAMES.HOME_PAGE);
         return;
     }
     $scope.pageName = SZKZ_CONSTANTS.PAGE_NAMES.LISTEN_LOOK_READ_PAGE;

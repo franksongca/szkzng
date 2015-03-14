@@ -281,17 +281,7 @@ body {
     top: 6.4em;
   }
 }
-@media only screen and (min-width: 480px) {
-  .pinyin-letter {
-    font-size: 20px;
-    margin-top: 9px;
-  }
-}
 @media only screen and (max-width: 480px) {
-  .pinyin-letter {
-    font-size: 16px;
-    margin-top: 13px;
-  }
   .footer ul {
     top: 0.655em;
     right: 0.5em;
