@@ -9,8 +9,8 @@ angular.module('szkzApp.services').factory('ArticleFactory', ['$rootScope', '$ht
         articleCode,
         totalPage,
         inLoading = true,
-        player = document.getElementById("audio-player"),
-        sourceMP3 = document.getElementById("audio-src-mp3");
+        player = document.getElementById('audio-player'),
+        sourceMP3 = document.getElementById('audio-src-mp3');
 
     return {
         loadArticle: function(code){
@@ -235,20 +235,20 @@ angular.module('szkzApp.services').factory('ArticleFactory', ['$rootScope', '$ht
             audioFormat = audioFormat || 'mp3';
 
             return 'audio/WenZhang/' +article[0] + '/' +
-                (group == undefined ? '' : 'g'+group + '/') +
+                (group === undefined ? '' : 'g'+group + '/') +
                 article[1] + '/' + (audioFormat === undefined ? '' : (audioFormat + '/'));
         },
 
         playAudio : function(index) {
-            var url = this.getAudioBaseURL() + "sd_" + (index + 1);
+            var url = this.getAudioBaseURL() + 'sd_' + (index + 1);
 
             AudioPlayer.remove();
             AudioPlayer.init(this.getCuePoints(index), url, true);
         },
 
         setupPlayer: function () {
-            player = document.getElementById("audio-player"),
-            sourceMP3 = document.getElementById("audio-src-mp3");
+            player = document.getElementById('audio-player');
+            sourceMP3 = document.getElementById('audio-src-mp3');
 
             player.oncanplaythrough = function () {
                 player.play();

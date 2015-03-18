@@ -46,14 +46,16 @@ angular.module('szkzApp', [
         'GAMES_PAGE': 'games'
     },
 
-    'SUBPAGE_LISTEN_LOOK_READ_NAMES': {
-        'LISTEN_LOOK_READ_NAMES': {
-            'SUB_FOLLOW_ME': 'followMe',
-            'SUB_LOOK_READ': 'lookAndRead',
-            'SUB_LISTEN_READ': 'listenAndRead',
-            'SUB_LOOK_READ_RANDOM': 'lookAndReadRandom',
-            'SUB_LISTEN_READ_RANDOM': 'listenAndReadRandom'
-        }
+    'LISTEN_LOOK_READ_NAMES': {
+        'SUB_FOLLOW_ME': 'followMe',
+        'SUB_LOOK_READ': 'lookAndRead',
+        'SUB_LISTEN_READ': 'listenAndRead',
+        'SUB_LOOK_READ_RANDOM': 'lookAndReadRandom',
+        'SUB_LISTEN_READ_RANDOM': 'listenAndReadRandom'
+    },
+    'TRY_IT_NAMES': {
+        'TRY_IT': 'tryIt',
+        'TRY_IT_RANDOM': 'tryItRandom'
     }
 })
 .config(['$routeProvider', function ($routeProvider) {
@@ -71,7 +73,7 @@ angular.module('szkzApp', [
             controller: 'ListenLookReadCtrl'
         })
         .when('/tryIt/:sub', {
-            templateUrl: '../views/training/action-pages/listen-page.html',
+            templateUrl: '../views/training/action-pages/try-it-page.html',
             controller: 'TryItCtrl'
         })
         .when('/test', {

@@ -19,6 +19,7 @@ angular.module('szkzApp').controller('ActionPageDirectiveCtrl', ['$scope', '$roo
     $scope.totalLines = ArticleFactory.getPageTotalLines($rootScope.currentPage - 1);
     $scope.charactersPerRow = ArticleFactory.getCharactersPerLine();
     $scope.characters = ArticleFactory.getPageCharacters($rootScope.currentPage - 1);
+    $scope.totalCharacters = $scope.characters.length;
     $scope.charWidth = 100 / $scope.charactersPerRow;
 
     $scope.showPinYin = true;

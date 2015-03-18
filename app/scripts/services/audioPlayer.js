@@ -1,9 +1,9 @@
 'use strict';
 
-angular.module('szkzApp.services').factory('AudioPlayer',['$rootScope', '$timeout', '_',
-    function ($rootScope, $timeout, _)
+angular.module('szkzApp.services').factory('AudioPlayer',['$rootScope', '$timeout',
+    function ($rootScope, $timeout)
 {
-    var cue_points = [],
+    var cuePoints = [],
         player,
         $player,
         sourceMP3,
@@ -32,8 +32,8 @@ angular.module('szkzApp.services').factory('AudioPlayer',['$rootScope', '$timeou
     function setupPlayer() {
         $player = angular.element('audio-player');
 
-        player = document.getElementById('audio-player'),
-        sourceMP3 = document.getElementById("audio-src-mp3"),
+        player = document.getElementById('audio-player');
+        sourceMP3 = document.getElementById('audio-src-mp3');
 
         // events *************************************
         player.oncanplaythrough = function () {
@@ -52,7 +52,7 @@ angular.module('szkzApp.services').factory('AudioPlayer',['$rootScope', '$timeou
             //console.log('event timeupdate !!!!!!!!!!!! firstTime='+firstTime + ',enabled='+enabled + ',player.currentTime='+player.currentTime);
             if(firstTime && enabled && player.currentTime > 0){
                 firstTime = false;
-                console.log("READY TO PLAYING.................." + player.currentTime);
+                console.log('READY TO PLAYING..................' + player.currentTime);
                 initOffset = player.currentTime - 0.1;
                 triggerCuePoint();
 
@@ -87,13 +87,13 @@ angular.module('szkzApp.services').factory('AudioPlayer',['$rootScope', '$timeou
         unbindEventPausee = scope.$on('audio:action:pause', pause);
     }
 
-    function init(cuePoints, url, autoPlay) {
+    function init(cuePointsArg, url, autoPlay) {
         setupPlayer();
         enable();
 
         reachedEnd = false;
-        cue_points = cuePoints;
-        sourceMP3.src = url + ".mp3";
+        cuePoints = cuePointsArg;
+        sourceMP3.src = url + '.mp3';
         playWhenReady = autoPlay;
         player.load();
     }
@@ -143,10 +143,10 @@ angular.module('szkzApp.services').factory('AudioPlayer',['$rootScope', '$timeou
         }
         player.pause();
         sourceMP3.src = '';
-        cue_points = [];
+        cuePoints = [];
         firstTime = true;
 
-        $(player).unbind();
+        //$(player).unbind();
     }
 
     function enable() {
@@ -162,31 +162,31 @@ angular.module('szkzApp.services').factory('AudioPlayer',['$rootScope', '$timeou
         var interval,
             soundLen;
 
-        if (cueIndex === cue_points.length) {
+        if (cueIndex === cuePoints.length) {
             interval = 1000;
             soundLen = 1000;
         } else {
-            interval = (cue_points[cueIndex].cuePoint - (cueIndex === 0 ? 0 : cue_points[cueIndex-1].cuePoint) - initOffset * 1000);
-            if (cueIndex < cue_points.length - 1) {
-                soundLen = cue_points[cueIndex + 1].cuePoint - cue_points[cueIndex].cuePoint;
+            interval = (cuePoints[cueIndex].cuePoint - (cueIndex === 0 ? 0 : cuePoints[cueIndex-1].cuePoint) - initOffset * 1000);
+            if (cueIndex < cuePoints.length - 1) {
+                soundLen = cuePoints[cueIndex + 1].cuePoint - cuePoints[cueIndex].cuePoint;
             } else {
                 soundLen = 1000;
             }
         }
-        //console.log('triggerCuePoint.........cueIndex=' + cueIndex + ': cue_points.length=' + cue_points.length + ': interval=' + interval);
+        //console.log('triggerCuePoint.........cueIndex=' + cueIndex + ': cuePoints.length=' + cuePoints.length + ': interval=' + interval);
         initOffset = 0;
         audioTimer = $timeout(function () {
             $rootScope.$broadcast('audio:cuepoint:reached',
                 {
                     cuePoint: cueIndex,
-                    realIndex: cueIndex < cue_points.length ? cue_points[cueIndex].realIndex : -1,
+                    realIndex: cueIndex < cuePoints.length ? cuePoints[cueIndex].realIndex : -1,
                     soundLen: soundLen
                 }
             );
             playHeadPosition = player.currentTime;
 
-            if(cueIndex < cue_points.length - 1){
-                //console.log('<'+cueIndex+'> player.currentTime=' + player.currentTime*1000 + ', cue_points['+cueIndex+']=' + cue_points[cueIndex].curPoint + '====' + (+cue_points[cueIndex].curPoint-player.currentTime*1000));
+            if(cueIndex < cuePoints.length - 1){
+                //console.log('<'+cueIndex+'> player.currentTime=' + player.currentTime*1000 + ', cuePoints['+cueIndex+']=' + cuePoints[cueIndex].curPoint + '====' + (+cuePoints[cueIndex].curPoint-player.currentTime*1000));
                 cueIndex++;
                 triggerCuePoint();
             } else {
@@ -200,7 +200,7 @@ angular.module('szkzApp.services').factory('AudioPlayer',['$rootScope', '$timeou
         enable: enable,
         disable: disable,
         remove: remove
-    }
+    };
 }]);
 
 
