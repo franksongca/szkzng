@@ -234,7 +234,7 @@ angular.module('szkzApp.services').factory('ArticleFactory', ['$rootScope', '$ht
 
             audioFormat = audioFormat || 'mp3';
 
-            return 'audio/WenZhang/' +article[0] + '/' +
+            return 'http://sz-abc.com/ng/audio/WenZhang/' +article[0] + '/' +
                 (group === undefined ? '' : 'g'+group + '/') +
                 article[1] + '/' + (audioFormat === undefined ? '' : (audioFormat + '/'));
         },

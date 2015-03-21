@@ -1,11 +1,12 @@
 [
 	{
 		"type": "button",
-		"name": "listenCarefully", 
+		"name": "listenCarefully",
 		"title": {
 			"hz": "仔细听",
 			"en": "Listen Carefully",
-			"py": "zhi3 xi4 ting1"
+			"py": "zhi3 xi4 ting1",
+            "action": "1"
 		},
         "index": 5
 	},
@@ -95,7 +96,7 @@
 					"py": "zi4 ji3 du2"
 				},
 				"level": 1
-			},				
+			},
 			{
 				"type": "button",
 				"name": "tryIt",

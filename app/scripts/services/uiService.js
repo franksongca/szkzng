@@ -65,7 +65,7 @@ function($rootScope, ngDialog, TweenMax, SZKZ_CONSTANTS, $timeout) {
     }
 
     function animatePageOut (callback) {
-        TweenMax.to(mainViewContainer, SZKZ_CONSTANTS.TIME_CONSTANTS.PAGE_OUT_DURATION, {scaleY: 0, scaleX: 0, onComplete: callback});
+        TweenMax.to(mainViewContainer, SZKZ_CONSTANTS.TIME_CONSTANTS.PAGE_OUT_DURATION, {scaleY: 1, scaleX: 1,opacity: 0, onComplete: callback});
     }
 
     function animateVerticalScrollTo (targetElement, top, duration, callback) {

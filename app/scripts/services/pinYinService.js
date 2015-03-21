@@ -62,10 +62,15 @@ angular.module('szkzApp.services').factory('PyiYinFactory', ['$rootScope', '$htt
 
     return {
         getYunMuLetter: function (letter, tone, sm, ym) {
+            if (tone === -1) {
+                return '';
+            }
+            console.log('tone = '+letter + ',' + tone + ',' + sm + ',' + ym);
+
             if(letter === 'v' && (ym.substr(0, 1) === 'v' && (sm === 'j' || sm === 'q' || sm === 'x' || sm === 'y'))){
-                return YunMuCodeHTML.u.tone;
+                return YunMuCodeHTML['u'][tone];
             } else {
-                return YunMuCodeHTML[letter].tone;
+                return YunMuCodeHTML[letter][tone];
             }
         },
 

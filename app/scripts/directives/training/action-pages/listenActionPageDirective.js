@@ -1,8 +1,19 @@
 'use strict';
 
-angular.module('szkzApp.directives').directive('listenActionPage', ['$rootScope', 'BookmarkManager', '$routeParams',
-    '$timeout', '$window', '$document', 'UIService', 'SZKZ_CONSTANTS', 'ArticleFactory', 'AudioPlayer',
-    function ($rootScope, BookmarkManager, $routeParams, $timeout, $window, $document, UIService, SZKZ_CONSTANTS, ArticleFactory, AudioPlayer)
+angular.module('szkzApp.directives').directive('listenActionPage',
+    [
+        '$rootScope',
+        'BookmarkManager',
+        '$routeParams',
+        '$timeout',
+        '$window',
+        '$document',
+        'UIService',
+        'SZKZ_CONSTANTS',
+        'ArticleFactory',
+        'AudioPlayer',
+        function ($rootScope, BookmarkManager, $routeParams, $timeout, $window, $document, UIService,
+                  SZKZ_CONSTANTS, ArticleFactory, AudioPlayer)
 {
     return {
         restrict: 'E',

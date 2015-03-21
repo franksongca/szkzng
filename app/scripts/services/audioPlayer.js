@@ -47,7 +47,6 @@ angular.module('szkzApp.services').factory('AudioPlayer',['$rootScope', '$timeou
                 }, 500);
             }
         };
-
         player.addEventListener('timeupdate', function () {
             //console.log('event timeupdate !!!!!!!!!!!! firstTime='+firstTime + ',enabled='+enabled + ',player.currentTime='+player.currentTime);
             if(firstTime && enabled && player.currentTime > 0){
@@ -95,6 +94,7 @@ angular.module('szkzApp.services').factory('AudioPlayer',['$rootScope', '$timeou
         cuePoints = cuePointsArg;
         sourceMP3.src = url + '.mp3';
         playWhenReady = autoPlay;
+
         player.load();
     }
 
@@ -146,7 +146,7 @@ angular.module('szkzApp.services').factory('AudioPlayer',['$rootScope', '$timeou
         cuePoints = [];
         firstTime = true;
 
-        //$(player).unbind();
+        $(player).unbind();
     }
 
     function enable() {

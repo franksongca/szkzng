@@ -6,3 +6,5 @@ node_modules
 www
 aspnep_client
 .idea
+platforms/android
+

@@ -1,9 +1,22 @@
 // not used, but put it here as a sample of override a class
 
-angular.module('szkzApp').controller('ListenActionPageDirectiveCtrl', ['$scope', '$controller', '$rootScope',
-    'BookmarkManager', '$routeParams', '$timeout', '$window', '$document', 'UIService', 'SZKZ_CONSTANTS',
-    'ArticleFactory', 'AudioPlayer', '$element', function($scope, $controller, $rootScope, BookmarkManager, $routeParams,
-        $timeout, $window, $document, UIService, SZKZ_CONSTANTS, ArticleFactory, AudioPlayer, $element)
+angular.module('szkzApp').controller('ListenActionPageDirectiveCtrl',
+    [
+        '$scope',
+        '$controller',
+        '$rootScope',
+        'BookmarkManager',
+        '$routeParams',
+        '$timeout',
+        '$window',
+        '$document',
+        'UIService',
+        'SZKZ_CONSTANTS',
+        'ArticleFactory',
+        'AudioPlayer',
+        '$element',
+        function($scope, $controller, $rootScope, BookmarkManager, $routeParams,
+            $timeout, $window, $document, UIService, SZKZ_CONSTANTS, ArticleFactory, AudioPlayer, $element)
 {
     $controller('ActionPageDirectiveCtrl', {$scope: $scope, $element: $element});
 

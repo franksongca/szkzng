@@ -3,7 +3,7 @@
 angular.module('szkzApp.directives').directive('pinYin', ['$timeout', 'PyiYinFactory', function ($timeout, PyiYinFactory) {
     return {
         restrict: 'E',
-        templateUrl: '../../../views/training/pin-yin-template.html',
+        templateUrl: 'views/training/pin-yin-template.html',
         link: function (scope, element, attr) {
         	var options = {
         			pinyin: attr.pinYin,

@@ -1,7 +1,19 @@
-angular.module('szkzApp').controller('ActionPageDirectiveCtrl', ['$scope', '$rootScope',
-    'BookmarkManager', '$routeParams', '$timeout', '$window', '$document', 'UIService', 'SZKZ_CONSTANTS',
-    'ArticleFactory', 'AudioPlayer', '$element', function($scope, $rootScope, BookmarkManager, $routeParams,
-        $timeout, $window, $document, UIService, SZKZ_CONSTANTS, ArticleFactory, AudioPlayer, $element)
+angular.module('szkzApp').controller('ActionPageDirectiveCtrl',
+    [
+        '$scope',
+        '$rootScope',
+        'BookmarkManager',
+        '$routeParams',
+        '$timeout',
+        '$window',
+        '$document',
+        'UIService',
+        'SZKZ_CONSTANTS',
+        'ArticleFactory',
+        'AudioPlayer',
+        '$element',
+        function($scope, $rootScope, BookmarkManager, $routeParams,$timeout, $window, $document,
+                 UIService, SZKZ_CONSTANTS, ArticleFactory, AudioPlayer, $element)
 {
     var viewHeight,
         contentHeight,
@@ -20,7 +32,7 @@ angular.module('szkzApp').controller('ActionPageDirectiveCtrl', ['$scope', '$roo
     $scope.charactersPerRow = ArticleFactory.getCharactersPerLine();
     $scope.characters = ArticleFactory.getPageCharacters($rootScope.currentPage - 1);
     $scope.totalCharacters = $scope.characters.length;
-    $scope.charWidth = 100 / $scope.charactersPerRow;
+    $scope.charWidthRate = 100 / $scope.charactersPerRow;
 
     $scope.showPinYin = true;
 
@@ -94,8 +106,8 @@ angular.module('szkzApp').controller('ActionPageDirectiveCtrl', ['$scope', '$roo
     function calculateSize() {
         viewHeight = angular.element('.view-container').height() - ($rootScope.fullScreen ? 0 : angular.element('.top-bar').height() + angular.element('.bottom-bar').height()) - 10; // margin-top + margin-bottom = 10
         contentHeight = contentElement.height(),
-            charHeight = element.find('.action-content-container ul li').height() + 5;
-        charWidth = element.find('.action-content-container ul li').width();
+        charHeight = element.find('.action-content-container ul li').height() + 5;
+        $scope.charWidth = element.find('.action-content-container ul li').width();
         //pinyinHeight = charHeight - charWidth - 5;
         mostTop = viewHeight - contentHeight;
         contentLeft = (angular.element('.view-container').width() - contentElement.width())/2;
