@@ -1,8 +1,8 @@
 'use strict';
 
 angular.module('szkzApp.services').factory('ArticleFactory', ['$rootScope', '$http', '$timeout', '_',
-    'ArticleListFactory', 'UIService', 'AudioPlayer',
-    function($rootScope, $http, $timeout, _, ArticleListFactory, UIService, AudioPlayer)
+    'ArticleListFactory', 'UIService',
+    function($rootScope, $http, $timeout, _, ArticleListFactory, UIService)
 {
     var currentArticle,
         articleType,
@@ -10,7 +10,8 @@ angular.module('szkzApp.services').factory('ArticleFactory', ['$rootScope', '$ht
         totalPage,
         inLoading = true,
         player = document.getElementById('audio-player'),
-        sourceMP3 = document.getElementById('audio-src-mp3');
+        sourceMP3 = document.getElementById('audio-src-mp3'),
+        audioURL = 'http://sz-abc.com/ng/audio/';
 
     return {
         loadArticle: function(code){
@@ -227,38 +228,20 @@ angular.module('szkzApp.services').factory('ArticleFactory', ['$rootScope', '$ht
             return currentArticle.pages[index].cuePoints;
         },
 
-        getAudioBaseURL: function(audioFormat){
+        getAudioBaseURL: function () {
+            return audioURL;
+        },
+
+        getAudioURL: function(audioFormat){
             var code = this.getArticleType() + '-' + this.getArticleCode(),
                 group = ArticleListFactory.getArticleGroupIndex(code),
                 article = code.split('-');
 
             audioFormat = audioFormat || 'mp3';
 
-            return 'http://sz-abc.com/ng/audio/WenZhang/' +article[0] + '/' +
+            return this.getAudioBaseURL() +  'WenZhang/' +article[0] + '/' +
                 (group === undefined ? '' : 'g'+group + '/') +
                 article[1] + '/' + (audioFormat === undefined ? '' : (audioFormat + '/'));
-        },
-
-        playAudio : function(index) {
-            var url = this.getAudioBaseURL() + 'sd_' + (index + 1);
-
-            AudioPlayer.remove();
-            AudioPlayer.init(this.getCuePoints(index), url, true);
-        },
-
-        setupPlayer: function () {
-            player = document.getElementById('audio-player');
-            sourceMP3 = document.getElementById('audio-src-mp3');
-
-            player.oncanplaythrough = function () {
-                player.play();
-            };
-        },
-
-        playHanZiAudio: function (pinyin, shengdiao) {
-            sourceMP3.src = 'audio/Zi/mp3/' + pinyin + '_' + shengdiao + '.mp3';
-            player.load();
         }
-
     };
 }]);

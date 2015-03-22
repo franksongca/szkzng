@@ -76,6 +76,7 @@
   display: block;
   position: relative;
   margin-left: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
 }
 .action-content .action-content-container > ul > li .character-container .hz-container .hz-inner-container > p {
   position: absolute;

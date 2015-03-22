@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('szkzApp.services').factory('AudioPlayer',['$rootScope', '$timeout',
-    function ($rootScope, $timeout)
+angular.module('szkzApp.services').factory('AudioPlayer',['$rootScope', '$timeout','ArticleFactory',
+    function ($rootScope, $timeout, ArticleFactory)
 {
     var cuePoints = [],
         player,
@@ -29,11 +29,15 @@ angular.module('szkzApp.services').factory('AudioPlayer',['$rootScope', '$timeou
         }
     });
 
-    function setupPlayer() {
+    function createPlayer() {
         $player = angular.element('audio-player');
 
         player = document.getElementById('audio-player');
         sourceMP3 = document.getElementById('audio-src-mp3');
+    }
+
+    function setupPlayer() {
+        createPlayer();
 
         // events *************************************
         player.oncanplaythrough = function () {
@@ -146,7 +150,7 @@ angular.module('szkzApp.services').factory('AudioPlayer',['$rootScope', '$timeou
         cuePoints = [];
         firstTime = true;
 
-        $(player).unbind();
+        //$(player).unbind();
     }
 
     function enable() {
@@ -195,11 +199,40 @@ angular.module('szkzApp.services').factory('AudioPlayer',['$rootScope', '$timeou
         }, interval);
     }
 
+    function playArticleAudio(index) {
+        var url = ArticleFactory.getAudioURL() + 'sd_' + (index + 1);
+
+        remove();
+        init(ArticleFactory.getCuePoints(index), url, true);
+    }
+
+    function setupPlayerHanZiAudio() {
+        remove();
+
+        createPlayer();
+
+        player.oncanplaythrough = function () {
+            player.play();
+        };
+    }
+
+    function playHanZiAudio(pinyin, shengdiao) {
+        sourceMP3.src = ArticleFactory.getAudioBaseURL() +  'Zi/mp3/' + pinyin + '_' + shengdiao + '.mp3';
+        player.load();
+    }
+
+
+
+
+
     return {
         init: init,
         enable: enable,
         disable: disable,
-        remove: remove
+        remove: remove,
+        playArticleAudio: playArticleAudio,
+        playHanZiAudio: playHanZiAudio,
+        setupPlayerHanZiAudio: setupPlayerHanZiAudio
     };
 }]);
 

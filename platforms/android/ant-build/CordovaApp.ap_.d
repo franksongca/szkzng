@@ -144,7 +144,7 @@ f:\My Projects\szkz-ng\platforms\android\assets\www\plugins\org.apache.cordova.d
 f:\My Projects\szkz-ng\platforms\android\assets\www\plugins\org.apache.cordova.device\www \
 f:\My Projects\szkz-ng\platforms\android\assets\www\plugins\org.apache.cordova.device\www\device.js \
 f:\My Projects\szkz-ng\platforms\android\assets\www\scripts\oldieshim.76f279db.js \
-f:\My Projects\szkz-ng\platforms\android\assets\www\scripts\scripts.d9c18716.js \
+f:\My Projects\szkz-ng\platforms\android\assets\www\scripts\scripts.af0c2449.js \
 f:\My Projects\szkz-ng\platforms\android\assets\www\scripts\vendor.11f9744e.js \
 f:\My Projects\szkz-ng\platforms\android\assets\www\styles\app.a40d8725.css \
 f:\My Projects\szkz-ng\platforms\android\assets\www\styles\vendor.beb91314.css \

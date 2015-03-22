@@ -86,7 +86,7 @@ angular.module('szkzApp').controller('ActionPageDirectiveCtrl',
             updateFontSize();
 
             if ($scope.pageName === SZKZ_CONSTANTS.PAGE_NAMES.LISTEN_PAGE) {
-                ArticleFactory.playAudio($rootScope.currentPage - 1);
+                AudioPlayer.playArticleAudio($rootScope.currentPage - 1);
             }
         });
     });

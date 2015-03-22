@@ -26,7 +26,7 @@ angular.module('szkzApp', [
     'BUTTON_TAPPED_COLOR': 'red',
 
     'TIME_CONSTANTS': {
-        'DELAY_DURATION': 300,
+        'DELAY_DURATION': 100,
         'PAGE_OUT_DURATION': 1.1,
         'PAGE_IN_DURATION': 1.2,
         'BUTTON_ANI_DURATION': 0.3,
