@@ -23,10 +23,7 @@ angular.module('szkzApp').controller('ListenActionPageDirectiveCtrl',
     $scope.$on('$destroy', function () {
         if ($scope.currentIndex !== -1) {
             $scope.deactivateChar($scope.currentIndex);
-
-            //if ($scope.pageName === SZKZ_CONSTANTS.PAGE_NAMES.LISTEN_PAGE) {
             $scope.removeAudioPlayer();
-            //}
         }
     });
 

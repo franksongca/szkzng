@@ -52,7 +52,6 @@
 }
 .action-content .action-content-container > ul > li .pinyin-container ul {
   list-style: none;
-  -webkit-padding-start: 0px !important;
 }
 .action-content .action-content-container > ul > li .pinyin-container ul li {
   position: relative;
@@ -80,7 +79,7 @@
 }
 .action-content .action-content-container > ul > li .character-container .hz-container .hz-inner-container > p {
   position: absolute;
-  top: -8%;
+  top: -14%;
   background-color: rgba(255, 153, 50, 0.3);
 }
 .full-height {
@@ -89,9 +88,11 @@
 }
 pin-yin {
   position: relative;
+  display: block;
 }
 pin-yin ul {
-  margin-left: 0 !important;
+  position: absolute;
+  margin-left: -40px !important;
 }
 .active-char {
   background-color: rgba(255, 0, 0, 0.5);

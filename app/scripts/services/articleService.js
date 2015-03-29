@@ -31,13 +31,10 @@ angular.module('szkzApp.services').factory('ArticleFactory', ['$rootScope', '$ht
 
             UIService.showSpinner(true);
 
-            url = 'data\\WenZhang\\' + articleType + '\\' + (group === undefined ? '' : 'g' + group + '\\') + articleCode + '\\text.xml';
+            url = 'data\\WenZhang\\' + articleType + '\\' + (group === undefined ? '' : 'g' + group + '\\') + articleCode + '\\document.json';
 
             $http.get(url).then(function (response) {
-                //console.log(response.data);
-                var oParser = new DOMParser(),
-                    oDOM = oParser.parseFromString(response.data, 'text/xml'),
-                    pagesAttributes = oDOM.firstChild.attributes,
+                var pageData = response.data,
                     attributes,
                     ziObj,
                     pageObj,
@@ -57,50 +54,56 @@ angular.module('szkzApp.services').factory('ArticleFactory', ['$rootScope', '$ht
                     attrPinYin = 'pin_yin',
                     attrOriginalId = 'ori_id',
                     attrXuHao = 'xu_hao',
-                    tempChar;
+                    attrCuePoints = 'cue_points',
+                    tempChar,
+                    paragraphs;
 
                 currentArticle = {};
                 currentArticle.pageAttributes = {};
 
-                currentArticle.pageAttributes.scale = pagesAttributes.scale.value;
-                currentArticle.pageAttributes.valign = pagesAttributes.valign.value;
-                currentArticle.pageAttributes.halign = pagesAttributes.halign.value;
-                currentArticle.pageAttributes.lineSpacing = pagesAttributes[attrLineSpacing].value;
-                currentArticle.pageAttributes.charactersPerRow = pagesAttributes[attrCharactersPerRow].value;
-                currentArticle.pageAttributes.rowsPerPage = pagesAttributes[attrRowsPerPage].value;
-                currentArticle.pageAttributes.positionX = pagesAttributes[attrPositionX].value;
-                currentArticle.pageAttributes.positionY = pagesAttributes[attrPositionY].value;
-                currentArticle.pageAttributes.style = pagesAttributes.style.value;
+                currentArticle.pageAttributes.scale = +pageData.scale;
+                currentArticle.pageAttributes.valign = pageData.valign;
+                currentArticle.pageAttributes.halign = pageData.halign;
+                currentArticle.pageAttributes.lineSpacing = +pageData[attrLineSpacing];
+                currentArticle.pageAttributes.charactersPerRow = +pageData[attrCharactersPerRow];
+                currentArticle.pageAttributes.rowsPerPage = +pageData[attrRowsPerPage];
+                currentArticle.pageAttributes.positionX = +pageData[attrPositionX];
+                currentArticle.pageAttributes.positionY = +pageData[attrPositionY];
+                currentArticle.pageAttributes.style = +pageData.style;
 
                 currentArticle.pages = [];
-                _.each(oDOM.firstChild.children, function(page){
+                _.each(pageData.page, function(page){
                     pageObj = {};
 
                     pageObj.pageAttributes = {};
-                    pageObj.pageAttributes.align = page.attributes.align.value;
-                    pageObj.pageAttributes.lineSpacing = page.attributes[attrLineSpacing].value;
-                    pageObj.pageAttributes.scale = page.attributes.scale.value;
-                    pageObj.pageAttributes.positionX = page.attributes[attrPositionX].value;
-                    pageObj.pageAttributes.positionY = page.attributes[attrPositionY].value;
-                    pageObj.pageAttributes.charactersPerRow = page.attributes[attrCharactersPerRow].value;
-                    pageObj.pageAttributes.rowsPerPage = page.attributes[attrRowsPerPage].value;
-                    pageObj.pageAttributes.halign = page.attributes.halign.value;
-                    pageObj.pageAttributes.valign = page.attributes.valign.value;
+                    pageObj.pageAttributes.align = page.align;
+                    pageObj.pageAttributes.lineSpacing = +page[attrLineSpacing];
+                    pageObj.pageAttributes.scale = +page.scale;
+                    pageObj.pageAttributes.positionX = +page[attrPositionX];
+                    pageObj.pageAttributes.positionY = +page[attrPositionY];
+                    pageObj.pageAttributes.charactersPerRow = +page[attrCharactersPerRow];
+                    pageObj.pageAttributes.rowsPerPage = page[attrRowsPerPage];
+                    pageObj.pageAttributes.halign = page.halign;
+                    pageObj.pageAttributes.valign = page.valign;
 
-                    cuePointsText = page.getElementsByTagName('cue_points')[0].firstChild.nodeValue.replace('\n','');
-
+                    cuePointsText = page[attrCuePoints];
                     pageObj.cuePoints = cuePointsText.split(',');
 
                     pageObj.characters = [];
                     charCount = 0;
                     characterIndex = 0;
 
-                    _.each(page.getElementsByTagName('paragraph'), function (p) {
-                        _.each(p.getElementsByTagName('zi'), function (zi) {
-                            attributes = zi.attributes;
+                    paragraphs = page.paragraph;
+
+                    if (!angular.isArray(paragraphs)) {
+                        paragraphs = [paragraphs];
+                    }
+
+                    _.each(paragraphs, function (p) {
+                        _.each(p.zi, function (zi) {
                             ziObj = {};
 
-                            if(attributes[attrHanZi].value === ''){
+                            if(zi[attrHanZi] === ''){
                                 if(charCount % currentArticle.pageAttributes.charactersPerRow > 0){
                                     appendChars = currentArticle.pageAttributes.charactersPerRow - (charCount % currentArticle.pageAttributes.charactersPerRow);
                                     for (i=0; i< appendChars; i++) {
@@ -112,35 +115,29 @@ angular.module('szkzApp.services').factory('ArticleFactory', ['$rootScope', '$ht
                                     }
                                 }
                             } else {
-                                ziObj.hanZi = attributes[attrHanZi].value;
-                                if(ziObj.hanZi === ''){
-                                    //var p = ziObj.hanZi;
-                                    //ziObj.hanZi = "&nbsp;";
-                                }
-
-                                ziObj.shengDiao = attributes[attrShengDiao].value;
-                                ziObj.pinYin = attributes[attrPinYin].value;
+                                ziObj.hanZi = zi[attrHanZi];
+                                ziObj.shengDiao = +zi[attrShengDiao];
+                                ziObj.pinYin = zi[attrPinYin];
                                 if(ziObj.pinYin === ''){
                                     ziObj.characterIndex = '';
                                 } else {
                                     cuePoint = pageObj.cuePoints[characterIndex];
-                                    pageObj.cuePoints[characterIndex] = {cuePoint: +cuePoint, realIndex: +attributes[attrXuHao].value, pinyin: ziObj.pinYin + '_' + ziObj.shengDiao };
+                                    pageObj.cuePoints[characterIndex] = {cuePoint: +cuePoint, realIndex: +zi[attrXuHao], pinyin: ziObj.pinYin + '_' + ziObj.shengDiao };
 
                                     ziObj.characterIndex = 'character-' + (++characterIndex);
                                 }
 
-                                if (attributes.id) {
-                                    ziObj[attrOriginalId] = attributes.id.value;
+                                if (zi.id) {
+                                    ziObj[attrOriginalId] = +zi.id;
                                 } else {
                                     ziObj[attrOriginalId] = '';
                                 }
 
-                                ziObj.mistakes = attributes.mistakes.value;
-                                ziObj.times = attributes.times.value;
-                                ziObj.index = attributes[attrXuHao].value;
+                                ziObj.mistakes = +zi.mistakes;
+                                ziObj.times = +zi.times;
+                                ziObj.index = +zi[attrXuHao];
                                 pageObj.characters.push(ziObj);
 
-                                //console.log("ziObj.index=" + ziObj.index + ":" + charCount);
                                 charCount++;
                             }
                         });

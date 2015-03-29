@@ -153,6 +153,7 @@ angular.module('szkzApp').controller('ActionPageDirectiveCtrl',
 
     $scope.deactivateChar = function (index) {
         $scope.currentIndex = -1;
+        console.log('deactivateChar --------------------'+index);
         getCharByIndex(index).active = false;
     }
 

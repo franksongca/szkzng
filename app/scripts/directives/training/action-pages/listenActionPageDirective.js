@@ -23,7 +23,7 @@ angular.module('szkzApp.directives').directive('listenActionPage',
 
         link: function ($scope, element, attr) {
             $scope.$on('$destroy', function () {
-                if ($scope.currentIndex !== -1) {
+                if ($scope.currentIndex && $scope.currentIndex !== -1) {
                     $scope.deactivateChar($scope.currentIndex);
 
                     //if ($scope.pageName === SZKZ_CONSTANTS.PAGE_NAMES.LISTEN_PAGE) {

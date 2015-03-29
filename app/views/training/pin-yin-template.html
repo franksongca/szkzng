@@ -1,6 +1,6 @@
 <ul>
 	<li ng-repeat="letter in letters">
-		<div class="pinyin-letter-{{pinyinSize}}" letter="{{letter.originalLetter}}" read="{{letter.read}}" type="{{letter.type}}" style="color:{{letter.color}};">{{letter.letter}}
+		<div class="pinyin-letter-{{pinyinSize}}" letter="{{letter.originalLetter}}" read="{{letter.read}}" type="{{letter.type}}" ng-style="{'color':letter.color}">{{letter.letter}}
 		</div>
 	</li>
 </ul>

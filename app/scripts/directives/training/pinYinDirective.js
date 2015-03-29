@@ -19,7 +19,7 @@ angular.module('szkzApp.directives').directive('pinYin', ['$timeout', 'PyiYinFac
 
         	function adjustPinYinPosition() {
 	        	$timeout(function () {
-	        		scope.pyLeft = (element.parent().parent().width() - element.find('ul').width())/2 + 'px';
+	        		scope.pyLeft = (element.parent().parent().width() - element.find('ul').width())/2;
 	        	});
 	        }
 

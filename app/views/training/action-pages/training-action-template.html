@@ -7,8 +7,8 @@
      ng-iscroll="iScrollPageContentWrapper"
      ng-iscroll-delay="{{SZKZ_CONSTANTS.TIME_CONSTANTS.iSCROLL_DELAY_I}}">
 	<ul>
-		<li ng-repeat="character in characters" style="width:{{charWidthRate}}%;">
-			<div class="pinyin-container clearfix" ng-show="showPinYin" style="height: {{pinYinHeight}}px;">
+		<li ng-repeat="character in characters" ng-style="{'width':charWidthRate+'%'}">
+			<div class="pinyin-container clearfix" ng-show="showPinYin" ng-style="{'height': pinYinHeight+'px'}">
 				<svg style="position: absolute; top: 0; left: 0;" width="100%" ng-show="pinyinSize === 'xs'">
 				  <line x1="0" y1="5" x2="97%" y2="5" style="stroke:rgba(255,0,0, 0.6); stroke-width:1"></line>
 				  <line x1="0" y1="12" x2="97%" y2="12" style="stroke:rgba(255,0,0, 0.6); stroke-width:1"></line>
@@ -39,13 +39,13 @@
                     <line x1="0" y1="39" x2="98%" y2="39" style="stroke:rgba(255,0,0, 0.6); stroke-width:1"></line>
                     <line x1="0" y1="56" x2="98%" y2="56" style="stroke:rgba(255,0,0, 0.6); stroke-width:1"></line>
                 </svg>
-				<div style="position: absolute; top: 0;">
-					<pin-yin pin-yin={{character.pinYin}} sheng-diao={{character.shengDiao}} style="left:{{pyLeft}};"></pin-yin>
-				</div>
+				<!--div style="position: absolute; top: 0; width: 100%; text-align: right;"-->
+					<pin-yin pin-yin={{character.pinYin}} sheng-diao={{character.shengDiao}} ng-style="{'position': relative,'left':pyLeft+'px'}"></pin-yin>
+				<!--/div-->
 			</div>
 			<div class="character-container"  ng-click="clickedOnChar(character.index)">
                  <!--hz-grid charwidth="{{charWidth}}"></hz-grid-->
-				 <svg style="position: absolute; top: 0; left: 0;" width="100%" height="{{charWidth-2}}">
+				 <svg style="position: absolute; top: 0; left: 0;" ng-style="{'width': '100%', 'height': (charWidth - 2)}">
 				 	<!--line x1="4" y1="0" x2="100%" y2="0" style="stroke:rgba(255,0,0, 0.4); stroke-width:3"></line>
 				 	<line x1="4" y1="100%" x2="100%" y2="100%" style="stroke:rgba(255,0,0, 0.4); stroke-width:3"></line>
 				 	<line x1="4" y1="0" x2="4" y2="100%" style="stroke:rgba(255,0,0, 0.4); stroke-width:2"></line>
@@ -59,8 +59,8 @@
 				</svg>
 
 				<div class="hz-container">
-					<div class="hz-inner-container" ng-class="{'active-char': character.active}" style="font-size:{{hanZiFontSize}}; height: {{hzContainerHeight}};">
-						<p style="width: {{hzContainerHeight}};">{{character.hanZi}}</p>
+					<div class="hz-inner-container" ng-class="{'active-char': character.active}" ng-style="{'font-size':hanZiFontSize,'height':hzContainerHeight}">
+						<p ng-style="{'width':hzContainerHeight}">{{character.hanZi}}</p>
 					</div>
 				</div>
 
